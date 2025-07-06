@@ -16,6 +16,8 @@ interface FormData {
   businessType: string;
   industry: string;
   website?: string;
+  noOfProducts?: string;
+  ordersPerMonth?: string;
   description: string;
   expectedLaunch: string;
   agreeToTerms: boolean;
@@ -35,6 +37,8 @@ const RegisterFormSection = () => {
     businessType: "",
     industry: "",
     website: "",
+    noOfProducts: "",
+    ordersPerMonth: "",
     description: "",
     expectedLaunch: "",
     agreeToTerms: false,
@@ -164,6 +168,8 @@ const RegisterFormSection = () => {
           businessType: "",
           industry: "",
           website: "",
+          noOfProducts: "",
+          ordersPerMonth: "",
           description: "",
           expectedLaunch: "",
           agreeToTerms: false,
@@ -496,6 +502,59 @@ const RegisterFormSection = () => {
                       className='focus:border-accent-400 w-full rounded-xl border-2 border-white/20 bg-white/10 px-4 py-3 text-white placeholder-gray-400 backdrop-blur-sm transition-all duration-300 focus:bg-white/15 focus:outline-none'
                       placeholder={t("register.form.websitePlaceholder")}
                     />
+                  </div>
+                  {/* Number of Products */}
+                  <div>
+                    <label
+                      htmlFor='noOfProducts'
+                      className='mb-2 block text-sm font-semibold text-white'
+                    >
+                      {t("register.form.noOfProducts")}
+                    </label>
+                    <input
+                      type='number'
+                      id='noOfProducts'
+                      name='noOfProducts'
+                      value={formData.noOfProducts}
+                      onChange={handleInputChange}
+                      min='1'
+                      className={`w-full rounded-xl border-2 bg-white/10 px-4 py-3 text-white placeholder-gray-400 backdrop-blur-sm transition-all duration-300 focus:outline-none ${
+                        errors.noOfProducts
+                          ? "border-red-400 focus:border-red-400 focus:bg-white/15"
+                          : "focus:border-accent-400 border-white/20 focus:bg-white/15"
+                      }`}
+                      placeholder={t("register.form.noOfProductsPlaceholder")}
+                    />
+                    {errors.noOfProducts && (
+                      <Text className='mt-1 text-sm text-red-400'>{errors.noOfProducts}</Text>
+                    )}
+                  </div>
+
+                  {/* Expected Orders Per Month */}
+                  <div>
+                    <label
+                      htmlFor='ordersPerMonth'
+                      className='mb-2 block text-sm font-semibold text-white'
+                    >
+                      {t("register.form.ordersPerMonth")}
+                    </label>
+                    <input
+                      type='number'
+                      id='ordersPerMonth'
+                      name='ordersPerMonth'
+                      value={formData.ordersPerMonth}
+                      onChange={handleInputChange}
+                      min='1'
+                      className={`w-full rounded-xl border-2 bg-white/10 px-4 py-3 text-white placeholder-gray-400 backdrop-blur-sm transition-all duration-300 focus:outline-none ${
+                        errors.ordersPerMonth
+                          ? "border-red-400 focus:border-red-400 focus:bg-white/15"
+                          : "focus:border-accent-400 border-white/20 focus:bg-white/15"
+                      }`}
+                      placeholder={t("register.form.ordersPerMonthPlaceholder")}
+                    />
+                    {errors.ordersPerMonth && (
+                      <Text className='mt-1 text-sm text-red-400'>{errors.ordersPerMonth}</Text>
+                    )}
                   </div>
                 </div>
 
