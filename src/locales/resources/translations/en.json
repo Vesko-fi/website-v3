@@ -822,6 +822,10 @@
         "6months": "Within 6 months",
         "1year": "Within 1 year"
       },
+      "noOfProducts": "Number of Products",
+      "noOfProductsPlaceholder": "Number of Products",
+      "ordersPerMonth": "Orders per Month",
+      "ordersPerMonthPlaceholder": "Expected Orders per Month",
       "description": "Business Description",
       "descriptionPlaceholder": "Tell us about your business, products, and how you plan to use Vesko...",
       "agreeToTerms": "I agree to the Terms of Service and Privacy Policy",

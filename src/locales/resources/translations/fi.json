@@ -822,6 +822,10 @@
         "6months": "6 kuukauden sisällä",
         "1year": "1 vuoden sisällä"
       },
+      "noOfProducts": "Tuotteiden määrä",
+      "noOfProductsPlaceholder": "Tuotteiden määrä",
+      "ordersPerMonth": "Tilausten määrä kuukaudessa",
+      "ordersPerMonthPlaceholder": "Tilausten määrä kuukaudessa",
       "description": "Yrityksen kuvaus",
       "descriptionPlaceholder": "Kerro yrityksestäsi, tuotteista ja miten suunnittelet käyttävän Veskoa...",
       "agreeToTerms": "Hyväksyn käyttöehdot ja tietosuojaselosteen",
