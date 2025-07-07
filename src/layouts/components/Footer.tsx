@@ -4,6 +4,7 @@ import i18n, { type SupportedLanguages } from "@/locales/i18n.config";
 import { getLocalizedPath } from "@/routes/helpers/localization";
 import { Logo } from "@/shared/components/common/Logo";
 import { Container } from "@/shared/components/ui/container";
+import { SOCIALS } from "@/shared/constants/socials";
 
 const Footer: React.FC = () => {
   const privacyPolicyPath = getLocalizedPath("privacyPolicy", i18n.language as SupportedLanguages);
@@ -13,9 +14,22 @@ const Footer: React.FC = () => {
   return (
     <footer className='bg-gradient-to-b from-[#F5FAF7] to-[#CDE6D9] text-sm text-gray-700'>
       <Container className='px-4 py-10'>
-        <div className='flex items-center justify-between pb-4'>
-          <div className='mb-6 md:mb-0'>
+        <div className='flex flex-col items-center justify-between pb-4 sm:flex-row'>
+          <div className='mb-6 flex flex-col items-center gap-6 md:mb-0'>
             <Logo className='h-20 md:h-24' />
+            <div className='mt-6 flex items-center gap-3'>
+              {SOCIALS.map(({ id, url, icon, name }) => (
+                <a
+                  href={url}
+                  key={id}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='hover:text-accent1 transition-colors duration-200'
+                >
+                  <span className={`${icon} text-2xl`} title={name} />
+                </a>
+              ))}
+            </div>
           </div>
           <div className='flex flex-1 flex-col items-center'>
             <div className='text-center'>

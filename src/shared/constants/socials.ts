@@ -4,7 +4,7 @@ export const SOCIALS = [
   {
     id: "instagram",
     name: "Instagram",
-    url: "https://www.instagram.com/yourprofile",
+    url: "https://www.instagram.com/vesko.fi/?igsh=MXJneHd2bHcxZ3lybQ%3D%3D&utm_source=qr",
     icon: RemixIcons.instagram,
   },
   {
@@ -22,7 +22,13 @@ export const SOCIALS = [
   {
     id: "linkedin",
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/yourprofile",
+    url: "https://www.linkedin.com/company/veskofinland/",
     icon: RemixIcons.linkedin,
+  },
+  {
+    id: "youTube",
+    name: "YouTube",
+    url: "https://www.linkedin.com/company/veskofinland/",
+    icon: RemixIcons.youTube,
   },
 ];
