@@ -21,6 +21,7 @@ export const RemixIcons = {
   facebook: "ri-facebook-line",
   tiktok: "ri-tiktok-line",
   linkedin: "ri-linkedin-line",
+  youTube: "ri-youtube-line",
 
   // values icons
   empathy: "ri-heart-line",

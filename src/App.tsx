@@ -1,6 +1,8 @@
 import { I18nextProvider } from "react-i18next";
 import { BrowserRouter } from "react-router-dom";
 
+import { ScrollToTop } from "./shared/components/common/ScrollToTop";
+
 import { Footer } from "@/layouts/components/Footer";
 import { Header } from "@/layouts/components/Header";
 import i18n from "@/locales/i18n.config";
@@ -14,6 +16,7 @@ const App: React.FC = () => {
   return (
     <I18nextProvider i18n={i18n}>
       <BrowserRouter>
+        <ScrollToTop />
         <LanguageDetectorGuard>
           <Header />
           <main className='min-h-screen'>
