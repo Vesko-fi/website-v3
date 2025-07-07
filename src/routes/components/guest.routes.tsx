@@ -14,6 +14,7 @@ const ForOnlineVendorPage = lazy(() => import("@/pages/ForOnlineVendorPage"));
 const ContactPage = lazy(() => import("@/pages/ContactPage"));
 const RegisterPage = lazy(() => import("@/pages/RegisterPage"));
 const NotFoundPage = lazy(() => import("@/pages/NotFoundPage"));
+const PrivacyPolicyPage = lazy(() => import("@/pages/PrivacyPolicyPage"));
 
 export const GuestRoutes = (): RouteObject[] => {
   const localizedRoutes = SUPPORTED_LANGUAGES.flatMap((lang) => {
@@ -48,6 +49,10 @@ export const GuestRoutes = (): RouteObject[] => {
           {
             path: ROUTE_PATHS.register[lang],
             element: <RegisterPage />,
+          },
+          {
+            path: ROUTE_PATHS.privacyPolicy[lang],
+            element: <PrivacyPolicyPage />,
           },
           {
             path: "*",
