@@ -160,6 +160,30 @@
         "subText": "Mutta se ei ole sama myrkyllinen tila, johon olet tottunut"
       }
     },
+    "localConnection": {
+      "heading": "Paikallinen yhteys",
+      "subheading": "Katso, mitä lähikaupoissasi on tarjolla ennen kuin edes astut ulos",
+
+      "step1": {
+        "label": "Vaihe 1",
+        "title": "etsi ja löydä tuote",
+        "description": "Kun Vesko on saatavilla, voit helposti etsiä ja suodattaa tuotteita. Kartan avulla näet kaikki lähistön myymälät, jotka myyvät Veskossa – kuinka kaukana ne ovat ja milloin ne ovat auki. Huom: mobiilisovelluksen käyttö vaatii rekisteröitymisen pelkällä sähköpostilla."
+      },
+
+      "step2": {
+        "label": "Vaihe 2",
+        "title": "Tarkista tuotteen saatavuus",
+        "description": "Kun löydät tuotteen, jonka haluat ostaa, siirry sen tuotesivulle. Siellä voit lukea myyjän lisäämät tiedot ja tarkistaa, onko kyseinen koko saatavilla myymälässä. Jos näet tuotteen kotisyötteessäsi, paina 'Osta nyt' tai klikkaa tuotekuvaa nähdäksesi lisätiedot."
+      },
+
+      "step3": {
+        "label": "Vaihe 3",
+        "title": "Osta myymälästä",
+        "description": "Kun löydät haluamasi tuotteen ja se on saatavilla, voit käydä myymälässä katsomassa ja kokeilemassa sitä ennen ostopäätöstä. Myymäläprofiilista näet aukioloajat ja sijainnin.",
+        "title2": "tai, Klikkaa & nouda",
+        "description2": "Kun löydät haluamasi tuotteen ja se on saatavilla, voit käydä myymälässä katsomassa ja kokeilemassa sitä ennen ostopäätöstä. Myymäläprofiilista näet aukioloajat ja sijainnin."
+      }
+    },
     "realMeetDigital": {
       "title": "Todellinen kohtaa digitaalisen",
       "description": "Koe saumaton yhteys fyysisen ja digitaalisen maailman välillä"

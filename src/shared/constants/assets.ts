@@ -41,6 +41,10 @@ import ShippingLabel from "@/assets/images/omnistore.jpg";
 import DeliveryTruck from "@/assets/images/omnistore.jpg";
 import StoreDashboard from "@/assets/images/omnistore.jpg";
 
+import SearchAndFind from "@/assets/images/search_find.png";
+import CheckAvailability from "@/assets/images/check_availability.png";
+import BuyAndCollect from "@/assets/images/buy_collect.png";
+
 export const Assets = {
   logo: VeskoLogo,
   logoLight: VeskoLogoLight,
@@ -84,6 +88,12 @@ export const Assets = {
   shippingLabel: ShippingLabel,
   deliveryTruck: DeliveryTruck,
   storeDashboard: StoreDashboard,
+
+  // For people
+  // Local connection
+  searchAndFind: SearchAndFind,
+  checkAvailablity: CheckAvailability,
+  buyAndCollect: BuyAndCollect,
 };
 
 export type AssetKey = keyof typeof Assets;
