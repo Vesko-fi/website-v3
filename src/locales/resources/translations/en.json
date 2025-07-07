@@ -875,6 +875,16 @@
       "message": "Thank you for registering with Vesko! We've received your application and will contact you within 24 hours to discuss next steps and set up your account."
     }
   },
+  "footer": {
+    "company": {
+      "heading": "Company",
+      "name": "Vesko Ltd.",
+      "address": "Joensuu, Finland",
+      "businessId": "Business-ID: 3472131-6"
+    },
+    "rights": "All rights reserved",
+    "privacyPolicy": "Privacy Policy"
+  },
   "privacyPolicy": {
     "heading": "Privacy Policy",
     "date": "Updated 07.07.2025",

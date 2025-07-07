@@ -875,6 +875,16 @@
       "message": "Kiitos rekisteröitymisestä Veskoon! Olemme vastaanottaneet hakemuksesi ja otamme yhteyttä 24 tunnin sisällä keskustellaksemme seuraavista vaiheista ja tilin perustamisesta."
     }
   },
+  "footer": {
+    "company": {
+      "heading": "Yritys",
+      "name": "Vesko Oy",
+      "address": "Joensuu, Suomi",
+      "businessId": "Y-tunnus: 3472131-6"
+    },
+    "rights": "Kaikki oikeudet pidätetään",
+    "privacyPolicy": "Tietosuojakäytäntö"
+  },
   "privacyPolicy": {
     "heading": "Tietosuojakäytäntö",
     "date": "Päivitys 07.07.2025",
