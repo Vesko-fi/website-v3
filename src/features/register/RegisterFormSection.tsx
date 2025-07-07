@@ -16,6 +16,7 @@ interface FormData {
   businessType: string;
   industry: string;
   website?: string;
+  ordersPerMonth?: string;
   description: string;
   expectedLaunch: string;
   agreeToTerms: boolean;
