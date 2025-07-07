@@ -1,19 +1,45 @@
+import { NavLink } from "react-router-dom";
+
+import i18n, { type SupportedLanguages } from "@/locales/i18n.config";
+import { getLocalizedPath } from "@/routes/helpers/localization";
 import { Logo } from "@/shared/components/common/Logo";
 import { Container } from "@/shared/components/ui/container";
 
 const Footer: React.FC = () => {
+  const privacyPolicyPath = getLocalizedPath("privacyPolicy", i18n.language as SupportedLanguages);
+
+  const date = new Date();
+  const year = date.getFullYear();
   return (
     <footer className='bg-gradient-to-b from-[#F5FAF7] to-[#CDE6D9] text-sm text-gray-700'>
       <Container className='px-4 py-10'>
-        <div className='mb-6 md:mb-0'>
-          <Logo className='h-20 md:h-24' />
-        </div>
-
-        <div className='mt-6 flex items-center justify-between text-right'>
-          <p className='mt-2 text-sm'>&copy; 2024 Vesko. All rights reserved.</p>
+        <div className='flex items-center justify-between pb-4'>
+          <div className='mb-6 md:mb-0'>
+            <Logo className='h-20 md:h-24' />
+          </div>
+          <div className='flex flex-1 flex-col items-center'>
+            <div className='text-center'>
+              <h4 className='py-2 text-lg font-semibold'>Company</h4>
+              <ul className='flex flex-col items-center space-y-1'>
+                <li>Vesko Ltd.</li>
+                <li>Joensuu, Finland</li>
+                <li>Business-ID: 3472131-6</li>
+              </ul>
+            </div>
+          </div>
           <a href='#' className='text-sm text-green-800 hover:underline'>
             Back to top
           </a>
+        </div>
+        <hr />
+
+        <div className='mt-6 flex items-center justify-center text-right'>
+          <div className='flex flex-col items-center'>
+            <p className='mt-2 text-sm'>&copy; {year} Vesko. All rights reserved.</p>
+            <NavLink to={privacyPolicyPath} className='underline'>
+              Privacy policy
+            </NavLink>
+          </div>
         </div>
       </Container>
     </footer>
