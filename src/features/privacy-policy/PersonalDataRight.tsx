@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+
 interface options {
   heading: string;
   text: string;
