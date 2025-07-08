@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { NavLink } from "react-router-dom";
 
 import { Button } from "../ui/button";
 import { Text } from "../ui/text";
 
 import i18n, { type SupportedLanguages } from "@/locales/i18n.config";
 import { getLocalizedPath } from "@/routes/helpers/localization";
-import { NavLink } from "react-router-dom";
 
 interface WaitlistFormProps {
   className?: string;
@@ -108,11 +108,11 @@ export const WaitlistForm = ({
           {isSubmitting ? finalLoadingText : finalButtonText}
         </Button>
       </form>
-      <div className='flex flex-col items-center justify-center gap-1'>
-        <Text className='mt-2 text-sm text-white/80'>
+      <div className='mt-4 flex flex-row items-center justify-center gap-2 text-xs'>
+        <Text className='text-white/80' variant='label'>
           By joining the waitlist, you agree to our
         </Text>
-        <NavLink to={privacyPolicyPath} className='text-white/80 underline'>
+        <NavLink to={privacyPolicyPath} className='whitespace-nowrap text-white/80 underline'>
           {t("footer.privacyPolicy")}
         </NavLink>
       </div>

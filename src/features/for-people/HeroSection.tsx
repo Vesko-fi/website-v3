@@ -175,7 +175,7 @@ const HeroSection = () => {
           className='flex w-full flex-col gap-8'
         >
           {/* Content Container */}
-          <div className='flex flex-col gap-8 xl:flex-row xl:justify-between'>
+          <div className='flex flex-col items-center gap-8 xl:flex-row xl:justify-between'>
             <div className='flex max-w-md flex-1 flex-col gap-2'>
               {/* Main Title */}
               <motion.div variants={titleVariants}>
@@ -192,9 +192,6 @@ const HeroSection = () => {
               <motion.div variants={subtitleVariants} className='max-w-md'>
                 <Text color='primaryLight' className='mb-4 text-xl leading-relaxed md:text-2xl'>
                   {t("forPeople.hero.subtitle")}
-                </Text>
-                <Text color='primaryLight' className='text-lg opacity-90'>
-                  {t("forPeople.hero.description")}
                 </Text>
               </motion.div>
             </div>
@@ -241,18 +238,6 @@ const HeroSection = () => {
                       </div>
                     </div>
                   </div>
-
-                  {/* Urgency indicator */}
-                  <motion.div
-                    initial={{ opacity: 0, scale: 0.9 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ delay: 1.5, duration: 0.5 }}
-                    className='bg-accent-400/10 border-accent-400/20 mt-4 rounded-lg border p-3'
-                  >
-                    <Text className='text-accent-300 text-center text-xs font-medium'>
-                      {t("forPeople.hero.urgencyMessage")}
-                    </Text>
-                  </motion.div>
                 </div>
               </div>
             </motion.div>

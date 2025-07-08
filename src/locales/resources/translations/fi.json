@@ -116,7 +116,6 @@
     "hero": {
       "title": "Ihmiset uudelleen yhteydessä",
       "subtitle": "Missä sosiaalinen media tuntuu taas inhimilliseltä ja yhdistää sinut uudelleen maailmaasi.",
-      "description": "Yhdisty paikalliseen yhteisöösi, löydä upeita tuotteita ja rakennetaan merkityksellisiä suhteita turvallisessa digitaalisessa tilassa.",
       "formTitle": "Ole ensimmäisten joukossa kokeilemassa Veskota",
       "socialProof": "Liity 2 847+ odottavan ihmisen joukkoon",
       "trustIndicators": {
@@ -124,7 +123,6 @@
         "earlyAccess": "Aikainen pääsy",
         "noSpam": "Ei roskapostia"
       },
-      "urgencyMessage": "🚀 Lanssaamassa pian - Hanki etuoikeutettu pääsy",
       "waitlist": {
         "button": "Liity odotuslistalle",
         "placeholder": "esimerkki@sähköposti.fi",

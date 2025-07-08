@@ -84,14 +84,7 @@ const VeskoIsSection: React.FC = () => {
       transition: { duration: 0.8, ease: "easeOut" },
     },
   };
-  const mainTextRightVariants = {
-    hidden: { opacity: 0, x: 40 },
-    visible: {
-      opacity: 1,
-      x: 0,
-      transition: { duration: 0.8, ease: "easeOut", delay: 0.2 },
-    },
-  };
+
   const subTextVariants = {
     hidden: { opacity: 0, y: 40 },
     visible: {
@@ -103,11 +96,6 @@ const VeskoIsSection: React.FC = () => {
 
   // Split the main text for the second section
   const mainText = t("forPeople.veskoIs.secondSection.mainText");
-  // Default split: 'Looks familiar by' => ['Looks familiar by', 'design']
-  const [mainTextTop, mainTextRight] =
-    mainText.split(/\sby\s|\sdesign$/i).length === 2
-      ? [mainText.replace(/ design$/i, ""), "design"]
-      : [mainText, ""];
 
   return (
     <>
