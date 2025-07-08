@@ -172,18 +172,18 @@ const HeroSection = () => {
           variants={containerVariants}
           initial='hidden'
           animate='visible'
-          className='flex flex-col gap-8'
+          className='flex w-full flex-col gap-8'
         >
           {/* Content Container */}
-          <div className='flex flex-col gap-8 xl:flex-row xl:items-end xl:justify-between'>
-            <div>
+          <div className='flex flex-col gap-8 xl:flex-row xl:justify-between'>
+            <div className='flex max-w-md flex-1 flex-col gap-2'>
               {/* Main Title */}
               <motion.div variants={titleVariants}>
                 <Text
                   as='h1'
                   variant='heading'
                   color='primaryLight'
-                  className='text-4xl font-bold md:text-5xl lg:text-7xl xl:text-8xl'
+                  className='text-3xl font-bold md:text-4xl lg:text-5xl xl:text-6xl'
                 >
                   {t("forPeople.hero.title")}
                 </Text>
@@ -212,9 +212,6 @@ const HeroSection = () => {
                   <div className='mb-6 text-center'>
                     <Text className='mb-2 text-xl font-bold text-white'>
                       {t("forPeople.hero.formTitle")}
-                    </Text>
-                    <Text className='text-sm text-white/80'>
-                      Join 2,847+ people already waiting
                     </Text>
                   </div>
 
