@@ -4,7 +4,10 @@ import { NavLink } from "react-router-dom";
 import i18n, { type SupportedLanguages } from "@/locales/i18n.config";
 import { getLocalizedPath } from "@/routes/helpers/localization";
 import { Logo } from "@/shared/components/common/Logo";
+import { NavItem } from "@/shared/components/common/NavItem";
+import { Button } from "@/shared/components/ui/button";
 import { Container } from "@/shared/components/ui/container";
+import { NAV_ITEMS } from "@/shared/constants/navItems";
 import { SOCIALS } from "@/shared/constants/socials";
 
 const Footer: React.FC = () => {
@@ -43,13 +46,16 @@ const Footer: React.FC = () => {
               </ul>
             </div>
           </div>
-          <a
-            href='#'
-            className='absolute right-0 bottom-20 mt-4 text-sm text-green-800 hover:underline'
-          >
-            Back to top
+          <div className='mt-5 flex flex-col sm:mt-0 sm:pr-30'>
+            {NAV_ITEMS.map((item) => (
+              <NavItem key={item.id} {...item} variant='desktop' />
+            ))}
+          </div>
+          <a href='#' className='absolute right-0 bottom-2 text-sm text-green-800 hover:underline'>
+            <Button>{t("footer.topButton")}</Button>
           </a>
         </div>
+
         <hr />
 
         <div className='mt-6 flex items-center justify-center text-right'>
