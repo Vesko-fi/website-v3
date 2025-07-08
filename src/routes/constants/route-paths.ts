@@ -7,4 +7,5 @@ export const ROUTE_PATHS = {
   register: { en: "register", fi: "rekisteroidy" },
   offlineVendors: { en: "offline-vendors", fi: "offline-kauppiaat" },
   onlineVendors: { en: "online-vendors", fi: "online-kauppiaat" },
+  privacyPolicy: { en: "privacy-policy", fi: "Tietosuojakäytäntö" },
 } as const;
