@@ -911,7 +911,8 @@
       "businessId": "Business-ID: 3472131-6"
     },
     "rights": "All rights reserved",
-    "privacyPolicy": "Privacy Policy"
+    "privacyPolicy": "Privacy Policy",
+    "topButton": "Back to top"
   },
   "privacyPolicy": {
     "heading": "Privacy Policy",

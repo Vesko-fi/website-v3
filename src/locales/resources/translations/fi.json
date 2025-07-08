@@ -911,7 +911,8 @@
       "businessId": "Y-tunnus: 3472131-6"
     },
     "rights": "Kaikki oikeudet pidätetään",
-    "privacyPolicy": "Tietosuojakäytäntö"
+    "privacyPolicy": "Tietosuojakäytäntö",
+    "topButton": "Takaisin ylös"
   },
   "privacyPolicy": {
     "heading": "Tietosuojakäytäntö",
