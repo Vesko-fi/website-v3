@@ -40,6 +40,7 @@ import POSSystem from "@/assets/images/omnistore.jpg";
 import ShippingLabel from "@/assets/images/omnistore.jpg";
 import DeliveryTruck from "@/assets/images/omnistore.jpg";
 import StoreDashboard from "@/assets/images/omnistore.jpg";
+import OfflineVendorHeroImage from "@/assets/images/offline_vendor_hero_image.jpg";
 
 import SearchAndFind from "@/assets/images/search_find.png";
 import CheckAvailability from "@/assets/images/check_availability.png";
@@ -80,6 +81,7 @@ export const Assets = {
   tRmd6: TRMD6,
 
   // ForOfflineVendorPage assets
+  offlineVendorHeroImage: OfflineVendorHeroImage,
   productOnTable: ProductOnTable,
   inventoryManagement: InventoryManagement,
   veskoStore: VeskoStore,
