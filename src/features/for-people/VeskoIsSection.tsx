@@ -175,64 +175,51 @@ const VeskoIsSection: React.FC = () => {
           className='absolute inset-0 bg-black'
           style={{ zIndex: 1 }}
         />
-        <Container className='relative z-10 flex h-full w-full flex-col items-center justify-center'>
-          <div className='relative flex w-full flex-col items-center md:flex-row md:items-center md:justify-center md:gap-8'>
-            <motion.div
-              initial='hidden'
-              whileInView='visible'
-              viewport={{ once: true, margin: "-10%" }}
-              variants={mainTextTopVariants}
-              className='mb-8 text-center md:static md:-top-12 md:left-1/2 md:mb-0 md:block md:w-auto md:translate-x-0 md:justify-center md:text-right'
-              style={{ pointerEvents: "none" }}
+        <Container className='relative z-10 flex h-full w-full flex-col items-center justify-center gap-2'>
+          {/* <div className='relative flex w-full flex-col items-center md:items-center md:justify-center md:gap-8'> */}
+          <motion.div
+            initial='hidden'
+            whileInView='visible'
+            viewport={{ once: true, margin: "-10%" }}
+            variants={mainTextTopVariants}
+            className='text-center md:static md:-top-12 md:left-1/2 md:mb-0 md:block md:w-auto md:translate-x-0 md:justify-center md:text-right'
+            style={{ pointerEvents: "none" }}
+          >
+            <Text
+              className='text-center text-white italic drop-shadow-lg md:text-right'
+              color='primaryLight'
             >
-              <Text
-                className='text-center text-3xl text-white italic drop-shadow-lg md:text-right md:text-4xl xl:text-6xl'
-                color='primaryLight'
-              >
-                {/* Mobile: Show complete text, Desktop: Show split text */}
-                <span className='md:hidden'>{mainText}</span>
-                <span className='hidden md:inline'>{mainTextTop.replace(/ design$/i, "")}</span>
-              </Text>
-            </motion.div>
-            {/* Phone mockup/image pops/zooms in from center */}
-            <motion.div
-              initial='hidden'
-              whileInView='visible'
-              viewport={{ once: true, margin: "-10%" }}
-              variants={phoneVariants}
-              className='flex w-full items-center justify-center md:w-auto'
-            >
-              <Image
-                src={Assets.familiarDesign}
-                alt={t("forPeople.veskoIs.secondSection.mainText")}
-                className='w-full max-w-xs object-contain drop-shadow-2xl md:max-w-md'
-              />
-            </motion.div>
-            {/* 'design' word to the right of phone on desktop, hidden on mobile */}
-            <motion.div
-              initial='hidden'
-              whileInView='visible'
-              viewport={{ once: true, margin: "-10%" }}
-              variants={mainTextRightVariants}
-              className='hidden md:mt-0 md:ml-4 md:flex md:items-center md:justify-start'
-            >
-              <Text
-                className='text-center text-3xl whitespace-nowrap text-white italic drop-shadow-lg md:text-left md:text-4xl xl:text-6xl'
-                color='primaryLight'
-              >
-                {mainTextRight}
-              </Text>
-            </motion.div>
-          </div>
+              {/* Mobile: Show complete text, Desktop: Show split text */}
+              <span className='mr-20 text-4xl md:inline md:text-5xl xl:text-6xl'>{mainText}</span>
+            </Text>
+          </motion.div>
+          {/* Phone mockup/image pops/zooms in from center */}
+          <motion.div
+            initial='hidden'
+            whileInView='visible'
+            viewport={{ once: true, margin: "-10%" }}
+            variants={phoneVariants}
+            className='flex w-full items-center justify-center md:w-auto'
+          >
+            <Image
+              src={Assets.familiarDesign}
+              alt={t("forPeople.veskoIs.secondSection.mainText")}
+              className='mr-20 w-full max-w-xs object-contain drop-shadow-2xl md:max-w-md'
+            />
+          </motion.div>
+          {/* </div> */}
           {/* Sub text floats in from bottom */}
           <motion.div
             initial='hidden'
             whileInView='visible'
             viewport={{ once: true, margin: "-10%" }}
             variants={subTextVariants}
-            className='w-full'
+            className='text-center'
           >
-            <Text className='mt-8 text-center text-white italic lg:text-3xl' color='primaryLight'>
+            <Text
+              className='max-w-4xl text-center text-xl text-white italic lg:text-3xl'
+              color='primaryLight'
+            >
               {t("forPeople.veskoIs.secondSection.subText")}
             </Text>
           </motion.div>
