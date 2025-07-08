@@ -48,19 +48,26 @@ export const LanguageSwitcher = () => {
     setIsOpen(false);
   };
 
+  const handleOpen = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div className='relative inline-block'>
       {/* Toggle button */}
       <button
-        onClick={() => setIsOpen(!isOpen)}
-        className='group relative flex items-center gap-2 rounded-4xl border border-gray-200 bg-transparent px-4 py-2.5 shadow-sm transition-all hover:border-gray-300 hover:shadow-md focus:ring-2 focus:ring-slate-700 focus:ring-offset-1 focus:outline-none'
+        onClick={handleOpen}
+        className='group relative flex items-center gap-2 rounded-3xl border border-gray-200 bg-transparent px-3 py-2 shadow-sm transition-all hover:border-gray-300 hover:shadow-md focus:ring-2 focus:ring-slate-700 focus:ring-offset-1 focus:outline-none'
+        style={{ minWidth: hasSelected ? "auto" : "44px" }}
       >
-        <i className={`${RemixIcons.online} h-5 w-5 text-gray-700`} />
-        {hasSelected && (
-          <span className='text-sm font-medium text-gray-700 group-hover:text-gray-900'>
-            {languageNames[i18n.language as SupportedLanguages]}
-          </span>
-        )}
+        <i className={`${RemixIcons.online} h-5 w-5 text-green-900`} />
+        <span
+          className={`text-sm font-medium text-gray-700 transition-opacity group-hover:text-gray-900 ${
+            hasSelected ? "opacity-100" : "w-0 overflow-hidden opacity-0"
+          }`}
+        >
+          {languageNames[i18n.language as SupportedLanguages]}
+        </span>
         <i
           className={`${RemixIcons.arrowDown} h-5 w-5 text-gray-700 ${
             isOpen ? "rotate-180 transform" : ""
