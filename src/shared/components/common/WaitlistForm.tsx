@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+
 import { Button } from "../ui/button";
 
 interface WaitlistFormProps {
@@ -29,11 +30,11 @@ export const WaitlistForm = ({
   const [submitStatus, setSubmitStatus] = useState<"idle" | "success" | "error">("idle");
 
   // Use provided props or fall back to translations
-  const finalSuccessMessage = successMessage || t("home.cta.waitlist.successMessage");
-  const finalErrorMessage = errorMessage || t("home.cta.waitlist.errorMessage");
-  const finalPlaceholder = placeholder || t("home.cta.waitlist.placeholder");
-  const finalButtonText = buttonText || t("home.cta.waitlist.buttonText");
-  const finalLoadingText = loadingText || t("home.cta.waitlist.loadingText");
+  const finalSuccessMessage = successMessage ?? t("home.cta.waitlist.successMessage");
+  const finalErrorMessage = errorMessage ?? t("home.cta.waitlist.errorMessage");
+  const finalPlaceholder = placeholder ?? t("home.cta.waitlist.placeholder");
+  const finalButtonText = buttonText ?? t("home.cta.waitlist.buttonText");
+  const finalLoadingText = loadingText ?? t("home.cta.waitlist.loadingText");
 
   const handleSubmit = (e: React.FormEvent): void => {
     e.preventDefault();
