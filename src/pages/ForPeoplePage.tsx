@@ -1,4 +1,5 @@
 import { HeroSection } from "@/features/for-people/HeroSection";
+import { LocalConnectionSection } from "@/features/for-people/LocalConnectionSection";
 import { RealMeetDigitalSection } from "@/features/for-people/RealMeetDigitalSection";
 import { VeskoIsSection } from "@/features/for-people/VeskoIsSection";
 import { WhatIsVeskoSection } from "@/features/for-people/WhatIsVeskoSection";
@@ -10,6 +11,7 @@ const ForPeoplePage = () => {
       <HeroSection />
       <WhatIsVeskoSection />
       <VeskoIsSection />
+      <LocalConnectionSection />
       <RealMeetDigitalSection />
       <CTASection />
     </div>

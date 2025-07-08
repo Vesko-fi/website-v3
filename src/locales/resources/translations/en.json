@@ -114,8 +114,8 @@
   },
   "forPeople": {
     "hero": {
-      "title": "People Connected",
-      "subtitle": "Discover how Vesko connects you with local businesses and communities",
+      "title": "People Reconnected",
+      "subtitle": "Where social media feels human again & reconnects you with your world.",
       "description": "Connect with your local community, discover amazing products, and build meaningful relationships in a safe digital space.",
       "formTitle": "Be among the first to experience Vesko",
       "socialProof": "Join 2,847+ people already waiting",
@@ -158,6 +158,30 @@
       "secondSection": {
         "mainText": "Looks familiar by design",
         "subText": "But it's not the same toxic space you're used to"
+      }
+    },
+    "localConnection": {
+      "heading": "Local Connection",
+      "subheading": "See what your local stores have before you even step outside",
+
+      "step1": {
+        "label": "Step 1",
+        "title": "search & find a product",
+        "description": "Once Vesko is available, you’ll be able to search and filter products easily. You can also use our map to see all nearby stores that sell on Vesko, how far they are, and their opening hours. Note: to use the mobile app, you’ll need to register with just your email."
+      },
+
+      "step2": {
+        "label": "Step 2",
+        "title": "Check product availability",
+        "description": "Once you find a product you want to buy, just go to its product details page. There, you can read all the info posted by the seller and check if the item (a specific size) is available on the store’s shelves. If you spot a product in your home feed, simply tap the “Buy Now” button or click anywhere on the product photo to open its details."
+      },
+
+      "step3": {
+        "label": "Step 3",
+        "title": "Buy in-store",
+        "description": "When you find a product you like and it’s available, you can visit the store to see and feel it before making your final decision. The store profile shows opening hours and location to help you get there easily.",
+        "title2": "or, Click & collect",
+        "description2": "When you find a product you like and it’s available, you can visit the store to see and feel it before making your final decision. The store profile shows opening hours and location to help you get there easily."
       }
     },
     "realMeetDigital": {
@@ -887,7 +911,8 @@
       "businessId": "Business-ID: 3472131-6"
     },
     "rights": "All rights reserved",
-    "privacyPolicy": "Privacy Policy"
+    "privacyPolicy": "Privacy Policy",
+    "topButton": "Back to top"
   },
   "privacyPolicy": {
     "heading": "Privacy Policy",
