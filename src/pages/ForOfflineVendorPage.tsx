@@ -12,7 +12,6 @@ const ForOfflineVendorPage = () => {
   return (
     <div className='relative -top-18'>
       <HeroSection />
-      <OmniStoreBenefitSection />
       <WhatIsOmniStoreSection />
       <WhySection />
       <BenefitsSection />
@@ -20,6 +19,7 @@ const ForOfflineVendorPage = () => {
       <FeaturesSection />
       <OrderSection />
       <POSSection />
+      <OmniStoreBenefitSection />
     </div>
   );
 };

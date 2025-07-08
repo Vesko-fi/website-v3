@@ -5,10 +5,10 @@ import i18n, { type SupportedLanguages } from "@/locales/i18n.config";
 import { getLocalizedPath } from "@/routes/helpers/localization";
 import { Logo } from "@/shared/components/common/Logo";
 import { NavItem } from "@/shared/components/common/NavItem";
+import { Button } from "@/shared/components/ui/button";
 import { Container } from "@/shared/components/ui/container";
 import { NAV_ITEMS } from "@/shared/constants/navItems";
 import { SOCIALS } from "@/shared/constants/socials";
-import { Button } from "@/shared/components/ui/button";
 
 const Footer: React.FC = () => {
   const { t } = useTranslation();
