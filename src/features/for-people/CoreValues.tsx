@@ -168,9 +168,11 @@ const CoreValues = () => {
               className='mb-6 flex flex-col items-center gap-4 rounded-xl border bg-emerald-50 p-4 shadow md:flex-row md:items-start'
             >
               <div className='flex-1'>
-                <div>
-                  <p className='mb-2 font-medium text-gray-500 italic'>{val.id}</p>
-                  <h3 className='mb-2 text-lg font-semibold'>{val.title}</h3>
+                <div className='flex flex-col gap-2'>
+                  <p className='text-accent-600 mb-2 w-12 flex-shrink-0 text-3xl font-light'>
+                    {val.id}
+                  </p>
+                  <h3 className='mb-5 text-lg font-semibold md:text-xl'>{val.title}</h3>
                   <p className='text-gray-700'>{val.text1}</p>
                 </div>
 
@@ -194,12 +196,8 @@ const CoreValues = () => {
                   {expanded[val.id] ? "View less" : "View more..."}
                 </Button>
               </div>
-              <div className='flex-1'>
-                <Image
-                  src={val.image}
-                  alt='Value illustration'
-                  className='h-56 w-96 rounded-md object-cover md:w-full'
-                />
+              <div className='aspect-[4/3] w-full flex-1 overflow-hidden rounded-md'>
+                <Image src={val.image} alt={val.id} className='h-full w-full object-contain' />
               </div>
             </motion.div>
           ))}

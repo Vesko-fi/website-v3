@@ -190,7 +190,12 @@ const HeroSection = () => {
               </motion.div>
               {/* Subtitle and Description */}
               <motion.div variants={subtitleVariants} className='max-w-md'>
-                <Text color='primaryLight' className='mb-4 text-xl leading-relaxed md:text-2xl'>
+                <Text
+                  as='p'
+                  variant='caption'
+                  color='primaryLight'
+                  className='mb-4 pr-4 leading-relaxed font-semibold lg:text-xl'
+                >
                   {t("forPeople.hero.subtitle")}
                 </Text>
               </motion.div>
