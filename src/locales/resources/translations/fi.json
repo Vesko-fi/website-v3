@@ -26,7 +26,7 @@
       }
     },
     "socialize": {
-      "heading": "Sosialisoidu, jaa elämäsi, osta ja myy kaikki yhdessä paikassa",
+      "heading": "Sosiaalinen ostoskokemus",
       "blocks": {
         "localLife": {
           "title": "Tila, jossa paikallinen elämäsi muuttuu digitaaliseksi",
@@ -183,8 +183,7 @@
       }
     },
     "realMeetDigital": {
-      "title": "Todellinen kohtaa digitaalisen",
-      "description": "Koe saumaton yhteys fyysisen ja digitaalisen maailman välillä"
+      "title": "Liity seuraamme palauttaaksesi yhteyden"
     }
   },
   "about": {
