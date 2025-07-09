@@ -1,25 +1,18 @@
-import js from "@eslint/js"
-import tsParser from "@typescript-eslint/parser"
-import eslintPluginImport from "eslint-plugin-import"
-import jsxA11y from "eslint-plugin-jsx-a11y"
-import prettier from "eslint-plugin-prettier"
-import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended"
-import react from "eslint-plugin-react"
-import reactHooks from "eslint-plugin-react-hooks"
-import reactRefresh from "eslint-plugin-react-refresh"
-import globals from "globals"
-import tseslint from "typescript-eslint"
+import js from "@eslint/js";
+import tsParser from "@typescript-eslint/parser";
+import eslintPluginImport from "eslint-plugin-import";
+import jsxA11y from "eslint-plugin-jsx-a11y";
+import prettier from "eslint-plugin-prettier";
+import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended";
+import react from "eslint-plugin-react";
+import reactHooks from "eslint-plugin-react-hooks";
+import reactRefresh from "eslint-plugin-react-refresh";
+import globals from "globals";
+import tseslint from "typescript-eslint";
 
 export default tseslint.config(
   {
-    ignores: [
-      "dist",
-      "node_modules/*",
-      "vite.config.ts",
-      ".next",
-      "public",
-      ".turbo",
-    ],
+    ignores: ["dist", "node_modules/*", "vite.config.ts", ".next", "public", ".turbo"],
   },
   {
     extends: [
@@ -53,16 +46,10 @@ export default tseslint.config(
       ...reactHooks.configs.recommended.rules,
       ...react.configs.recommended.rules,
       ...react.configs["jsx-runtime"].rules,
-      "react-refresh/only-export-components": [
-        "warn",
-        { allowConstantExport: true },
-      ],
+      "react-refresh/only-export-components": ["warn", { allowConstantExport: true }],
 
       // TypeScript Rules
-      "@typescript-eslint/no-unused-vars": [
-        "warn",
-        { argsIgnorePattern: "^_" },
-      ],
+      "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
       "@typescript-eslint/no-explicit-any": "warn",
       "@typescript-eslint/member-ordering": "warn",
       "@typescript-eslint/no-empty-function": "warn",
@@ -87,15 +74,7 @@ export default tseslint.config(
       "import/order": [
         "warn",
         {
-          groups: [
-            "builtin",
-            "external",
-            "internal",
-            "parent",
-            "sibling",
-            "index",
-            "unknown",
-          ],
+          groups: ["builtin", "external", "internal", "parent", "sibling", "index", "unknown"],
           "newlines-between": "always",
           pathGroups: [
             {
@@ -139,4 +118,4 @@ export default tseslint.config(
     files: ["**/*.js"],
     ...tseslint.configs.disableTypeChecked,
   }
-)
+);

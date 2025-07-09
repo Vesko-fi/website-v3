@@ -4,6 +4,7 @@ import { createPortal } from "react-dom";
 
 import { NavDropdown } from "@/layouts/components/navigation/NavDropdown";
 import { MAIN_NAVIGATION } from "@/layouts/navigation.constants";
+import { LanguageSwitcher } from "@/shared/components/common/LanguageSwitcher";
 import { NavItem } from "@/shared/components/common/NavItem";
 import { Text } from "@/shared/components/ui/text";
 import { RemixIcons } from "@/shared/constants/icons";
@@ -80,15 +81,18 @@ const MobileNav: React.FC<MobileNavProps> = ({ isOpen, onClose }) => {
               </motion.div>
             )
           )}
+
           <motion.div variants={floatUpItem}>
             <NavItem id='register' label='nav.register' routeKey='register' />
           </motion.div>
+          <LanguageSwitcher />
 
           <motion.div variants={floatUpItem} className='mt-16'>
             <Text variant='caption' color='secondary'>
               Follow us
             </Text>
           </motion.div>
+
           {SOCIALS.map((social) => (
             <motion.div key={social.id} variants={floatUpItem} className='mt-2'>
               <Text>

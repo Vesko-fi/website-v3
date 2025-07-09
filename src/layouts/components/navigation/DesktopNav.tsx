@@ -2,6 +2,7 @@ import React from "react";
 
 import { NavDropdown } from "@/layouts/components/navigation/NavDropdown";
 import { MAIN_NAVIGATION } from "@/layouts/navigation.constants";
+import { LanguageSwitcher } from "@/shared/components/common/LanguageSwitcher";
 import { NavItem } from "@/shared/components/common/NavItem";
 
 const DesktopNav: React.FC = () => {
@@ -19,6 +20,7 @@ const DesktopNav: React.FC = () => {
         )}
       </div>
       <NavItem id='register' label='nav.register' routeKey='register' isCTA variant='desktop' />
+      <LanguageSwitcher />
     </nav>
   );
 };
