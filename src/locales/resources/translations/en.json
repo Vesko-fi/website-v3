@@ -182,6 +182,30 @@
         "description2": "When you find a product you like and it’s available, you can visit the store to see and feel it before making your final decision. The store profile shows opening hours and location to help you get there easily."
       }
     },
+    "values": {
+      "title": "VESKO",
+      "heading": "as a Social media,",
+      "heading2": "is being built on",
+      "heading3": "three core values",
+      "heading4": "the foundation of everything we do",
+      "step1": {
+        "heading": "🛡️ Safe Place to share your life without fear",
+        "text1": "Built and designed by people, for people. We believe everyone has the right to share their life without fear, no matter who they are, what they believe in, who they love, their background, skin colour, or appearance.",
+        "text2": "Like many of you, we’ve felt how today’s social media spaces have grown more hostile, overwhelmed by conflict, misinformation, and negativity. And just like the real world shapes our digital lives, the tone of our online communities often echoes back into how we treat one another offline.",
+        "text3": "That’s why we’re building Vesko: a friendlier, more respectful digital space designed to foster real connection. To make that possible, Vesko follows a strict Zero Tolerance Policy for bullying, racism, harassment, and incitement to violence."
+      },
+      "step2": {
+        "heading": "⚖️ Neutral Digital Space: we pick no sides!",
+        "text1": "Like Switzerland, Vesko stays neutral. In a world where billionaires build or buy social platforms to push their own narratives, and while others take political sides or promote ideologies, we choose another way.",
+        "text2": "We believe neutrality is the key to healthier, more peaceful communities."
+      },
+      "step3": {
+        "heading": "Connecting People by turning online interactions into real-world engagement",
+        "text1": "By starting your shopping journey digitally and ending in your local store, Vesko will strengthens the community bonds.",
+        "text2": "You don’t just scroll and socialise, you help real businesses in your area to survive.",
+        "text3": "This brings life back to your city, helping turn quiet streets into vibrant neighbourhoods."
+      }
+    },
     "realMeetDigital": {
       "title": "join us to reconnect You"
     }

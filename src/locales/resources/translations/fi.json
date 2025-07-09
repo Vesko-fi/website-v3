@@ -182,6 +182,30 @@
         "description2": "Kun löydät haluamasi tuotteen ja se on saatavilla, voit käydä myymälässä katsomassa ja kokeilemassa sitä ennen ostopäätöstä. Myymäläprofiilista näet aukioloajat ja sijainnin."
       }
     },
+    "values": {
+      "title": "VESKO",
+      "heading": "sosiaalisena mediana,",
+      "heading2": "rakennetaan",
+      "heading3": "kolmen ydinarvon varaan",
+      "heading4": "jotka ovat kaiken tekemisemme perusta",
+      "step1": {
+        "heading": "🛡️ Turvallinen paikka jakaa elämääsi ilman pelkoa",
+        "text1": "Rakennettu ja suunniteltu ihmisiltä ihmisille. Uskomme, että jokaisella on oikeus jakaa elämäänsä ilman pelkoa – riippumatta siitä, keitä he ovat, mihin he uskovat, ketä he rakastavat, mikä on heidän taustansa, ihonvärinsä tai ulkonäkönsä.",
+        "text2": "Kuten monet teistä, olemme kokeneet, miten sosiaalinen media on muuttunut vihamielisemmäksi, täynnä ristiriitoja, väärää tietoa ja negatiivisuutta. Ja aivan kuten todellinen maailma vaikuttaa digitaaliseen elämäämme, heijastuu verkon ilmapiiri usein takaisin siihen, miten kohtelemme toisiamme kasvotusten.",
+        "text3": "Siksi rakennamme Veskoa: ystävällisempää ja kunnioittavampaa digitaalista tilaa, jossa syntyy aitoja yhteyksiä. Tämä onnistuu vain noudattamalla tiukkaa nollatoleranssipolitiikkaa kiusaamista, rasismia, häirintää ja väkivaltaan yllyttämistä kohtaan."
+      },
+      "step2": {
+        "heading": "⚖️ Neutraali digitaalinen tila: emme valitse puolia!",
+        "text1": "Kuten Sveitsi, Vesko pysyy neutraalina. Maailmassa, jossa miljardöörit rakentavat tai ostavat alustoja ajaakseen omia näkemyksiään, ja jossa muut ottavat poliittisia kantoja tai edistävät ideologioita, me valitsemme toisenlaisen tien.",
+        "text2": "Uskomme, että neutraalius on avain terveempiin ja rauhallisempiin yhteisöihin."
+      },
+      "step3": {
+        "heading": "Yhdistämme ihmisiä muuttamalla verkkovuorovaikutuksen todellisiksi kohtaamisiksi",
+        "text1": "Kun aloitat ostosmatkasi digitaalisesti ja päätät sen paikalliseen kauppaasi, Vesko vahvistaa yhteisön yhteenkuuluvuutta.",
+        "text2": "Et vain selaile ja seurustele, vaan autat oikeita yrityksiä alueellasi selviytymään.",
+        "text3": "Tämä tuo eloa kaupunkiisi, muuttaen hiljaiset kadut vilkkaiksi naapurustoiksi."
+      }
+    },
     "realMeetDigital": {
       "title": "Liity seuraamme palauttaaksesi yhteyden"
     }

@@ -92,7 +92,6 @@ export const Assets = {
   storeDashboard: StoreDashboard,
 
   // For people
-  // Local connection
   searchAndFind: SearchAndFind,
   checkAvailablity: CheckAvailability,
   buyAndCollect: BuyAndCollect,

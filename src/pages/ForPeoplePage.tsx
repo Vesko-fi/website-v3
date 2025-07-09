@@ -1,3 +1,4 @@
+import { CoreValues } from "@/features/for-people/CoreValues";
 import { HeroSection } from "@/features/for-people/HeroSection";
 import { LocalConnectionSection } from "@/features/for-people/LocalConnectionSection";
 import { RealMeetDigitalSection } from "@/features/for-people/RealMeetDigitalSection";
@@ -12,6 +13,7 @@ const ForPeoplePage = () => {
       <WhatIsVeskoSection />
       <VeskoIsSection />
       <LocalConnectionSection />
+      <CoreValues />
       <RealMeetDigitalSection />
       <CTASection />
     </div>
