@@ -6,7 +6,6 @@ import BRMD4 from "@/assets/images/b_rmd_4.avif";
 import BRMD5 from "@/assets/images/b_rmd_5.avif";
 import BRMD6 from "@/assets/images/b_rmd_6.avif";
 import Connected from "@/assets/images/connected.avif";
-import DifferentKindOfSocialMedia from "@/assets/images/different_social_media.png";
 import FamiliarDesign from "@/assets/images/familiar_design.png";
 import ForPeopleHero from "@/assets/images/for_people_hero.avif";
 import HeroDesktop from "@/assets/images/hero_desktop.png";
@@ -45,6 +44,7 @@ import OfflineVendorHeroImage from "@/assets/images/offline_vendor_hero_image.jp
 import SearchAndFind from "@/assets/images/search_find.png";
 import CheckAvailability from "@/assets/images/check_availability.png";
 import BuyAndCollect from "@/assets/images/buy_collect.png";
+import DifferentSocialMedia from "@/assets/images/different_social_media.png";
 
 export const Assets = {
   logo: VeskoLogo,
@@ -63,8 +63,8 @@ export const Assets = {
   onlinestore: Onlinestore,
   unboxingVideo: UnboxingVideo,
   forPeopleHero: ForPeopleHero,
-  differentKindOfSocialMedia: DifferentKindOfSocialMedia,
   youFeelFree: YouFeelFree,
+  differentSocailMedia: DifferentSocialMedia,
   familiarDesign: FamiliarDesign,
   aboutHero: AboutHero,
   bRmd1: BRMD1,
