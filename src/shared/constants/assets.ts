@@ -29,6 +29,7 @@ import YouFeelFree from "@/assets/images/you_feel_free.png";
 import VeskoLogo from "@/assets/logos/vesko.PNG";
 import VeskoLogoLight from "@/assets/logos/vesko_light.PNG";
 import UnboxingVideo from "@/assets/videos/v-2.mp4";
+import VeskoVideo from "@/assets/videos/vesko.mp4";
 
 // ForOfflineVendorPage assets - using existing images
 import ProductOnTable from "@/assets/images/omnistore.jpg";
@@ -45,6 +46,7 @@ import SearchAndFind from "@/assets/images/search_find.png";
 import CheckAvailability from "@/assets/images/check_availability.png";
 import BuyAndCollect from "@/assets/images/buy_collect.png";
 import DifferentSocialMedia from "@/assets/images/different_social_media.png";
+import { VeskoIsSection } from "@/features/for-people/VeskoIsSection";
 
 export const Assets = {
   logo: VeskoLogo,
@@ -62,6 +64,7 @@ export const Assets = {
   omnistore: Omnistore,
   onlinestore: Onlinestore,
   unboxingVideo: UnboxingVideo,
+  veskoVideo: VeskoVideo,
   forPeopleHero: ForPeopleHero,
   youFeelFree: YouFeelFree,
   differentSocailMedia: DifferentSocialMedia,
