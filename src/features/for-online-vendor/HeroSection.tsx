@@ -94,7 +94,7 @@ const HeroSection = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
-        className='absolute inset-0 bg-gradient-to-t from-black/85 via-black/70 to-transparent'
+        className='absolute inset-0 bg-gradient-to-t from-black/75 via-black/50 to-transparent'
       />
 
       {/* Floating background elements */}
