@@ -29,7 +29,7 @@ import VeskoBg3 from "@/assets/images/vesko_bg_split_3.webp";
 import YouFeelFree from "@/assets/images/you_feel_free.png";
 import VeskoLogo from "@/assets/logos/vesko.PNG";
 import VeskoLogoLight from "@/assets/logos/vesko_light.PNG";
-import UnboxingVideo from "@/assets/videos/v-2.mp4";
+import UnboxingVideo from "@/assets/videos/vid-2.mp4";
 
 // ForOfflineVendorPage assets - using existing images
 import ProductOnTable from "@/assets/images/omnistore.jpg";

@@ -107,7 +107,7 @@ const UnboxingVideo = () => {
         >
           <video
             ref={videoRef}
-            className='aspect-video h-auto w-full object-cover'
+            className='border-accent-100 aspect-video h-auto w-full rounded-2xl border object-cover'
             muted
             loop
             playsInline
