@@ -1,13 +1,13 @@
 import { useTranslation } from "react-i18next";
 
+import i18n, { type SupportedLanguages } from "@/locales/i18n.config";
+import { getLocalizedPath } from "@/routes/helpers/localization";
 import { FeatureCard } from "@/shared/components/common/FeatureCard";
 import { Container } from "@/shared/components/ui/container";
 import { Section } from "@/shared/components/ui/section";
 import { Text } from "@/shared/components/ui/text";
 import { RemixIcons, type RemixIconName } from "@/shared/constants/icons";
 import { useGSAP, fadeInUp } from "@/shared/hooks/useGSAP";
-import { getLocalizedPath } from "@/routes/helpers/localization";
-import i18n, { type SupportedLanguages } from "@/locales/i18n.config";
 
 const FeaturesGridSection = () => {
   const { t } = useTranslation();
