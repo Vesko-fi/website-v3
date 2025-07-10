@@ -14,6 +14,7 @@ import Neutral from "@/assets/images/neutral.avif";
 import Omnistore from "@/assets/images/omnistore.jpg";
 import Onlinestore from "@/assets/images/onlinestore.avif";
 import SafePlace from "@/assets/images/safe_place.jpg";
+import SearchAndFind from "@/assets/images/search_find.png";
 import SpaceDigital from "@/assets/images/space_digital.png";
 import TRMD1 from "@/assets/images/t_rmd_1.avif";
 import TRMD2 from "@/assets/images/t_rmd_2.avif";
@@ -28,7 +29,6 @@ import VeskoBg3 from "@/assets/images/vesko_bg_split_3.webp";
 import YouFeelFree from "@/assets/images/you_feel_free.png";
 import VeskoLogo from "@/assets/logos/vesko.PNG";
 import VeskoLogoLight from "@/assets/logos/vesko_light.PNG";
-import UnboxingVideo from "@/assets/videos/v-2.mp4";
 import VeskoVideo from "@/assets/videos/vesko.mp4";
 
 // ForOfflineVendorPage assets - using existing images
@@ -65,7 +65,6 @@ export const Assets = {
   neutral: Neutral,
   omnistore: Omnistore,
   onlinestore: Onlinestore,
-  unboxingVideo: UnboxingVideo,
   veskoVideo: VeskoVideo,
   forPeopleHero: ForPeopleHero,
   youFeelFree: YouFeelFree,
