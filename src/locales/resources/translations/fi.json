@@ -67,9 +67,10 @@
     },
     "unboxing": {
       "heading": "Katso itse!",
-      "play": "Toista",
-      "pause": "Tauko",
-      "videoNotSupported": "Selaimesi ei tue videotunnistetta."
+      "videoNotSupported": "Selaimesi ei tue videotunnistetta.",
+      "demo": "Katso koko esittely",
+      "videoId": "JgDNFQ2RaLQ",
+      "button": "▶ Tässä"
     },
     "reviews": {
       "heading": "Alan johtajien luottama",

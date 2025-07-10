@@ -67,9 +67,10 @@
     },
     "unboxing": {
       "heading": "See it yourself!",
-      "play": "Play",
-      "pause": "Pause",
-      "videoNotSupported": "Your browser does not support the video tag."
+      "videoNotSupported": "Your browser does not support the video tag.",
+      "demo": "Watch full demo",
+      "videoId": "Il0S8BoucSA",
+      "button": "▶ Here"
     },
     "reviews": {
       "heading": "Trusted By Industry Leaders",
