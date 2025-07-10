@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
 import { NavItem } from "@/shared/components/common/NavItem";
-import { Container } from "@/shared/components/ui/container";
 import { Section } from "@/shared/components/ui/section";
 import { Text } from "@/shared/components/ui/text";
 import { Assets } from "@/shared/constants/assets";
@@ -95,7 +94,7 @@ const HeroSection = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
-        className='absolute inset-0 bg-gradient-to-t from-black/85 via-black/70 to-transparent'
+        className='absolute inset-0 bg-gradient-to-t from-black/75 via-black/50 to-transparent'
       />
 
       {/* Floating background elements */}
@@ -126,20 +125,20 @@ const HeroSection = () => {
       </div>
 
       {/* Content container with proper centering */}
-      <div className='flex min-h-screen items-center justify-center px-4 py-8 sm:px-6 lg:px-8'>
-        <Container className='relative z-10 text-center'>
+      <div className='flex min-h-screen max-w-2xl items-center px-4 py-8 sm:px-6 lg:px-8'>
+        <div className='relative z-10 text-center'>
           <motion.div
             variants={containerVariants}
             initial='hidden'
             animate='visible'
-            className='mx-auto max-w-5xl'
+            className='mx-auto max-w-3xl'
           >
             {/* Main Title */}
             <motion.div variants={titleVariants}>
               <Text
                 as='h1'
                 variant='heading'
-                className='mb-6 text-4xl font-bold text-white md:text-5xl lg:text-7xl xl:text-8xl'
+                className='mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl xl:text-7xl'
               >
                 {t("forOnlineVendor.hero.title")}
               </Text>
@@ -188,7 +187,7 @@ const HeroSection = () => {
               className='via-accent-400 mx-auto mt-12 h-1 bg-gradient-to-r from-transparent to-transparent'
             />
           </motion.div>
-        </Container>
+        </div>
       </div>
 
       {/* Scroll indicator - positioned at bottom of hero section */}

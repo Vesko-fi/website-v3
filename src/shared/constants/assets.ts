@@ -12,6 +12,7 @@ import HeroDesktop from "@/assets/images/hero_desktop.png";
 import HeroMobile from "@/assets/images/hero_mobile.png";
 import Neutral from "@/assets/images/neutral.avif";
 import Omnistore from "@/assets/images/omnistore.jpg";
+import VeskoBg from "@/assets/images/online_vendor.webp";
 import Onlinestore from "@/assets/images/onlinestore.avif";
 import SafePlace from "@/assets/images/safe_place.jpg";
 import SearchAndFind from "@/assets/images/search_find.png";
@@ -22,7 +23,6 @@ import TRMD3 from "@/assets/images/t_rmd_3.avif";
 import TRMD4 from "@/assets/images/t_rmd_4.avif";
 import TRMD5 from "@/assets/images/t_rmd_5.avif";
 import TRMD6 from "@/assets/images/t_rmd_6.avif";
-import VeskoBg from "@/assets/images/vesko_bg.webp";
 import VeskoBg1 from "@/assets/images/vesko_bg_split_1.webp";
 import VeskoBg2 from "@/assets/images/vesko_bg_split_2.webp";
 import VeskoBg3 from "@/assets/images/vesko_bg_split_3.webp";
@@ -85,6 +85,9 @@ export const Assets = {
   tRmd6: TRMD6,
 
   homepageMainimage: homepageMainimage,
+
+  VeskoBg: VeskoBg,
+
   // ForOfflineVendorPage assets
   offlineVendorHeroImage: OfflineVendorHeroImage,
   productOnTable: ProductOnTable,
