@@ -68,7 +68,7 @@ const MainSection = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
-        className='absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-black/60'
+        className='absolute inset-0 bg-gradient-to-t from-black/45 via-black/10 to-transparent'
       />
 
       {/* Floating background elements */}

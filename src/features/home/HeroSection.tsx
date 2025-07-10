@@ -130,38 +130,50 @@ const HeroSection = () => {
           />
         </div>
 
-        <Container className='flex items-center justify-center'>
-          <motion.img
-            src={Assets.heroDesktop}
-            alt='Desktop'
-            className='z-10 max-w-5xl rounded-xl drop-shadow-2xl'
-            initial='initial'
-            animate={controls}
-            variants={desktopVariants}
-          />
-          <motion.div
-            initial='initial'
-            animate={smallDeviceControls}
-            variants={heroTextVariants}
-            className='-mt-96 -ml-20 min-w-[500px] flex-1'
-          >
-            <Text className='text-default-white' as='h1' variant='heading' weight='normal'>
+        <Container className='relative flex items-center justify-center py-8'>
+          {/* Text content container */}
+          <div className='absolute top-0 right-0 left-0 z-30 flex flex-col items-center'>
+            <Text
+              className='text-default-white text-center'
+              as='h1'
+              variant='heading'
+              weight='normal'
+            >
               {t("home.hero.mainHeading")}
             </Text>
-          </motion.div>
-          <motion.img
-            src={Assets.heroMobile}
-            alt='Mobile'
-            className='z-20 w-1/4 rounded-xl drop-shadow-2xl md:absolute md:right-0 md:bottom-0'
-            initial='initial'
-            animate={controls}
-            variants={mobileVariants}
-            style={
-              animationState === "animated"
-                ? { bottom: 0, right: 0, transform: "translate(50%, 50%)" }
-                : undefined
-            }
-          />
+            <motion.div
+              initial='initial'
+              animate={smallDeviceControls}
+              variants={heroTextVariants}
+              className='mt-4 min-w-[500px] text-center'
+            />
+          </div>
+
+          {/* Image container */}
+          <div className='relative flex flex-col items-center'>
+            <motion.img
+              src={Assets.heroDesktop}
+              alt='Desktop'
+              className='z-10 max-w-5xl rounded-xl drop-shadow-2xl'
+              initial='initial'
+              animate={controls}
+              variants={desktopVariants}
+            />
+
+            <motion.img
+              src={Assets.heroMobile}
+              alt='Mobile'
+              className='z-20 w-1/4 rounded-xl drop-shadow-2xl md:absolute md:right-0 md:bottom-0'
+              initial='initial'
+              animate={controls}
+              variants={mobileVariants}
+              style={
+                animationState === "animated"
+                  ? { bottom: 0, right: 0, transform: "translate(50%, 50%)" }
+                  : undefined
+              }
+            />
+          </div>
         </Container>
       </Section>
 
