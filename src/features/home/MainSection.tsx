@@ -60,7 +60,7 @@ const MainSection = () => {
 
   return (
     <Section
-      className='relative h-screen bg-cover bg-[80%_center]'
+      className='relative h-screen bg-cover bg-center md:bg-[60%_center] xl:bg-[80%_center]'
       style={{ backgroundImage: `url(${Assets.homepageMainimage})` }}
     >
       {/* Enhanced background overlay with gradient animation */}
@@ -99,41 +99,37 @@ const MainSection = () => {
       </div>
 
       {/* Content container aligned left */}
-      <div className='flex min-h-screen items-start justify-end px-4 py-16 sm:px-6 lg:px-8'>
+      <div className='flex min-h-screen items-start justify-end px-4 py-8 shadow sm:px-6 lg:px-8'>
         <Container className='relative z-10'>
-          <motion.div
-            variants={containerVariants}
-            initial='hidden'
-            animate='visible'
-            className='flex flex-col items-start'
-          >
-            {/* Title */}
-            <motion.div variants={titleVariants}>
-              <Text
-                as='h1'
-                variant='heading'
-                className='mb-6 min-w-xl text-3xl font-bold text-white md:text-5xl'
-              >
-                {t("home.main.title")}
-              </Text>
-            </motion.div>
-
-            {/* Subtitle as flex-col aligned right */}
+          <div className='relative overflow-hidden py-8 md:w-[540px] xl:py-0'>
+            <div className='xl:from-accent-400/10 absolute inset-0 rounded-2xl xl:bg-gradient-to-br xl:to-black/20' />
+            <div className='bg-accent-600/20 absolute -top-2 -right-4 h-4 w-4 rounded-full blur-xl' />
             <motion.div
-              variants={subtitleVariants}
-              className='mb-8 flex text-lg text-white md:text-2xl lg:text-3xl'
+              variants={containerVariants}
+              initial='hidden'
+              animate='visible'
+              className='flex flex-col items-start p-8'
             >
-              {t("home.main.subtitle")}
-            </motion.div>
+              {/* Title */}
+              <motion.div variants={titleVariants}>
+                <Text
+                  as='h1'
+                  variant='heading'
+                  className='mb-6 min-w-xl text-2xl font-bold text-white md:text-3xl'
+                >
+                  {t("home.main.title")}
+                </Text>
+              </motion.div>
 
-            {/* Decorative line */}
-            <motion.div
-              initial={{ width: 0 }}
-              animate={{ width: "120px" }}
-              transition={{ duration: 1, delay: 0.9 }}
-              className='from-accent-400 mb-8 ml-auto h-1 bg-gradient-to-r to-transparent'
-            />
-          </motion.div>
+              {/* Subtitle as flex-col aligned right */}
+              <motion.div
+                variants={subtitleVariants}
+                className='mb-8 flex text-lg text-white md:text-2xl'
+              >
+                {t("home.main.subtitle")}
+              </motion.div>
+            </motion.div>
+          </div>
         </Container>
       </div>
 
