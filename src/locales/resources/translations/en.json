@@ -56,8 +56,8 @@
       }
     },
     "featuresGrid": {
-      "heading": "Powerful Features",
-      "subtitle": "Discover how our platform revolutionizes the way you do business",
+      "heading": "Plug & Play",
+      "subtitle": "Integrated payments and trusted logistics built right into every online store",
       "payment": {
         "title": "Payment",
         "description": "Safe and secure checkout, powered by end-to-end encryption and trusted payment partners.",
@@ -71,9 +71,10 @@
     },
     "unboxing": {
       "heading": "See it yourself!",
-      "play": "Play",
-      "pause": "Pause",
-      "videoNotSupported": "Your browser does not support the video tag."
+      "videoNotSupported": "Your browser does not support the video tag.",
+      "demo": "Watch full demo",
+      "videoId": "Il0S8BoucSA",
+      "button": "▶ Here"
     },
     "reviews": {
       "heading": "Trusted By Industry Leaders",

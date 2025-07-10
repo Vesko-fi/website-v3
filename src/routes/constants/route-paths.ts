@@ -8,4 +8,6 @@ export const ROUTE_PATHS = {
   offlineVendors: { en: "offline-vendors", fi: "offline-kauppiaat" },
   onlineVendors: { en: "online-vendors", fi: "online-kauppiaat" },
   privacyPolicy: { en: "privacy-policy", fi: "Tietosuojakäytäntö" },
+  payment: { en: "payment", fi: "maksu" },
+  logistics: { en: "logistics", fi: "logistiikka" },
 } as const;

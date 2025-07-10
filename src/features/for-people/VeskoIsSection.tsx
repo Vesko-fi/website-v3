@@ -118,7 +118,7 @@ const VeskoIsSection: React.FC = () => {
             </motion.div>
             <motion.div variants={imageTopVariants}>
               <Image
-                src={Assets.differentKindOfSocialMedia}
+                src={Assets.differentSocailMedia}
                 alt={t("forPeople.veskoIs.firstSection.top.line2")}
                 className='h-full w-full'
               />

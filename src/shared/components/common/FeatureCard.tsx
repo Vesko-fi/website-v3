@@ -1,6 +1,8 @@
+import { motion } from "framer-motion";
+import { NavLink } from "react-router-dom";
+
 import { Button } from "../ui/button";
 import { Text } from "../ui/text";
-import { motion } from "framer-motion";
 
 import type { RemixIconName } from "@/shared/constants/icons";
 
@@ -58,7 +60,9 @@ export const FeatureCard = ({
           <Text color='secondary'>{description}</Text>
         </div>
         {buttonText && buttonLink && (
-          <Button aria-label={`Learn more about ${title}`}>{buttonText}</Button>
+          <NavLink to={buttonLink}>
+            <Button aria-label={`Learn more about ${title}`}>{buttonText}</Button>
+          </NavLink>
         )}
       </div>
     </motion.div>

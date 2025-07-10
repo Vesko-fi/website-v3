@@ -12,8 +12,8 @@ const ForPeoplePage = () => {
       <HeroSection />
       <WhatIsVeskoSection />
       <VeskoIsSection />
-      <LocalConnectionSection />
       <CoreValues />
+      <LocalConnectionSection />
       <RealMeetDigitalSection />
       <CTASection />
     </div>

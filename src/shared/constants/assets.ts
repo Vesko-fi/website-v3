@@ -6,7 +6,6 @@ import BRMD4 from "@/assets/images/b_rmd_4.avif";
 import BRMD5 from "@/assets/images/b_rmd_5.avif";
 import BRMD6 from "@/assets/images/b_rmd_6.avif";
 import Connected from "@/assets/images/connected.avif";
-import DifferentKindOfSocialMedia from "@/assets/images/different_social_media.png";
 import FamiliarDesign from "@/assets/images/familiar_design.png";
 import ForPeopleHero from "@/assets/images/for_people_hero.avif";
 import HeroDesktop from "@/assets/images/hero_desktop.png";
@@ -29,7 +28,9 @@ import VeskoBg3 from "@/assets/images/vesko_bg_split_3.webp";
 import YouFeelFree from "@/assets/images/you_feel_free.png";
 import VeskoLogo from "@/assets/logos/vesko.PNG";
 import VeskoLogoLight from "@/assets/logos/vesko_light.PNG";
-import UnboxingVideo from "@/assets/videos/vid-2.mp4";
+import UnboxingVideo from "@/assets/videos/v-2.mp4";
+import VeskoVideo from "@/assets/videos/vesko.mp4";
+
 // ForOfflineVendorPage assets - using existing images
 import MobileAppMockup from "@/assets/images/hero_mobile.png";
 import { default as OfflineVendorHeroImage } from "@/assets/images/offline_vendor_hero_image.jpg";
@@ -47,7 +48,7 @@ import homepageMainimage from "@/assets/images/Vesko_Hero_Image_Wider_2.jpg";
 
 import BuyAndCollect from "@/assets/images/buy_collect.png";
 import CheckAvailability from "@/assets/images/check_availability.png";
-import SearchAndFind from "@/assets/images/search_find.png";
+import DifferentSocialMedia from "@/assets/images/different_social_media.png";
 
 export const Assets = {
   logo: VeskoLogo,
@@ -65,9 +66,10 @@ export const Assets = {
   omnistore: Omnistore,
   onlinestore: Onlinestore,
   unboxingVideo: UnboxingVideo,
+  veskoVideo: VeskoVideo,
   forPeopleHero: ForPeopleHero,
-  differentKindOfSocialMedia: DifferentKindOfSocialMedia,
   youFeelFree: YouFeelFree,
+  differentSocailMedia: DifferentSocialMedia,
   familiarDesign: FamiliarDesign,
   aboutHero: AboutHero,
   bRmd1: BRMD1,
