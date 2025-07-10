@@ -47,15 +47,6 @@ const MainSection = () => {
     },
   };
 
-  const subtitleItemVariants = {
-    hidden: { opacity: 0, y: 10 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: { duration: 0.6, ease: "easeOut" },
-    },
-  };
-
   const floatingElementVariants = {
     animate: {
       y: [0, -10, 0],
@@ -69,15 +60,15 @@ const MainSection = () => {
 
   return (
     <Section
-      className='relative min-h-screen bg-cover bg-center'
-      style={{ backgroundImage: `url(${Assets.offlineVendorHeroImage})` }}
+      className='relative h-screen bg-cover bg-[80%_center]'
+      style={{ backgroundImage: `url(${Assets.homepageMainimage})` }}
     >
       {/* Enhanced background overlay with gradient animation */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
-        className='absolute inset-0 bg-gradient-to-t from-black/85 via-black/70 to-transparent'
+        className='absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-black/60'
       />
 
       {/* Floating background elements */}
@@ -91,7 +82,7 @@ const MainSection = () => {
           variants={floatingElementVariants}
           animate='animate'
           transition={{ delay: 1 }}
-          className='absolute top-40 right-20 h-4 w-4 rounded-full bg-blue-400/30'
+          className='absolute top-40 right-20 h-4 w-4 rounded-full bg-red-400/30'
         />
         <motion.div
           variants={floatingElementVariants}
@@ -107,36 +98,32 @@ const MainSection = () => {
         />
       </div>
 
-      {/* Content container aligned right */}
+      {/* Content container aligned left */}
       <div className='flex min-h-screen items-start justify-end px-4 py-16 sm:px-6 lg:px-8'>
         <Container className='relative z-10'>
           <motion.div
             variants={containerVariants}
             initial='hidden'
             animate='visible'
-            className='flex flex-col items-end'
+            className='flex flex-col items-start'
           >
             {/* Title */}
             <motion.div variants={titleVariants}>
               <Text
                 as='h1'
                 variant='heading'
-                className='mb-6 text-3xl font-bold text-white md:text-5xl'
+                className='mb-6 min-w-xl text-3xl font-bold text-white md:text-5xl'
               >
-                Reconnecting People
+                {t("home.main.title")}
               </Text>
             </motion.div>
 
             {/* Subtitle as flex-col aligned right */}
             <motion.div
               variants={subtitleVariants}
-              className='mb-8 flex items-end text-lg text-white md:text-2xl lg:text-3xl'
+              className='mb-8 flex text-lg text-white md:text-2xl lg:text-3xl'
             >
-              {["To each other.", "To places.", "To the real world."].map((line, index) => (
-                <motion.div key={index} variants={subtitleItemVariants} className='flex'>
-                  {line}
-                </motion.div>
-              ))}
+              {t("home.main.subtitle")}
             </motion.div>
 
             {/* Decorative line */}

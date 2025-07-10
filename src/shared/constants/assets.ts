@@ -30,21 +30,24 @@ import YouFeelFree from "@/assets/images/you_feel_free.png";
 import VeskoLogo from "@/assets/logos/vesko.PNG";
 import VeskoLogoLight from "@/assets/logos/vesko_light.PNG";
 import UnboxingVideo from "@/assets/videos/vid-2.mp4";
-
 // ForOfflineVendorPage assets - using existing images
-import ProductOnTable from "@/assets/images/omnistore.jpg";
-import InventoryManagement from "@/assets/images/omnistore.jpg";
-import VeskoStore from "@/assets/images/omnistore.jpg";
 import MobileAppMockup from "@/assets/images/hero_mobile.png";
-import POSSystem from "@/assets/images/omnistore.jpg";
-import ShippingLabel from "@/assets/images/omnistore.jpg";
-import DeliveryTruck from "@/assets/images/omnistore.jpg";
-import StoreDashboard from "@/assets/images/omnistore.jpg";
-import OfflineVendorHeroImage from "@/assets/images/offline_vendor_hero_image.jpg";
+import { default as OfflineVendorHeroImage } from "@/assets/images/offline_vendor_hero_image.jpg";
+import {
+  default as DeliveryTruck,
+  default as InventoryManagement,
+  default as POSSystem,
+  default as ProductOnTable,
+  default as ShippingLabel,
+  default as StoreDashboard,
+  default as VeskoStore,
+} from "@/assets/images/omnistore.jpg";
 
-import SearchAndFind from "@/assets/images/search_find.png";
-import CheckAvailability from "@/assets/images/check_availability.png";
+import homepageMainimage from "@/assets/images/Vesko_Hero_Image_Wider_2.jpg";
+
 import BuyAndCollect from "@/assets/images/buy_collect.png";
+import CheckAvailability from "@/assets/images/check_availability.png";
+import SearchAndFind from "@/assets/images/search_find.png";
 
 export const Assets = {
   logo: VeskoLogo,
@@ -80,6 +83,7 @@ export const Assets = {
   tRmd5: TRMD5,
   tRmd6: TRMD6,
 
+  homepageMainimage: homepageMainimage,
   // ForOfflineVendorPage assets
   offlineVendorHeroImage: OfflineVendorHeroImage,
   productOnTable: ProductOnTable,

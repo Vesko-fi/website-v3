@@ -1,6 +1,10 @@
 {
   "home": {
     "title": "Tervetuloa verkkosivustollemme",
+    "main": {
+      "title": "Yhdistetään ihmiset uudelleen",
+      "subtitle": "Toisiinsa. Paikkoihin. Todelliseen maailmaan."
+    },
     "hero": {
       "mainHeading": "Missä digitaalinen maailma kohtaa todellisen maailman"
     },
