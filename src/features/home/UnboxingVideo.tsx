@@ -77,7 +77,7 @@ const UnboxingVideo = () => {
           whileInView='visible'
           viewport={{ once: true }}
           whileHover='hover'
-          className='flex items-center justify-center py-4 text-white'
+          className='flex items-center justify-center gap-4 py-8 text-white'
         >
           <Text variant='subtitle' className='text-xl text-white md:text-2xl'>
             {t("home.unboxing.demo")}
@@ -86,13 +86,12 @@ const UnboxingVideo = () => {
             href={`https://www.youtube.com/watch?v=${t("home.unboxing.videoId")}`}
             target='_blank'
             rel='noopener noreferrer'
-            className='ml-2 rounded-md border px-3 py-1 text-xl'
+            className='ml-2 rounded-full border border-slate-300 bg-white px-6 py-1.5 text-xl font-medium text-black'
           >
             {t("home.unboxing.button")}
           </a>
         </motion.div>
       </div>
-      {/* </div> */}
     </div>
   );
 };
