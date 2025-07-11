@@ -63,16 +63,11 @@ const CtaSection = () => {
           viewport={{ once: true, amount: 0.3 }}
           className='mx-auto max-w-4xl text-center'
         >
-          <motion.div>
+          <motion.div variants={itemVariants}>
             <Text as='h1' className='text-xl font-bold md:text-2xl xl:text-4xl'>
               {t("forOfflineVendor.omnistoreBenefit.subtitle")}
             </Text>
           </motion.div>
-          {/* <motion.div variants={itemVariants} className='mb-12'>
-            <Text className='text-lg text-gray-600 md:text-xl'>
-              {t("forOfflineVendor.omnistoreBenefit.header")}
-            </Text>
-          </motion.div> */}
 
           {/* Register Button */}
           <motion.div variants={buttonVariants}>

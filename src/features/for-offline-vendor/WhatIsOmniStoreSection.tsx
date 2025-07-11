@@ -81,7 +81,7 @@ const WhatIsOmniStoreSection = () => {
               <Text
                 as='h2'
                 variant='heading'
-                className='mb-6 text-4xl font-bold text-gray-900 md:text-5xl lg:text-6xl'
+                className='mb-6 text-xl font-bold text-gray-900 md:text-2xl lg:text-3xl'
               >
                 {t("forOfflineVendor.whatIsOmniStore.title")}
               </Text>
@@ -89,7 +89,7 @@ const WhatIsOmniStoreSection = () => {
 
             {/* Subheader */}
             <div>
-              <Text className='text-xl leading-relaxed text-gray-600 md:text-2xl'>
+              <Text className='leading-relaxed text-gray-600 lg:text-xl'>
                 {t("forOfflineVendor.whatIsOmniStore.description")}
               </Text>
             </div>
@@ -99,19 +99,19 @@ const WhatIsOmniStoreSection = () => {
               <div className='flex items-start gap-3'>
                 <div className='mt-1 h-2 w-2 rounded-full bg-blue-500' />
                 <Text className='text-gray-700'>
+                  {t("forOfflineVendor.whatIsOmniStore.highlights.scalableAndReady")}
+                </Text>
+              </div>
+              <div className='flex items-start gap-3'>
+                <div className='mt-1 h-2 w-2 rounded-full bg-blue-500' />
+                <Text className='text-gray-700'>
                   {t("forOfflineVendor.whatIsOmniStore.highlights.realTimeInventory")}
                 </Text>
               </div>
               <div className='flex items-start gap-3'>
                 <div className='mt-1 h-2 w-2 rounded-full bg-blue-500' />
                 <Text className='text-gray-700'>
-                  {t("forOfflineVendor.whatIsOmniStore.highlights.seamlessIntegration")}
-                </Text>
-              </div>
-              <div className='flex items-start gap-3'>
-                <div className='mt-1 h-2 w-2 rounded-full bg-blue-500' />
-                <Text className='text-gray-700'>
-                  {t("forOfflineVendor.whatIsOmniStore.highlights.enhancedExperience")}
+                  {t("forOfflineVendor.whatIsOmniStore.highlights.betterExperience")}
                 </Text>
               </div>
             </div>

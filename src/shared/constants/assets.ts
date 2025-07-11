@@ -41,6 +41,10 @@ import ShippingLabel from "@/assets/images/omnistore.jpg";
 import DeliveryTruck from "@/assets/images/omnistore.jpg";
 import StoreDashboard from "@/assets/images/omnistore.jpg";
 import OfflineVendorHeroImage from "@/assets/images/offline_vendor_hero_image.jpg";
+import Growth from "@/assets/images/growth.png";
+import UnifiedInventory from "@/assets/images/unified_inventory.jpg";
+import Scalable from "@/assets/images/Scalable.jpg";
+import ExpandReach from "@/assets/images/expand_reach.jpg";
 
 import SearchAndFind from "@/assets/images/search_find.png";
 import CheckAvailability from "@/assets/images/check_availability.png";
@@ -93,6 +97,10 @@ export const Assets = {
   shippingLabel: ShippingLabel,
   deliveryTruck: DeliveryTruck,
   storeDashboard: StoreDashboard,
+  growth: Growth,
+  unifiedInventory: UnifiedInventory,
+  scalable: Scalable,
+  expandReach: ExpandReach,
 
   // For people
   searchAndFind: SearchAndFind,

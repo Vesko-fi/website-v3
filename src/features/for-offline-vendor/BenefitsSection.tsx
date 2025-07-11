@@ -18,7 +18,7 @@ const BenefitsSection = () => {
       icon: RemixIcons.growth,
       color: "from-blue-500 to-blue-600",
       bgColor: "bg-blue-50",
-      image: Assets.productOnTable,
+      image: Assets.growth,
     },
     {
       titleKey: "forOfflineVendor.benefits.unifiedInventory.title",
@@ -26,7 +26,7 @@ const BenefitsSection = () => {
       icon: RemixIcons.inventory,
       color: "from-green-500 to-green-600",
       bgColor: "bg-green-50",
-      image: Assets.inventoryManagement,
+      image: Assets.unifiedInventory,
     },
     {
       titleKey: "forOfflineVendor.benefits.scalable.title",
@@ -34,7 +34,7 @@ const BenefitsSection = () => {
       icon: RemixIcons.scalable,
       color: "from-purple-500 to-purple-600",
       bgColor: "bg-purple-50",
-      image: Assets.veskoStore,
+      image: Assets.scalable,
     },
     {
       titleKey: "forOfflineVendor.benefits.expandReach.title",
@@ -42,7 +42,7 @@ const BenefitsSection = () => {
       icon: RemixIcons.expand,
       color: "from-orange-500 to-orange-600",
       bgColor: "bg-orange-50",
-      image: Assets.storeDashboard,
+      image: Assets.expandReach,
     },
   ];
 
@@ -97,17 +97,6 @@ const BenefitsSection = () => {
           viewport={{ once: true, amount: 0.3 }}
           className='mx-auto max-w-7xl'
         >
-          {/* Section Header */}
-          <motion.div variants={cardVariants} className='mb-16 text-center'>
-            <Text
-              as='h2'
-              variant='heading'
-              className='mb-6 text-4xl font-bold text-gray-900 md:text-5xl lg:text-6xl'
-            >
-              {t("forOfflineVendor.benefits.title")}
-            </Text>
-          </motion.div>
-
           {/* Benefits Grid */}
           <div className='grid gap-8 md:grid-cols-2 lg:grid-cols-2'>
             {benefits.map((benefit, index) => (
@@ -145,7 +134,7 @@ const BenefitsSection = () => {
                     <Image
                       src={benefit.image}
                       alt={t(benefit.titleKey)}
-                      className='h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105'
+                      className='h-72 w-full object-cover transition-transform duration-300 group-hover:scale-105'
                     />
                     <div className='absolute inset-0 bg-gradient-to-t from-black/20 to-transparent' />
                   </div>

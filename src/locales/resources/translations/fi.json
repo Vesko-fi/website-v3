@@ -374,12 +374,12 @@
       }
     },
     "whatIsOmniStore": {
-      "title": "Mikä on OmniStore?",
-      "description": "OmniStore ® muuttaa fyysisen kauppasi virtuaaliseksi näyttelytilaksi, jolloin asiakkaat näkevät mitä on saatavilla reaaliajassa, ennen kuin he edes astuvat sisään.",
+      "title": "OmniStore ® muuttaa fyysisen myymäläsi virtuaaliseksi esittelytilaksi, jonka avulla asiakkaat voivat nähdä reaaliaikaisesti, mitä on saatavilla – jo ennen kuin he astuvat ulos kotoaan",
+      "description": "Veskon OmniStore® on suunniteltu auttamaan liiketoimintaasi kasvamaan tarjoamalla asiakkaille Online-to-Offline-ostoskokemuksen maailman ensimmäisen skaalautuvan, käyttövalmiin monikanavaisen verkkokaupan kautta",
       "highlights": {
-        "realTimeInventory": "Reaaliaikainen varastonäkymä",
-        "seamlessIntegration": "Saumaton online-offline-integraatio",
-        "enhancedExperience": "Parannettu asiakaskokemus"
+        "scalableAndReady": "Skaalautuva ja käyttövalmis.",
+        "realTimeInventory": "Reaaliaikainen varastosaatavuus.",
+        "betterExperience": "Parempi ostokokemus asiakkaille."
       }
     },
     "why": {
