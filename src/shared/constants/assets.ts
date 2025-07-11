@@ -34,6 +34,8 @@ import VeskoVideo from "@/assets/videos/vesko.mp4";
 // ForOfflineVendorPage assets - using existing images
 import MobileAppMockup from "@/assets/images/hero_mobile.png";
 import { default as OfflineVendorHeroImage } from "@/assets/images/offline_vendor_hero_image.jpg";
+import OmniFeature from "@/assets/images/omni_feature.png";
+import MobileOnboard from "@/assets/images/onboarding_mob.png";
 import {
   default as DeliveryTruck,
   default as InventoryManagement,
@@ -106,6 +108,8 @@ export const Assets = {
   unifiedInventory: UnifiedInventory,
   scalable: Scalable,
   expandReach: ExpandReach,
+  omniFeature: OmniFeature,
+  mobileOnboard: MobileOnboard,
 
   // For people
   searchAndFind: SearchAndFind,
