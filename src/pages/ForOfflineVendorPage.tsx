@@ -1,4 +1,5 @@
 import { BenefitsSection } from "@/features/for-offline-vendor/BenefitsSection";
+import { CtaSection } from "@/features/for-offline-vendor/CtaSection";
 import { FeaturesSection } from "@/features/for-offline-vendor/FeaturesSection";
 import { HeroSection } from "@/features/for-offline-vendor/HeroSection";
 import { HowVeskosWorkSection } from "@/features/for-offline-vendor/HowVeskosWorkSection";
@@ -12,6 +13,7 @@ const ForOfflineVendorPage = () => {
   return (
     <div className='relative -top-18'>
       <HeroSection />
+      <OmniStoreBenefitSection />
       <WhatIsOmniStoreSection />
       <WhySection />
       <BenefitsSection />
@@ -19,7 +21,7 @@ const ForOfflineVendorPage = () => {
       <FeaturesSection />
       <OrderSection />
       <POSSection />
-      <OmniStoreBenefitSection />
+      <CtaSection />
     </div>
   );
 };

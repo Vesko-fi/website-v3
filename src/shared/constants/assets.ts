@@ -34,6 +34,8 @@ import VeskoVideo from "@/assets/videos/vesko.mp4";
 // ForOfflineVendorPage assets - using existing images
 import MobileAppMockup from "@/assets/images/hero_mobile.png";
 import { default as OfflineVendorHeroImage } from "@/assets/images/offline_vendor_hero_image.jpg";
+import OmniFeature from "@/assets/images/omni_feature.png";
+import MobileOnboard from "@/assets/images/onboarding_mob.png";
 import {
   default as DeliveryTruck,
   default as InventoryManagement,
@@ -45,6 +47,13 @@ import {
 } from "@/assets/images/omnistore.jpg";
 
 import homepageMainimage from "@/assets/images/Vesko_Hero_Image_Wider_2.jpg";
+import Growth from "@/assets/images/growth.png";
+import UnifiedInventory from "@/assets/images/unified_inventory.jpg";
+import Scalable from "@/assets/images/Scalable.jpg";
+import ExpandReach from "@/assets/images/expand_reach.jpg";
+import Logistics from "@/assets/images/logistics.png";
+import Payment from "@/assets/images/payment.jpg";
+import Dashboard from "@/assets/images/dashboard.jpg";
 
 import BuyAndCollect from "@/assets/images/buy_collect.png";
 import CheckAvailability from "@/assets/images/check_availability.png";
@@ -98,6 +107,15 @@ export const Assets = {
   shippingLabel: ShippingLabel,
   deliveryTruck: DeliveryTruck,
   storeDashboard: StoreDashboard,
+  growth: Growth,
+  unifiedInventory: UnifiedInventory,
+  scalable: Scalable,
+  expandReach: ExpandReach,
+  omniFeature: OmniFeature,
+  mobileOnboard: MobileOnboard,
+  logistics: Logistics,
+  payment: Payment,
+  dashboard: Dashboard,
 
   // For people
   searchAndFind: SearchAndFind,
