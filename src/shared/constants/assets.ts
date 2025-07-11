@@ -51,6 +51,9 @@ import Growth from "@/assets/images/growth.png";
 import UnifiedInventory from "@/assets/images/unified_inventory.jpg";
 import Scalable from "@/assets/images/Scalable.jpg";
 import ExpandReach from "@/assets/images/expand_reach.jpg";
+import Logistics from "@/assets/images/logistics.png";
+import Payment from "@/assets/images/payment.jpg";
+import Dashboard from "@/assets/images/dashboard.jpg";
 
 import BuyAndCollect from "@/assets/images/buy_collect.png";
 import CheckAvailability from "@/assets/images/check_availability.png";
@@ -110,6 +113,9 @@ export const Assets = {
   expandReach: ExpandReach,
   omniFeature: OmniFeature,
   mobileOnboard: MobileOnboard,
+  logistics: Logistics,
+  payment: Payment,
+  dashboard: Dashboard,
 
   // For people
   searchAndFind: SearchAndFind,

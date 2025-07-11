@@ -452,45 +452,35 @@
       }
     },
     "features": {
-      "title": "Vesko's OmniStore is designed to grow your business with minimal effort managing your store.",
+      "title": "Designed to grow your business with minimal effort in managing your store.",
       "mobileApp": {
-        "title": "Mobile App",
-        "description": "Vesko will be available on both iOS and Android manage your store, track orders, and engage with customers on the go.",
+        "title": "Mobile & Web",
+        "description": "Vesko will be available via web and mobile app to help you manage your store, track orders, and engage with customers on the go.",
         "highlights": [
+          "User friendly",
           "iOS and Android compatible",
           "Real-time order notifications",
-          "Offline mode support",
-          "Push notifications for updates"
+          "Chat with customers directly"
         ]
       },
       "logisticsReady": {
-        "title": "Logistics Ready",
-        "description": "Delivery made easy. Just tap \"Send for Delivery\" and we and the carrier take care of everything.",
+        "title": "Integrated Logistics ",
+        "description": "With Vesko’s built-in Order Management System (OMS), all you need is a printer and a few clicks to ship your orders, thanks to our trusted partner, nShift, which connects Vesko to hundreds of carriers worldwide.",
         "highlights": [
-          "One-click delivery setup",
-          "Multiple carrier integration",
-          "Real-time tracking updates",
-          "Automated shipping labels"
+          "Built-in OMS",
+          "Few clicks order fulfilment",
+          "Variety of delivering methods",
+          "Enhanced post purchase experience"
         ]
       },
       "paymentsBuiltIn": {
-        "title": "Payments Built-In",
-        "description": "Secured transaction with no extra setup. Vesko's trusted partner handles everything from checkout to payout.",
+        "title": "Payment",
+        "description": "Easy & secured integrated payment solution thanks to our trusted partner Stripe.",
         "highlights": [
-          "Multiple payment methods",
-          "Secure PCI compliance",
-          "Instant payment processing",
-          "Automated payouts"
-        ]
-      },
-      "socialisedSelling": {
-        "title": "Socialised Selling",
-        "description": "Your store and social media profile are in the same space, making your store social, shoppable, and alive.",
-        "highlights": [
-          "Social media integration",
-          "Live product showcases",
-          "Customer engagement tools",
-          "Viral sharing features"
+          "Secure & Trusted",
+          "Fast Settlements",
+          "Multiple Payment Options",
+          "No Technical Setup Required"
         ]
       },
       "allInOneDashboard": {

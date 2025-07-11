@@ -64,7 +64,7 @@ const CtaSection = () => {
           className='mx-auto max-w-4xl text-center'
         >
           <motion.div variants={itemVariants}>
-            <Text as='h1' className='text-xl font-bold md:text-2xl xl:text-4xl'>
+            <Text as='h1' className='mb-4 text-xl font-bold md:mb-8 md:text-2xl xl:text-4xl'>
               {t("forOfflineVendor.omnistoreBenefit.subtitle")}
             </Text>
           </motion.div>

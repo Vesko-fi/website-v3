@@ -452,45 +452,35 @@
       }
     },
     "features": {
-      "title": "Veskon OmniStore on suunniteltu kasvattamaan yritystäsi minimaalisella vaivalla kauppasi hallinnassa.",
+      "title": "Suunniteltu kasvattamaan liiketoimintaasi mahdollisimman vähällä vaivalla myymälän hallinnassa.",
       "mobileApp": {
-        "title": "Mobiilisovellus",
-        "description": "Vesko on saatavilla sekä iOS:llä että Androidilla hallitaksesi kauppaasi, seurataksesi tilauksia ja ollaaksesi vuorovaikutuksessa asiakkaiden kanssa liikkeellä.",
+        "title": "Mobiilisovellus ja verkkopalvelu",
+        "description": "Vesko on saatavilla verkossa ja mobiilisovelluksena, jotta voit hallita myymälääsi, seurata tilauksia ja olla yhteydessä asiakkaisiin liikkeellä ollessasi.",
         "highlights": [
-          "iOS ja Android yhteensopiva",
+          "Käyttäjäystävällinen",
           "Reaaliaikaiset tilausilmoitukset",
-          "Offline-tilan tuki",
-          "Push-ilmoitukset päivityksistä"
+          "Tilauksista ilmoitukset reaaliajassa",
+          "Chat-viestit suoraan asiakkaille"
         ]
       },
       "logisticsReady": {
-        "title": "Logistiikka Valmis",
-        "description": "Toimitus tehty helpoksi. Paina vain \"Lähetä Toimitukseen\" ja me ja kuljettaja hoidamme kaiken.",
+        "title": "Integroitu logistiikka",
+        "description": "Veskon sisäänrakennetun tilauksenhallintajärjestelmän (OMS) ansiosta tarvitset vain tulostimen ja muutaman klikkauksen lähettääksesi tilaukset. Tämä on mahdollista luotettavan kumppanimme nShiftin kautta, joka yhdistää Veskon satoihin kuljetuspalveluihin ympäri maailmaa.",
         "highlights": [
-          "Yhden klikkauksen toimitusasetus",
-          "Useita kuljettajaintegraatioita",
-          "Reaaliaikaiset seurantapäivitykset",
-          "Automaattiset toimitusetiketit"
+          "Sisäänrakennettu OMS",
+          "Tilausten täyttäminen muutamalla klikkauksella",
+          "Monipuoliset toimitustavat",
+          "Parannettu oston jälkeinen kokemus"
         ]
       },
       "paymentsBuiltIn": {
-        "title": "Maksut Sisäänrakennettu",
-        "description": "Turvallinen transaktio ilman ylimääräisiä asetuksia. Veskon luotettu kumppani hoitaa kaiken kassasta maksuun.",
+        "title": "Maksu",
+        "description": "Helppo ja turvallinen integroitu maksuratkaisu, kiitos luotettavan kumppanimme Stripen.",
         "highlights": [
-          "Useita maksutapoja",
-          "Turvallinen PCI-yhteensopivuus",
-          "Välitön maksunkäsittely",
-          "Automaattiset maksut"
-        ]
-      },
-      "socialisedSelling": {
-        "title": "Sosialisoitu Myynti",
-        "description": "Kauppasi ja sosiaalisen median profiilisi ovat samassa tilassa, tehdä kauppasi sosiaaliseksi, ostettavaksi ja eläväksi.",
-        "highlights": [
-          "Sosiaalisen median integraatio",
-          "Live-tuoteesittelyt",
-          "Asiakkaiden vuorovaikutustyökalut",
-          "Viraalinen jakamisen ominaisuudet"
+          "Turvallinen ja luotettava",
+          "Nopeat maksujen selvitykset",
+          "Useita maksuvaihtoehtoja",
+          "Ei teknistä asennusta vaadita"
         ]
       },
       "allInOneDashboard": {
