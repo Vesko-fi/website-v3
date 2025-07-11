@@ -1,6 +1,10 @@
 {
   "home": {
     "title": "Welcome to Our Website",
+    "main": {
+      "title": "Reconnecting People",
+      "subtitle": "To each other. To places. To the real world"
+    },
     "hero": {
       "mainHeading": "Where the digital world meets the real world"
     },
