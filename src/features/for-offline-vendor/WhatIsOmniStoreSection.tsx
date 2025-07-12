@@ -63,7 +63,7 @@ const WhatIsOmniStoreSection = () => {
               <Text
                 as='h2'
                 variant='heading'
-                className='mb-6 text-xl font-bold text-gray-900 md:text-2xl lg:text-3xl'
+                className='mb-2 text-3xl font-bold text-gray-900 md:text-4xl lg:text-5xl'
               >
                 {t("forOfflineVendor.whatIsOmniStore.title")}
               </Text>

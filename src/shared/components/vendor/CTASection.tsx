@@ -1,6 +1,9 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 
+import i18n, { type SupportedLanguages } from "@/locales/i18n.config";
+import { getLocalizedPath } from "@/routes/helpers/localization";
 import { Button } from "@/shared/components/ui/button";
 import { Container } from "@/shared/components/ui/container";
 import { Section } from "@/shared/components/ui/section";
@@ -9,6 +12,9 @@ import { RemixIcons } from "@/shared/constants/icons";
 
 const CTASection = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
+  const contactPath = getLocalizedPath("contact", i18n.language as SupportedLanguages);
+  const registerPath = getLocalizedPath("register", i18n.language as SupportedLanguages);
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -102,36 +108,38 @@ const CTASection = () => {
               variant='heading'
               className='mb-6 text-3xl font-bold text-white md:text-4xl lg:text-5xl'
             >
-              {t("forOnlineVendor.cta.title")}
+              {t("vendor.cta.title")}
             </Text>
           </motion.div>
 
           {/* Subheader */}
           <motion.div variants={itemVariants} className='mb-12'>
-            <Text className='text-lg text-blue-100 md:text-xl'>
-              {t("forOnlineVendor.cta.subtitle")}
+            <Text as='h4' variant='caption' className='text-blue-100 md:text-xl'>
+              {t("vendor.cta.subtitle")}
             </Text>
           </motion.div>
 
           {/* CTA Buttons */}
           <motion.div
             variants={buttonVariants}
-            className='flex flex-col items-center gap-4 sm:flex-row sm:justify-center'
+            className='flex cursor-pointer flex-col items-center gap-4 sm:flex-row sm:justify-center'
           >
             <motion.div variants={buttonVariants} whileHover='hover'>
               <Button
+                onClick={() => void navigate(registerPath)}
                 containerClassName='bg-white px-8 py-4 text-lg font-semibold text-blue-600 shadow-lg hover:bg-gray-100 border-0'
-                textClassName='text-blue-600 group-hover:text-blue-700'
+                textClassName='text-blue-600 group-hover:text-white'
               >
-                {t("forOnlineVendor.cta.buttons.startStore")}
+                {t("vendor.cta.buttons.startStore")}
               </Button>
             </motion.div>
             <motion.div variants={buttonVariants} whileHover='hover'>
               <Button
-                containerClassName='border-2 border-white px-8 py-4 text-lg font-semibold text-white hover:bg-white hover:text-blue-600 bg-transparent'
-                textClassName='text-white group-hover:text-blue-600'
+                onClick={() => void navigate(contactPath)}
+                containerClassName='border-2 w-full border-white px-8 py-4 text-lg font-semibold text-white hover:bg-white hover:text-white bg-transparent'
+                textClassName='text-white group-hover:text-white'
               >
-                {t("forOnlineVendor.cta.buttons.learnMore")}
+                {t("vendor.cta.buttons.contactUs")}
               </Button>
             </motion.div>
           </motion.div>
@@ -143,27 +151,19 @@ const CTASection = () => {
           >
             <div className='flex items-center gap-2'>
               <i className={`${RemixIcons.check} text-green-400`} />
-              <span>{t("forOnlineVendor.cta.trustIndicators.freeToStart")}</span>
+              <span>{t("vendor.cta.trustIndicators.freeToStart")}</span>
             </div>
             <div className='flex items-center gap-2'>
               <i className={`${RemixIcons.check} text-green-400`} />
-              <span>{t("forOnlineVendor.cta.trustIndicators.noSetupFees")}</span>
+              <span>{t("vendor.cta.trustIndicators.noSetupFees")}</span>
             </div>
             <div className='flex items-center gap-2'>
               <i className={`${RemixIcons.check} text-green-400`} />
-              <span>{t("forOnlineVendor.cta.trustIndicators.support")}</span>
+              <span>{t("vendor.cta.trustIndicators.support")}</span>
             </div>
-          </motion.div>
-
-          {/* Social proof */}
-          <motion.div variants={itemVariants} className='mt-8'>
-            <Text className='text-sm text-blue-200'>{t("forOnlineVendor.cta.socialProof")}</Text>
           </motion.div>
         </motion.div>
       </Container>
-
-      {/* Background texture overlay */}
-      <div className='absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.1)_1px,transparent_1px)] bg-[length:20px_20px] opacity-20' />
     </Section>
   );
 };

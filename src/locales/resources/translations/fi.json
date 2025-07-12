@@ -362,6 +362,21 @@
     "next": "Seuraava",
     "goToReview": "Siirry arvosteluun"
   },
+  "vendor": {
+    "cta": {
+      "title": "Valmiina muuttamaan ideasi todellisuudeksi?",
+      "subtitle": "Rekisteröidy nyt ja saat ennakkopääsyn sekä ilmaisen 3 kuukauden kokeilujakson!",
+      "buttons": {
+        "startStore": "Aloita oma kauppasi",
+        "contactUs": "Ota yhteyttä"
+      },
+      "trustIndicators": {
+        "freeToStart": "Ilmainen aloitus",
+        "noSetupFees": "Ei perustamismaksuja",
+        "support": "Tuki 24/7"
+      }
+    }
+  },
   "forOfflineVendor": {
     "hero": {
       "title": "OmniStore ®, Suunniteltu ja Rakennettu Sinulle",

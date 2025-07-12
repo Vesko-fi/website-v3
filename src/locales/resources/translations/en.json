@@ -362,6 +362,21 @@
     "next": "Next",
     "goToReview": "Go to review"
   },
+  "vendor": {
+    "cta": {
+      "title": "Ready to Turn Your Ideas Into Reality?",
+      "subtitle": "Register now and get early bird access, enjoy a free 3-month trial!",
+      "buttons": {
+        "startStore": "Start Your Store",
+        "contactUs": "Contact us"
+      },
+      "trustIndicators": {
+        "freeToStart": "Free to start",
+        "noSetupFees": "No setup fees",
+        "support": "24/7 support"
+      }
+    }
+  },
   "forOfflineVendor": {
     "hero": {
       "title": "OmniStore ®, Designed & Built For You",
@@ -770,20 +785,6 @@
         "title": "Yes it's that easy too! \"Designed For you\" isn't a buzzword 😎!",
         "subtitle": "Streamlined process that saves you time and effort"
       }
-    },
-    "cta": {
-      "title": "Ready to Turn Your Ideas Into Reality?",
-      "subtitle": "Join thousands of entrepreneurs who are already building their dreams with Vesko. Start your journey today and see your business grow.",
-      "buttons": {
-        "startStore": "Start Your Store",
-        "learnMore": "Learn More"
-      },
-      "trustIndicators": {
-        "freeToStart": "Free to start",
-        "noSetupFees": "No setup fees",
-        "support": "24/7 support"
-      },
-      "socialProof": "Join 10,000+ entrepreneurs already using Vesko"
     },
     "howItWorks": {
       "title": "How It Works",
