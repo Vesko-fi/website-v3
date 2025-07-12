@@ -53,6 +53,8 @@ import Growth from "@/assets/images/growth.png";
 import Logistics from "@/assets/images/logistics.png";
 import Payment from "@/assets/images/payment.jpg";
 import UnifiedInventory from "@/assets/images/unified_inventory.jpg";
+import MobileApp from "@/assets/images/mobile_app.png";
+import OnlineOrderFulfillment from "@/assets/images/online_order_fulfillment.jpg";
 
 import BuyAndCollect from "@/assets/images/buy_collect.png";
 import CheckAvailability from "@/assets/images/check_availability.png";
@@ -115,6 +117,8 @@ export const Assets = {
   logistics: Logistics,
   payment: Payment,
   dashboard: Dashboard,
+  mobileApp: MobileApp,
+  onlineOrderFulfillment: OnlineOrderFulfillment,
 
   // For people
   searchAndFind: SearchAndFind,
