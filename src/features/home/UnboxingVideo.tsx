@@ -42,7 +42,7 @@ const UnboxingVideo = () => {
         className='text-center'
       >
         <motion.div variants={titleVariants}>
-          <Text as='h2' className='mb-4 text-xl font-bold text-white md:text-3xl lg:text-4xl'>
+          <Text variant='heading' className='mb-4 text-center text-white md:mb-8' as='h2'>
             {t("home.unboxing.heading")}
           </Text>
         </motion.div>

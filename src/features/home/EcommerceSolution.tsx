@@ -1,5 +1,5 @@
-import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 import { Container } from "@/shared/components/ui/container";
 import { Image } from "@/shared/components/ui/image";

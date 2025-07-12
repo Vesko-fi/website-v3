@@ -30,7 +30,7 @@ const SocializeSection = () => {
   return (
     <Section className='p-0'>
       <Container className='p-0'>
-        <Text variant='subheading' as='h2' className='mb-6 text-center'>
+        <Text variant='heading' className='mb-10 text-center md:mb-16' as='h2'>
           {t("home.socialize.heading")}
         </Text>
 

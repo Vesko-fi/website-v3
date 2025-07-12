@@ -127,16 +127,16 @@ const CTASection = () => {
             <motion.div variants={buttonVariants} whileHover='hover'>
               <Button
                 onClick={() => void navigate(registerPath)}
-                containerClassName='bg-white px-8 py-4 text-lg font-semibold text-blue-600 shadow-lg hover:bg-gray-100 border-0'
+                containerClassName='bg-white px-8 w-40 py-4 text-lg font-semibold text-blue-600 shadow-lg hover:bg-gray-100 border-0'
                 textClassName='text-blue-600 group-hover:text-white'
               >
-                {t("vendor.cta.buttons.startStore")}
+                {t("vendor.cta.buttons.register")}
               </Button>
             </motion.div>
             <motion.div variants={buttonVariants} whileHover='hover'>
               <Button
                 onClick={() => void navigate(contactPath)}
-                containerClassName='border-2 w-full border-white px-8 py-4 text-lg font-semibold text-white hover:bg-white hover:text-white bg-transparent'
+                containerClassName='border-2 w-40 border-white px-6 py-4 text-lg font-semibold text-white hover:bg-white hover:text-white bg-transparent'
                 textClassName='text-white group-hover:text-white'
               >
                 {t("vendor.cta.buttons.contactUs")}

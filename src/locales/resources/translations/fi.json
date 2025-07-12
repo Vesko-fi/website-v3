@@ -367,7 +367,7 @@
       "title": "Valmiina muuttamaan ideasi todellisuudeksi?",
       "subtitle": "Rekisteröidy nyt ja saat ennakkopääsyn sekä ilmaisen 3 kuukauden kokeilujakson!",
       "buttons": {
-        "startStore": "Aloita oma kauppasi",
+        "register": "Rekisteröidy",
         "contactUs": "Ota yhteyttä"
       },
       "trustIndicators": {
