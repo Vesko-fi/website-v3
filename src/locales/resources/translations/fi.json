@@ -379,8 +379,8 @@
   },
   "forOfflineVendor": {
     "hero": {
-      "title": "OmniStore ®, Suunniteltu ja Rakennettu Sinulle",
-      "subtitle": "Kauppasi verkossa OmniStoren avulla.",
+      "title": "OmniStore",
+      "subtitle": "Organisaatiotason verkkokauppa yhtenäisellä varastonhallinnalla, suunniteltu tukemaan kivijalkaliikkeesi kasvua.",
       "scrollToExplore": "Vieritä tutustuaksesi"
     },
     "omnistoreBenefit": {
