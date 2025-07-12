@@ -19,7 +19,7 @@ const FeaturesSection = () => {
       icon: RemixIcons.mobile,
       color: "from-blue-500 to-blue-600",
       bgColor: "bg-blue-50",
-      image: Assets.mobileAppMockup,
+      image: Assets.mobileApp,
       position: "left",
       isMobileMockup: true,
     },
@@ -121,12 +121,6 @@ const FeaturesSection = () => {
   return (
     <Section className='relative bg-white py-24'>
       {/* Background decorative elements */}
-      <div className='pointer-events-none absolute inset-0 overflow-hidden'>
-        <div className='absolute top-20 left-10 h-32 w-32 rounded-full bg-blue-50' />
-        <div className='absolute right-10 bottom-20 h-24 w-24 rounded-full bg-purple-50' />
-        <div className='absolute top-1/2 left-1/2 h-16 w-16 rounded-full bg-green-50' />
-      </div>
-
       <Container>
         <motion.div
           variants={containerVariants}
