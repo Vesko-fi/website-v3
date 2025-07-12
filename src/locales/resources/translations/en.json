@@ -364,8 +364,8 @@
   },
   "forOfflineVendor": {
     "hero": {
-      "title": "OmniStore ®, Designed & Built For You",
-      "subtitle": "Your shop, online with OmniStore.",
+      "title": "OmniStore",
+      "subtitle": "Organisation-level webshop With Unified Inventory, built to help grow your offline store.",
       "scrollToExplore": "Scroll to explore"
     },
     "omnistoreBenefit": {
@@ -636,7 +636,8 @@
       "scrollToExplore": "Scroll to explore"
     },
     "valueProb": {
-      "title": "Socialise your selling, where your followers become customers, and supporters in growing your business",
+      "title": "Socialise your selling",
+      "subtitle": " A social media marketplace where your followers become your customers and supporters in growing your business.",
       "benefits": {
         "buildCommunity": {
           "title": "Build Your Community",

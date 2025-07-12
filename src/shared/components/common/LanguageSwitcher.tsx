@@ -53,7 +53,7 @@ export const LanguageSwitcher = () => {
   };
 
   return (
-    <div className='relative inline-block'>
+    <div className='relative inline-block rounded-full'>
       {/* Toggle button */}
       <button
         onClick={handleOpen}

@@ -30,12 +30,10 @@ import YouFeelFree from "@/assets/images/you_feel_free.png";
 import VeskoLogo from "@/assets/logos/vesko.PNG";
 import VeskoLogoLight from "@/assets/logos/vesko_light.PNG";
 import VeskoVideo from "@/assets/videos/vesko.mp4";
-
 // ForOfflineVendorPage assets - using existing images
 import MobileAppMockup from "@/assets/images/hero_mobile.png";
-import { default as OfflineVendorHeroImage } from "@/assets/images/offline_vendor_hero_image.jpg";
+import { default as OfflineVendorHeroImage } from "@/assets/images/offiline_hero.png";
 import OmniFeature from "@/assets/images/omni_feature.png";
-import MobileOnboard from "@/assets/images/onboarding_mob.png";
 import {
   default as DeliveryTruck,
   default as InventoryManagement,
@@ -45,15 +43,16 @@ import {
   default as StoreDashboard,
   default as VeskoStore,
 } from "@/assets/images/omnistore.jpg";
+import MobileOnboard from "@/assets/images/onboarding_mob.png";
 
-import homepageMainimage from "@/assets/images/Vesko_Hero_Image_Wider_2.jpg";
-import Growth from "@/assets/images/growth.png";
-import UnifiedInventory from "@/assets/images/unified_inventory.jpg";
 import Scalable from "@/assets/images/Scalable.jpg";
+import homepageMainimage from "@/assets/images/Vesko_Hero_Image_Wider_2.jpg";
+import Dashboard from "@/assets/images/dashboard.jpg";
 import ExpandReach from "@/assets/images/expand_reach.jpg";
+import Growth from "@/assets/images/growth.png";
 import Logistics from "@/assets/images/logistics.png";
 import Payment from "@/assets/images/payment.jpg";
-import Dashboard from "@/assets/images/dashboard.jpg";
+import UnifiedInventory from "@/assets/images/unified_inventory.jpg";
 
 import BuyAndCollect from "@/assets/images/buy_collect.png";
 import CheckAvailability from "@/assets/images/check_availability.png";

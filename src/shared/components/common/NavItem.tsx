@@ -9,11 +9,11 @@ import { RemixIcons } from "@/shared/constants/icons";
 import { cn } from "@/shared/utils/cn";
 
 const navItemVariants = cva(
-  "group relative inline-flex items-center justify-center rounded-sm transition-smooth focus:outline-2 focus:outline-black overflow-hidden",
+  "group relative inline-flex items-center justify-center rounded-sm transition-smooth overflow-hidden",
   {
     variants: {
       variant: {
-        default: "text-xl gap-1.5 px-3 py-1.5",
+        default: "text-xl gap-1.5 px-3 py-1.5 ",
         desktop: "text-sm gap-1 px-2 py-1",
       },
       state: {
@@ -64,12 +64,8 @@ const NavItem: React.FC<NavItemProps> = ({
       onClick={onClick && onClick}
     >
       <span className='relative inline-flex flex-col overflow-hidden'>
-        <span className='transition-smooth transform group-hover:-translate-y-full'>
-          {t(label)}
-        </span>
-        <span className='transition-smooth absolute top-full transform group-hover:-translate-y-full'>
-          {t(label)}
-        </span>
+        <span className='transition-smooth transform'>{t(label)}</span>
+        <span className='transition-smooth absolute top-full transform'>{t(label)}</span>
       </span>
       {children}
       {isCTA && (
