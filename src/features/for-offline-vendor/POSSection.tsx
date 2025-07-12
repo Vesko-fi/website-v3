@@ -185,7 +185,7 @@ const POSSection = () => {
                 transition={{ duration: 0.3 }}
               >
                 <Image
-                  src={Assets.posSystem}
+                  src={Assets.pointOfSaleSystem}
                   alt='Cashier Register system showing POS integration'
                   className='h-[500px] w-[400px] object-cover'
                 />
