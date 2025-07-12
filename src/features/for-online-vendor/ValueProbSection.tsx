@@ -86,6 +86,10 @@ const ValueProbSection = () => {
           viewport={{ once: true, amount: 0.3 }}
           className='flex flex-col items-center space-y-8 text-center'
         >
+          <div className='pointer-events-none absolute inset-0 overflow-hidden'>
+            <div className='absolute top-16 left-40 h-32 w-32 rounded-full bg-blue-50' />
+            <div className='absolute right-10 bottom-20 h-24 w-24 rounded-full bg-purple-50' />
+          </div>
           {/* Headline */}
           <motion.div variants={textVariants}>
             <Text
