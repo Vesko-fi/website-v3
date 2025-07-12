@@ -378,8 +378,9 @@
       }
     },
     "whatIsOmniStore": {
-      "title": "OmniStore ® turns your physical store into a virtual showroom, letting customers see what's available in real time, before they even step outside their homes",
-      "description": "Vesko’s OmniStore® is built to help your business grow by offering your customers an Online-to-Offline shopping experience, through the world’s first scalable, ready-to-use omnichannel online store",
+      "title": "What is OmniStore?",
+      "subTitle": "OmniStore ® turns your physical store into a virtual showroom, letting customers see what's available in real time, before they even step outside their homes",
+      "description": "It is built to help your business grow by offering your customers an Online-to-Offline shopping experience, through the world’s first scalable, ready-to-use omnichannel online store",
       "highlights": {
         "scalableAndReady": "Scalable & ready to use.",
         "realTimeInventory": "Realtime inventory visibility.",

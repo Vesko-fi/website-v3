@@ -57,7 +57,7 @@ const WhatIsOmniStoreSection = () => {
           viewport={{ once: true, amount: 0.3 }}
           className='flex w-full flex-col items-center justify-between gap-8 lg:py-24 xl:flex-row xl:gap-12'
         >
-          <motion.div variants={textVariants} className='flex flex-1 flex-col items-start pb-4'>
+          <motion.div variants={textVariants} className='flex flex-1 flex-col items-start gap-4'>
             {/* Headline */}
             <div>
               <Text
@@ -70,6 +70,11 @@ const WhatIsOmniStoreSection = () => {
             </div>
 
             {/* Subheader */}
+            <div>
+              <Text as='h4' className='text-xl text-gray-600'>
+                {t("forOfflineVendor.whatIsOmniStore.subTitle")}
+              </Text>
+            </div>
             <div>
               <Text as='h4' className='text-xl text-gray-600'>
                 {t("forOfflineVendor.whatIsOmniStore.description")}
