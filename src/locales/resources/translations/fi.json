@@ -679,8 +679,9 @@
       }
     },
     "startups": {
-      "title": "Kun mahdollisuudet ovat sinua vastaan, Vesko on kanssasi",
-      "subtitle": "Sinulla on idea? Haluatko aloittaa sivubisneksen opiskellessasi? Sinulla on jo tuotteita, mutta ongelmia myydä? Vesko auttaa sinua löytämään ensimmäiset omaksujasi ja kasvamaan sieltä.",
+      "title": "Vesko on täällä sinua varten",
+      "subtitle": "Haluatko perustaa yrityksen? Onko sinulla idea, johon uskot?",
+      "description": "Olitpa vasta aloittamassa tai yrittämässä kasvaa, Vesko auttaa sinua käynnistämään, myymään ja tavoittamaan ensimmäiset asiakkaasi.",
       "benefits": {
         "startJourney": {
           "title": "Aloita Matkasi",
