@@ -636,7 +636,8 @@
       "scrollToExplore": "Vieritä tutustuaksesi"
     },
     "valueProb": {
-      "title": "Sosialisoi myyntisi, jossa seuraajasi tulevat asiakkaitasi ja tukijoiksi yrityksesi kasvussa",
+      "title": "Sosiaalista myyntiäsi",
+      "subtitle": "Sosiaalisen median markkinapaikka, jossa seuraajasi muuttuvat asiakkaiksesi ja tukijoiksesi liiketoimintasi kasvattamisessa.",
       "benefits": {
         "buildCommunity": {
           "title": "Rakenna Yhteisösi",
@@ -648,7 +649,7 @@
         },
         "growTogether": {
           "title": "Kasva Yhdessä",
-          "description": "Menestyksesi tulee yhteisösi menestykseksi"
+          "description": "Työkalut, näkyvyyden ja tavoittavuuden — Vesko tarjoaa kaiken, mitä tarvitset"
         }
       }
     },
