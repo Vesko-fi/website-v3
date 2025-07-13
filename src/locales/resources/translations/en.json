@@ -679,8 +679,9 @@
       }
     },
     "startups": {
-      "title": "When the odds are against you, Vesko is with you",
-      "subtitle": "Have an idea? Want to start a side business while studying? Already have products but struggling to sell? Vesko helps you find your first adopters and grow from there.",
+      "title": "Vesko Is Here For You",
+      "subtitle": "Want to start a business? Got an idea you believe in?",
+      "description": "Whether you’re just getting started or trying to grow. Vesko helps you launch, sell, and reach your first customers.",
       "benefits": {
         "startJourney": {
           "title": "Start Your Journey",
