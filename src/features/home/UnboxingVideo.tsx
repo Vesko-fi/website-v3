@@ -42,7 +42,7 @@ const UnboxingVideo = () => {
         className='text-center'
       >
         <motion.div variants={titleVariants}>
-          <Text as='h2' className='mb-4 text-xl font-bold text-white md:text-3xl lg:text-4xl'>
+          <Text as='h2' className='mb-4 text-xl font-bold text-white md:text-3xl lg:text-5xl'>
             {t("home.unboxing.heading")}
           </Text>
         </motion.div>
@@ -78,14 +78,14 @@ const UnboxingVideo = () => {
         whileHover='hover'
         className='flex items-center justify-center py-4 text-white'
       >
-        <Text variant='subtitle' className='text-xl text-white md:text-2xl'>
+        <Text variant='subtitle' className='text-xl text-white md:text-3xl'>
           {t("home.unboxing.demo")}
         </Text>
         <a
           href={`https://www.youtube.com/watch?v=${t("home.unboxing.videoId")}`}
           target='_blank'
           rel='noopener noreferrer'
-          className='ml-2 rounded-md border px-3 py-1 text-xl'
+          className='ml-2 rounded-md border bg-white px-4 py-1.5 text-xl text-black'
         >
           {t("home.unboxing.button")}
         </a>
