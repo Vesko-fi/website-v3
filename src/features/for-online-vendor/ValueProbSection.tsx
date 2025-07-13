@@ -97,15 +97,14 @@ const ValueProbSection = () => {
               variant='heading'
               className='mb-4 text-4xl font-bold text-gray-900 md:text-5xl lg:text-6xl'
             >
-              Socialise your selling
+              {t("forOnlineVendor.valueProb.title")}
             </Text>
           </motion.div>
 
           {/* Subheader */}
           <motion.div variants={textVariants}>
             <Text className='max-w-2xl text-lg text-gray-600 md:text-xl'>
-              A social media marketplace where your followers become your customers and supporters
-              in growing your business.
+              {t("forOnlineVendor.valueProb.subtitle")}
             </Text>
           </motion.div>
 

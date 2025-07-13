@@ -115,7 +115,7 @@ const MainSection = () => {
                 <Text
                   as='h1'
                   variant='heading'
-                  className='mb-6 min-w-xl text-2xl font-bold text-white md:text-3xl'
+                  className='mb-6 text-4xl font-bold text-white md:text-5xl lg:text-7xl xl:text-5xl'
                 >
                   {t("home.main.title")}
                 </Text>
