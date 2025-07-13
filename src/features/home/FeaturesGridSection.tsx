@@ -12,8 +12,10 @@ import { useGSAP, fadeInUp } from "@/shared/hooks/useGSAP";
 const FeaturesGridSection = () => {
   const { t } = useTranslation();
   const sectionRef = useGSAP<HTMLDivElement>();
-  const paymentPath = getLocalizedPath("payment", i18n.language as SupportedLanguages);
-  const logisticsPath = getLocalizedPath("logistics", i18n.language as SupportedLanguages);
+  const paymentLogisticPath = getLocalizedPath(
+    "paymentLogistic",
+    i18n.language as SupportedLanguages
+  );
 
   return (
     <Section ref={sectionRef} className='relative py-32' aria-labelledby='features-heading'>
@@ -35,7 +37,7 @@ const FeaturesGridSection = () => {
             description={t("home.featuresGrid.payment.description")}
             icon={RemixIcons.securePayment as RemixIconName}
             buttonText={t("home.featuresGrid.payment.buttonText")}
-            buttonLink={paymentPath}
+            buttonLink={paymentLogisticPath}
             index={0}
           />
           <FeatureCard
@@ -43,7 +45,7 @@ const FeaturesGridSection = () => {
             description={t("home.featuresGrid.logistics.description")}
             icon={RemixIcons.truck as RemixIconName}
             buttonText={t("home.featuresGrid.logistics.buttonText")}
-            buttonLink={logisticsPath}
+            buttonLink={paymentLogisticPath}
             index={1}
           />
         </div>

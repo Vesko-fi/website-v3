@@ -1,4 +1,4 @@
-import { MainContent } from "@/features/payment/MainContent";
+import { MainContent } from "@/features/payment-logistcis/MainContent";
 
 const PaymentPage = () => {
   return (

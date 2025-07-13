@@ -1005,5 +1005,90 @@
     "updatePolicy": {
       "text": "We are committed to protecting your privacy. This Privacy Policy outlines how we collect, use, and store your personal data in compliance with the EU General Data Protection Regulation (GDPR). This policy may be updated, and the latest version can always be found on this page. Note that your data will not be handed over to a third party nor processed outside Finland and we will also notify you of any significant changes by email."
     }
+  },
+  "paymentAndLogistic": {
+    "main": {
+      "heading": "Payments & Logistics Made Easy",
+      "subheading": "Whether you're an individual entrepreneur or a small offline retailer expanding online, Vesko streamlines your payment and delivery processes. Our integrated solution, powered by Stripe for payments and nShift for shipping, let's you focus on fulfilling orders and growing your business and we'll handle the heavy lifting in the background. Below is a concise overview of how Vesko’s payment and logistics features benefit you, saving time and costs while improving your customer experience."
+    },
+    "payment": {
+      "securePayment": {
+        "heading": "Secure Payments Powered by Stripe",
+        "subheading": "Vesko uses Stripe, a world-class payment platform, to ensure your online transactions are fast, secure, and hassle-free. Stripe is trusted by businesses of all sizes – from startups to Fortune 500 companies like Google and Amazon so you and your customers can have peace of mind. With Vesko’s Stripe integration, you get:",
+        "features": {
+          "option1": {
+            "heading": "Easy, Secure Checkout: ",
+            "description": "Accept all major credit/debit cards and digital wallets (e.g. Apple Pay, Google Pay) in 135+ currencies. Stripe is PCI Level 1 certified, the highest grade of payment security, making every transaction highly secure. Advanced fraud prevention (Stripe Radar) further safeguards your business and customers."
+          },
+          "option2": {
+            "heading": "Transparent Low Fees: ",
+            "description": "There are no setup or monthly fees for using Stripe’s basic services you only pay a small standard transaction fee per sale (e.g. ~2.9% + $0.30, +possible  Vesko’s charge per transaction and this will depend on your subscription plan) with no hidden charges or binding contracts. This pay-as-you-go pricing keeps costs predictable and flexible for small businesses."
+          },
+          "option3": {
+            "heading": "Quick Setup, Direct Payouts: ",
+            "description": "Getting started is simple with Stripe’s easy onboarding. Payments from your customers go directly into your own account  (Vesko will not hold your funds). Stripe’s fast payout system means you receive your revenue quickly, improving cash flow."
+          },
+          "option4": {
+            "heading": "Global and Scalable: ",
+            "description": "As your business grows, Stripe scales with you. You can accept international payments (135+ currencies) and multiple payment methods without additional Complexity (Vesko will be available worldwide). There are also options for subscriptions, invoicing, and more as needed, all under the same platform."
+          },
+          "option5": {
+            "heading": "Reliability & Support: ",
+            "description": "Stripe’s infrastructure is renowned for its uptime and speed, processing thousands of transactions per second worldwide. You benefit from that reliability, plus detailed reporting and analytics to track your sales on your store panel."
+          }
+        },
+        "description": "With Vesko and Stripe, you get enterprise-grade payment processing with zero fuss. Your customers enjoy a smooth, trustworthy checkout experience, while you enjoy low fees and no extra admin work on payment compliance or security,  it’s all handled for you."
+      }
+    },
+    "logistics": {
+      "heading": "Hassle-Free Shipping Powered By nShift",
+      "subheading": "Logistics can be one of the most time-consuming parts of online selling, but Vesko’s integration with nShift makes shipping efficient and worry-free. nShift is a leading delivery management platform that connects to over 1,000 carriers worldwide, allowing even small businesses to offer fast, affordable delivery options.",
+      "features": {
+        "heading": "Here’s how Vesko’s nShift-powered Order Management System helps you:",
+        "option1": {
+          "heading": "Access 1000+ Carriers & Best Rates: ",
+          "description": "Through nShift, Vesko gives you instant access to the world’s largest carrier network. You can offer a variety of shipping options (postal services, couriers, express shippers, etc.) to your customers. The system automatically selects or recommends the best carrier service for each order based on cost and speed, so you save on shipping costs while meeting customer expectations. No need to negotiate separate contracts, you tap into a vast delivery network out of the box."
+        },
+        "option2": {
+          "heading": "Automatic Label Creation: ",
+          "description": "The moment an order comes in, our system generates shipping labels and documentation for you. nShift’s platform allows you to print labels in Vesko’s store panel quickly and accurately for any carrier. This means no manual data entry or visiting multiple carrier websites, simply print the provided label and attach it to the package. You can even create return labels easily if needed for a smooth returns process."
+        },
+        "option3": {
+          "heading": "Real-Time Tracking & Estimate Time Of arrival (ETA) Updates: ",
+          "description": "Vesko will provide you and your customers with the ability to track every shipment through nShift’s unified tracking system but all will be within Vesko so you don’t have to go anywhere. Vesko’s Track-and-trace features powered by nShift  allow you and your customers to monitor shipments in real time and get detailed status updates, regardless of the carrier. Your customers can even see estimated delivery dates (ETA) when available, giving them confidence and reducing “Where is my order?” inquiries. Vesko’s dashboard/store panel provides you full visibility on all orders. You'll know exactly which orders are in transit, delivered, or pending fulfillment at a glance."
+        },
+        "option4": {
+          "heading": "Minimal Effort for You: ",
+          "description": "Vesko’s use of nShift essentially gives you a built-in order management system for shipping. The integration is so seamless that handling shipments becomes almost automatic. For example, many businesses find that nShift works behind the scenes so well that it feels like an invisible part of their own system. All you need to do is pack the orders, carrier booking, pickup scheduling, tracking emails, and updates can be handled by the system. This drastically reduces manual workload and errors, letting you fulfill orders faster and more accurately."
+        },
+        "option5": {
+          "heading": "Customer Satisfaction & Trust: ",
+          "description": "By providing shipment tracking and reliable delivery estimates, you keep your customers happy and informed. Proactive updates and on-time deliveries help build trust in your online store."
+        }
+      },
+      "description": "Vesko simplifies logistics to the point where shipping is no longer a headache for your business. You get the power of an enterprise-grade delivery system, wide carrier choice, automation, and live tracking without needing any special expertise or staff. This not only saves you countless hours (and associated labor costs) but also often leads to better shipping rates and fewer mistakes, ultimately saving you money and improving your service quality."
+    },
+    "benefits": {
+      "heading": "Why Does It Matters for You?",
+      "subheading": "Vesko’s payment and logistics integration is designed to make online selling as easy as possible for you. By partnering with Stripe and nShift (leaders in their fields), we ensure you get world-class service at affordable costs. The result is a streamlined operation where you only have to fulfill orders, and our system takes care of the rest, from charging the customer securely to printing the shipping label and updating the tracking info. It’s a complete solution that lets you save more, sell more, and stress less.",
+      "features": {
+        "option1": {
+          "heading": "Time & Labor Savings: ",
+          "description": "No more juggling multiple tools or manual processes. Our one-stop solution can speed up order processing significantly, freeing you to focus on products and customers instead of paperwork. Cost Savings: You avoid upfront costs on payment terminals or expensive software."
+        },
+        "option2": {
+          "heading": "Professionalism & Growth: ",
+          "description": "Vesko gives you the same robust infrastructure that big e- commerce players enjoy. This means even as a one-person operation or a small shop, you can offer professional-grade checkout and delivery. Happier customers lead to repeat business and positive reviews, fueling your growth. And when your order volume rises, Vesko scales seamlessly without added complexity."
+        },
+        "option3": {
+          "heading": "Peace of Mind: ",
+          "description": "Security, compliance, and reliability are handled by our platform and partners. Every payment is encrypted and fraud-checked and every shipment is tracked. You don’t have to worry about technical headaches or negotiating with carriers. It just works, so you can operate with confidence."
+        }
+      }
+    },
+    "join": {
+      "heading": "Join Vesko",
+      "description": "and experience how effortless managing an online business can be with the right payment and logistics support behind you. Spend less time on admin, save money on fees and shipping, and deliver a better experience to your customers,  all with Vesko."
+    }
   }
 }
