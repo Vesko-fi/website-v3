@@ -362,6 +362,21 @@
     "next": "Next",
     "goToReview": "Go to review"
   },
+  "vendor": {
+    "cta": {
+      "title": "Ready to Turn Your Ideas Into Reality?",
+      "subtitle": "Register now and get early bird access, enjoy a free 3-month trial!",
+      "buttons": {
+        "startStore": "Start Your Store",
+        "contactUs": "Contact us"
+      },
+      "trustIndicators": {
+        "freeToStart": "Free to start",
+        "noSetupFees": "No setup fees",
+        "support": "24/7 support"
+      }
+    }
+  },
   "forOfflineVendor": {
     "hero": {
       "title": "OmniStore",
@@ -378,8 +393,9 @@
       }
     },
     "whatIsOmniStore": {
-      "title": "OmniStore ® turns your physical store into a virtual showroom, letting customers see what's available in real time, before they even step outside their homes",
-      "description": "Vesko’s OmniStore® is built to help your business grow by offering your customers an Online-to-Offline shopping experience, through the world’s first scalable, ready-to-use omnichannel online store",
+      "title": "What is OmniStore?",
+      "subTitle": "OmniStore ® turns your physical store into a virtual showroom, letting customers see what's available in real time, before they even step outside their homes",
+      "description": "It is built to help your business grow by offering your customers an Online-to-Offline shopping experience, through the world’s first scalable, ready-to-use omnichannel online store",
       "highlights": {
         "scalableAndReady": "Scalable & ready to use.",
         "realTimeInventory": "Realtime inventory visibility.",
@@ -770,20 +786,6 @@
         "title": "Yes it's that easy too! \"Designed For you\" isn't a buzzword 😎!",
         "subtitle": "Streamlined process that saves you time and effort"
       }
-    },
-    "cta": {
-      "title": "Ready to Turn Your Ideas Into Reality?",
-      "subtitle": "Join thousands of entrepreneurs who are already building their dreams with Vesko. Start your journey today and see your business grow.",
-      "buttons": {
-        "startStore": "Start Your Store",
-        "learnMore": "Learn More"
-      },
-      "trustIndicators": {
-        "freeToStart": "Free to start",
-        "noSetupFees": "No setup fees",
-        "support": "24/7 support"
-      },
-      "socialProof": "Join 10,000+ entrepreneurs already using Vesko"
     },
     "howItWorks": {
       "title": "How It Works",

@@ -134,7 +134,7 @@ const BenefitsSection = () => {
                     <Image
                       src={benefit.image}
                       alt={t(benefit.titleKey)}
-                      className='h-72 w-full object-cover transition-transform duration-300 group-hover:scale-105'
+                      className='w-full object-cover transition-transform duration-300 group-hover:scale-105'
                     />
                     <div className='absolute inset-0 bg-gradient-to-t from-black/20 to-transparent' />
                   </div>

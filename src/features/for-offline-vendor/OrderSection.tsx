@@ -164,9 +164,9 @@ const OrderSection = () => {
                 transition={{ duration: 0.3 }}
               >
                 <Image
-                  src={Assets.shippingLabel}
+                  src={Assets.onlineOrderFulfillment}
                   alt='Order fulfillment process showing shipping and delivery'
-                  className='h-[500px] w-[400px] object-cover'
+                  className='h-[400px] w-full object-cover lg:h-[600px] lg:w-[500px]'
                 />
 
                 {/* Overlay gradient */}

@@ -1,6 +1,5 @@
 import { BenefitsSection } from "@/features/for-offline-vendor/BenefitsSection";
-import { CtaSection } from "@/features/for-offline-vendor/CtaSection";
-import { FeaturesSection } from "@/features/for-offline-vendor/FeaturesSection";
+
 import { HeroSection } from "@/features/for-offline-vendor/HeroSection";
 import { HowVeskosWorkSection } from "@/features/for-offline-vendor/HowVeskosWorkSection";
 import { OmniStoreBenefitSection } from "@/features/for-offline-vendor/OmniStoreBenefitSection";
@@ -8,6 +7,8 @@ import { OrderSection } from "@/features/for-offline-vendor/OrderSection";
 import { POSSection } from "@/features/for-offline-vendor/POSSection";
 import { WhatIsOmniStoreSection } from "@/features/for-offline-vendor/WhatIsOmniStoreSection";
 import { WhySection } from "@/features/for-offline-vendor/WhySection";
+import { CTASection } from "@/shared/components/vendor/CTASection";
+import { FeaturesSection } from "@/shared/components/vendor/FeaturesSection";
 
 const ForOfflineVendorPage = () => {
   return (
@@ -21,7 +22,7 @@ const ForOfflineVendorPage = () => {
       <FeaturesSection />
       <OrderSection />
       <POSSection />
-      <CtaSection />
+      <CTASection />
     </div>
   );
 };
