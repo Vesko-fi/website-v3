@@ -13,10 +13,10 @@ const ForOnlineVendorPage = () => {
       <HeroSection />
       <ValueProbSection />
       <WhatIsSection />
-      <StartupsSection />
       <HowVeskosWorkSection />
       <FeaturesSection />
       <OrderSection />
+      <StartupsSection />
       <CTASection />
     </div>
   );

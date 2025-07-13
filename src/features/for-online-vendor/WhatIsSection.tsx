@@ -95,7 +95,6 @@ const WhatIsSection = () => {
                 {t("forOnlineVendor.whatIs.subtitle")}
               </Text>
             </div>
-
             {/* Key Features */}
             <div className='space-y-4'>
               <div className='flex items-start gap-3'>
@@ -144,7 +143,6 @@ const WhatIsSection = () => {
 
               {/* Overlay gradient */}
               <div className='absolute inset-0 bg-gradient-to-t from-black/20 to-transparent' />
-
               {/* Floating elements */}
               <motion.div
                 variants={floatingVariants}
