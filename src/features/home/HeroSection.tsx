@@ -41,27 +41,27 @@ const HeroSection = () => {
   const desktopVariants = {
     initial: { opacity: isLargeScreen ? 1 : 0, y: 0, rotate: -8, scale: 1 },
     animate: {
-      opacity: 0,
-      y: -120,
-      scale: 0.8,
+      opacity: 1,
+      y: 0,
+      rotate: 0,
+      scale: 1,
       transition: { duration: 1, ease: "easeInOut" },
     },
   };
 
   const mobileVariants = {
     initial: {
-      opacity: 1,
-      scale: isLargeScreen ? 0.5 : 1.2,
-      rotate: 12,
+      opacity: 0,
+      scale: 0.5,
+      rotate: 30,
       x: 120,
       y: 80,
-      transition: { type: "tween" },
     },
     animate: {
       opacity: 1,
-      scale: isLargeScreen ? 0.9 : 1.2,
+      scale: 1,
       rotate: 0,
-      x: isLargeScreen ? -480 : 0,
+      x: 0,
       y: 0,
       transition: { duration: 1.2, ease: "easeOut" },
     },
@@ -130,7 +130,7 @@ const HeroSection = () => {
           />
         </div>
 
-        <Container className='relative flex items-center justify-center py-8'>
+        <Container className='relative flex items-center justify-center py-16'>
           {/* Text content container */}
           <div className='absolute top-0 right-0 left-0 z-30 flex flex-col items-center'>
             <Text
