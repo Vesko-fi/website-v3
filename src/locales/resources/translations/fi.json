@@ -262,9 +262,14 @@
           "content": "Digitaalisten ostokäyttäytymisen kasvaessa kävi selväksi, että pienet yritykset eivät kuolleet, koska ihmiset lopettivat offline-ostamisen, vaan he kamppailivat, koska heillä ei ollut pääsyä samoihin digitaalisiin työkaluihin kuin suurilla kauppiailla."
         },
         "solution": {
-          "title": "Vesko syntyy",
+          "title": "Tutkimus ja kehitys",
+          "location": "Ratkaisun etsiminen",
+          "content": "Tutkimus- ja kehitystyö käynnistettiin arvioimaan mahdollisia ratkaisuja, käyttötapauksia ja liiketoimintamalleja, mikä loi vankan perustan tulevalle yritykselle."
+        },
+        "starting": {
+          "title": "Veskon perustaminen",
           "location": "Ratkaisu",
-          "content": "Vesko luotiin korjaamaan tämä, ensin tarjoamalla pienille kaupoille edullinen tapa täyttää modernien ostajien odotukset digitaalisesta löydettävyydestä ja tuotesaatavuudesta."
+          "content": "Veskon tiimi lähti rakentamaan Veskoa tarjoamalla pienyrityksille verkkokaupan, joka vastaa nykyaikaisten kuluttajien odotuksia digitaalisesta näkyvyydestä ja tuotteen saatavuudesta."
         },
         "vision": {
           "title": "Kauppaa pidemmälle",
