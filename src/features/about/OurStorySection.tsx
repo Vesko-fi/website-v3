@@ -35,13 +35,19 @@ const OurStorySection = () => {
       contentKey: "about.ourStory.timeline.solution.content",
     },
     {
-      year: "2022",
+      year: "2024",
+      locationKey: "about.ourStory.timeline.starting.location",
+      titleKey: "about.ourStory.timeline.starting.title",
+      contentKey: "about.ourStory.timeline.starting.content",
+    },
+    {
+      year: null,
       locationKey: "about.ourStory.timeline.vision.location",
       titleKey: "about.ourStory.timeline.vision.title",
       contentKey: "about.ourStory.timeline.vision.content",
     },
     {
-      year: "2023",
+      year: null,
       locationKey: "about.ourStory.timeline.mission.location",
       titleKey: "about.ourStory.timeline.mission.title",
       contentKey: "about.ourStory.timeline.mission.content",

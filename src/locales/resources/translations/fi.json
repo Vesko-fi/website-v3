@@ -262,9 +262,14 @@
           "content": "Digitaalisten ostokäyttäytymisen kasvaessa kävi selväksi, että pienet yritykset eivät kuolleet, koska ihmiset lopettivat offline-ostamisen, vaan he kamppailivat, koska heillä ei ollut pääsyä samoihin digitaalisiin työkaluihin kuin suurilla kauppiailla."
         },
         "solution": {
-          "title": "Vesko syntyy",
+          "title": "Tutkimus ja kehitys",
+          "location": "Ratkaisun etsiminen",
+          "content": "Tutkimus- ja kehitystyö käynnistettiin arvioimaan mahdollisia ratkaisuja, käyttötapauksia ja liiketoimintamalleja, mikä loi vankan perustan tulevalle yritykselle."
+        },
+        "starting": {
+          "title": "Veskon perustaminen",
           "location": "Ratkaisu",
-          "content": "Vesko luotiin korjaamaan tämä, ensin tarjoamalla pienille kaupoille edullinen tapa täyttää modernien ostajien odotukset digitaalisesta löydettävyydestä ja tuotesaatavuudesta."
+          "content": "Veskon tiimi lähti rakentamaan Veskoa tarjoamalla pienyrityksille verkkokaupan, joka vastaa nykyaikaisten kuluttajien odotuksia digitaalisesta näkyvyydestä ja tuotteen saatavuudesta."
         },
         "vision": {
           "title": "Kauppaa pidemmälle",
@@ -1018,6 +1023,93 @@
     },
     "updatePolicy": {
       "text": "Olemme sitoutuneet suojelemaan yksityisyyttäsi. Tämä tietosuojaseloste kuvaa, miten keräämme, käytämme ja säilytämme henkilötietojasi EU:n yleisen tietosuoja-asetuksen (GDPR) mukaisesti. Tätä selostetta voidaan päivittää, ja uusin versio on aina saatavilla tältä sivulta. Huomioithan, että tietojasi ei luovuteta kolmansille osapuolille eikä niitä käsitellään Suomen ulkopuolella. Ilmoitamme myös merkittävistä muutoksista sähköpostitse."
+    }
+  },
+  "paymentAndLogistic": {
+    "main": {
+      "heading": "Saumattomat maksut Stripe-palvelulla",
+      "subheading": "Vesko käyttää Stripeä, maailmanluokan maksualustaa, joka tekee verkkomaksuista nopeita, turvallisia ja vaivattomia. Stripeen luottavat niin startupit kuin Fortune 500 -yhtiötkin (esim. Google, Amazon), joten sekä sinä että asiakkaasi voitte olla huoletta."
+    },
+    "payment": {
+      "heading": "Mitä saat Vesko-Stripe-integraatiolla",
+      "subheading": "",
+      "features": {
+        "option1": {
+          "heading": "Helppo, turvallinen kassaprosessi: ",
+          "description": "yleisimmät luotto- ja pankkikortit sekä digitaaliset lompakot (Apple Pay, Google Pay jne.) yli 135 valuutassa. Stripe on PCI Level 1 -sertifioitu ja sen kehittynyt petoksenesto (Stripe Radar) suojaa sinua ja asiakkaitasi."
+        },
+        "option2": {
+          "heading": "Läpinäkyvät, matalat kulut: ",
+          "description": "Ei aloitus- tai kuukausimaksuja. Maksat vain pienen vakio-transaktiomaksun (n. 2,9 % + 0,30 USD) + mahdollinen Vesko-maksu, joka riippuu tilauspaketistasi. Ei piilokuluja eikä sitovia sopimuksia."
+        },
+        "option3": {
+          "heading": "Nopea käyttöönotto, suorat tilisiirrot: ",
+          "description": "Stripe-tilin avaaminen on helppoa, ja asiakasvarat siirtyvät suoraan omalle tilillesi – Vesko ei pidätä rahoja. Nopeat tilitykset parantavat kassavirtaa."
+        },
+        "option4": {
+          "heading": "Globaali ja skaalautuva: ",
+          "description": "Hyväksy kansainväliset maksut ja useat maksutavat ilman lisä­monimutkaisuutta. Vesko toimii maailmanlaajuisesti, ja saman alustan kautta voit myöhemmin lisätä tilaus- ja laskutuspalvelut."
+        },
+        "option5": {
+          "heading": "Luotettavuus ja tuki: ",
+          "description": "Stripen infrastruktuuri käsittelee tuhansia transaktioita sekunnissa globaalisti. Saat tämän luotettavuuden, raportoinnin ja analytiikan käyttöösi suoraan Vesko-hallintapaneelissa."
+        },
+        "description": "Vesko + Stripe = yritystason maksunkäsittely ilman vaivaa. Asiakkaasi saavat sujuvan kassakokemuksen, sinä nautit matalista kuluista ja nollabyrokratiasta."
+      }
+    },
+    "logistics": {
+      "heading": "Vaivaton toimitus nShift-integraation avulla",
+      "subheading": "Logistiikka on usein verkkomyynnin työläin osa, mutta Vesko + nShift tekee siitä helppoa ja huoletonta. nShift yhdistää yli 1 000 kuljetusliikkeeseen ympäri maailmaa, joten pienikin kauppa voi tarjota nopeita ja edullisia toimituksia.",
+      "features": {
+        "heading": "Näin Vesko-nShift-tilaus- ja toimitusjärjestelmä auttaa",
+        "subheading": "",
+        "option1": {
+          "heading": "Pääsy 1 000+ kuljetusliikkeeseen ja parhaisiin hintoihin: ",
+          "description": "Järjestelmä valitsee automaattisesti kustannus- ja nopeus­optimoidun kuljettajan tilaukselle – et joudu neuvottelemaan omia sopimuksia."
+        },
+        "option2": {
+          "heading": "Automaattinen osoitekorttien luonti: ",
+          "description": "Heti, kun tilaus saapuu, Vesko luo ja tulostaa nShiftin kautta tarvittavat osoite- ja tulliasiakirjat. Ei manuaalista syöttöä tai hyppimistä eri sivustoilla."
+        },
+        "option3": {
+          "heading": "Reaaliaikainen seuranta ja ETA-päivitykset: ",
+          "description": "Seuraa jokaista lähetystä Vesko-paneelissa; asiakkaasi näkevät myös arvioidut toimitusajat. Tämä vähentää “Missä pakettini on?” kyselyitä ja lisää luottamusta."
+        },
+        "option4": {
+          "heading": "Minimaalinen työmäärä: ",
+          "description": "nShiftiin perustuva järjestelmä hoitaa varaukset, noudot, seuranta­sähköpostit ja päivitykset. Sinun tarvitsee vain pakata tilaukset – järjestelmä minimoi virheet ja nopeuttaa käsittelyä."
+        },
+        "option5": {
+          "heading": "Asiakastyytyväisyys ja luottamus: ",
+          "description": "Läpinäkyvä seuranta ja täsmälliset toimitukset parantavat asiakaskokemusta ja tukevat toistuvia ostoksia."
+        }
+      },
+      "description": "Vesko tekee logistiikasta niin yksinkertaista, että se lakkaa olemasta päänsärky. Saat suuryritystason toimitusjärjestelmän, laajan kuljetusvalikoiman ja automaation ilman omaa logistiikka­osaamista."
+    },
+    "benefits": {
+      "heading": "Miksi tämä on tärkeää sinulle?",
+      "features": {
+        "option1": {
+          "heading": "Ajan ja työn säästö: ",
+          "description": "Yksi työkalu, ei manuaalisia prosesseja – voit keskittyä tuotteisiin ja asiakkaisiin."
+        },
+        "option2": {
+          "heading": "Kustannustehokkuus: ",
+          "description": "Ei kalliita maksupäätteitä tai ohjelmistoja. Optimoidut toimitusmaksut ja matalat maksukulut säästävät rahaa."
+        },
+        "option3": {
+          "heading": "PAmmattilais­tasoinen palvelu ja kasvu: ",
+          "description": "Tarjoat suuren verkkokaupan tasoisen kassakokemuksen ja toimituksen, vaikka olisit yksinyrittäjä. Tyytyväiset asiakkaat palaavat ja suosittelevat kauppaasi."
+        },
+        "option4": {
+          "heading": "Mielenrauha: ",
+          "description": "Turvallisuus, compliance ja luotettavuus ovat Vesko-alustan ja kumppaneiden vastuulla. Maksut suojataan, lähetykset seurataan – sinä voit toimia huoletta."
+        }
+      }
+    },
+    "join": {
+      "heading": "Liity Veskoon",
+      "description": "Koe, kuinka vaivatonta verkkokaupan pyörittäminen voi olla oikean maksu- ja logistiikka­ratkaisun avulla. Käytä vähemmän aikaa hallinnointiin, säästä kuluissa ja tarjoa asiakkaillesi parempi kokemus kaikki Veskon avulla."
     }
   }
 }
