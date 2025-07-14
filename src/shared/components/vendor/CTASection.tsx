@@ -122,12 +122,12 @@ const CTASection = () => {
           {/* CTA Buttons */}
           <motion.div
             variants={buttonVariants}
-            className='flex cursor-pointer flex-col items-center gap-4 sm:flex-row sm:justify-center'
+            className='flex cursor-pointer items-center justify-center gap-4'
           >
             <motion.div variants={buttonVariants} whileHover='hover'>
               <Button
                 onClick={() => void navigate(registerPath)}
-                containerClassName='bg-white px-8 w-40 py-4 text-lg font-semibold text-blue-600 shadow-lg hover:bg-gray-100 border-0'
+                containerClassName='bg-white px-8 py-4 text-lg sm:font-semibold text-blue-600 shadow-lg hover:bg-gray-100 border-0'
                 textClassName='text-blue-600 group-hover:text-white'
               >
                 {t("vendor.cta.buttons.register")}
@@ -136,7 +136,7 @@ const CTASection = () => {
             <motion.div variants={buttonVariants} whileHover='hover'>
               <Button
                 onClick={() => void navigate(contactPath)}
-                containerClassName='border-2 w-40 border-white px-6 py-4 text-lg font-semibold text-white hover:bg-white hover:text-white bg-transparent'
+                containerClassName='border-2 border-white px-6 py-4 text-lg sm:font-semibold text-white hover:bg-white hover:text-white bg-transparent'
                 textClassName='text-white group-hover:text-white'
               >
                 {t("vendor.cta.buttons.contactUs")}
