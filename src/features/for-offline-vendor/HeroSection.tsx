@@ -99,7 +99,7 @@ const HeroSection = () => {
       </div>
 
       {/* Content container with proper centering */}
-      <div className='flex min-h-screen justify-center px-4 py-16 pt-16 sm:px-6 lg:px-8'>
+      <div className='flex min-h-[82vh] justify-center px-4 py-16 pt-16 sm:px-6 lg:px-8'>
         <Container className='relative z-10 text-center'>
           <motion.div
             variants={containerVariants}
