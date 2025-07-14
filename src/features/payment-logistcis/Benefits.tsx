@@ -3,29 +3,21 @@ import { useTranslation } from "react-i18next";
 
 import { Text } from "@/shared/components/ui/text";
 
-const Payments = () => {
+const Benefits = () => {
   const { t } = useTranslation();
 
   const options = [
     {
-      heading: t("paymentAndLogistic.payment.features.option1.heading"),
-      description: t("paymentAndLogistic.payment.features.option1.description"),
+      heading: t("paymentAndLogistic.benefits.features.option1.heading"),
+      description: t("paymentAndLogistic.benefits.features.option1.description"),
     },
     {
-      heading: t("paymentAndLogistic.payment.features.option2.heading"),
-      description: t("paymentAndLogistic.payment.features.option2.description"),
+      heading: t("paymentAndLogistic.benefits.features.option2.heading"),
+      description: t("paymentAndLogistic.benefits.features.option2.description"),
     },
     {
-      heading: t("paymentAndLogistic.payment.features.option3.heading"),
-      description: t("paymentAndLogistic.payment.features.option3.description"),
-    },
-    {
-      heading: t("paymentAndLogistic.payment.features.option4.heading"),
-      description: t("paymentAndLogistic.payment.features.option4.description"),
-    },
-    {
-      heading: t("paymentAndLogistic.payment.features.option5.heading"),
-      description: t("paymentAndLogistic.payment.features.option5.description"),
+      heading: t("paymentAndLogistic.benefits.features.option3.heading"),
+      description: t("paymentAndLogistic.benefits.features.option3.description"),
     },
   ];
 
@@ -62,11 +54,11 @@ const Payments = () => {
     >
       <motion.div variants={textVariants} className='py-4 text-center'>
         <Text as='h1' variant='heading'>
-          {t("paymentAndLogistic.payment.heading")}
+          {t("paymentAndLogistic.benefits.heading")}
         </Text>
       </motion.div>
       <motion.div variants={textVariants}>
-        <Text>{t("paymentAndLogistic.payment.subheading")}</Text>
+        <Text>{t("paymentAndLogistic.benefits.subheading")}</Text>
       </motion.div>
       <motion.div>
         {options.map((option, index) => (
@@ -78,11 +70,8 @@ const Payments = () => {
           </div>
         ))}
       </motion.div>
-      <motion.div>
-        <Text>{t("paymentAndLogistic.payment.description")}</Text>
-      </motion.div>
     </motion.div>
   );
 };
 
-export { Payments };
+export { Benefits };

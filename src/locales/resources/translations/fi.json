@@ -1026,29 +1026,28 @@
       "subheading": "Vesko käyttää Stripeä, maailmanluokan maksualustaa, joka tekee verkkomaksuista nopeita, turvallisia ja vaivattomia. Stripeen luottavat niin startupit kuin Fortune 500 -yhtiötkin (esim. Google, Amazon), joten sekä sinä että asiakkaasi voitte olla huoletta."
     },
     "payment": {
-      "securePayment": {
-        "heading": "Mitä saat Vesko-Stripe-integraatiolla",
-        "features": {
-          "option1": {
-            "heading": "Helppo, turvallinen kassaprosessi: ",
-            "description": "yleisimmät luotto- ja pankkikortit sekä digitaaliset lompakot (Apple Pay, Google Pay jne.) yli 135 valuutassa. Stripe on PCI Level 1 -sertifioitu ja sen kehittynyt petoksenesto (Stripe Radar) suojaa sinua ja asiakkaitasi."
-          },
-          "option2": {
-            "heading": "Läpinäkyvät, matalat kulut: ",
-            "description": "Ei aloitus- tai kuukausimaksuja. Maksat vain pienen vakio-transaktiomaksun (n. 2,9 % + 0,30 USD) + mahdollinen Vesko-maksu, joka riippuu tilauspaketistasi. Ei piilokuluja eikä sitovia sopimuksia."
-          },
-          "option3": {
-            "heading": "Nopea käyttöönotto, suorat tilisiirrot: ",
-            "description": "Stripe-tilin avaaminen on helppoa, ja asiakasvarat siirtyvät suoraan omalle tilillesi – Vesko ei pidätä rahoja. Nopeat tilitykset parantavat kassavirtaa."
-          },
-          "option4": {
-            "heading": "Globaali ja skaalautuva: ",
-            "description": "Hyväksy kansainväliset maksut ja useat maksutavat ilman lisä­monimutkaisuutta. Vesko toimii maailmanlaajuisesti, ja saman alustan kautta voit myöhemmin lisätä tilaus- ja laskutuspalvelut."
-          },
-          "option5": {
-            "heading": "Luotettavuus ja tuki: ",
-            "description": "Stripen infrastruktuuri käsittelee tuhansia transaktioita sekunnissa globaalisti. Saat tämän luotettavuuden, raportoinnin ja analytiikan käyttöösi suoraan Vesko-hallintapaneelissa."
-          }
+      "heading": "Mitä saat Vesko-Stripe-integraatiolla",
+      "subheading": "h",
+      "features": {
+        "option1": {
+          "heading": "Helppo, turvallinen kassaprosessi: ",
+          "description": "yleisimmät luotto- ja pankkikortit sekä digitaaliset lompakot (Apple Pay, Google Pay jne.) yli 135 valuutassa. Stripe on PCI Level 1 -sertifioitu ja sen kehittynyt petoksenesto (Stripe Radar) suojaa sinua ja asiakkaitasi."
+        },
+        "option2": {
+          "heading": "Läpinäkyvät, matalat kulut: ",
+          "description": "Ei aloitus- tai kuukausimaksuja. Maksat vain pienen vakio-transaktiomaksun (n. 2,9 % + 0,30 USD) + mahdollinen Vesko-maksu, joka riippuu tilauspaketistasi. Ei piilokuluja eikä sitovia sopimuksia."
+        },
+        "option3": {
+          "heading": "Nopea käyttöönotto, suorat tilisiirrot: ",
+          "description": "Stripe-tilin avaaminen on helppoa, ja asiakasvarat siirtyvät suoraan omalle tilillesi – Vesko ei pidätä rahoja. Nopeat tilitykset parantavat kassavirtaa."
+        },
+        "option4": {
+          "heading": "Globaali ja skaalautuva: ",
+          "description": "Hyväksy kansainväliset maksut ja useat maksutavat ilman lisä­monimutkaisuutta. Vesko toimii maailmanlaajuisesti, ja saman alustan kautta voit myöhemmin lisätä tilaus- ja laskutuspalvelut."
+        },
+        "option5": {
+          "heading": "Luotettavuus ja tuki: ",
+          "description": "Stripen infrastruktuuri käsittelee tuhansia transaktioita sekunnissa globaalisti. Saat tämän luotettavuuden, raportoinnin ja analytiikan käyttöösi suoraan Vesko-hallintapaneelissa."
         },
         "description": "Vesko + Stripe = yritystason maksunkäsittely ilman vaivaa. Asiakkaasi saavat sujuvan kassakokemuksen, sinä nautit matalista kuluista ja nollabyrokratiasta."
       }
@@ -1058,6 +1057,7 @@
       "subheading": "Logistiikka on usein verkkomyynnin työläin osa, mutta Vesko + nShift tekee siitä helppoa ja huoletonta. nShift yhdistää yli 1 000 kuljetusliikkeeseen ympäri maailmaa, joten pienikin kauppa voi tarjota nopeita ja edullisia toimituksia.",
       "features": {
         "heading": "Näin Vesko-nShift-tilaus- ja toimitusjärjestelmä auttaa",
+        "subheading": "",
         "option1": {
           "heading": "Pääsy 1 000+ kuljetusliikkeeseen ja parhaisiin hintoihin: ",
           "description": "Järjestelmä valitsee automaattisesti kustannus- ja nopeus­optimoidun kuljettajan tilaukselle – et joudu neuvottelemaan omia sopimuksia."

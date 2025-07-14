@@ -1012,33 +1012,31 @@
       "subheading": "Whether you're an individual entrepreneur or a small offline retailer expanding online, Vesko streamlines your payment and delivery processes. Our integrated solution, powered by Stripe for payments and nShift for shipping, let's you focus on fulfilling orders and growing your business and we'll handle the heavy lifting in the background. Below is a concise overview of how Vesko’s payment and logistics features benefit you, saving time and costs while improving your customer experience."
     },
     "payment": {
-      "securePayment": {
-        "heading": "Secure Payments Powered by Stripe",
-        "subheading": "Vesko uses Stripe, a world-class payment platform, to ensure your online transactions are fast, secure, and hassle-free. Stripe is trusted by businesses of all sizes – from startups to Fortune 500 companies like Google and Amazon so you and your customers can have peace of mind. With Vesko’s Stripe integration, you get:",
-        "features": {
-          "option1": {
-            "heading": "Easy, Secure Checkout: ",
-            "description": "Accept all major credit/debit cards and digital wallets (e.g. Apple Pay, Google Pay) in 135+ currencies. Stripe is PCI Level 1 certified, the highest grade of payment security, making every transaction highly secure. Advanced fraud prevention (Stripe Radar) further safeguards your business and customers."
-          },
-          "option2": {
-            "heading": "Transparent Low Fees: ",
-            "description": "There are no setup or monthly fees for using Stripe’s basic services you only pay a small standard transaction fee per sale (e.g. ~2.9% + $0.30, +possible  Vesko’s charge per transaction and this will depend on your subscription plan) with no hidden charges or binding contracts. This pay-as-you-go pricing keeps costs predictable and flexible for small businesses."
-          },
-          "option3": {
-            "heading": "Quick Setup, Direct Payouts: ",
-            "description": "Getting started is simple with Stripe’s easy onboarding. Payments from your customers go directly into your own account  (Vesko will not hold your funds). Stripe’s fast payout system means you receive your revenue quickly, improving cash flow."
-          },
-          "option4": {
-            "heading": "Global and Scalable: ",
-            "description": "As your business grows, Stripe scales with you. You can accept international payments (135+ currencies) and multiple payment methods without additional Complexity (Vesko will be available worldwide). There are also options for subscriptions, invoicing, and more as needed, all under the same platform."
-          },
-          "option5": {
-            "heading": "Reliability & Support: ",
-            "description": "Stripe’s infrastructure is renowned for its uptime and speed, processing thousands of transactions per second worldwide. You benefit from that reliability, plus detailed reporting and analytics to track your sales on your store panel."
-          }
+      "heading": "Secure Payments Powered by Stripe",
+      "subheading": "Vesko uses Stripe, a world-class payment platform, to ensure your online transactions are fast, secure, and hassle-free. Stripe is trusted by businesses of all sizes – from startups to Fortune 500 companies like Google and Amazon so you and your customers can have peace of mind. With Vesko’s Stripe integration, you get:",
+      "features": {
+        "option1": {
+          "heading": "Easy, Secure Checkout: ",
+          "description": "Accept all major credit/debit cards and digital wallets (e.g. Apple Pay, Google Pay) in 135+ currencies. Stripe is PCI Level 1 certified, the highest grade of payment security, making every transaction highly secure. Advanced fraud prevention (Stripe Radar) further safeguards your business and customers."
         },
-        "description": "With Vesko and Stripe, you get enterprise-grade payment processing with zero fuss. Your customers enjoy a smooth, trustworthy checkout experience, while you enjoy low fees and no extra admin work on payment compliance or security,  it’s all handled for you."
-      }
+        "option2": {
+          "heading": "Transparent Low Fees: ",
+          "description": "There are no setup or monthly fees for using Stripe’s basic services you only pay a small standard transaction fee per sale (e.g. ~2.9% + $0.30, +possible  Vesko’s charge per transaction and this will depend on your subscription plan) with no hidden charges or binding contracts. This pay-as-you-go pricing keeps costs predictable and flexible for small businesses."
+        },
+        "option3": {
+          "heading": "Quick Setup, Direct Payouts: ",
+          "description": "Getting started is simple with Stripe’s easy onboarding. Payments from your customers go directly into your own account  (Vesko will not hold your funds). Stripe’s fast payout system means you receive your revenue quickly, improving cash flow."
+        },
+        "option4": {
+          "heading": "Global and Scalable: ",
+          "description": "As your business grows, Stripe scales with you. You can accept international payments (135+ currencies) and multiple payment methods without additional Complexity (Vesko will be available worldwide). There are also options for subscriptions, invoicing, and more as needed, all under the same platform."
+        },
+        "option5": {
+          "heading": "Reliability & Support: ",
+          "description": "Stripe’s infrastructure is renowned for its uptime and speed, processing thousands of transactions per second worldwide. You benefit from that reliability, plus detailed reporting and analytics to track your sales on your store panel."
+        }
+      },
+      "description": "With Vesko and Stripe, you get enterprise-grade payment processing with zero fuss. Your customers enjoy a smooth, trustworthy checkout experience, while you enjoy low fees and no extra admin work on payment compliance or security,  it’s all handled for you."
     },
     "logistics": {
       "heading": "Hassle-Free Shipping Powered By nShift",
