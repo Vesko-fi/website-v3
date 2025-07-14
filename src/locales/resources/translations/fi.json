@@ -18,11 +18,11 @@
     "vesko": {
       "safePlace": {
         "title": "Turvallinen paikka",
-        "description": "Jakaa elämääsi ystävien ja perheen kanssa ilman, että sinua hyökätään siitä, kuka olet."
+        "description": "Jakaa elämääsi ystävien ja perheen kanssa ilman, että sinuun hyökätään sen vuoksi, kuka olet."
       },
       "neutral": {
         "title": "Neutraali",
-        "description": "Kuten Sveitsi, emme ota puolta ja nollatoleranssi vihaan, kiusaamiseen ja syrjintään."
+        "description": "Kuten Sveitsi, emme ota puolta, ja meillä on nollatoleranssi vihaa, kiusaamista ja syrjintää kohtaan."
       },
       "connected": {
         "title": "Yhdistetty",
@@ -52,20 +52,20 @@
       "onlineStore": {
         "title": "Verkkokauppa",
         "subtitle": "Verkkokauppiaille",
-        "description": "Digitaalisille ensisijaisille myyjille. Rakenna brändisi, kasvata uskollista asiakaskuntaa ja yhdisty suoraan yleisöösi kaikki yhdessä tukevassa sosiaalisessa kaupankäyntialustassa."
+        "description": "Digitaalisille ensisijaisille myyjille. Rakenna brändisi, kasvata uskollista asiakaskuntaa ja yhdisty suoraan yleisöösi — kaikki yhdessä tukevassa sosiaalisessa kaupankäyntialustassa."
       }
     },
     "featuresGrid": {
       "heading": "Kytke ja käytä",
-      "subtitle": "ntegroitu maksaminen ja luotettava logistiikka sisäänrakennettuna jokaiseen verkkokauppaan",
+      "subtitle": "Integroitu maksaminen ja luotettava logistiikka sisäänrakennettuna jokaiseen verkkokauppaan",
       "payment": {
         "title": "Maksut",
-        "description": "Turvallinen ja varma kassaprosessi, jota tukee päästä päähän salaus ja luotetut maksukumppanit.",
+        "description": "Turvallinen ja varma kassaprosessi, jota tukee päästä päähän -salaus ja luotetut maksukumppanit.",
         "buttonText": "Lue lisää"
       },
       "logistics": {
         "title": "Logistiikka",
-        "description": "Nopea ja luotettava toimitus ennalta määritellyillä logistiikkaintegraatioilla, jotka tekevät tilauksen täytöstä saumattomaksi sekä myyjille että asiakkaille.",
+        "description": "Nopea ja luotettava toimitus valmiiksi integroitujen logistiikkaratkaisujen avulla, jolloin tilauksen täyttö sujuu saumattomasti sekä myyjille että asiakkaille.",
         "buttonText": "Lue lisää"
       }
     },
@@ -78,7 +78,7 @@
     },
     "reviews": {
       "heading": "Alan johtajien luottama",
-      "subtitle": "Lue palautetta ja arvosteluja tulevilta asiakkailta ja käyttäjiltä, jotka ovat testanneet Veskota",
+      "subtitle": "Lue palautetta ja arvosteluja tulevilta asiakkailta ja käyttäjiltä, jotka ovat testanneet Veskoa",
       "reviews": [
         {
           "name": "John Doe",
@@ -90,7 +90,7 @@
           "name": "Jane Smith",
           "role": "Teknologiajohtaja",
           "company": "InnovateTech",
-          "content": "Maksu- ja logistiikkaominaisuuksien saumaton integraatio on virtaviivaistanut koko toimintamme. Se on täsmälleen mitä tarvitsimme."
+          "content": "Maksu- ja logistiikkaominaisuuksien saumaton integraatio on virtaviivaistanut koko toimintamme. Se on juuri sitä mitä tarvitsimme."
         },
         {
           "name": "Mike Johnson",
@@ -107,7 +107,7 @@
         "buttonText": "Liity odotuslistalle",
         "loadingText": "Liitytään...",
         "successMessage": "Kiitos, että liityit odotuslistallemme!",
-        "successSubtitle": "Ilmoitamme sinulle heti kun lanssaamme.",
+        "successSubtitle": "Ilmoitamme sinulle heti, kun lanseeraamme.",
         "placeholder": "Syötä sähköpostiosoitteesi",
         "errorMessage": "Syötä kelvollinen sähköpostiosoite"
       },
@@ -121,7 +121,7 @@
     "hero": {
       "title": "Ihmiset uudelleen yhteydessä",
       "subtitle": "Missä sosiaalinen media tuntuu taas inhimilliseltä ja yhdistää sinut uudelleen maailmaasi.",
-      "formTitle": "Ole ensimmäisten joukossa kokeilemassa Veskota",
+      "formTitle": "Ole ensimmäisten joukossa kokeilemassa Veskoa",
       "socialProof": "Liity 2 847+ odottavan ihmisen joukkoon",
       "trustIndicators": {
         "free": "Ilmainen liittyä",
@@ -131,7 +131,7 @@
       "waitlist": {
         "button": "Liity odotuslistalle",
         "placeholder": "esimerkki@sähköposti.fi",
-        "success": "Olet listalla! Ilmoitamme sinulle kun lanssaamme."
+        "success": "Olet listalla! Ilmoitamme sinulle, kun lanseeraamme."
       }
     },
     "whatIsVesko": {
@@ -143,7 +143,7 @@
         "item1": "Se on sosiaalisen median sovellus verkkokauppojen kanssa, jossa voit ostaa tai jopa myydä.",
         "item2": "Voit seurata ystäviä, ihmisiä, kauppoja ja brändejä.",
         "item3": "Kotisivu, jossa näet julkaisut seuraamiltasi ihmisiltä ja",
-        "item4": "Tuotejulkaisut suosikkikauppojasi ja brändejäsi, joita voit ostaa suoraan.",
+        "item4": "Tuotejulkaisut suosikkikaupoiltasi ja brändeiltä, joita voit ostaa suoraan",
         "item5": "Mutta Vesko ei ole vain toinen sosiaalinen kaupankäyntisovellus, se on"
       }
     },
@@ -160,7 +160,7 @@
       },
       "secondSection": {
         "mainText": "Näyttää tutulta",
-        "subText": "Mutta tämä ei ole se sama myrkyllinen tila, johon olet tottunut – Veskolla on oma ainutlaatuinen kotisyötteen muotoilunsa."
+        "subText": "Mutta tämä ei ole se sama negatiivinen tila, johon olet tottunut – Veskolla on oma ainutlaatuinen kotisyötteen muotoilunsa."
       }
     },
     "localConnection": {
@@ -169,14 +169,14 @@
 
       "step1": {
         "label": "Vaihe 1",
-        "title": "etsi ja löydä tuote",
+        "title": "Etsi ja löydä tuote",
         "description": "Kun Vesko on saatavilla, voit helposti etsiä ja suodattaa tuotteita. Kartan avulla näet kaikki lähistön myymälät, jotka myyvät Veskossa – kuinka kaukana ne ovat ja milloin ne ovat auki. Huom: mobiilisovelluksen käyttö vaatii rekisteröitymisen pelkällä sähköpostilla."
       },
 
       "step2": {
         "label": "Vaihe 2",
         "title": "Tarkista tuotteen saatavuus",
-        "description": "Kun löydät tuotteen, jonka haluat ostaa, siirry sen tuotesivulle. Siellä voit lukea myyjän lisäämät tiedot ja tarkistaa, onko kyseinen koko saatavilla myymälässä. Jos näet tuotteen kotisyötteessäsi, paina 'Osta nyt' tai klikkaa tuotekuvaa nähdäksesi lisätiedot."
+        "description": "Kun löydät tuotteen, jonka haluat ostaa, siirry sen tuotesivulle. Siellä voit lukea myyjän lisäämät tiedot ja tarkistaa, onko kyseinen koko saatavilla myymälässä. Jos näet tuotteen kotisyötteessäsi, paina 'Osta nyt' tai klikkaa tuotekuvaa nähdäksesi lisätietoja."
       },
 
       "step3": {
@@ -218,7 +218,7 @@
   "about": {
     "hero": {
       "title": "Tietoja Veskosta",
-      "subtitle": "Lue miksi rakennamme Veskota ja tutustu meihin",
+      "subtitle": "Lue miksi rakennamme Veskoa ja tutustu meihin",
       "tagline": "Tutustu tarinaamme, arvoihimme ja missioomme luoda parempi digitaalinen maailma"
     },
     "whatIsVesko": {
@@ -230,12 +230,12 @@
       "mission": "Tehtävämme on luoda turvallinen sosiaalinen digitaalinen tila, joka yhdistää ihmiset ja voimaannuttaa pieniä vähittäiskauppayrityksiä.",
       "problem": {
         "title": "Ongelma",
-        "description": "Uskomme, että teknologian piti luoda ratkaisuja, ei lisää ongelmia ja yhdistää meitä, ei erottaa. Mutta nykyään alustat tuntuvat meluisilta, jakavilta ja uuvuttavilta."
+        "description": "Uskomme, että teknologian piti luoda ratkaisuja ja yhdistää meitä, ei erottaa. Mutta nykyään alustat tuntuvat meluisilta, jakavilta ja uuvuttavilta."
       },
       "solution": {
         "title": "Ratkaisumme",
-        "description": "Siksi rakennamme Veskota, yhdistääksemme ihmiset uudelleen, ei vain digitaalisesti, vaan paikallisesti ja tuodaksemme yhteisöt lähemmäs toisiaan.",
-        "additional": "Tila, jossa voit olla oma itsesi ilman pelkoa tuomita siitä, kuka olet, mitä uskot tai ketä rakastat."
+        "description": "Siksi rakennamme Veskoa, yhdistääksemme ihmiset uudelleen, ei vain digitaalisesti, vaan paikallisesti ja tuodaksemme yhteisöt lähemmäksi toisiaan.",
+        "additional": "Tila, jossa voit olla oma itsesi ilman pelkoa siitä, että sinua tuomitaan sen vuoksi, kuka olet, mihin uskot tai ketä rakastat."
       }
     },
     "ourStory": {
@@ -249,22 +249,22 @@
         "beginning": {
           "title": "Alku",
           "location": "Joensuu, Suomi",
-          "content": "Veskon tarina alkoi vuonna 2019 Joensuussa, pienessä kaupungissa Itä-Suomessa, jossa perustaja Leo Fadi huomasi, miten paikalliset vähittäiskauppaliikkeet sulkeutuivat vuosi vuodelta."
+          "content": "Veskon tarina alkoi vuonna 2019 Joensuussa, pienessä kaupungissa Itä-Suomessa, jossa perustaja Leo Fadi huomasi, miten paikalliset vähittäiskauppaliikkeet sulkivat ovensa vuosi vuodelta."
         },
         "realization": {
           "title": "Vaikutuksen ymmärtäminen",
           "location": "Tajunta",
-          "content": "Yrittäjänä hän ymmärsi, että jokaisen pienen yrityksen takana on perhe tai nuori yrittäjä, joten kun kauppa sulkeutuu, se ei ole vain tyhjiä ikkunoita; hän näki perheiden menettävän tulolähteensä ja nuorten yrittäjien katsovan unelmiensa murtuvan."
+          "content": "Yrittäjänä hän ymmärsi, että jokaisen pienen yrityksen takana on perhe tai nuori yrittäjä. Kun kauppa sulkeutuu, kyse ei ole vain tyhjistä näyteikkunoista – hän näki perheiden menettävän tulolähteensä ja nuorten yrittäjien unelmien murenevan."
         },
         "problem": {
           "title": "Digitaalinen kuilu",
           "location": "Ongelma",
-          "content": "Digitaalisten ostokäyttäytymisen kasvaessa kävi selväksi, että pienet yritykset eivät kuolleet, koska ihmiset lopettivat offline-ostamisen, vaan he kamppailivat, koska heillä ei ollut pääsyä samoihin digitaalisiin työkaluihin kuin suurilla kauppiailla."
+          "content": "Digitaalisten ostokäyttäytymisen kasvaessa kävi selväksi, että pienet yritykset eivät kuolleet siksi, että ihmiset olisivat lopettaneet kivijalkakaupoissa asioinnin, vaan siksi, että heillä ei ollut pääsyä samoihin digitaalisiin työkaluihin kuin suurilla kauppiailla."
         },
         "solution": {
           "title": "Tutkimus ja kehitys",
           "location": "Ratkaisun etsiminen",
-          "content": "Tutkimus- ja kehitystyö käynnistettiin arvioimaan mahdollisia ratkaisuja, käyttötapauksia ja liiketoimintamalleja, mikä loi vankan perustan tulevalle yritykselle."
+          "content": "Tutkimus- ja kehitystyö käynnistettiin kartoittamaan mahdollisia ratkaisuja, käyttötapauksia ja liiketoimintamalleja, mikä loi vankan perustan tulevalle yritykselle."
         },
         "starting": {
           "title": "Veskon perustaminen",
@@ -274,12 +274,12 @@
         "vision": {
           "title": "Kauppaa pidemmälle",
           "location": "Visio",
-          "content": "Ja toiseksi, uudelleenajattelemalla sosiaalisen median itsensä. Valtavirran alustat ovat muuttuneet myrkyllisemmiksi kuin hyödyllisiksi, työntäen tyhjää sisältöä merkityksellisen yhteyden sijaan."
+          "content": "Ja toiseksi, ajattelemalla sosiaalisen median uudelleen. Valtavirran alustat ovat muuttuneet enemmän myrkyllisemmiksi kuin hyödyllisiksi – ne tyrkyttävät tyhjää sisältöä merkityksellisen yhteyden sijaan."
         },
         "mission": {
           "title": "Tarkoituksellinen alusta",
           "location": "Tehtävä",
-          "content": "Joten Vesko rakennettiin myös sosiaaliseksi tilaksi tarkoituksella: yhdistää ihmiset toisiinsa ja paikallisiin yrityksiin, jotka pitävät yhteisöt elossa. Sydämessään Vesko on vastaus sekä markkinoiden että ihmisen tarpeisiin."
+          "content": "Joten Vesko rakennettiin tietoisesti myös sosiaaliseksi tilaksi – yhdistämään ihmiset toisiinsa ja paikallisiin yrityksiin, jotka pitävät yhteisöt elossa. Sydämessään Vesko on vastaus sekä markkinoiden että ihmisen tarpeisiin."
         }
       },
       "quote": {
@@ -291,7 +291,7 @@
       "title": "Mitä arvostamme",
       "empathy": {
         "title": "Empatia",
-        "description": "Kuuntelemme, välitämme ja suunnittelemme ihmisten mielessä, luoden tilan, jossa kaikki tuntevat itsensä nähdyksi ja kunnioitetuksi."
+        "description": "Kuuntelemme, välitämme ja suunnittelemme ihmisen mielessä, luoden tilan, jossa kaikki tuntevat itsensä nähdyksi ja kunnioitetuksi."
       },
       "peace": {
         "title": "Rauha",
@@ -299,11 +299,11 @@
       },
       "friendliness": {
         "title": "Ystävällisyys",
-        "description": "Uskomme, että sosiaaliset alustat pitäisi tuntua naapurustoilta, tervetulevilta, ystävällisiltä ja avoimilta todelliselle yhteydelle."
+        "description": "Uskomme, että sosiaaliset alustat pitäisi tuntua naapurustoilta – tervetulleilta, ystävällisiltä ja avoimilta aidoille yhteyksille."
       },
       "neutrality": {
         "title": "Neutraliteetti",
-        "description": "Pidämme asiat yksinkertaisina, aitoina ja perustettuina arkipäiväiseen elämään. Alustana emme ota puolta, vain kannan rauhan, oikeudenmukaisuuden ja keskinäisen kunnioituksen puolesta."
+        "description": "Pidämme asiat yksinkertaisina, aitoina ja perustettuina arkipäiväiseen elämään. Alustana emme ota puolia – tuemme rauhaa, oikeudenmukaisuutta ja keskinäistä kunnioitusta."
       },
       "conclusion": "Nämä arvot ohjaavat kaikkea mitä teemme, tuotesuunnittelusta yhteisön rakentamiseen, varmistaen että Vesko pysyy alustana, joka todella palvelee ihmisiä ja yhteisöjä."
     },
@@ -333,7 +333,7 @@
         },
         "sdg13": {
           "title": "Ilmastotoimet",
-          "description": "Paikallistamalla kauppaa ja vähentämällä pitkän matkan kuljetuksia Vesko minimoi logistiikan hiilidioksidipäästöt."
+          "description": "Paikallistamalla kaupankäyntiä ja vähentämällä pitkän matkan kuljetuksia Vesko minimoi logistiikan hiilidioksidipäästöjä."
         },
         "sdg17": {
           "title": "Kumppanuudet tavoitteiden saavuttamiseksi",
@@ -400,7 +400,7 @@
     "whatIsOmniStore": {
       "title": "Mikä on OmniStore?",
       "subTitle": "OmniStore ® muuttaa fyysisen myymäläsi virtuaaliseksi esittelytilaksi, jonka avulla asiakkaat voivat nähdä reaaliaikaisesti, mitä on saatavilla – jo ennen kuin he astuvat ulos kotoaan",
-      "description": "Se on suunniteltu auttamaan liiketoimintaasi kasvamaan tarjoamalla asiakkaille Online-to-Offline-ostoskokemuksen maailman ensimmäisen skaalautuvan, käyttövalmiin monikanavaisen verkkokaupan kautta",
+      "description": "Se on suunniteltu tukemaan liiketoimintasi kasvua tarjoamalla asiakkaille Online-to-Offline-ostoskokemuksen maailman ensimmäisen skaalautuvan, käyttövalmiin monikanavaisen verkkokaupan kautta",
       "highlights": {
         "scalableAndReady": "Skaalautuva ja käyttövalmis.",
         "realTimeInventory": "Reaaliaikainen varastosaatavuus.",
@@ -409,7 +409,7 @@
     },
     "why": {
       "title": "Miksi OmniStore?",
-      "subtitle": "Koska 9 ostoksesta 10 alkaa verkosta!",
+      "subtitle": "Koska 9 ostosta 10 alkaa verkosta!",
       "stats": {
         "onlinePurchases": {
           "percentage": "90%",
@@ -464,7 +464,7 @@
         },
         "startSelling": {
           "title": "Aloita Myynti",
-          "description": "Kun painat listaa, tuotteet ovat saatavilla kaupassasi asiakkailesi, seuraajasi näkevät uuden tuotteesi kotisivullaan."
+          "description": "Kun painat listaa, tuotteet ovat saatavilla kaupassasi asiakkaillesi, ja seuraajasi näkevät uuden tuotteesi kotisivullaan."
         }
       },
       "bottomMessage": {
@@ -564,7 +564,7 @@
         },
         "customIntegration": {
           "title": "Mukautettu Integraatio",
-          "description": "Voimme auttaa integroimaan erikoisen POS-järjestelmäsi OmniStoreen"
+          "description": "Voimme auttaa integroimaan POS-järjestelmäsi OmniStoreen"
         }
       },
       "benefits": {
@@ -662,7 +662,7 @@
       "benefits": {
         "buildCommunity": {
           "title": "Rakenna Yhteisösi",
-          "description": "Yhdisty seuraajiin, jotka tulevat uskollisiksi asiakkaitasi"
+          "description": "Luo yhteys seuraajiisi, joista tulee uskollisia asiakkaitasi"
         },
         "socialCommerce": {
           "title": "Sosiaalinen Kaupankäynti",
@@ -676,10 +676,10 @@
     },
     "whatIs": {
       "title": "Mikä on Veskon Online-kauppa?",
-      "subtitle": "Online-kauppa profiilisi sisällä — missä yhdistyt asiakkaitasi, rakennat yhteisön ja muutat seuraajat ostajiksi. Sosiaalinen, ostettava ja tehty kasvamaan kanssasi.",
+      "subtitle": "Online-kauppa profiilisi sisällä — jossa yhdistyt asiakkaisiisi, rakennat yhteisön ja muutat seuraajat ostajiksi. Sosiaalinen, ostettava ja luotu kasvamaan kanssasi.",
       "features": {
         "integratedProfile": "Integroitu profiili ja kauppa yhdessä alustassa",
-        "meaningfulConnections": "Rakenna merkityksellisiä yhteyksiä asiakkaitasi kanssa",
+        "meaningfulConnections": "Rakenna merkityksellisiä yhteyksiä asiakkaisiisi",
         "socialPresence": "Muuta sosiaalinen läsnäolosi kukoistavaksi liiketoiminnaksi"
       }
     },
@@ -690,11 +690,11 @@
       "benefits": {
         "startJourney": {
           "title": "Aloita Matkasi",
-          "description": "Muuta ideasi kukoistavaksi liiketoiminnaksi"
+          "description": "Muunna ideasi kukoistavaksi liiketoiminnaksi"
         },
         "findCustomers": {
           "title": "Löydä Ensimmäiset Asiakkaasi",
-          "description": "Yhdisty varhaisiin omaksujiin, jotka uskovat visioosi"
+          "description": "Yhdisty varhaisiin tukijoihin, jotka uskovat visioosi"
         },
         "growTogether": {
           "title": "Kasva Yhdessä",
@@ -708,7 +708,7 @@
       "items": {
         "mobileApp": {
           "title": "Mobiilisovellus",
-          "description": "Vesko on saatavilla sekä iOS:llä että Androidilla hallitaksesi kauppaasi, seurataksesi tilauksia ja ollaaksesi vuorovaikutuksessa asiakkaiden kanssa liikkeellä.",
+          "description": "Vesko on saatavilla sekä iOS:llä että Androidilla, jotta voit hallita kauppaasi, seurata tilauksia ja olla vuorovaikutuksessa asiakkaidesi kanssa myös liikkeellä ollessasi.",
           "highlights": [
             "iOS ja Android yhteensopiva",
             "Reaaliaikaiset tilausilmoitukset",
@@ -738,7 +738,7 @@
         },
         "socialisedSelling": {
           "title": "Sosialisoitu Myynti",
-          "description": "Kauppasi ja sosiaalisen median profiilisi ovat samassa tilassa, tehdä kauppasi sosiaaliseksi, ostettavaksi ja eläväksi.",
+          "description": "Kauppasi ja sosiaalisen median profiilisi ovat samassa tilassa – tee kaupasta sosiaalinen, ostettava ja elävä.",
           "highlights": [
             "Sosiaalisen median integraatio",
             "Live-tuoteesittelyt",
@@ -789,7 +789,7 @@
         "trustedPartners": "Luotetut toimituskumppanit"
       },
       "bottomMessage": {
-        "title": "Kyllä, sekin on niin helppoa! \"Suunniteltu Sinulle\" ei ole vain sanaa! 😎",
+        "title": "Kyllä, sekin on niin helppoa! \"Suunniteltu Sinulle\" ei ole vain sanahelinää! 😎",
         "subtitle": "Virtaviivainen prosessi, joka säästää aikaasi ja vaivaasi"
       }
     },
@@ -820,7 +820,7 @@
         },
         "startSelling": {
           "title": "Aloita Myynti",
-          "description": "Kun painat listaa, tuotteet ovat saatavilla kaupassasi asiakkailesi, seuraajasi näkevät uuden tuotteesi kotisivullaan."
+          "description": "Kun painat listaa, tuotteet ovat saatavilla kaupassasi asiakkaillesi – seuraajasi näkevät uuden tuotteesi kotisivullaan."
         }
       },
       "bottomMessage": {
@@ -833,7 +833,7 @@
     "hero": {
       "title": "Liity Veskoon",
       "subtitle": "Muunna liiketoimintasi kaupan tulevaisuudella",
-      "description": "Rekisteröi yrityksesi saadaksesi varhaisen pääsyn Veskon vallankumoukselliseen alustaan. Yhdistä asiakkaisiin, virtaviivaista toimintaa ja kasvata liiketoimintaasi kuten ennen.",
+      "description": "Rekisteröi yrityksesi saadaksesi varhaisen pääsyn Veskon vallankumoukselliseen alustaan. Luo yhteys asiakkaisiin, virtaviivaista toimintaa ja kasvata liiketoimintaasi kuten ennen.",
       "benefits": {
         "earlyAccess": "Varhainen pääsy",
         "freeTrial": "Ilmainen kokeilu",
@@ -876,8 +876,8 @@
       },
       "website": "Verkkosivusto (valinnainen)",
       "websitePlaceholder": "https://yrityksesi.fi",
-      "expectedLaunch": "Odotettu käynnistys",
-      "expectedLaunchPlaceholder": "Milloin suunnittelet käynnistyvän?",
+      "expectedLaunch": "Suunniteltu lanseeraus",
+      "expectedLaunchPlaceholder": "Milloin suunnittelet lanseerauksen?",
       "launchTiming": {
         "immediately": "Välittömästi",
         "1month": "1 kuukauden sisällä",
@@ -968,7 +968,7 @@
         "heading1": "Käsittelyn tarkoitus: ",
         "text1": " Liittyminen jonotuslistalle ja sinulle tärkeiden uutisten lähettäminen Vesko-sovellusten kehityksestä ja julkaisupäivästä.",
         "heading2": "Henkilötietojen ryhmät: ",
-        "text2": " Yhteystiedot (nimi, puhelinnumero, sähköpostiosoite).",
+        "text2": "Yhteystiedot (nimi, puhelinnumero, sähköpostiosoite).",
         "heading3": "Laillinen peruste: ",
         "text3": "Suostumus."
       },
@@ -980,7 +980,7 @@
         },
         "options2": {
           "heading": "Henkilötietojen ryhmät: ",
-          "text": " Yhteystiedot (nimi, puhelinnumero, sähköpostiosoite)."
+          "text": "Yhteystiedot (nimi, puhelinnumero, sähköpostiosoite)."
         },
         "options3": {
           "heading": "Laillinen peruste: ",
@@ -1098,12 +1098,12 @@
           "description": "Ei kalliita maksupäätteitä tai ohjelmistoja. Optimoidut toimitusmaksut ja matalat maksukulut säästävät rahaa."
         },
         "option3": {
-          "heading": "PAmmattilais­tasoinen palvelu ja kasvu: ",
+          "heading": "Ammattilais­tasoinen palvelu ja kasvu: ",
           "description": "Tarjoat suuren verkkokaupan tasoisen kassakokemuksen ja toimituksen, vaikka olisit yksinyrittäjä. Tyytyväiset asiakkaat palaavat ja suosittelevat kauppaasi."
         },
         "option4": {
           "heading": "Mielenrauha: ",
-          "description": "Turvallisuus, compliance ja luotettavuus ovat Vesko-alustan ja kumppaneiden vastuulla. Maksut suojataan, lähetykset seurataan – sinä voit toimia huoletta."
+          "description": "Turvallisuus, vaatimustenmukaisuus ja luotettavuus ovat Vesko-alustan ja kumppaneiden vastuulla. Maksut ovat suojattuja, lähetykset seurattavia – sinä voit toimia huoletta."
         }
       }
     },
