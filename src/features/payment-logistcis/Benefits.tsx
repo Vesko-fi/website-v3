@@ -69,7 +69,7 @@ const Benefits = () => {
         viewport={{ once: true }}
       >
         <motion.div variants={textVariants} className='py-4 text-center'>
-          <Text as='h1' variant='heading'>
+          <Text as='h2' className='text-2xl font-bold md:text-4xl lg:text-6xl'>
             {t("paymentAndLogistic.benefits.heading")}
           </Text>
         </motion.div>
