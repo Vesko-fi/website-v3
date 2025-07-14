@@ -37,7 +37,7 @@ const MainContent = () => {
   return (
     <Section>
       <Container>
-        <div className='flex flex-col gap-8 px-8 md:gap-12'>
+        <div className='mx-auto flex max-w-5xl flex-col gap-8 px-8 md:gap-12'>
           <motion.div
             variants={containerVariants}
             initial='hidden'
