@@ -5,6 +5,8 @@ import BRMD3 from "@/assets/images/b_rmd_3.avif";
 import BRMD4 from "@/assets/images/b_rmd_4.avif";
 import BRMD5 from "@/assets/images/b_rmd_5.avif";
 import BRMD6 from "@/assets/images/b_rmd_6.avif";
+import SpaceDigitalSecond from "@/assets/images/Vesko_dashboard_mobile.avif";
+
 import Connected from "@/assets/images/connected.avif";
 import FamiliarDesign from "@/assets/images/familiar_design.png";
 import ForPeopleHero from "@/assets/images/for_people_hero.avif";
@@ -30,6 +32,7 @@ import YouFeelFree from "@/assets/images/you_feel_free.png";
 import VeskoLogo from "@/assets/logos/vesko.PNG";
 import VeskoLogoLight from "@/assets/logos/vesko_light.PNG";
 import VeskoVideo from "@/assets/videos/vesko.mp4";
+import VeskoVideoMinos from "@/assets/videos/vesko_video_mainos.webm";
 // ForOfflineVendorPage assets - using existing images
 import MobileAppMockup from "@/assets/images/hero_mobile.png";
 import { default as OfflineVendorHeroImage } from "@/assets/images/offiline_hero.avif";
@@ -69,6 +72,7 @@ export const Assets = {
   heroMobile: HeroMobile,
   heroDesktop: HeroDesktop,
   spaceDigital: SpaceDigital,
+  spaceDigitalSecond: SpaceDigitalSecond,
   veskoBg: VeskoBg,
   veskoBg1: VeskoBg1,
   veskoBg2: VeskoBg2,
@@ -79,6 +83,7 @@ export const Assets = {
   omnistore: Omnistore,
   onlinestore: Onlinestore,
   veskoVideo: VeskoVideo,
+  veskoVideoMinos: VeskoVideoMinos,
   forPeopleHero: ForPeopleHero,
   youFeelFree: YouFeelFree,
   differentSocailMedia: DifferentSocialMedia,

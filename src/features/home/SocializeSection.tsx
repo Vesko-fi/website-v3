@@ -23,7 +23,7 @@ const SocializeSection = () => {
       color: "bg-blue-50",
       title: t("home.socialize.blocks.growBusiness.title"),
       description: t("home.socialize.blocks.growBusiness.description"),
-      image: Assets.spaceDigital,
+      image: Assets.spaceDigitalSecond,
     },
   ];
 
