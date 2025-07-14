@@ -57,7 +57,12 @@ const MainContent = () => {
           <Payments />
           <Logistics />
           <Benefits />
-          <motion.div>
+          <motion.div
+            variants={containerVariants}
+            initial='hidden'
+            whileInView='visible'
+            viewport={{ once: true }}
+          >
             <motion.div variants={textVariants} className='py-4 text-center'>
               <Text as='h1' variant='heading'>
                 {t("paymentAndLogistic.join.heading")}

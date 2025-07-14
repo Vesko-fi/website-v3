@@ -52,33 +52,60 @@ const Logistics = () => {
       },
     },
   };
+
+  const itemVariants = {
+    hidden: {
+      opacity: 0,
+      x: 100,
+    },
+    visible: (index: number) => ({
+      opacity: 1,
+      x: 0,
+      transition: {
+        duration: 0.8,
+        ease: "easeOut",
+        delay: index * 0.2,
+      },
+    }),
+  };
   return (
-    <motion.div
-      variants={containerVariants}
-      initial='hidden'
-      whileInView='visible'
-      viewport={{ once: true }}
-      className='flex flex-col items-center justify-center gap-4'
-    >
-      <motion.div variants={textVariants} className='py-4 text-center'>
-        <Text as='h1' variant='heading'>
-          {t("paymentAndLogistic.logistics.heading")}
-        </Text>
+    <motion.div className='flex flex-col items-center justify-center gap-4'>
+      <motion.div
+        variants={containerVariants}
+        initial='hidden'
+        whileInView='visible'
+        viewport={{ once: true }}
+      >
+        <motion.div variants={textVariants} className='py-4 text-center'>
+          <Text as='h1' variant='heading'>
+            {t("paymentAndLogistic.logistics.heading")}
+          </Text>
+        </motion.div>
+        <motion.div variants={textVariants}>
+          <Text>{t("paymentAndLogistic.logistics.subheading")}</Text>
+        </motion.div>
       </motion.div>
-      <motion.div variants={textVariants}>
-        <Text>{t("paymentAndLogistic.logistics.subheading")}</Text>
-      </motion.div>
-      <motion.div>
+      <motion.div
+        variants={containerVariants}
+        initial='hidden'
+        whileInView='visible'
+        viewport={{ once: true }}
+      >
         {options.map((option, index) => (
-          <div key={index} className='py-2'>
+          <motion.div key={index} variants={itemVariants} custom={index} className='py-2'>
             <Text>
-              <span className='font-bold whitespace-nowrap'>{option.heading}</span>
+              <span className='font-bold whitespace-nowrap'>{option.heading}</span>{" "}
               <span>{option.description}</span>
             </Text>
-          </div>
+          </motion.div>
         ))}
       </motion.div>
-      <motion.div>
+      <motion.div
+        variants={textVariants}
+        initial='hidden'
+        whileInView='visible'
+        viewport={{ once: true }}
+      >
         <Text>{t("paymentAndLogistic.logistics.description")}</Text>
       </motion.div>
     </motion.div>
