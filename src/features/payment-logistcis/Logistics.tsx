@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
 import { Text } from "@/shared/components/ui/text";
+import { Container } from "@/shared/components/ui/container";
 
 const Logistics = () => {
   const { t } = useTranslation();
@@ -77,7 +78,7 @@ const Logistics = () => {
         viewport={{ once: true }}
       >
         <motion.div variants={textVariants} className='py-4 text-center'>
-          <Text as='h1' variant='heading'>
+          <Text as='h2' className='text-2xl font-bold md:text-4xl lg:text-6xl'>
             {t("paymentAndLogistic.logistics.heading")}
           </Text>
         </motion.div>
@@ -85,6 +86,7 @@ const Logistics = () => {
           <Text>{t("paymentAndLogistic.logistics.subheading")}</Text>
         </motion.div>
       </motion.div>
+
       <motion.div
         variants={containerVariants}
         initial='hidden'
@@ -94,12 +96,13 @@ const Logistics = () => {
         {options.map((option, index) => (
           <motion.div key={index} variants={itemVariants} custom={index} className='py-2'>
             <Text>
-              <span className='font-bold whitespace-nowrap'>{option.heading}</span>{" "}
+              <span className='font-bold md:whitespace-nowrap'>{option.heading}</span>{" "}
               <span>{option.description}</span>
             </Text>
           </motion.div>
         ))}
       </motion.div>
+
       <motion.div
         variants={textVariants}
         initial='hidden'

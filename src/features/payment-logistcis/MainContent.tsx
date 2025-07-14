@@ -37,7 +37,7 @@ const MainContent = () => {
   return (
     <Section>
       <Container>
-        <div className='mx-auto flex max-w-5xl flex-col gap-8 px-8 md:gap-12'>
+        <div className='mx-auto flex w-full flex-col gap-8 px-8 md:gap-12 lg:max-w-5xl'>
           <motion.div
             variants={containerVariants}
             initial='hidden'
@@ -45,8 +45,8 @@ const MainContent = () => {
             viewport={{ once: true }}
             className='flex flex-col items-center justify-center gap-4'
           >
-            <motion.div variants={textVariants} className='py-4 text-center'>
-              <Text as='h1' variant='heading'>
+            <motion.div variants={textVariants} className='mt-16 text-center md:mt-4'>
+              <Text as='h2' className='text-2xl font-bold md:text-4xl lg:text-6xl'>
                 {t("paymentAndLogistic.main.heading")}
               </Text>
             </motion.div>
@@ -64,7 +64,7 @@ const MainContent = () => {
             viewport={{ once: true }}
           >
             <motion.div variants={textVariants} className='py-4 text-center'>
-              <Text as='h1' variant='heading'>
+              <Text as='h2' className='text-2xl font-bold md:text-4xl lg:text-6xl'>
                 {t("paymentAndLogistic.join.heading")}
               </Text>
             </motion.div>

@@ -68,13 +68,7 @@ const Payments = () => {
     }),
   };
   return (
-    <motion.div
-      variants={containerVariants}
-      initial='hidden'
-      whileInView='visible'
-      viewport={{ once: true }}
-      className='flex flex-col items-center justify-center gap-4'
-    >
+    <motion.div className='flex flex-col items-center justify-center gap-4'>
       <motion.div
         variants={containerVariants}
         initial='hidden'
@@ -82,7 +76,7 @@ const Payments = () => {
         viewport={{ once: true }}
       >
         <motion.div variants={textVariants} className='py-4 text-center'>
-          <Text as='h1' variant='heading'>
+          <Text as='h2' className='text-2xl font-bold md:text-4xl lg:text-6xl'>
             {t("paymentAndLogistic.payment.heading")}
           </Text>
         </motion.div>
@@ -97,14 +91,7 @@ const Payments = () => {
         viewport={{ once: true }}
       >
         {options.map((option, index) => (
-          <motion.div
-            key={index}
-            variants={itemVariants}
-            custom={index}
-            initial='hidden'
-            animate='visible'
-            className='py-2'
-          >
+          <motion.div key={index} variants={itemVariants} custom={index} className='py-2'>
             <Text>
               <span className='font-bold whitespace-nowrap'>{option.heading}</span>{" "}
               <span>{option.description}</span>
