@@ -367,7 +367,7 @@
       "title": "Ready to Turn Your Ideas Into Reality?",
       "subtitle": "Register now and get early bird access, enjoy a free 3-month trial!",
       "buttons": {
-        "startStore": "Start Your Store",
+        "register": "Register",
         "contactUs": "Contact us"
       },
       "trustIndicators": {
@@ -547,7 +547,7 @@
     },
     "posSection": {
       "title": "Point Of Sale Systems (POS) In Vesko",
-      "description": "You need a POS? We will provide you with one, You already have one? We will integrate 3rd parties Point Of Sale Systems so you don't have to. You have your special POS? We can help you to integrate it with Your OmniStore",
+      "description": "Need a POS? We’ll provide one after launch simple and ready to go. Already have a system? Vesko will support integration with third-party POS platforms, so you can manage your physical store without disruption. Enterprise-level POS setups are also supported",
       "features": {
         "weProvidePOS": {
           "title": "We provide POS",

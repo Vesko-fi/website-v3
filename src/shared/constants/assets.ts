@@ -55,6 +55,7 @@ import Payment from "@/assets/images/payment.jpg";
 import UnifiedInventory from "@/assets/images/unified_inventory.jpg";
 import MobileApp from "@/assets/images/mobile_app.png";
 import OnlineOrderFulfillment from "@/assets/images/online_order_fulfillment.jpg";
+import PointOfSaleSystem from "@/assets/images/point_of_sale_system.jpg";
 
 import BuyAndCollect from "@/assets/images/buy_collect.png";
 import CheckAvailability from "@/assets/images/check_availability.png";
@@ -119,6 +120,7 @@ export const Assets = {
   dashboard: Dashboard,
   mobileApp: MobileApp,
   onlineOrderFulfillment: OnlineOrderFulfillment,
+  pointOfSaleSystem: PointOfSaleSystem,
 
   // For people
   searchAndFind: SearchAndFind,

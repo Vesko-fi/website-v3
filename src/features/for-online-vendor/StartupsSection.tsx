@@ -15,10 +15,7 @@ const StartupsSection = () => {
     hidden: { opacity: 1 },
     visible: {
       opacity: 1,
-      transition: {
-        staggerChildren: 0.3,
-        delayChildren: 0.2,
-      },
+      transition: { staggerChildren: 0.2, delayChildren: 0.1 },
     },
   };
 
@@ -26,11 +23,8 @@ const StartupsSection = () => {
     hidden: { opacity: 1, x: 50 },
     visible: {
       opacity: 1,
-      x: 0,
-      transition: {
-        duration: 0.8,
-        ease: "easeOut",
-      },
+      y: 0,
+      transition: { duration: 0.7, ease: "easeOut" },
     },
   };
 

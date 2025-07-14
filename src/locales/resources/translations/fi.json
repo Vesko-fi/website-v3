@@ -367,7 +367,7 @@
       "title": "Valmiina muuttamaan ideasi todellisuudeksi?",
       "subtitle": "Rekisteröidy nyt ja saat ennakkopääsyn sekä ilmaisen 3 kuukauden kokeilujakson!",
       "buttons": {
-        "startStore": "Aloita oma kauppasi",
+        "register": "Rekisteröidy",
         "contactUs": "Ota yhteyttä"
       },
       "trustIndicators": {
@@ -547,7 +547,7 @@
     },
     "posSection": {
       "title": "Kassajärjestelmät (POS) Veskossa",
-      "description": "Tarvitsetko POS-järjestelmän? Tarjoamme sinulle sellaisen. Sinulla on jo yksi? Integroimme kolmansien osapuolten kassajärjestelmät saumattomasti, joten sinun ei tarvitse. Sinulla on erikoinen POS-järjestelmäsi? Voimme auttaa integroimaan sen OmniStoreen",
+      "description": "Tarvitsetko kassajärjestelmää? Saat meiltä valmiin ja helppokäyttöisen POS-järjestelmän lanseerauksen jälkeen. Onko sinulla jo käytössä oleva järjestelmä? Vesko tukee kolmannen osapuolen POS-integraatioita, joten voit hallita kivijalkakauppaasi ilman katkoksia. Myös yritystason POS-ratkaisut ovat tuettuja",
       "features": {
         "weProvidePOS": {
           "title": "Tarjoamme POS-järjestelmän",
@@ -679,8 +679,9 @@
       }
     },
     "startups": {
-      "title": "Kun mahdollisuudet ovat sinua vastaan, Vesko on kanssasi",
-      "subtitle": "Sinulla on idea? Haluatko aloittaa sivubisneksen opiskellessasi? Sinulla on jo tuotteita, mutta ongelmia myydä? Vesko auttaa sinua löytämään ensimmäiset omaksujasi ja kasvamaan sieltä.",
+      "title": "Vesko on täällä sinua varten",
+      "subtitle": "Haluatko perustaa yrityksen? Onko sinulla idea, johon uskot?",
+      "description": "Olitpa vasta aloittamassa tai yrittämässä kasvaa, Vesko auttaa sinua käynnistämään, myymään ja tavoittamaan ensimmäiset asiakkaasi.",
       "benefits": {
         "startJourney": {
           "title": "Aloita Matkasi",
