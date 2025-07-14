@@ -32,7 +32,7 @@ import VeskoLogoLight from "@/assets/logos/vesko_light.PNG";
 import VeskoVideo from "@/assets/videos/vesko.mp4";
 // ForOfflineVendorPage assets - using existing images
 import MobileAppMockup from "@/assets/images/hero_mobile.png";
-import { default as OfflineVendorHeroImage } from "@/assets/images/offiline_hero.png";
+import { default as OfflineVendorHeroImage } from "@/assets/images/offiline_hero.avif";
 import OmniFeature from "@/assets/images/omni_feature.png";
 import {
   default as DeliveryTruck,
@@ -43,23 +43,25 @@ import {
   default as StoreDashboard,
   default as VeskoStore,
 } from "@/assets/images/omnistore.jpg";
+
 import MobileOnboard from "@/assets/images/onboarding_mob.png";
 
 import Scalable from "@/assets/images/Scalable.jpg";
-import homepageMainimage from "@/assets/images/Vesko_Hero_Image_Wider_2.jpg";
+
+import homepageMainimage from "@/assets/images/Vesko_Hero_Image_Wider.avif";
+
+import BuyAndCollect from "@/assets/images/buy_collect.avif";
+import CheckAvailability from "@/assets/images/check_availability.png";
 import Dashboard from "@/assets/images/dashboard.jpg";
+import DifferentSocialMedia from "@/assets/images/different_social_media.avif";
 import ExpandReach from "@/assets/images/expand_reach.jpg";
-import Growth from "@/assets/images/growth.png";
-import Logistics from "@/assets/images/logistics.png";
-import Payment from "@/assets/images/payment.jpg";
-import UnifiedInventory from "@/assets/images/unified_inventory.jpg";
+import Growth from "@/assets/images/growth.avif";
+import Logistics from "@/assets/images/logistics.avif";
 import MobileApp from "@/assets/images/mobile_app.png";
 import OnlineOrderFulfillment from "@/assets/images/online_order_fulfillment.jpg";
+import Payment from "@/assets/images/payment.jpg";
 import PointOfSaleSystem from "@/assets/images/point_of_sale_system.jpg";
-
-import BuyAndCollect from "@/assets/images/buy_collect.png";
-import CheckAvailability from "@/assets/images/check_availability.png";
-import DifferentSocialMedia from "@/assets/images/different_social_media.png";
+import UnifiedInventory from "@/assets/images/unified_inventory.jpg";
 
 export const Assets = {
   logo: VeskoLogo,
