@@ -2,11 +2,11 @@ import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { toast } from "react-toastify";
 
 import { Container } from "@/shared/components/ui/container";
 import { Section } from "@/shared/components/ui/section";
 import { Text } from "@/shared/components/ui/text";
-import { toast } from "react-toastify";
 
 const ContactFormSection = () => {
   const { t } = useTranslation();
