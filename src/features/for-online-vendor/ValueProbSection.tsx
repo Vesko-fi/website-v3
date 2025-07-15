@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
-import { BenefitCard } from "./BenefitCard";
+import { BenefitCard } from "../../shared/components/common/BenefitCard";
 
 import { Container } from "@/shared/components/ui/container";
 import { Section } from "@/shared/components/ui/section";
@@ -63,7 +63,6 @@ const ValueProbSection = () => {
             <div className='absolute top-16 left-40 h-32 w-32 rounded-full bg-blue-50' />
             <div className='absolute right-10 bottom-20 h-24 w-24 rounded-full bg-purple-50' />
           </div>
-
           {/* Headline */}
           <motion.div variants={textVariants}>
             <Text
@@ -74,7 +73,6 @@ const ValueProbSection = () => {
               {t("forOnlineVendor.valueProb.title")}
             </Text>
           </motion.div>
-
           {/* Subheader */}
           <motion.div variants={textVariants}>
             <Text className='max-w-2xl text-lg text-gray-600 md:text-xl'>
