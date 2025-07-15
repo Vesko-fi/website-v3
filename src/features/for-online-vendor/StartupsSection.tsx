@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
-import { BenefitCard } from "./BenefitCard";
+import { BenefitCard } from "../../shared/components/common/BenefitCard";
 
 import { Container } from "@/shared/components/ui/container";
 import { Section } from "@/shared/components/ui/section";
@@ -81,14 +81,13 @@ const StartupsSection = () => {
             <Text className='text-xl leading-relaxed text-gray-600 md:text-2xl'>
               {t("forOnlineVendor.startups.subtitle")}
             </Text>
-
-            <div className='mt-8 grid w-full max-w-5xl grid-cols-1 gap-6 md:grid-cols-3'>
-              {benefits.map((benefit, index) => (
-                <BenefitCard key={index} {...benefit} textVariants={textVariants} />
-              ))}
-            </div>
           </motion.div>
         </motion.div>
+        <div className='mx-auto mt-12 grid w-full max-w-5xl grid-cols-1 gap-6 md:grid-cols-3'>
+          {benefits.map((benefit, index) => (
+            <BenefitCard key={index} {...benefit} textVariants={textVariants} />
+          ))}
+        </div>
       </Container>
     </Section>
   );
