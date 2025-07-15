@@ -47,6 +47,18 @@ const WhySection = () => {
     },
   };
 
+  const itemVariants = {
+    hidden: { opacity: 0, y: 30 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.6,
+        ease: "easeOut",
+      },
+    },
+  };
+
   return (
     <Section className='bg-gradient-to-br from-blue-50 to-indigo-100 py-20'>
       <Container>
@@ -57,7 +69,7 @@ const WhySection = () => {
           className='mx-auto max-w-6xl space-y-12'
         >
           {/* Title */}
-          <div className='space-y-4 text-center'>
+          <div className='flex flex-col items-center justify-center space-y-4'>
             <Text
               as='h2'
               variant='heading'
@@ -65,6 +77,28 @@ const WhySection = () => {
             >
               {t("forOfflineVendor.why.title")}
             </Text>
+            <Text className='font-medium'>{t("forOfflineVendor.why.subheading")}</Text>
+            <motion.div
+              variants={itemVariants}
+              className='mt-5 flex flex-wrap items-center justify-center gap-8 text-sm text-gray-500'
+            >
+              <div className='flex items-center gap-2'>
+                <i className={`${RemixIcons.check} text-green-500`} />
+                <span>{t("forOfflineVendor.why.reasons.option1")}</span>
+              </div>
+              <div className='flex items-center gap-2'>
+                <i className={`${RemixIcons.check} text-green-500`} />
+                <span>{t("forOfflineVendor.why.reasons.option2")}</span>
+              </div>
+              <div className='flex items-center gap-2'>
+                <i className={`${RemixIcons.check} text-green-500`} />
+                <span className='font-bold'>{t("forOfflineVendor.why.reasons.option3")}</span>
+              </div>
+              <div className='flex items-center gap-2'>
+                <i className={`${RemixIcons.check} text-green-500`} />
+                <span>{t("forOfflineVendor.why.reasons.option4")}</span>
+              </div>
+            </motion.div>
           </div>
 
           {/* Video */}

@@ -7,7 +7,7 @@ import { Logo } from "@/shared/components/common/Logo";
 import { NavItem } from "@/shared/components/common/NavItem";
 import { Button } from "@/shared/components/ui/button";
 import { Container } from "@/shared/components/ui/container";
-import { NAV_ITEMS } from "@/shared/constants/navItems";
+import { COMPANY_NAV_ITEMS, NAV_ITEMS } from "@/shared/constants/navItems";
 import { SOCIALS } from "@/shared/constants/socials";
 
 const Footer: React.FC = () => {
@@ -18,8 +18,8 @@ const Footer: React.FC = () => {
   const year = date.getFullYear();
   return (
     <footer className='bg-gradient-to-b from-[#F5FAF7] to-[#CDE6D9] text-sm text-gray-700'>
-      <Container className='px-4 py-10'>
-        <div className='relative flex flex-col items-center justify-between pb-4 sm:flex-row'>
+      <Container className='px-5 py-10 lg:px-20'>
+        <div className='relative flex flex-col items-center justify-between pb-4 md:flex-row'>
           <div className='mb-6 flex flex-col items-center gap-6 md:mb-0'>
             <Logo className='h-20 md:h-24' />
             <div className='flex items-center gap-3'>
@@ -36,24 +36,19 @@ const Footer: React.FC = () => {
               ))}
             </div>
           </div>
-          <div className='flex flex-1 flex-col items-center'>
-            <div className='text-center'>
-              <h4 className='py-2 text-lg font-semibold'>{t("footer.company.heading")}</h4>
-              <ul className='flex flex-col items-center space-y-1'>
-                <li>{t("footer.company.name")}</li>
-                <li>{t("footer.company.address")}</li>
-                <li>{t("footer.company.businessId")}</li>
-              </ul>
+          <div className='flex flex-col gap-2'>
+            <p>{t("footer.company.businessId")}</p>
+            <div className='flex flex-col items-center'>
+              {COMPANY_NAV_ITEMS.map((item) => (
+                <NavItem key={item.id} {...item} variant='desktop' />
+              ))}
             </div>
           </div>
-          <div className='mt-5 flex flex-col sm:mt-0 sm:pr-30'>
+          <div className='flex flex-col'>
             {NAV_ITEMS.map((item) => (
               <NavItem key={item.id} {...item} variant='desktop' />
             ))}
           </div>
-          <a href='#' className='absolute right-0 bottom-2 text-sm text-green-800 hover:underline'>
-            <Button>{t("footer.topButton")}</Button>
-          </a>
         </div>
 
         <hr />

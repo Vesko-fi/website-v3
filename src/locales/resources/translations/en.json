@@ -10,7 +10,7 @@
     },
     "features": {
       "heading": "Vesko is a social-media marketplace with an online store where you can buy or sell",
-      "description": "Vesko offers Omni Store, an organisation-level online storefront for small physical retailers that lets people see in real time what’s in stock before they step into the store while reconnecting people."
+      "description": "Vesko offers Omni Store, an enterprise-level online storefront for small physical retailers that lets people see in real time stock availability before they step into the store while reconnecting people."
     },
     "middleHero": {
       "line1": "Yes! Vesko is",
@@ -359,7 +359,9 @@
     "register": "Register",
     "howItWorks": "See How it Works",
     "offline-vendors": "Offline Vendors",
-    "online-vendors": "Online Vendors"
+    "online-vendors": "Online Vendors",
+    "payment": "Payment",
+    "logistic": "Logistic"
   },
   "common": {
     "loading": "Loading...",
@@ -412,6 +414,13 @@
     },
     "why": {
       "title": "Why OmniStore?",
+      "subheading": "Because 76 % of shoppers follow this path:",
+      "reasons": {
+        "option1": "Search online",
+        "option2": "Discover a product",
+        "option3": "Check in-store availability",
+        "option4": "Visit the shop & buy"
+      },
       "stats": {
         "onlinePurchases": {
           "percentage": "91%",
@@ -932,9 +941,6 @@
   },
   "footer": {
     "company": {
-      "heading": "Company",
-      "name": "Vesko Ltd.",
-      "address": "Joensuu, Finland",
       "businessId": "Business-ID: 3472131-6"
     },
     "rights": "All rights reserved",
