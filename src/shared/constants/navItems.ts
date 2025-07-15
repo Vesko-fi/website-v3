@@ -41,4 +41,9 @@ export const COMPANY_NAV_ITEMS: NavigationItem[] = [
     label: "nav.contact",
     routeKey: "contact",
   },
+  {
+    id: "register",
+    label: "nav.register",
+    routeKey: "register",
+  },
 ];

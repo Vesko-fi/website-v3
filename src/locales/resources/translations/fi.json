@@ -856,7 +856,8 @@
     },
     "formSection": {
       "title": "Yrityksen rekisteröinti",
-      "subtitle": "Kerro yrityksestäsi ja autamme sinua aloittamaan Veskon alustalla."
+      "subtitle": "Rekisteröidy nyt ja saat kolmen kuukauden ilmaisen kokeilujakson (rajoitettu määrä paikkoja).",
+      "note": "Huom: Jos rekisteröidyt sen jälkeen, kun kaikki paikat ovat täyttyneet, saat yhden (1) kuukauden ilmaisen kokeilun."
     },
     "form": {
       "businessName": "Yrityksen nimi",
