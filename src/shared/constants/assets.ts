@@ -48,7 +48,7 @@ import {
 
 import MobileOnboard from "@/assets/images/onboarding_mob.png";
 
-import Scalable from "@/assets/images/Scalable.jpg";
+import Scalable from "@/assets/images/scalable.jpg";
 
 import homepageMainimage from "@/assets/images/Vesko_Hero_Image_Wider.avif";
 
