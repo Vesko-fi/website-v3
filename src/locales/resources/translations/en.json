@@ -359,7 +359,9 @@
     "register": "Register",
     "howItWorks": "See How it Works",
     "offline-vendors": "Offline Vendors",
-    "online-vendors": "Online Vendors"
+    "online-vendors": "Online Vendors",
+    "payment": "Payment",
+    "logistic": "Logistic"
   },
   "common": {
     "loading": "Loading...",
@@ -938,9 +940,6 @@
   },
   "footer": {
     "company": {
-      "heading": "Company",
-      "name": "Vesko Ltd.",
-      "address": "Joensuu, Finland",
       "businessId": "Business-ID: 3472131-6"
     },
     "rights": "All rights reserved",
