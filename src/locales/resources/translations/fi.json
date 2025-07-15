@@ -366,7 +366,9 @@
     "register": "Rekisteröidy",
     "howItWorks": "Katso miten se toimii",
     "offline-vendors": "Offline-myyjät",
-    "online-vendors": "Verkkokauppiaat"
+    "online-vendors": "Verkkokauppiaat",
+    "payment": "Maksu",
+    "logistic": "Logistiikka"
   },
   "common": {
     "loading": "Ladataan...",
@@ -954,9 +956,6 @@
   },
   "footer": {
     "company": {
-      "heading": "Yritys",
-      "name": "Vesko Oy",
-      "address": "Joensuu, Suomi",
       "businessId": "Y-tunnus: 3472131-6"
     },
     "rights": "Kaikki oikeudet pidätetään",
