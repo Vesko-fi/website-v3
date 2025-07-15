@@ -1103,5 +1103,41 @@
       "heading": "Join Vesko",
       "description": "and experience how effortless managing an online business can be with the right payment and logistics support behind you. Spend less time on admin, save money on fees and shipping, and deliver a better experience to your customers,  all with Vesko."
     }
+  },
+  "serviceTerms": {
+    "terms_title": "Terms of Service",
+    "introduction": {
+      "title": "Introduction",
+      "terms_intro": "These Terms of Service (“Terms”) form a legally binding agreement between you (the “User”) and Vesko Ltd. (“Company”, “we”, “us”) regarding your use of our service (“Service”).",
+      "terms_acceptance": "By registering an account or using the Service, you agree to these Terms in full. If you do not agree with any part of these Terms, you must not use the Service.",
+      "terms_effective_date": "These Terms apply from the official launch of the Service, expected in Autumn 2025.",
+      "terms_availability": "The Service will initially be available to users in Finland, and after launch it will be offered to users worldwide."
+    },
+    "serviceDescription": {
+      "title": "Description of the Service",
+      "service_description": "The Service provided by Vesko Ltd. is a general online service platform. Its features and functionalities may evolve over time as we update and improve our offerings.",
+      "service_usage": "The Service is intended for general use, and may be used for personal or business purposes as applicable. The specific capabilities of the Service (for example, any communication, e-commerce, or productivity features) will be described on our website or in the Service interface.",
+      "service_changes": "We reserve the right to modify or enhance the Service's features at any time, as part of our continuous improvement process."
+    },
+    "trialAndAccess": {
+      "title": "Free Trial and Early Access",
+      "free_trial_point_1": "Users who register before the official launch of the Service are eligible for a free trial period of three (3) months. During this Free Trial, no subscription fees will be charged for use of the Service.",
+      "free_trial_point_2": "Availability of the three-month free trial is limited. If you register after all slots are filled, you will instead receive a one-month free trial.",
+      "free_trial_point_3": "This Free Trial is a one-time promotion available only to new users who sign up prior to launch. A cutoff date may be specified to qualify (for example, by the launch date).",
+      "free_trial_point_4": "By signing up before launch, you may receive early access to the platform before public release. This beta version may have limited features, potential issues, and be subject to change. Feedback from early access users is welcome but optional.",
+      "free_trial_point_5": "You can cancel your subscription or account at any time during the Free Trial. If you cancel during the Free Trial period, you will not be charged.",
+      "free_trial_point_6": "If you do not cancel before the Free Trial ends, your use of the Service will continue on a paid subscription plan you selected. You will be notified before the Free Trial expires, giving you the option to continue or cancel before any charges."
+    },
+    "plansAndSubscriptions": {
+      "title": "Plans and Subscriptions",
+      "subscription_point_1": "The Service is offered under different subscription plans or tiers (for example, a Basic plan, Premium plan, etc.), each with its own features and pricing. Details of current plans and prices will be provided on our website and/or during the sign-up process.",
+      "subscription_point_2": "During the Free Trial, you may be asked to select a plan that will apply after the trial period. Regardless of which plan you choose, no charges will be applied until the Free Trial period has ended.",
+      "subscription_point_3": "You have the flexibility to change your subscription plan at any time, typically through your account settings or by contacting our customer support.",
+      "subscription_point_3_a": "If you upgrade to a higher-tier plan (with more features or a higher usage limit), the change may take effect immediately or at the start of the next billing cycle, depending on our policy. We will inform you how billing is handled in such cases. Prorated charges may apply if the upgrade occurs mid-cycle.",
+      "subscription_point_3_b": "If you downgrade to a lower plan, the change usually takes effect from the start of your next billing period. You will retain access to your current higher-tier features until the paid period ends, after which the new plan and pricing will apply.",
+      "subscription_point_4": "If you do not select a subscription plan by the end of your Free Trial, your account may be suspended or limited until you make a choice. A brief grace period may be offered, but full access will typically require an active paid subscription after the trial.",
+      "subscription_point_5": "All subscription plans renew automatically on a recurring basis (e.g., monthly or annually, depending on your chosen billing cycle). Subscription fees (after any Free Trial) will be billed in advance of each cycle.",
+      "subscription_point_6": "We reserve the right to introduce new plans, or modify or discontinue existing plans. If we make changes to the pricing or core features of your plan, we will provide advance notice. Any price increase or significant change will take effect only after the required notice period (if applicable) and at the start of your next billing cycle, in accordance with applicable laws."
+    }
   }
 }
