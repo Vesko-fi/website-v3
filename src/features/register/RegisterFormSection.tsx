@@ -70,12 +70,69 @@ const RegisterFormSection = () => {
     }
   };
 
+  const validateForm = (): boolean => {
+    const newErrors: FormErrors = {};
+
+    // Business Name validation
+    if (!formData.businessName.trim()) {
+      newErrors.businessName = t("register.form.validation.businessName.required");
+    } else if (formData.businessName.length < 2) {
+      newErrors.businessName = t("register.form.validation.businessName.minLength");
+    }
+
+    // Business ID validation (Finnish Y-tunnus format)
+    if (i18n.language === "fi") {
+      if (!formData.businessId.trim()) {
+        newErrors.businessId = t("register.form.validation.businessId.required");
+      } else if (!/^\d{7}-\d$/.test(formData.businessId)) {
+        newErrors.businessId = t("register.form.validation.businessId.format");
+      }
+    }
+
+    // Contact Person validation
+    if (!formData.contactPerson.trim()) {
+      newErrors.contactPerson = t("register.form.validation.contactPerson.required");
+    }
+
+    // Email validation
+    if (!formData.email.trim()) {
+      newErrors.email = t("register.form.validation.email.required");
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
+      newErrors.email = t("register.form.validation.email.format");
+    }
+
+    // Business Type validation
+    if (!formData.businessType) {
+      newErrors.businessType = t("register.form.validation.businessType.required");
+    }
+
+    // Industry validation
+    if (!formData.industry) {
+      newErrors.industry = t("register.form.validation.industry.required");
+    }
+
+    // Description validation
+    if (!formData.description.trim()) {
+      newErrors.description = t("register.form.validation.description.required");
+    } else if (formData.description.length < 20) {
+      newErrors.description = t("register.form.validation.description.minLength");
+    }
+
+    // Terms agreement validation
+    if (!formData.agreeToTerms) {
+      newErrors.agreeToTerms = t("register.form.validation.agreeToTerms.required");
+    }
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    /* if (!validateForm()) {
+    if (!validateForm()) {
       return;
-    } */
+    }
 
     setIsSubmitting(true);
 
