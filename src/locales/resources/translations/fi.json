@@ -9,13 +9,15 @@
       "mainHeading": "Missä digitaalinen maailma kohtaa todellisen maailman"
     },
     "features": {
-      "description": "Alusta, joka yhdistää sosiaalisen median ja verkkokaupan tarjoamalla OmniStore ® -palvelun, joka yhdistää offline-kauppiaat digitaalisesti ajatteleviin offline-asiakkaisiin."
+      "heading": "Vesko on sosiaalisen median markkinapaikka, jossa voit ostaa ja myydä verkossa",
+      "description": "Vesko tarjoaa Omni Storen, organisaatiotasoisen verkkokaupan pienille kivijalkakauppiaille, jonka avulla asiakkaat näkevät reaaliajassa myymälän saatavilla olevat tuotteet jo ennen kuin he astuvat sisään liikkeeseen."
     },
     "middleHero": {
       "line1": "Kyllä! Vesko on",
       "line2": "sosiaalinen media"
     },
     "vesko": {
+      "heading": "Vesko  Sosiaalisen Mediana",
       "safePlace": {
         "title": "Turvallinen paikka",
         "description": "Jakaa elämääsi ystävien ja perheen kanssa ilman, että sinuun hyökätään sen vuoksi, kuka olet."

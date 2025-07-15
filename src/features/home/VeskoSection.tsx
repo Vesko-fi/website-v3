@@ -85,7 +85,7 @@ const VeskoSection = () => {
   ];
 
   return (
-    <Section className='relative overflow-hidden bg-gradient-to-b from-gray-50 to-white py-20'>
+    <Section className='relative overflow-hidden bg-gradient-to-b from-gray-50 to-white py-1 lg:py-0'>
       {/* Background decorative elements */}
       <div className='pointer-events-none absolute inset-0 overflow-hidden'>
         <motion.div
@@ -105,7 +105,12 @@ const VeskoSection = () => {
         />
       </div>
 
-      <Container>
+      <Container className='lg:pb-10'>
+        <motion.div>
+          <Text as='h2' className='mb-8 text-center text-xl font-bold md:text-3xl lg:text-5xl'>
+            {t("home.vesko.heading")}
+          </Text>
+        </motion.div>
         <motion.div
           variants={containerVariants}
           initial='hidden'
