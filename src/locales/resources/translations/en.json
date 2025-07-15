@@ -411,6 +411,13 @@
     },
     "why": {
       "title": "Why OmniStore?",
+      "subheading": "Because 76 % of shoppers follow this path:",
+      "reasons": {
+        "option1": "Search online",
+        "option2": "Discover a product",
+        "option3": "Check in-store availability",
+        "option4": "Visit the shop & buy"
+      },
       "stats": {
         "onlinePurchases": {
           "percentage": "91%",
