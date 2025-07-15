@@ -1,5 +1,6 @@
 import { I18nextProvider } from "react-i18next";
 import { BrowserRouter } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
 
 import { ScrollToTop } from "./shared/components/common/ScrollToTop";
 
@@ -15,6 +16,7 @@ const App: React.FC = () => {
 
   return (
     <I18nextProvider i18n={i18n}>
+      <ToastContainer />
       <BrowserRouter>
         <ScrollToTop />
         <LanguageDetectorGuard>
