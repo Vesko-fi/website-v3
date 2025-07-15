@@ -18,6 +18,7 @@ const WhySection = () => {
     { key: "storeVisits", valueKey: "multiplier", color: "text-purple-600" },
     { key: "conversionRate", valueKey: "percentage", color: "text-green-900" },
   ];
+
   const togglePlayback = () => {
     if (!videoRef.current) return;
     if (videoRef.current.paused) {
@@ -60,13 +61,13 @@ const WhySection = () => {
   };
 
   return (
-    <Section className='bg-gradient-to-br from-blue-50 to-indigo-100 py-20'>
+    <Section className='bg-gradient-to-br from-blue-50 to-indigo-100 py-16'>
       <Container>
         <motion.div
           initial='hidden'
           whileInView='visible'
           viewport={{ once: true, amount: 0.3 }}
-          className='mx-auto max-w-6xl space-y-12'
+          className='mx-auto max-w-6xl space-y-8'
         >
           {/* Title */}
           <div className='flex flex-col items-center justify-center space-y-4'>
@@ -112,7 +113,7 @@ const WhySection = () => {
                 muted
                 loop
                 playsInline
-                aria-label='Product add video'
+                aria-label='Product ads video'
               >
                 <source src={Assets.veskoVideoMinos} type='video/mp4' />
                 {t("home.unboxing.videoNotSupported")}
@@ -163,7 +164,7 @@ const WhySection = () => {
                 <Text className={`text-5xl font-bold lg:text-3xl ${color}`}>
                   {t(`forOfflineVendor.why.stats.${key}.${valueKey}`)}
                 </Text>
-                <Text className='font-semibold text-gray-600'>
+                <Text className='text-gray-600'>
                   {t(`forOfflineVendor.why.stats.${key}.description`)}
                 </Text>
               </div>

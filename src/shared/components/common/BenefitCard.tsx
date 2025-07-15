@@ -5,7 +5,7 @@ import type { FC, ReactNode } from "react";
 import { Text } from "@/shared/components/ui/text";
 
 interface BenefitCardProps {
-  icon: string | ReactNode;
+  icon?: string | ReactNode;
   color: string;
   title: string;
   description: string;

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
-import { BenefitCard } from "./BenefitCard";
+import { BenefitCard } from "../../shared/components/common/BenefitCard";
 
 import { Container } from "@/shared/components/ui/container";
 import { Section } from "@/shared/components/ui/section";
