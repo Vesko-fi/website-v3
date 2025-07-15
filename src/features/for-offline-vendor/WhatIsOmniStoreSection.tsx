@@ -10,6 +10,12 @@ import { Assets } from "@/shared/constants/assets";
 const WhatIsOmniStoreSection = () => {
   const { t } = useTranslation();
 
+  const highlights = [
+    "scalableAndReady",
+    "realTimeInventory",
+    "betterExperience",
+    "freeMarketplace",
+  ];
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -83,24 +89,14 @@ const WhatIsOmniStoreSection = () => {
 
             {/* Key Features */}
             <div className='mt-5 space-y-4'>
-              <div className='flex items-start gap-3'>
-                <div className='mt-1 h-2 w-2 rounded-full bg-blue-500' />
-                <Text className='text-gray-700'>
-                  {t("forOfflineVendor.whatIsOmniStore.highlights.scalableAndReady")}
-                </Text>
-              </div>
-              <div className='flex items-start gap-3'>
-                <div className='mt-1 h-2 w-2 rounded-full bg-blue-500' />
-                <Text className='text-gray-700'>
-                  {t("forOfflineVendor.whatIsOmniStore.highlights.realTimeInventory")}
-                </Text>
-              </div>
-              <div className='flex items-start gap-3'>
-                <div className='mt-1 h-2 w-2 rounded-full bg-blue-500' />
-                <Text className='text-gray-700'>
-                  {t("forOfflineVendor.whatIsOmniStore.highlights.betterExperience")}
-                </Text>
-              </div>
+              {highlights.map((key) => (
+                <div key={key} className='flex items-center gap-3'>
+                  <div className='mt-1 h-2 w-2 rounded-full bg-blue-500' />
+                  <Text className='text-gray-700'>
+                    {t(`forOfflineVendor.whatIsOmniStore.highlights.${key}`)}
+                  </Text>
+                </div>
+              ))}
             </div>
           </motion.div>
           <motion.div
