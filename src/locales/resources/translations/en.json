@@ -9,13 +9,15 @@
       "mainHeading": "Where the digital world meets the real world"
     },
     "features": {
-      "description": "A platform that combines social media with e-commerce offering OmniStore ® that connects offline retailers with digitally driven offline customers."
+      "heading": "Vesko is a social-media marketplace with an online store where you can buy or sell",
+      "description": "Vesko offers Omni Store, an organisation-level online storefront for small physical retailers that lets people see in real time what’s in stock before they step into the store while reconnecting people."
     },
     "middleHero": {
       "line1": "Yes! Vesko is",
       "line2": "a social media"
     },
     "vesko": {
+      "heading": "Vesko As A Social media",
       "safePlace": {
         "title": "Safe Place",
         "description": "To share your life with friends and family without being attacked for who you are."

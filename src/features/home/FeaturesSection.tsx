@@ -92,15 +92,16 @@ const FeaturesSection = () => {
           {/* Enhanced text with better styling */}
           <motion.div
             variants={textVariants}
-            className='absolute top-1/2 z-30 w-full -translate-y-1/2 text-center'
+            className='absolute top-1/2 z-30 flex w-full -translate-y-1/2 flex-col gap-5 text-center md:gap-10'
           >
             <Text
               className='text-2xl font-semibold text-gray-800 md:text-3xl lg:text-4xl'
               variant='subheading'
               weight='normal'
             >
-              {t("home.features.description")}
+              {t("home.features.heading")}
             </Text>
+            <Text>{t("home.features.description")}</Text>
           </motion.div>
 
           {/* Animated decorative shapes */}
