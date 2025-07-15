@@ -48,7 +48,7 @@ const WhySection = () => {
   };
 
   return (
-    <Section className='bg-gradient-to-br from-black to-black py-20'>
+    <Section className='bg-gradient-to-br from-blue-50 to-indigo-100 py-20'>
       <Container>
         <motion.div
           initial='hidden'
@@ -58,14 +58,18 @@ const WhySection = () => {
         >
           {/* Title */}
           <div className='space-y-4 text-center'>
-            <Text as='h2' variant='heading' className='text-4xl font-bold text-white md:text-5xl'>
+            <Text
+              as='h2'
+              variant='heading'
+              className='text-4xl font-bold text-gray-900 md:text-5xl'
+            >
               {t("forOfflineVendor.why.title")}
             </Text>
           </div>
 
           {/* Video */}
           <motion.div variants={videoContainerVariants} className='relative mx-auto max-w-4xl py-8'>
-            <div className='relative aspect-video overflow-hidden bg-gray-900 shadow-2xl'>
+            <div className='relative aspect-video overflow-hidden rounded-2xl bg-gray-900 shadow-2xl'>
               {/* Video */}
               <video
                 ref={videoRef}
@@ -121,7 +125,7 @@ const WhySection = () => {
             className='mt-12 grid grid-cols-1 gap-6 text-center md:grid-cols-3'
           >
             {stats.map(({ key, valueKey, color }) => (
-              <div key={key} className='space-y-2 rounded-lg bg-white/90 p-16 backdrop-blur-sm'>
+              <div key={key} className='space-y-2 rounded-lg bg-white/80 p-16 backdrop-blur-md'>
                 <Text className={`text-5xl font-bold lg:text-3xl ${color}`}>
                   {t(`forOfflineVendor.why.stats.${key}.${valueKey}`)}
                 </Text>
