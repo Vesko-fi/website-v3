@@ -6,6 +6,9 @@ import { Container } from "@/shared/components/ui/container";
 import { Section } from "@/shared/components/ui/section";
 import { Text } from "@/shared/components/ui/text";
 import { RemixIcons } from "@/shared/constants/icons";
+import { getLocalizedPath } from "@/routes/helpers/localization";
+import i18n, { type SupportedLanguages } from "@/locales/i18n.config";
+import { NavLink } from "react-router-dom";
 
 interface FormData {
   businessName: string;
@@ -48,6 +51,7 @@ const RegisterFormSection = () => {
   const [errors, setErrors] = useState<FormErrors>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
+  const privacyPolicyPath = getLocalizedPath("privacyPolicy", i18n.language as SupportedLanguages);
 
   const handleInputChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
@@ -596,7 +600,10 @@ const RegisterFormSection = () => {
                       className='text-accent-600 focus:ring-accent-500 mt-1 h-4 w-4 rounded border-gray-300'
                     />
                     <label htmlFor='agreeToTerms' className='text-sm text-gray-300'>
-                      {t("register.form.agreeToTerms")} *
+                      {t("register.form.agreeToTerms")}{" "}
+                      <NavLink to={privacyPolicyPath} className='underline'>
+                        {t("register.form.privacy")} *
+                      </NavLink>
                     </label>
                   </div>
                   {errors.agreeToTerms && (
