@@ -23,14 +23,14 @@ const SocializeSection = () => {
       color: "bg-blue-50",
       title: t("home.socialize.blocks.growBusiness.title"),
       description: t("home.socialize.blocks.growBusiness.description"),
-      image: Assets.spaceDigital,
+      image: Assets.spaceDigitalSecond,
     },
   ];
 
   return (
     <Section className='p-0'>
       <Container className='p-0'>
-        <Text variant='subheading' as='h2' className='mb-6 text-center'>
+        <Text variant='heading' className='mb-10 text-center md:mb-16' as='h2'>
           {t("home.socialize.heading")}
         </Text>
 

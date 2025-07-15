@@ -1,3 +1,4 @@
+import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
@@ -5,16 +6,18 @@ import { useTranslation } from "react-i18next";
 import { Container } from "@/shared/components/ui/container";
 import { Section } from "@/shared/components/ui/section";
 import { Text } from "@/shared/components/ui/text";
-import { RemixIcons } from "@/shared/constants/icons";
+import { toast } from "react-toastify";
 
 const ContactFormSection = () => {
   const { t } = useTranslation();
-  const [formData, setFormData] = useState({
+  const initialFormData = {
     full_name: "",
     email: "",
-    phone: "",
+    phone_number: "",
     message: "",
-  });
+  };
+
+  const [formData, setFormData] = useState(initialFormData);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -23,8 +26,30 @@ const ContactFormSection = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // TODO: Implement EmailJS integration
-    console.log("Form submitted:", formData);
+
+    const params = {
+      first_name: formData.full_name,
+      email: formData.email,
+      phone_number: formData.phone_number,
+      message: formData.message,
+    };
+
+    emailjs
+      .send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID as string,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID as string,
+        params,
+        import.meta.env.VITE_EMAILJS_USER_ID as string
+      )
+      .then(
+        () => {
+          toast.success(t("contact.contactInfo.success"));
+          setFormData(initialFormData);
+        },
+        () => {
+          toast.error(t("contact.contactInfo.error"));
+        }
+      );
   };
 
   const containerVariants = {
@@ -102,10 +127,10 @@ const ContactFormSection = () => {
             </Text>
           </motion.div>
 
-          <div className='grid gap-12 lg:grid-cols-2 lg:gap-16'>
+          <div className='mx-auto grid w-full lg:w-3xl lg:gap-16'>
             {/* Contact Information */}
-            <motion.div variants={itemVariants} className='space-y-8'>
-              <div>
+            {/* <motion.div variants={itemVariants} className='space-y-8'> */}
+            {/* <div>
                 <Text
                   as='h3'
                   variant='title'
@@ -116,10 +141,10 @@ const ContactFormSection = () => {
                 <Text className='text-lg leading-relaxed text-gray-300 md:text-xl'>
                   {t("contact.formSection.infoDescription")}
                 </Text>
-              </div>
+              </div> */}
 
-              {/* Contact details */}
-              <div className='space-y-6'>
+            {/* Contact details */}
+            {/* <div className='space-y-6'>
                 <motion.div
                   initial={{ opacity: 0, x: -20 }}
                   whileInView={{ opacity: 1, x: 0 }}
@@ -175,10 +200,9 @@ const ContactFormSection = () => {
                     </Text>
                   </div>
                 </motion.div>
-              </div>
+              </div> */}
 
-              {/* Trust indicators */}
-              <motion.div
+            {/* <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -206,8 +230,8 @@ const ContactFormSection = () => {
                     <span>{t("contact.trustIndicators.expert")}</span>
                   </div>
                 </div>
-              </motion.div>
-            </motion.div>
+              </motion.div> */}
+            {/* </motion.div> */}
 
             {/* Contact Form */}
             <motion.div variants={formVariants} className='relative'>
@@ -260,9 +284,9 @@ const ContactFormSection = () => {
                     </label>
                     <input
                       type='tel'
-                      id='phone'
-                      name='phone'
-                      value={formData.phone}
+                      id='phone_number'
+                      name='phone_number'
+                      value={formData.phone_number}
                       onChange={handleInputChange}
                       className='focus:border-accent-400 w-full rounded-xl border-2 border-white/20 bg-white/10 px-4 py-3 text-white placeholder-gray-400 backdrop-blur-sm transition-all duration-300 focus:bg-white/15 focus:outline-none'
                       placeholder={t("contact.form.phonePlaceholder")}

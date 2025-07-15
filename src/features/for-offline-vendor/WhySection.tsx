@@ -1,174 +1,174 @@
 import { motion } from "framer-motion";
+import { useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 
 import { Container } from "@/shared/components/ui/container";
 import { Section } from "@/shared/components/ui/section";
 import { Text } from "@/shared/components/ui/text";
+import { Assets } from "@/shared/constants/assets";
 import { RemixIcons } from "@/shared/constants/icons";
 
 const WhySection = () => {
   const { t } = useTranslation();
+  const videoRef = useRef<HTMLVideoElement | null>(null);
+  const [isPlaying, setIsPlaying] = useState(true);
 
-  const containerVariants = {
-    hidden: { opacity: 0 },
+  const stats = [
+    { key: "onlinePurchases", valueKey: "percentage", color: "text-blue-600" },
+    { key: "storeVisits", valueKey: "multiplier", color: "text-purple-600" },
+    { key: "conversionRate", valueKey: "percentage", color: "text-green-900" },
+  ];
+
+  const togglePlayback = () => {
+    if (!videoRef.current) return;
+    if (videoRef.current.paused) {
+      void videoRef.current.play();
+      setIsPlaying(true);
+    } else {
+      videoRef.current.pause();
+      setIsPlaying(false);
+    }
+  };
+
+  const videoContainerVariants = {
+    hidden: { opacity: 0, scale: 0.9 },
+    visible: { opacity: 1, scale: 1, transition: { duration: 1, ease: "easeOut", delay: 0.4 } },
+  };
+
+  const textVariants = {
+    hidden: { opacity: 0, y: 50 },
     visible: {
       opacity: 1,
+      y: 0,
       transition: {
-        staggerChildren: 0.3,
-        delayChildren: 0.2,
+        duration: 1,
+        ease: "easeOut",
+        delay: 0.6,
       },
     },
   };
 
-  const textVariants = {
+  const itemVariants = {
     hidden: { opacity: 0, y: 30 },
     visible: {
       opacity: 1,
       y: 0,
       transition: {
-        duration: 0.8,
+        duration: 0.6,
         ease: "easeOut",
-      },
-    },
-  };
-
-  const videoContainerVariants = {
-    hidden: { opacity: 0, scale: 0.9 },
-    visible: {
-      opacity: 1,
-      scale: 1,
-      transition: {
-        duration: 1,
-        ease: "easeOut",
-        delay: 0.4,
-      },
-    },
-  };
-
-  const pulseVariants = {
-    animate: {
-      scale: [1, 1.05, 1],
-      opacity: [0.7, 1, 0.7],
-      transition: {
-        duration: 2,
-        repeat: Infinity,
-        ease: "easeInOut",
       },
     },
   };
 
   return (
-    <Section className='bg-gradient-to-br from-blue-50 to-indigo-100 py-20'>
+    <Section className='bg-gradient-to-br from-blue-50 to-indigo-100 py-16'>
       <Container>
         <motion.div
-          variants={containerVariants}
           initial='hidden'
           whileInView='visible'
           viewport={{ once: true, amount: 0.3 }}
-          className='mx-auto max-w-6xl'
+          className='mx-auto max-w-6xl space-y-8'
         >
-          {/* Main Headline */}
-          <motion.div variants={textVariants} className='mb-6 text-center'>
+          {/* Title */}
+          <div className='flex flex-col items-center justify-center space-y-4'>
             <Text
               as='h2'
               variant='heading'
-              className='text-3xl font-bold text-gray-900 md:text-4xl lg:text-5xl'
+              className='text-4xl font-bold text-gray-900 md:text-5xl'
             >
               {t("forOfflineVendor.why.title")}
             </Text>
-          </motion.div>
-
-          {/* Subtitle */}
-          <motion.div variants={textVariants} className='mb-16 text-center'>
-            <Text className='text-xl text-gray-600 md:text-2xl'>
-              {t("forOfflineVendor.why.subtitle")}
-            </Text>
-          </motion.div>
-
-          {/* Video Container */}
-          <motion.div variants={videoContainerVariants} className='relative mx-auto max-w-4xl'>
-            {/* Video Placeholder */}
-            <div className='relative overflow-hidden rounded-2xl bg-gradient-to-br from-gray-900 to-gray-800 shadow-2xl'>
-              {/* Video Background */}
-              <div className='aspect-video bg-gradient-to-br from-blue-600/20 to-purple-600/20'>
-                <div className='flex h-full items-center justify-center'>
-                  {/* Play Button */}
-                  <motion.div
-                    variants={pulseVariants}
-                    animate='animate'
-                    className='flex h-20 w-20 items-center justify-center rounded-full bg-white/20 backdrop-blur-sm'
-                  >
-                    <i className={`${RemixIcons.play} text-3xl text-white`} />
-                  </motion.div>
-                </div>
+            <Text className='font-medium'>{t("forOfflineVendor.why.subheading")}</Text>
+            <motion.div
+              variants={itemVariants}
+              className='mt-5 flex flex-wrap items-center justify-center gap-8 text-sm text-gray-500'
+            >
+              <div className='flex items-center gap-2'>
+                <i className={`${RemixIcons.check} text-green-500`} />
+                <span>{t("forOfflineVendor.why.reasons.option1")}</span>
               </div>
+              <div className='flex items-center gap-2'>
+                <i className={`${RemixIcons.check} text-green-500`} />
+                <span>{t("forOfflineVendor.why.reasons.option2")}</span>
+              </div>
+              <div className='flex items-center gap-2'>
+                <i className={`${RemixIcons.check} text-green-500`} />
+                <span className='font-bold'>{t("forOfflineVendor.why.reasons.option3")}</span>
+              </div>
+              <div className='flex items-center gap-2'>
+                <i className={`${RemixIcons.check} text-green-500`} />
+                <span>{t("forOfflineVendor.why.reasons.option4")}</span>
+              </div>
+            </motion.div>
+          </div>
 
-              {/* Video Overlay */}
-              <div className='absolute inset-0 bg-gradient-to-t from-black/30 to-transparent' />
+          {/* Video */}
+          <motion.div variants={videoContainerVariants} className='relative mx-auto max-w-4xl py-8'>
+            <div className='relative aspect-video overflow-hidden rounded-2xl bg-gray-900 shadow-2xl'>
+              {/* Video */}
+              <video
+                ref={videoRef}
+                className='h-full w-full object-cover'
+                autoPlay
+                muted
+                loop
+                playsInline
+                aria-label='Product ads video'
+              >
+                <source src={Assets.veskoVideoMinos} type='video/mp4' />
+                {t("home.unboxing.videoNotSupported")}
+              </video>
 
-              {/* Video Controls */}
+              {/* Overlay */}
+              <div className='absolute inset-0 min-w-2xl bg-gradient-to-t from-black/30 to-transparent' />
+
+              {/* Floating particles */}
+              <motion.div
+                animate={{ y: [0, -10, 0] }}
+                transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+                className='absolute -top-4 -left-4 h-6 w-6 rounded-full bg-blue-400/30'
+              />
+              <motion.div
+                animate={{ y: [0, 10, 0] }}
+                transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+                className='absolute -right-4 -bottom-4 h-4 w-4 rounded-full bg-purple-400/30'
+              />
+              <motion.div
+                animate={{ x: [0, 5, 0] }}
+                transition={{ duration: 2, repeat: Infinity, ease: "easeInOut", delay: 2 }}
+                className='absolute top-1/2 -right-6 h-3 w-3 rounded-full bg-green-400/30'
+              />
+
+              {/* Controls */}
               <div className='absolute right-4 bottom-4 left-4 flex items-center justify-between'>
-                <div className='flex items-center gap-3 text-white'>
-                  <div className='h-2 flex-1 rounded-full bg-white/30'>
-                    <div className='h-full w-1/3 rounded-full bg-white' />
-                  </div>
-                  <span className='text-sm'>{t("forOfflineVendor.why.video.progress")}</span>
-                </div>
                 <div className='flex items-center gap-2'>
-                  <button className='rounded-full p-2 text-white hover:bg-white/20'>
-                    <i className={`${RemixIcons.pause} text-lg`} />
-                  </button>
-                  <button className='rounded-full p-2 text-white hover:bg-white/20'>
-                    <i className={`${RemixIcons.settings} text-lg`} />
+                  <button
+                    onClick={togglePlayback}
+                    className='rounded-full p-2 text-white hover:bg-white/20'
+                  >
+                    <i className={`${isPlaying ? RemixIcons.pause : RemixIcons.play} text-lg`} />
                   </button>
                 </div>
               </div>
             </div>
-
-            {/* Floating elements around video */}
-            <motion.div
-              animate={{ y: [0, -10, 0] }}
-              transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-              className='absolute -top-4 -left-4 h-6 w-6 rounded-full bg-blue-400/30'
-            />
-            <motion.div
-              animate={{ y: [0, 10, 0] }}
-              transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-              className='absolute -right-4 -bottom-4 h-4 w-4 rounded-full bg-purple-400/30'
-            />
-            <motion.div
-              animate={{ x: [0, 5, 0] }}
-              transition={{ duration: 2, repeat: Infinity, ease: "easeInOut", delay: 2 }}
-              className='absolute top-1/2 -right-6 h-3 w-3 rounded-full bg-green-400/30'
-            />
           </motion.div>
 
           {/* Stats */}
-          <motion.div variants={textVariants} className='mt-12 grid grid-cols-3 gap-6 text-center'>
-            <div className='rounded-lg bg-white/50 p-6 backdrop-blur-sm'>
-              <Text className='text-5xl font-bold text-blue-600 lg:text-6xl'>
-                {t("forOfflineVendor.why.stats.onlinePurchases.percentage")}
-              </Text>
-              <Text className='text-gray-600'>
-                {t("forOfflineVendor.why.stats.onlinePurchases.description")}
-              </Text>
-            </div>
-            <div className='rounded-lg bg-white/50 p-6 backdrop-blur-sm'>
-              <Text className='text-5xl font-bold text-purple-600 lg:text-6xl'>
-                {t("forOfflineVendor.why.stats.storeVisits.multiplier")}
-              </Text>
-              <Text className='text-gray-600'>
-                {t("forOfflineVendor.why.stats.storeVisits.description")}
-              </Text>
-            </div>
-            <div className='rounded-lg bg-white/50 p-6 backdrop-blur-sm'>
-              <Text className='text-5xl font-bold text-green-600 lg:text-6xl'>
-                {t("forOfflineVendor.why.stats.conversionRate.percentage")}
-              </Text>
-              <Text className='text-gray-600'>
-                {t("forOfflineVendor.why.stats.conversionRate.description")}
-              </Text>
-            </div>
+
+          <motion.div
+            variants={textVariants}
+            className='mt-12 grid grid-cols-1 gap-6 text-center md:grid-cols-3'
+          >
+            {stats.map(({ key, valueKey, color }) => (
+              <div key={key} className='space-y-2 rounded-lg bg-white/80 p-16 backdrop-blur-md'>
+                <Text className={`text-5xl font-bold lg:text-3xl ${color}`}>
+                  {t(`forOfflineVendor.why.stats.${key}.${valueKey}`)}
+                </Text>
+                <Text className='text-gray-600'>
+                  {t(`forOfflineVendor.why.stats.${key}.description`)}
+                </Text>
+              </div>
+            ))}
           </motion.div>
         </motion.div>
       </Container>

@@ -172,29 +172,31 @@ const HeroSection = () => {
           variants={containerVariants}
           initial='hidden'
           animate='visible'
-          className='flex flex-col gap-8'
+          className='flex w-full flex-col gap-8'
         >
           {/* Content Container */}
-          <div className='flex flex-col gap-8 xl:flex-row xl:items-end xl:justify-between'>
-            <div>
+          <div className='flex flex-col items-center gap-8 xl:flex-row xl:justify-between'>
+            <div className='flex max-w-md flex-1 flex-col gap-2'>
               {/* Main Title */}
               <motion.div variants={titleVariants}>
                 <Text
                   as='h1'
                   variant='heading'
                   color='primaryLight'
-                  className='text-4xl font-bold md:text-5xl lg:text-7xl xl:text-8xl'
+                  className='text-3xl font-bold md:text-4xl lg:text-5xl xl:text-6xl'
                 >
                   {t("forPeople.hero.title")}
                 </Text>
               </motion.div>
               {/* Subtitle and Description */}
               <motion.div variants={subtitleVariants} className='max-w-md'>
-                <Text color='primaryLight' className='mb-4 text-xl leading-relaxed md:text-2xl'>
+                <Text
+                  as='p'
+                  variant='caption'
+                  color='primaryLight'
+                  className='mb-4 pr-4 leading-relaxed font-semibold lg:text-xl'
+                >
                   {t("forPeople.hero.subtitle")}
-                </Text>
-                <Text color='primaryLight' className='text-lg opacity-90'>
-                  {t("forPeople.hero.description")}
                 </Text>
               </motion.div>
             </div>
@@ -212,9 +214,6 @@ const HeroSection = () => {
                   <div className='mb-6 text-center'>
                     <Text className='mb-2 text-xl font-bold text-white'>
                       {t("forPeople.hero.formTitle")}
-                    </Text>
-                    <Text className='text-sm text-white/80'>
-                      Join 2,847+ people already waiting
                     </Text>
                   </div>
 
@@ -244,18 +243,6 @@ const HeroSection = () => {
                       </div>
                     </div>
                   </div>
-
-                  {/* Urgency indicator */}
-                  <motion.div
-                    initial={{ opacity: 0, scale: 0.9 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ delay: 1.5, duration: 0.5 }}
-                    className='bg-accent-400/10 border-accent-400/20 mt-4 rounded-lg border p-3'
-                  >
-                    <Text className='text-accent-300 text-center text-xs font-medium'>
-                      {t("forPeople.hero.urgencyMessage")}
-                    </Text>
-                  </motion.div>
                 </div>
               </div>
             </motion.div>

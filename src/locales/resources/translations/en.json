@@ -1,17 +1,23 @@
 {
   "home": {
     "title": "Welcome to Our Website",
+    "main": {
+      "title": "Reconnecting People",
+      "subtitle": "To each other. To places. To the real world"
+    },
     "hero": {
       "mainHeading": "Where the digital world meets the real world"
     },
     "features": {
-      "description": "A platform that combines social media with e-commerce offering OmniStore ® that connects offline retailers with digitally driven offline customers."
+      "heading": "Vesko is a social-media marketplace with an online store where you can buy or sell",
+      "description": "Vesko offers Omni Store, an enterprise-level online storefront for small physical retailers that lets people see in real time stock availability before they step into the store while reconnecting people."
     },
     "middleHero": {
       "line1": "Yes! Vesko is",
       "line2": "a social media"
     },
     "vesko": {
+      "heading": "Vesko As A Social media",
       "safePlace": {
         "title": "Safe Place",
         "description": "To share your life with friends and family without being attacked for who you are."
@@ -26,7 +32,7 @@
       }
     },
     "socialize": {
-      "heading": "Socialise, Share your life, Shop, & Sell all in one place",
+      "heading": "Socialised Shopping",
       "blocks": {
         "localLife": {
           "title": "A space where your local life goes digital",
@@ -52,8 +58,8 @@
       }
     },
     "featuresGrid": {
-      "heading": "Powerful Features",
-      "subtitle": "Discover how our platform revolutionizes the way you do business",
+      "heading": "Plug & Play",
+      "subtitle": "Integrated payments and trusted logistics built right into every online store",
       "payment": {
         "title": "Payment",
         "description": "Safe and secure checkout, powered by end-to-end encryption and trusted payment partners.",
@@ -67,9 +73,10 @@
     },
     "unboxing": {
       "heading": "See it yourself!",
-      "play": "Play",
-      "pause": "Pause",
-      "videoNotSupported": "Your browser does not support the video tag."
+      "videoNotSupported": "Your browser does not support the video tag.",
+      "demo": "Watch full demo",
+      "videoId": "Il0S8BoucSA",
+      "button": "▶ Here"
     },
     "reviews": {
       "heading": "Trusted By Industry Leaders",
@@ -114,9 +121,8 @@
   },
   "forPeople": {
     "hero": {
-      "title": "People Connected",
-      "subtitle": "Discover how Vesko connects you with local businesses and communities",
-      "description": "Connect with your local community, discover amazing products, and build meaningful relationships in a safe digital space.",
+      "title": "People Reconnected",
+      "subtitle": "Where social media feels human again & reconnects you with your world.",
       "formTitle": "Be among the first to experience Vesko",
       "socialProof": "Join 2,847+ people already waiting",
       "trustIndicators": {
@@ -124,7 +130,6 @@
         "earlyAccess": "Early access",
         "noSpam": "No spam"
       },
-      "urgencyMessage": "🚀 Launching soon - Get priority access",
       "waitlist": {
         "button": "Join the waitlist",
         "placeholder": "example@email.com",
@@ -156,13 +161,60 @@
         }
       },
       "secondSection": {
-        "mainText": "Looks familiar by design",
-        "subText": "But it's not the same toxic space you're used to"
+        "mainText": "Looks familiar",
+        "subText": "*But it’s not the same toxic space you’re used to, Vesko will have its own unique home feed design"
+      }
+    },
+    "localConnection": {
+      "heading": "Local Connection",
+      "subheading": "See what your local stores have before you even step outside",
+
+      "step1": {
+        "label": "Step 1",
+        "title": "search & find a product",
+        "description": "Once Vesko is available, you’ll be able to search and filter products easily. You can also use our map to see all nearby stores that sell on Vesko, how far they are, and their opening hours. Note: to use the mobile app, you’ll need to register with just your email."
+      },
+
+      "step2": {
+        "label": "Step 2",
+        "title": "Check product availability",
+        "description": "Once you find a product you want to buy, just go to its product details page. There, you can read all the info posted by the seller and check if the item (a specific size) is available on the store’s shelves. If you spot a product in your home feed, simply tap the “Buy Now” button or click anywhere on the product photo to open its details."
+      },
+
+      "step3": {
+        "label": "Step 3",
+        "title": "Buy in-store",
+        "description": "When you find a product you like and it’s available, you can visit the store to see and feel it before making your final decision. The store profile shows opening hours and location to help you get there easily.",
+        "title2": "or, Click & collect",
+        "description2": "When you find a product you like and it’s available, you can visit the store to see and feel it before making your final decision. The store profile shows opening hours and location to help you get there easily."
+      }
+    },
+    "values": {
+      "title": "VESKO",
+      "heading": "as a Social media,",
+      "heading2": "is being built on",
+      "heading3": "three core values",
+      "heading4": "the foundation of everything we do",
+      "step1": {
+        "heading": "🛡️ Safe Place to share your life without fear",
+        "text1": "Built and designed by people, for people. We believe everyone has the right to share their life without fear, no matter who they are, what they believe in, who they love, their background, skin colour, or appearance.",
+        "text2": "Like many of you, we’ve felt how today’s social media spaces have grown more hostile, overwhelmed by conflict, misinformation, and negativity. And just like the real world shapes our digital lives, the tone of our online communities often echoes back into how we treat one another offline.",
+        "text3": "That’s why we’re building Vesko: a friendlier, more respectful digital space designed to foster real connection. To make that possible, Vesko follows a strict Zero Tolerance Policy for bullying, racism, harassment, and incitement to violence."
+      },
+      "step2": {
+        "heading": "⚖️ Neutral Digital Space: we pick no sides!",
+        "text1": "Like Switzerland, Vesko stays neutral. In a world where billionaires build or buy social platforms to push their own narratives, and while others take political sides or promote ideologies, we choose another way.",
+        "text2": "We believe neutrality is the key to healthier, more peaceful communities."
+      },
+      "step3": {
+        "heading": "Connecting People by turning online interactions into real-world engagement",
+        "text1": "By starting your shopping journey digitally and ending in your local store, Vesko will strengthens the community bonds.",
+        "text2": "You don’t just scroll and socialise, you help real businesses in your area to survive.",
+        "text3": "This brings life back to your city, helping turn quiet streets into vibrant neighbourhoods."
       }
     },
     "realMeetDigital": {
-      "title": "Real Meets Digital",
-      "description": "Experience the seamless connection between physical and digital worlds"
+      "title": "join us to reconnect You"
     }
   },
   "about": {
@@ -212,9 +264,14 @@
           "content": "As digital shopping behaviors grew, it became clear that small businesses weren't dying because people stopped shopping offline, they were struggling because they didn't have access to the same digital tools as big retailers."
         },
         "solution": {
-          "title": "Vesko is Born",
-          "location": "The Solution",
-          "content": "Vesko was created to fix that, first, by offering small stores an affordable way to meet modern shoppers' expectations for digital discovery and product availability."
+          "title": "R&D",
+          "location": "Finding a solution",
+          "content": "Research and development were launched to evaluate potential solutions, use cases, and business models, laying a solid foundation for the forthcoming company."
+        },
+        "starting": {
+          "title": "Starting Vesko",
+          "location": "Solution",
+          "content": " Vesko’s team set off to build Vesko by  offering small business an online store to meet modern shoppers’ expectations for digital discovery and product availability."
         },
         "vision": {
           "title": "Beyond Commerce",
@@ -296,13 +353,15 @@
   "nav": {
     "home": "Home",
     "merchants": "For Merchants",
-    "about": "About Us",
+    "about": "About",
     "people": "For People",
     "contact": "Contact Us",
     "register": "Register",
     "howItWorks": "See How it Works",
     "offline-vendors": "Offline Vendors",
-    "online-vendors": "Online Vendors"
+    "online-vendors": "Online Vendors",
+    "payment": "Payment",
+    "logistic": "Logistic"
   },
   "common": {
     "loading": "Loading...",
@@ -312,10 +371,25 @@
     "next": "Next",
     "goToReview": "Go to review"
   },
+  "vendor": {
+    "cta": {
+      "title": "Ready to Turn Your Ideas Into Reality?",
+      "subtitle": "Register now and get early bird access, enjoy a free 3-month trial!",
+      "buttons": {
+        "register": "Register",
+        "contactUs": "Contact us"
+      },
+      "trustIndicators": {
+        "freeToStart": "Free to start",
+        "noSetupFees": "No setup fees",
+        "support": "24/7 support"
+      }
+    }
+  },
   "forOfflineVendor": {
     "hero": {
-      "title": "OmniStore ®, Designed & Built For You",
-      "subtitle": "Your shop, online with OmniStore.",
+      "title": "OmniStore",
+      "subtitle": "Organisation-level webshop With Unified Inventory, built to help grow your offline store.",
       "scrollToExplore": "Scroll to explore"
     },
     "omnistoreBenefit": {
@@ -329,28 +403,36 @@
     },
     "whatIsOmniStore": {
       "title": "What is OmniStore?",
-      "description": "OmniStore ® turns your physical store into a virtual showroom, letting customers see what's available in real time, before they even step inside.",
+      "subTitle": "OmniStore ® turns your physical store into a virtual showroom, letting customers see what's available in real time, before they even step outside their homes",
+      "description": "It is built to help your business grow by offering your customers an Online-to-Offline shopping experience, through the world’s first scalable, ready-to-use omnichannel online store",
       "highlights": {
-        "realTimeInventory": "Real-time inventory visibility",
-        "seamlessIntegration": "Seamless online-offline integration",
-        "enhancedExperience": "Enhanced customer experience"
+        "scalableAndReady": "Scalable & ready to use.",
+        "realTimeInventory": "Realtime inventory visibility.",
+        "betterExperience": "Better customer shopping experience.",
+        "freeMarketplace": "Free marketplace it's your own store."
       }
     },
     "why": {
       "title": "Why OmniStore?",
-      "subtitle": "Because 9 out of 10 purchases begin online!",
+      "subheading": "Because 76 % of shoppers follow this path:",
+      "reasons": {
+        "option1": "Search online",
+        "option2": "Discover a product",
+        "option3": "Check in-store availability",
+        "option4": "Visit the shop & buy"
+      },
       "stats": {
         "onlinePurchases": {
-          "percentage": "90%",
+          "percentage": "91%",
           "description": "of purchases start online"
         },
         "storeVisits": {
-          "multiplier": "3x",
-          "description": "more likely to visit store"
+          "multiplier": "76%",
+          "description": "of people want to see product availability"
         },
         "conversionRate": {
-          "percentage": "67%",
-          "description": "higher conversion rate"
+          "percentage": "+43%",
+          "description": "increase in revenue "
         }
       },
       "video": {
@@ -402,45 +484,35 @@
       }
     },
     "features": {
-      "title": "Vesko's OmniStore is designed to grow your business with minimal effort managing your store.",
+      "title": "Designed to grow your business with minimal effort in managing your store.",
       "mobileApp": {
-        "title": "Mobile App",
-        "description": "Vesko will be available on both iOS and Android manage your store, track orders, and engage with customers on the go.",
+        "title": "Mobile & Web",
+        "description": "Vesko will be available via web and mobile app to help you manage your store, track orders, and engage with customers on the go.",
         "highlights": [
+          "User friendly",
           "iOS and Android compatible",
           "Real-time order notifications",
-          "Offline mode support",
-          "Push notifications for updates"
+          "Chat with customers directly"
         ]
       },
       "logisticsReady": {
-        "title": "Logistics Ready",
-        "description": "Delivery made easy. Just tap \"Send for Delivery\" and we and the carrier take care of everything.",
+        "title": "Integrated Logistics ",
+        "description": "With Vesko’s built-in Order Management System (OMS), all you need is a printer and a few clicks to ship your orders, thanks to our trusted partner, nShift, which connects Vesko to hundreds of carriers worldwide.",
         "highlights": [
-          "One-click delivery setup",
-          "Multiple carrier integration",
-          "Real-time tracking updates",
-          "Automated shipping labels"
+          "Built-in OMS",
+          "Few clicks order fulfilment",
+          "Variety of delivering methods",
+          "Enhanced post purchase experience"
         ]
       },
       "paymentsBuiltIn": {
-        "title": "Payments Built-In",
-        "description": "Secured transaction with no extra setup. Vesko's trusted partner handles everything from checkout to payout.",
+        "title": "Payment",
+        "description": "Easy & secured integrated payment solution thanks to our trusted partner Stripe.",
         "highlights": [
-          "Multiple payment methods",
-          "Secure PCI compliance",
-          "Instant payment processing",
-          "Automated payouts"
-        ]
-      },
-      "socialisedSelling": {
-        "title": "Socialised Selling",
-        "description": "Your store and social media profile are in the same space, making your store social, shoppable, and alive.",
-        "highlights": [
-          "Social media integration",
-          "Live product showcases",
-          "Customer engagement tools",
-          "Viral sharing features"
+          "Secure & Trusted",
+          "Fast Settlements",
+          "Multiple Payment Options",
+          "No Technical Setup Required"
         ]
       },
       "allInOneDashboard": {
@@ -461,7 +533,8 @@
           "noSetupFees": "No setup fees",
           "support": "24/7 support"
         }
-      }
+      },
+      "more": "Read more"
     },
     "orderSection": {
       "title": "How Online Order Fulfilment Works",
@@ -491,7 +564,7 @@
     },
     "posSection": {
       "title": "Point Of Sale Systems (POS) In Vesko",
-      "description": "You need a POS? We will provide you with one, You already have one? We will integrate 3rd parties Point Of Sale Systems so you don't have to. You have your special POS? We can help you to integrate it with Your OmniStore",
+      "description": "Need a POS? We’ll provide one after launch simple and ready to go. Already have a system? Vesko will support integration with third-party POS platforms, so you can manage your physical store without disruption. Enterprise-level POS setups are also supported",
       "features": {
         "weProvidePOS": {
           "title": "We provide POS",
@@ -553,7 +626,9 @@
       "location": {
         "label": "Location",
         "address": "Helsinki, Finland"
-      }
+      },
+      "success": "Your message send successfully",
+      "error": "Unable to send the message"
     },
     "trustIndicators": {
       "title": "Why choose us:",
@@ -596,7 +671,8 @@
       "scrollToExplore": "Scroll to explore"
     },
     "valueProb": {
-      "title": "Socialise your selling, where your followers become customers, and supporters in growing your business",
+      "title": "Socialise your selling",
+      "subtitle": " A social media marketplace where your followers become your customers and supporters in growing your business.",
       "benefits": {
         "buildCommunity": {
           "title": "Build Your Community",
@@ -608,22 +684,22 @@
         },
         "growTogether": {
           "title": "Grow Together",
-          "description": "Your success becomes your community's success"
+          "description": "Tools, visibility, and reach, Vesko gives you everything you need"
         }
       }
     },
     "whatIs": {
-      "title": "What Is Vesko's Online Store?",
-      "subtitle": "An online store inside your profile — where you connect with your customers, build a community, and turn followers into buyers. Social, shoppable, and made to grow with you.",
+      "title": "Vesko’s online store",
+      "subtitle": "Designed to help you grow. Your store lives inside your profile, so customers can follow you, engage with your content, and shop from you, all in one place. No need for a separate website or setup, you just need a label printer that’s it. Just create, connect, and sell.",
       "features": {
-        "integratedProfile": "Integrated profile and store in one platform",
-        "meaningfulConnections": "Build meaningful connections with your customers",
-        "socialPresence": "Turn your social presence into a thriving business"
+        "integratedProfile": "No extra setups needed.",
+        "meaningfulConnections": "Scalable stores grow as your business grows.",
+        "socialPresence": "Payments and logistics, inventory, all in one dashboard."
       }
     },
     "startups": {
-      "title": "When the odds are against you, Vesko is with you",
-      "subtitle": "Have an idea? Want to start a side business while studying? Already have products but struggling to sell? Vesko helps you find your first adopters and grow from there.",
+      "title": "Vesko Is Here For You",
+      "subtitle": "Want to start a business? Got an idea you believe in? Whether you’re just getting started or trying to grow. Vesko helps you launch, sell, and reach your first customers.",
       "benefits": {
         "startJourney": {
           "title": "Start Your Journey",
@@ -730,20 +806,6 @@
         "subtitle": "Streamlined process that saves you time and effort"
       }
     },
-    "cta": {
-      "title": "Ready to Turn Your Ideas Into Reality?",
-      "subtitle": "Join thousands of entrepreneurs who are already building their dreams with Vesko. Start your journey today and see your business grow.",
-      "buttons": {
-        "startStore": "Start Your Store",
-        "learnMore": "Learn More"
-      },
-      "trustIndicators": {
-        "freeToStart": "Free to start",
-        "noSetupFees": "No setup fees",
-        "support": "24/7 support"
-      },
-      "socialProof": "Join 10,000+ entrepreneurs already using Vesko"
-    },
     "howItWorks": {
       "title": "How It Works",
       "steps": {
@@ -780,7 +842,8 @@
     },
     "formSection": {
       "title": "Business Registration",
-      "subtitle": "Tell us about your business and we'll help you get started with Vesko's platform."
+      "subtitle": "Register now and get a free three-month trial (limited availability).",
+      "note": "Note: If you register after all slots are filled, you will instead receive a one-month free trial."
     },
     "form": {
       "businessName": "Business Name",
@@ -822,9 +885,14 @@
         "6months": "Within 6 months",
         "1year": "Within 1 year"
       },
+      "noOfProducts": "Number of Products",
+      "noOfProductsPlaceholder": "Number of Products",
+      "ordersPerMonth": "Orders per Month",
+      "ordersPerMonthPlaceholder": "Expected Orders per Month",
       "description": "Business Description",
       "descriptionPlaceholder": "Tell us about your business, products, and how you plan to use Vesko...",
-      "agreeToTerms": "I agree to the Terms of Service and Privacy Policy",
+      "agreeToTerms": "I agree to the Terms of Service and",
+      "privacy": "Privacy Policy",
       "agreeToMarketing": "I agree to receive marketing communications from Vesko",
       "submit": "Register Business",
       "submitting": "Registering...",
@@ -877,13 +945,11 @@
   },
   "footer": {
     "company": {
-      "heading": "Company",
-      "name": "Vesko Ltd.",
-      "address": "Joensuu, Finland",
       "businessId": "Business-ID: 3472131-6"
     },
     "rights": "All rights reserved",
-    "privacyPolicy": "Privacy Policy"
+    "privacyPolicy": "Privacy Policy",
+    "topButton": "Back to top"
   },
   "privacyPolicy": {
     "heading": "Privacy Policy",
@@ -955,6 +1021,89 @@
     },
     "updatePolicy": {
       "text": "We are committed to protecting your privacy. This Privacy Policy outlines how we collect, use, and store your personal data in compliance with the EU General Data Protection Regulation (GDPR). This policy may be updated, and the latest version can always be found on this page. Note that your data will not be handed over to a third party nor processed outside Finland and we will also notify you of any significant changes by email."
+    }
+  },
+  "paymentAndLogistic": {
+    "main": {
+      "heading": "Payments & Logistics Made Easy",
+      "subheading": "Whether you're an individual entrepreneur or a small offline retailer expanding online, Vesko streamlines your payment and delivery processes. Our integrated solution, powered by Stripe for payments and nShift for shipping, let's you focus on fulfilling orders and growing your business and we'll handle the heavy lifting in the background. Below is a concise overview of how Vesko’s payment and logistics features benefit you, saving time and costs while improving your customer experience."
+    },
+    "payment": {
+      "heading": "Secure Payments Powered by Stripe",
+      "subheading": "Vesko uses Stripe, a world-class payment platform, to ensure your online transactions are fast, secure, and hassle-free. Stripe is trusted by businesses of all sizes – from startups to Fortune 500 companies like Google and Amazon so you and your customers can have peace of mind. With Vesko’s Stripe integration, you get:",
+      "features": {
+        "option1": {
+          "heading": "Easy, Secure Checkout: ",
+          "description": "Accept all major credit/debit cards and digital wallets (e.g. Apple Pay, Google Pay) in 135+ currencies. Stripe is PCI Level 1 certified, the highest grade of payment security, making every transaction highly secure. Advanced fraud prevention (Stripe Radar) further safeguards your business and customers."
+        },
+        "option2": {
+          "heading": "Transparent Low Fees: ",
+          "description": "There are no setup or monthly fees for using Stripe’s basic services you only pay a small standard transaction fee per sale (e.g. ~2.9% + $0.30, +possible  Vesko’s charge per transaction and this will depend on your subscription plan) with no hidden charges or binding contracts. This pay-as-you-go pricing keeps costs predictable and flexible for small businesses."
+        },
+        "option3": {
+          "heading": "Quick Setup, Direct Payouts: ",
+          "description": "Getting started is simple with Stripe’s easy onboarding. Payments from your customers go directly into your own account  (Vesko will not hold your funds). Stripe’s fast payout system means you receive your revenue quickly, improving cash flow."
+        },
+        "option4": {
+          "heading": "Global and Scalable: ",
+          "description": "As your business grows, Stripe scales with you. You can accept international payments (135+ currencies) and multiple payment methods without additional Complexity (Vesko will be available worldwide). There are also options for subscriptions, invoicing, and more as needed, all under the same platform."
+        },
+        "option5": {
+          "heading": "Reliability & Support: ",
+          "description": "Stripe’s infrastructure is renowned for its uptime and speed, processing thousands of transactions per second worldwide. You benefit from that reliability, plus detailed reporting and analytics to track your sales on your store panel."
+        }
+      },
+      "description": "With Vesko and Stripe, you get enterprise-grade payment processing with zero fuss. Your customers enjoy a smooth, trustworthy checkout experience, while you enjoy low fees and no extra admin work on payment compliance or security,  it’s all handled for you."
+    },
+    "logistics": {
+      "heading": "Hassle-Free Shipping Powered By nShift",
+      "subheading": "Logistics can be one of the most time-consuming parts of online selling, but Vesko’s integration with nShift makes shipping efficient and worry-free. nShift is a leading delivery management platform that connects to over 1,000 carriers worldwide, allowing even small businesses to offer fast, affordable delivery options.",
+      "features": {
+        "heading": "Here’s how Vesko’s nShift-powered Order Management System helps you:",
+        "option1": {
+          "heading": "Access 1000+ Carriers & Best Rates: ",
+          "description": "Through nShift, Vesko gives you instant access to the world’s largest carrier network. You can offer a variety of shipping options (postal services, couriers, express shippers, etc.) to your customers. The system automatically selects or recommends the best carrier service for each order based on cost and speed, so you save on shipping costs while meeting customer expectations. No need to negotiate separate contracts, you tap into a vast delivery network out of the box."
+        },
+        "option2": {
+          "heading": "Automatic Label Creation: ",
+          "description": "The moment an order comes in, our system generates shipping labels and documentation for you. nShift’s platform allows you to print labels in Vesko’s store panel quickly and accurately for any carrier. This means no manual data entry or visiting multiple carrier websites, simply print the provided label and attach it to the package. You can even create return labels easily if needed for a smooth returns process."
+        },
+        "option3": {
+          "heading": "Real-Time Tracking & Estimate Time Of arrival (ETA) Updates: ",
+          "description": "Vesko will provide you and your customers with the ability to track every shipment through nShift’s unified tracking system but all will be within Vesko so you don’t have to go anywhere. Vesko’s Track-and-trace features powered by nShift  allow you and your customers to monitor shipments in real time and get detailed status updates, regardless of the carrier. Your customers can even see estimated delivery dates (ETA) when available, giving them confidence and reducing “Where is my order?” inquiries. Vesko’s dashboard/store panel provides you full visibility on all orders. You'll know exactly which orders are in transit, delivered, or pending fulfillment at a glance."
+        },
+        "option4": {
+          "heading": "Minimal Effort for You: ",
+          "description": "Vesko’s use of nShift essentially gives you a built-in order management system for shipping. The integration is so seamless that handling shipments becomes almost automatic. For example, many businesses find that nShift works behind the scenes so well that it feels like an invisible part of their own system. All you need to do is pack the orders, carrier booking, pickup scheduling, tracking emails, and updates can be handled by the system. This drastically reduces manual workload and errors, letting you fulfill orders faster and more accurately."
+        },
+        "option5": {
+          "heading": "Customer Satisfaction & Trust: ",
+          "description": "By providing shipment tracking and reliable delivery estimates, you keep your customers happy and informed. Proactive updates and on-time deliveries help build trust in your online store."
+        }
+      },
+      "description": "Vesko simplifies logistics to the point where shipping is no longer a headache for your business. You get the power of an enterprise-grade delivery system, wide carrier choice, automation, and live tracking without needing any special expertise or staff. This not only saves you countless hours (and associated labor costs) but also often leads to better shipping rates and fewer mistakes, ultimately saving you money and improving your service quality."
+    },
+    "benefits": {
+      "heading": "Why Does It Matters for You?",
+      "subheading": "Vesko’s payment and logistics integration is designed to make online selling as easy as possible for you. By partnering with Stripe and nShift (leaders in their fields), we ensure you get world-class service at affordable costs. The result is a streamlined operation where you only have to fulfill orders, and our system takes care of the rest, from charging the customer securely to printing the shipping label and updating the tracking info. It’s a complete solution that lets you save more, sell more, and stress less.",
+      "features": {
+        "option1": {
+          "heading": "Time & Labor Savings: ",
+          "description": "No more juggling multiple tools or manual processes. Our one-stop solution can speed up order processing significantly, freeing you to focus on products and customers instead of paperwork. Cost Savings: You avoid upfront costs on payment terminals or expensive software."
+        },
+        "option2": {
+          "heading": "Professionalism & Growth: ",
+          "description": "Vesko gives you the same robust infrastructure that big e- commerce players enjoy. This means even as a one-person operation or a small shop, you can offer professional-grade checkout and delivery. Happier customers lead to repeat business and positive reviews, fueling your growth. And when your order volume rises, Vesko scales seamlessly without added complexity."
+        },
+        "option3": {
+          "heading": "Peace of Mind: ",
+          "description": "Security, compliance, and reliability are handled by our platform and partners. Every payment is encrypted and fraud-checked and every shipment is tracked. You don’t have to worry about technical headaches or negotiating with carriers. It just works, so you can operate with confidence."
+        }
+      }
+    },
+    "join": {
+      "heading": "Join Vesko",
+      "description": "and experience how effortless managing an online business can be with the right payment and logistics support behind you. Spend less time on admin, save money on fees and shipping, and deliver a better experience to your customers,  all with Vesko."
     }
   }
 }

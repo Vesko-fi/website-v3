@@ -60,15 +60,15 @@ const HeroSection = () => {
 
   return (
     <Section
-      className='relative min-h-screen bg-cover bg-center'
-      style={{ backgroundImage: `url(${Assets.veskoBg})` }}
+      className='relative min-h-screen bg-cover'
+      style={{ backgroundImage: `url(${Assets.offlineVendorHeroImage})` }}
     >
       {/* Enhanced background overlay with gradient animation */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
-        className='absolute inset-0 bg-gradient-to-t from-black/85 via-black/70 to-transparent'
+        className='absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent'
       />
 
       {/* Floating background elements */}
@@ -99,7 +99,7 @@ const HeroSection = () => {
       </div>
 
       {/* Content container with proper centering */}
-      <div className='flex min-h-screen items-center justify-center px-4 py-8 sm:px-6 lg:px-8'>
+      <div className='flex min-h-[82vh] justify-center px-4 py-16 pt-16 sm:px-6 lg:px-8'>
         <Container className='relative z-10 text-center'>
           <motion.div
             variants={containerVariants}

@@ -4,7 +4,9 @@ import { NavLink } from "react-router-dom";
 import i18n, { type SupportedLanguages } from "@/locales/i18n.config";
 import { getLocalizedPath } from "@/routes/helpers/localization";
 import { Logo } from "@/shared/components/common/Logo";
+import { NavItem } from "@/shared/components/common/NavItem";
 import { Container } from "@/shared/components/ui/container";
+import { COMPANY_NAV_ITEMS, NAV_ITEMS } from "@/shared/constants/navItems";
 import { SOCIALS } from "@/shared/constants/socials";
 
 const Footer: React.FC = () => {
@@ -15,8 +17,8 @@ const Footer: React.FC = () => {
   const year = date.getFullYear();
   return (
     <footer className='bg-gradient-to-b from-[#F5FAF7] to-[#CDE6D9] text-sm text-gray-700'>
-      <Container className='px-4 py-10'>
-        <div className='flex flex-col items-center justify-between pb-4 sm:flex-row'>
+      <Container className='px-5 py-10 lg:px-20'>
+        <div className='relative flex flex-col items-center justify-between pb-4 md:flex-row'>
           <div className='mb-6 flex flex-col items-center gap-6 md:mb-0'>
             <Logo className='h-20 md:h-24' />
             <div className='flex items-center gap-3'>
@@ -33,30 +35,33 @@ const Footer: React.FC = () => {
               ))}
             </div>
           </div>
-          <div className='flex flex-1 flex-col items-center'>
-            <div className='text-center'>
-              <h4 className='py-2 text-lg font-semibold'>{t("footer.company.heading")}</h4>
-              <ul className='flex flex-col items-center space-y-1'>
-                <li>{t("footer.company.name")}</li>
-                <li>{t("footer.company.address")}</li>
-                <li>{t("footer.company.businessId")}</li>
-              </ul>
+          <div className='flex flex-col gap-2'>
+            <div className='flex flex-col items-center'>
+              {COMPANY_NAV_ITEMS.map((item) => (
+                <NavItem key={item.id} {...item} variant='desktop' />
+              ))}
             </div>
           </div>
-          <a href='#' className='text-sm text-green-800 hover:underline'>
-            Back to top
-          </a>
+          <div className='flex flex-col'>
+            {NAV_ITEMS.map((item) => (
+              <NavItem key={item.id} {...item} variant='desktop' />
+            ))}
+          </div>
         </div>
+
         <hr />
 
         <div className='mt-6 flex items-center justify-center text-right'>
           <div className='flex flex-col items-center'>
+            <div className='flex items-center justify-center gap-3 text-xs sm:text-sm'>
+              <p>{t("footer.company.businessId")}</p>
+              <NavLink to={privacyPolicyPath} className='underline'>
+                {t("footer.privacyPolicy")}
+              </NavLink>
+            </div>
             <p className='mt-2 text-sm'>
               &copy; {year} Vesko. {t("footer.rights")}
             </p>
-            <NavLink to={privacyPolicyPath} className='underline'>
-              {t("footer.privacyPolicy")}
-            </NavLink>
           </div>
         </div>
       </Container>

@@ -41,27 +41,27 @@ const HeroSection = () => {
   const desktopVariants = {
     initial: { opacity: isLargeScreen ? 1 : 0, y: 0, rotate: -8, scale: 1 },
     animate: {
-      opacity: 0,
-      y: -120,
-      scale: 0.8,
+      opacity: 1,
+      y: 0,
+      rotate: 0,
+      scale: 1,
       transition: { duration: 1, ease: "easeInOut" },
     },
   };
 
   const mobileVariants = {
     initial: {
-      opacity: 1,
-      scale: isLargeScreen ? 0.5 : 1.2,
-      rotate: 12,
+      opacity: 0,
+      scale: 0.5,
+      rotate: 30,
       x: 120,
       y: 80,
-      transition: { type: "tween" },
     },
     animate: {
       opacity: 1,
-      scale: isLargeScreen ? 0.9 : 1.2,
+      scale: 1,
       rotate: 0,
-      x: isLargeScreen ? -480 : 0,
+      x: 0,
       y: 0,
       transition: { duration: 1.2, ease: "easeOut" },
     },
@@ -130,38 +130,50 @@ const HeroSection = () => {
           />
         </div>
 
-        <Container className='flex items-center justify-center'>
-          <motion.img
-            src={Assets.heroDesktop}
-            alt='Desktop'
-            className='z-10 max-w-5xl rounded-xl drop-shadow-2xl'
-            initial='initial'
-            animate={controls}
-            variants={desktopVariants}
-          />
-          <motion.div
-            initial='initial'
-            animate={smallDeviceControls}
-            variants={heroTextVariants}
-            className='-mt-96 -ml-20 min-w-[500px] flex-1'
-          >
-            <Text className='text-default-white' as='h1' variant='heading' weight='normal'>
+        <Container className='relative flex items-center justify-center py-16'>
+          {/* Text content container */}
+          <div className='absolute top-0 right-0 left-0 z-30 flex flex-col items-center'>
+            <Text
+              className='text-default-white text-center'
+              as='h1'
+              variant='heading'
+              weight='normal'
+            >
               {t("home.hero.mainHeading")}
             </Text>
-          </motion.div>
-          <motion.img
-            src={Assets.heroMobile}
-            alt='Mobile'
-            className='z-20 w-1/4 rounded-xl drop-shadow-2xl md:absolute md:right-0 md:bottom-0'
-            initial='initial'
-            animate={controls}
-            variants={mobileVariants}
-            style={
-              animationState === "animated"
-                ? { bottom: 0, right: 0, transform: "translate(50%, 50%)" }
-                : undefined
-            }
-          />
+            <motion.div
+              initial='initial'
+              animate={smallDeviceControls}
+              variants={heroTextVariants}
+              className='mt-4 min-w-[500px] text-center'
+            />
+          </div>
+
+          {/* Image container */}
+          <div className='relative flex flex-col items-center'>
+            <motion.img
+              src={Assets.heroDesktop}
+              alt='Desktop'
+              className='z-10 max-w-5xl rounded-xl drop-shadow-2xl'
+              initial='initial'
+              animate={controls}
+              variants={desktopVariants}
+            />
+
+            <motion.img
+              src={Assets.heroMobile}
+              alt='Mobile'
+              className='z-20 w-1/4 rounded-xl drop-shadow-2xl md:absolute md:right-0 md:bottom-0'
+              initial='initial'
+              animate={controls}
+              variants={mobileVariants}
+              style={
+                animationState === "animated"
+                  ? { bottom: 0, right: 0, transform: "translate(50%, 50%)" }
+                  : undefined
+              }
+            />
+          </div>
         </Container>
       </Section>
 

@@ -54,19 +54,6 @@ const RealMeetDigitalSection = () => {
     },
   };
 
-  const descriptionVariants = {
-    hidden: { opacity: 0, y: 30 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: 0.8,
-        ease: "easeOut",
-        delay: 0.2,
-      },
-    },
-  };
-
   const imageRowVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: {
@@ -188,13 +175,6 @@ const RealMeetDigitalSection = () => {
               {t("forPeople.realMeetDigital.title")}
             </Text>
           </motion.div>
-
-          <motion.div variants={descriptionVariants}>
-            <Text className='mx-auto max-w-4xl text-lg leading-relaxed text-white/90 md:text-xl lg:text-2xl'>
-              {t("forPeople.realMeetDigital.description")}
-            </Text>
-          </motion.div>
-
           {/* Decorative elements */}
           <motion.div
             initial={{ width: 0 }}

@@ -180,14 +180,14 @@ const POSSection = () => {
             >
               {/* Main POS Image */}
               <motion.div
-                className='relative overflow-hidden rounded-2xl shadow-2xl'
+                className='relative w-full overflow-hidden rounded-2xl shadow-2xl'
                 whileHover={{ scale: 1.02 }}
                 transition={{ duration: 0.3 }}
               >
                 <Image
-                  src={Assets.posSystem}
+                  src={Assets.pointOfSaleSystem}
                   alt='Cashier Register system showing POS integration'
-                  className='h-[500px] w-[400px] object-cover'
+                  className='h-auto max-h-[400px] w-full object-contain sm:max-h-[500px] md:max-h-[600px] lg:max-h-[700px]'
                 />
 
                 {/* Overlay gradient */}

@@ -1,5 +1,7 @@
 import { useTranslation } from "react-i18next";
 
+import i18n, { type SupportedLanguages } from "@/locales/i18n.config";
+import { getLocalizedPath } from "@/routes/helpers/localization";
 import { FeatureCard } from "@/shared/components/common/FeatureCard";
 import { Container } from "@/shared/components/ui/container";
 import { Section } from "@/shared/components/ui/section";
@@ -10,6 +12,10 @@ import { useGSAP, fadeInUp } from "@/shared/hooks/useGSAP";
 const FeaturesGridSection = () => {
   const { t } = useTranslation();
   const sectionRef = useGSAP<HTMLDivElement>();
+  const paymentLogisticPath = getLocalizedPath(
+    "paymentLogistic",
+    i18n.language as SupportedLanguages
+  );
 
   return (
     <Section ref={sectionRef} className='relative py-32' aria-labelledby='features-heading'>
@@ -31,7 +37,7 @@ const FeaturesGridSection = () => {
             description={t("home.featuresGrid.payment.description")}
             icon={RemixIcons.securePayment as RemixIconName}
             buttonText={t("home.featuresGrid.payment.buttonText")}
-            buttonLink='/payment'
+            buttonLink={paymentLogisticPath}
             index={0}
           />
           <FeatureCard
@@ -39,7 +45,7 @@ const FeaturesGridSection = () => {
             description={t("home.featuresGrid.logistics.description")}
             icon={RemixIcons.truck as RemixIconName}
             buttonText={t("home.featuresGrid.logistics.buttonText")}
-            buttonLink='/logistics'
+            buttonLink={paymentLogisticPath}
             index={1}
           />
         </div>
