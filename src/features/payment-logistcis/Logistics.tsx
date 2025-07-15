@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
 import { Text } from "@/shared/components/ui/text";
-import { Container } from "@/shared/components/ui/container";
 
 const Logistics = () => {
   const { t } = useTranslation();
