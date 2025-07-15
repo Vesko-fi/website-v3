@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { NavLink } from "react-router-dom";
 
+import i18n, { type SupportedLanguages } from "@/locales/i18n.config";
+import { getLocalizedPath } from "@/routes/helpers/localization";
 import { Container } from "@/shared/components/ui/container";
 import { Section } from "@/shared/components/ui/section";
 import { Text } from "@/shared/components/ui/text";
 import { RemixIcons } from "@/shared/constants/icons";
-import { getLocalizedPath } from "@/routes/helpers/localization";
-import i18n, { type SupportedLanguages } from "@/locales/i18n.config";
-import { NavLink } from "react-router-dom";
 
 interface FormData {
   businessName: string;

@@ -5,8 +5,6 @@ import BRMD3 from "@/assets/images/b_rmd_3.avif";
 import BRMD4 from "@/assets/images/b_rmd_4.avif";
 import BRMD5 from "@/assets/images/b_rmd_5.avif";
 import BRMD6 from "@/assets/images/b_rmd_6.avif";
-import SpaceDigitalSecond from "@/assets/images/Vesko_dashboard_mobile.avif";
-
 import Connected from "@/assets/images/connected.avif";
 import FamiliarDesign from "@/assets/images/familiar_design.png";
 import ForPeopleHero from "@/assets/images/for_people_hero.avif";
@@ -28,11 +26,12 @@ import TRMD6 from "@/assets/images/t_rmd_6.avif";
 import VeskoBg1 from "@/assets/images/vesko_bg_split_1.webp";
 import VeskoBg2 from "@/assets/images/vesko_bg_split_2.webp";
 import VeskoBg3 from "@/assets/images/vesko_bg_split_3.webp";
+import SpaceDigitalSecond from "@/assets/images/Vesko_dashboard_mobile.avif";
 import YouFeelFree from "@/assets/images/you_feel_free.png";
 import VeskoLogo from "@/assets/logos/vesko.PNG";
 import VeskoLogoLight from "@/assets/logos/vesko_light.PNG";
 import VeskoVideo from "@/assets/videos/vesko.mp4";
-import VeskoVideoMinos from "@/assets/videos/vesko_video_mainos.webm";
+import VeskoVideoMinos from "@/assets/videos/vesko_minos_video.webm";
 // ForOfflineVendorPage assets - using existing images
 import MobileAppMockup from "@/assets/images/hero_mobile.png";
 import { default as OfflineVendorHeroImage } from "@/assets/images/offiline_hero.avif";

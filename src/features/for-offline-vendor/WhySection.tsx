@@ -48,7 +48,7 @@ const WhySection = () => {
   };
 
   return (
-    <Section className='bg-gradient-to-br from-blue-50 to-indigo-100 py-20'>
+    <Section className='bg-gradient-to-br from-black to-black py-20'>
       <Container>
         <motion.div
           initial='hidden'
@@ -58,18 +58,14 @@ const WhySection = () => {
         >
           {/* Title */}
           <div className='space-y-4 text-center'>
-            <Text
-              as='h2'
-              variant='heading'
-              className='text-4xl font-bold text-gray-900 md:text-5xl'
-            >
+            <Text as='h2' variant='heading' className='text-4xl font-bold text-white md:text-5xl'>
               {t("forOfflineVendor.why.title")}
             </Text>
           </div>
 
           {/* Video */}
-          <motion.div variants={videoContainerVariants} className='relative mx-auto max-w-4xl'>
-            <div className='relative aspect-video overflow-hidden rounded-2xl bg-gray-900 shadow-2xl'>
+          <motion.div variants={videoContainerVariants} className='relative mx-auto max-w-4xl py-8'>
+            <div className='relative aspect-video overflow-hidden bg-gray-900 shadow-2xl'>
               {/* Video */}
               <video
                 ref={videoRef}
@@ -78,14 +74,14 @@ const WhySection = () => {
                 muted
                 loop
                 playsInline
-                aria-label='Product demo video'
+                aria-label='Product add video'
               >
                 <source src={Assets.veskoVideoMinos} type='video/mp4' />
                 {t("home.unboxing.videoNotSupported")}
               </video>
 
               {/* Overlay */}
-              <div className='absolute inset-0 bg-gradient-to-t from-black/30 to-transparent' />
+              <div className='absolute inset-0 min-w-2xl bg-gradient-to-t from-black/30 to-transparent' />
 
               {/* Floating particles */}
               <motion.div
@@ -106,21 +102,12 @@ const WhySection = () => {
 
               {/* Controls */}
               <div className='absolute right-4 bottom-4 left-4 flex items-center justify-between'>
-                <div className='flex items-center gap-3 text-white'>
-                  <div className='h-2 flex-1 rounded-full bg-white/30'>
-                    <div className='h-full w-1/3 rounded-full bg-white' />
-                  </div>
-                  <span className='text-sm'>{t("forOfflineVendor.why.video.progress")}</span>
-                </div>
                 <div className='flex items-center gap-2'>
                   <button
                     onClick={togglePlayback}
                     className='rounded-full p-2 text-white hover:bg-white/20'
                   >
                     <i className={`${isPlaying ? RemixIcons.pause : RemixIcons.play} text-lg`} />
-                  </button>
-                  <button className='rounded-full p-2 text-white hover:bg-white/20'>
-                    <i className={`${RemixIcons.settings} text-lg`} />
                   </button>
                 </div>
               </div>
@@ -134,11 +121,11 @@ const WhySection = () => {
             className='mt-12 grid grid-cols-1 gap-6 text-center md:grid-cols-3'
           >
             {stats.map(({ key, valueKey, color }) => (
-              <div key={key} className='rounded-lg bg-slate-600/20 p-16 backdrop-blur-sm'>
+              <div key={key} className='space-y-2 rounded-lg bg-white/90 p-16 backdrop-blur-sm'>
                 <Text className={`text-5xl font-bold lg:text-3xl ${color}`}>
                   {t(`forOfflineVendor.why.stats.${key}.${valueKey}`)}
                 </Text>
-                <Text className='text-gray-600'>
+                <Text className='font-semibold text-gray-600'>
                   {t(`forOfflineVendor.why.stats.${key}.description`)}
                 </Text>
               </div>
