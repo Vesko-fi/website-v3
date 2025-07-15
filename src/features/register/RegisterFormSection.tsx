@@ -82,9 +82,10 @@ const RegisterFormSection = () => {
 
     // Business ID validation (Finnish Y-tunnus format)
     if (i18n.language === "fi") {
-      if (!formData.businessId.trim()) {
+      const id = formData.businessId || "";
+      if (!id.trim()) {
         newErrors.businessId = t("register.form.validation.businessId.required");
-      } else if (!/^\d{7}-\d$/.test(formData.businessId)) {
+      } else if (!/^\d{7}-\d$/.test(id)) {
         newErrors.businessId = t("register.form.validation.businessId.format");
       }
     }
