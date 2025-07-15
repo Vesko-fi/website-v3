@@ -39,7 +39,7 @@ const ContactFormSection = () => {
         import.meta.env.VITE_EMAILJS_SERVICE_ID as string,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID as string,
         params,
-        import.meta.env.VITE_EMAILJS_USER_ID as string
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY as string
       )
       .then(
         () => {
