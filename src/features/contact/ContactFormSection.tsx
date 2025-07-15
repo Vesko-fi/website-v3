@@ -102,10 +102,10 @@ const ContactFormSection = () => {
             </Text>
           </motion.div>
 
-          <div className='grid gap-12 lg:grid-cols-2 lg:gap-16'>
+          <div className='mx-auto grid w-full lg:w-3xl lg:gap-16'>
             {/* Contact Information */}
-            <motion.div variants={itemVariants} className='space-y-8'>
-              <div>
+            {/* <motion.div variants={itemVariants} className='space-y-8'> */}
+            {/* <div>
                 <Text
                   as='h3'
                   variant='title'
@@ -116,10 +116,10 @@ const ContactFormSection = () => {
                 <Text className='text-lg leading-relaxed text-gray-300 md:text-xl'>
                   {t("contact.formSection.infoDescription")}
                 </Text>
-              </div>
+              </div> */}
 
-              {/* Contact details */}
-              <div className='space-y-6'>
+            {/* Contact details */}
+            {/* <div className='space-y-6'>
                 <motion.div
                   initial={{ opacity: 0, x: -20 }}
                   whileInView={{ opacity: 1, x: 0 }}
@@ -175,10 +175,9 @@ const ContactFormSection = () => {
                     </Text>
                   </div>
                 </motion.div>
-              </div>
+              </div> */}
 
-              {/* Trust indicators */}
-              <motion.div
+            {/* <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -206,8 +205,8 @@ const ContactFormSection = () => {
                     <span>{t("contact.trustIndicators.expert")}</span>
                   </div>
                 </div>
-              </motion.div>
-            </motion.div>
+              </motion.div> */}
+            {/* </motion.div> */}
 
             {/* Contact Form */}
             <motion.div variants={formVariants} className='relative'>
