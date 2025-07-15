@@ -284,8 +284,8 @@ const ContactFormSection = () => {
                     </label>
                     <input
                       type='tel'
-                      id='phone'
-                      name='phone'
+                      id='phone_number'
+                      name='phone_number'
                       value={formData.phone_number}
                       onChange={handleInputChange}
                       className='focus:border-accent-400 w-full rounded-xl border-2 border-white/20 bg-white/10 px-4 py-3 text-white placeholder-gray-400 backdrop-blur-sm transition-all duration-300 focus:bg-white/15 focus:outline-none'
