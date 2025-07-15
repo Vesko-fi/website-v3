@@ -24,7 +24,7 @@ export const SOCIALS = [
   {
     id: "youTube",
     name: "YouTube",
-    url: "https://www.linkedin.com/company/veskofinland/",
+    url: "https://www.youtube.com/@Vesko-Oy",
     icon: RemixIcons.youTube,
   },
 ];

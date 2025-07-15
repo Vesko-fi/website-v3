@@ -840,7 +840,8 @@
     },
     "formSection": {
       "title": "Business Registration",
-      "subtitle": "Tell us about your business and we'll help you get started with Vesko's platform."
+      "subtitle": "Register now and get a free three-month trial (limited availability).",
+      "note": "Note: If you register after all slots are filled, you will instead receive a one-month free trial."
     },
     "form": {
       "businessName": "Business Name",

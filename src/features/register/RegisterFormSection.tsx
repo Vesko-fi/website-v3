@@ -287,9 +287,14 @@ const RegisterFormSection = () => {
                 {t("register.formSection.title")}
               </span>
             </Text>
-            <Text className='mx-auto max-w-3xl text-lg leading-relaxed text-gray-300 md:text-xl'>
-              {t("register.formSection.subtitle")}
-            </Text>
+            <div>
+              <Text className='mx-auto max-w-3xl text-lg leading-relaxed text-gray-300 md:text-xl'>
+                {t("register.formSection.subtitle")}
+              </Text>
+              <Text variant='caption' className='text-xs text-gray-300 italic'>
+                {t("register.formSection.note")}
+              </Text>
+            </div>
           </motion.div>
 
           {/* Registration Form */}

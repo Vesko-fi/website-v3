@@ -36,7 +36,6 @@ const Footer: React.FC = () => {
             </div>
           </div>
           <div className='flex flex-col gap-2'>
-            <p>{t("footer.company.businessId")}</p>
             <div className='flex flex-col items-center'>
               {COMPANY_NAV_ITEMS.map((item) => (
                 <NavItem key={item.id} {...item} variant='desktop' />
@@ -54,12 +53,15 @@ const Footer: React.FC = () => {
 
         <div className='mt-6 flex items-center justify-center text-right'>
           <div className='flex flex-col items-center'>
+            <div className='flex items-center justify-center gap-3 text-xs sm:text-sm'>
+              <p>{t("footer.company.businessId")}</p>
+              <NavLink to={privacyPolicyPath} className='underline'>
+                {t("footer.privacyPolicy")}
+              </NavLink>
+            </div>
             <p className='mt-2 text-sm'>
               &copy; {year} Vesko. {t("footer.rights")}
             </p>
-            <NavLink to={privacyPolicyPath} className='underline'>
-              {t("footer.privacyPolicy")}
-            </NavLink>
           </div>
         </div>
       </Container>
