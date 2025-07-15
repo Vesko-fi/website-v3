@@ -82,7 +82,7 @@ const UnboxingVideo = () => {
           {t("home.unboxing.demo")}
         </Text>
         <a
-          href={`https://www.youtube.com/watch?v=${t("home.unboxing.videoId")}`}
+          href='https://www.youtube.com/watch?v=CDeZSok7CfI'
           target='_blank'
           rel='noopener noreferrer'
           className='ml-2 rounded-md border bg-white px-4 py-1.5 text-xl text-black'
