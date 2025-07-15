@@ -626,7 +626,9 @@
       "location": {
         "label": "Location",
         "address": "Helsinki, Finland"
-      }
+      },
+      "success": "Your message send successfully",
+      "error": "Unable to send the message"
     },
     "trustIndicators": {
       "title": "Why choose us:",
