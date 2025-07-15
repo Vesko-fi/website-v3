@@ -6,6 +6,7 @@ export const MAIN_NAVIGATION: NavigationItem[] = [
     label: "nav.home",
     routeKey: "home",
   },
+  { id: "people", label: "nav.people", routeKey: "people" },
   {
     id: "merchants",
     label: "nav.merchants",
@@ -24,7 +25,6 @@ export const MAIN_NAVIGATION: NavigationItem[] = [
     label: "nav.about",
     routeKey: "about",
   },
-  { id: "people", label: "nav.people", routeKey: "people" },
   {
     id: "contact",
     label: "nav.contact",

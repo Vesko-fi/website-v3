@@ -7,9 +7,16 @@ import { Section } from "@/shared/components/ui/section";
 import { Text } from "@/shared/components/ui/text";
 import { Assets } from "@/shared/constants/assets";
 import { RemixIcons } from "@/shared/constants/icons";
+import { NavLink } from "react-router-dom";
+import { getLocalizedPath } from "@/routes/helpers/localization";
+import i18n, { type SupportedLanguages } from "@/locales/i18n.config";
 
 const FeaturesSection = () => {
   const { t } = useTranslation();
+  const paymentLogisticPath = getLocalizedPath(
+    "paymentLogistic",
+    i18n.language as SupportedLanguages
+  );
 
   const features = [
     {
@@ -22,6 +29,7 @@ const FeaturesSection = () => {
       image: Assets.mobileApp,
       position: "left",
       isMobileMockup: true,
+      hasViewMore: false,
     },
     {
       titleKey: "forOfflineVendor.features.logisticsReady.title",
@@ -33,6 +41,7 @@ const FeaturesSection = () => {
       image: Assets.logistics,
       position: "right",
       isMobileMockup: false,
+      hasViewMore: true,
     },
     {
       titleKey: "forOfflineVendor.features.paymentsBuiltIn.title",
@@ -44,6 +53,7 @@ const FeaturesSection = () => {
       image: Assets.payment,
       position: "left",
       isMobileMockup: false,
+      hasViewMore: true,
     },
     {
       titleKey: "forOfflineVendor.features.allInOneDashboard.title",
@@ -55,6 +65,7 @@ const FeaturesSection = () => {
       image: Assets.dashboard,
       position: "right",
       isMobileMockup: false,
+      hasViewMore: false,
     },
   ];
 
@@ -203,7 +214,15 @@ const FeaturesSection = () => {
                     transition={{ duration: 0.6, delay: 0.3 }}
                   >
                     <Text className='text-xl leading-relaxed text-gray-600'>
-                      {t(feature.descriptionKey)}
+                      {t(feature.descriptionKey)}{" "}
+                      {feature.hasViewMore && (
+                        <NavLink
+                          to={paymentLogisticPath}
+                          className='text-accent-500 inline underline hover:font-semibold'
+                        >
+                          {t("forOfflineVendor.features.more")}
+                        </NavLink>
+                      )}
                     </Text>
                   </motion.div>
 

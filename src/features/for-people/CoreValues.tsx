@@ -19,6 +19,8 @@ const CoreValues = () => {
       text2: t("forPeople.values.step1.text2"),
       text3: t("forPeople.values.step1.text3"),
       image: Assets.safePlace,
+      color: "from-green-400/20 to-emerald-400/20",
+      borderColor: "border-green-400/30",
     },
     {
       id: "02",
@@ -27,6 +29,8 @@ const CoreValues = () => {
       text2: t("forPeople.values.step2.text2"),
       text3: null,
       image: Assets.neutral,
+      color: "from-blue-400/20 to-indigo-400/20",
+      borderColor: "border-blue-400/30",
     },
     {
       id: "03",
@@ -35,6 +39,8 @@ const CoreValues = () => {
       text2: t("forPeople.values.step3.text2"),
       text3: t("forPeople.values.step3.text3"),
       image: Assets.connected,
+      color: "from-purple-400/20 to-violet-400/20",
+      borderColor: "border-purple-400/30",
     },
   ];
 
@@ -165,7 +171,7 @@ const CoreValues = () => {
               initial='hidden'
               whileInView='visible'
               viewport={{ once: true }}
-              className='mb-6 flex flex-col items-center gap-4 rounded-xl border bg-emerald-50 p-4 shadow md:flex-row md:items-start'
+              className={`mb-6 flex flex-col items-center gap-4 rounded-xl border ${val.borderColor} bg-gradient-to-br p-4 ${val.color} transition-all duration-300 hover:shadow-xl md:flex-row md:items-start`}
             >
               <div className='flex-1'>
                 <div className='flex flex-col gap-2'>
