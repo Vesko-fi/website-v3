@@ -1,3 +1,4 @@
+import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
@@ -5,16 +6,18 @@ import { useTranslation } from "react-i18next";
 import { Container } from "@/shared/components/ui/container";
 import { Section } from "@/shared/components/ui/section";
 import { Text } from "@/shared/components/ui/text";
-import { RemixIcons } from "@/shared/constants/icons";
+import { toast } from "react-toastify";
 
 const ContactFormSection = () => {
   const { t } = useTranslation();
-  const [formData, setFormData] = useState({
+  const initialFormData = {
     full_name: "",
     email: "",
-    phone: "",
+    phone_number: "",
     message: "",
-  });
+  };
+
+  const [formData, setFormData] = useState(initialFormData);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -23,8 +26,30 @@ const ContactFormSection = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // TODO: Implement EmailJS integration
-    console.log("Form submitted:", formData);
+
+    const params = {
+      first_name: formData.full_name,
+      email: formData.email,
+      phone_number: formData.phone_number,
+      message: formData.message,
+    };
+
+    emailjs
+      .send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID as string,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID as string,
+        params,
+        import.meta.env.VITE_EMAILJS_USER_ID as string
+      )
+      .then(
+        () => {
+          toast.success(t("contact.contactInfo.success"));
+          setFormData(initialFormData);
+        },
+        () => {
+          toast.error(t("contact.contactInfo.error"));
+        }
+      );
   };
 
   const containerVariants = {
@@ -259,9 +284,9 @@ const ContactFormSection = () => {
                     </label>
                     <input
                       type='tel'
-                      id='phone'
-                      name='phone'
-                      value={formData.phone}
+                      id='phone_number'
+                      name='phone_number'
+                      value={formData.phone_number}
                       onChange={handleInputChange}
                       className='focus:border-accent-400 w-full rounded-xl border-2 border-white/20 bg-white/10 px-4 py-3 text-white placeholder-gray-400 backdrop-blur-sm transition-all duration-300 focus:bg-white/15 focus:outline-none'
                       placeholder={t("contact.form.phonePlaceholder")}
