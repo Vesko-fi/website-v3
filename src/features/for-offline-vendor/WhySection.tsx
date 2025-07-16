@@ -160,7 +160,10 @@ const WhySection = () => {
             className='mt-12 grid grid-cols-1 gap-6 text-center md:grid-cols-3'
           >
             {stats.map(({ key, valueKey, color }) => (
-              <div key={key} className='space-y-2 rounded-lg bg-white/80 p-16 backdrop-blur-md'>
+              <div
+                key={key}
+                className='space-y-2 rounded-lg bg-white/80 p-8 backdrop-blur-md md:p-16'
+              >
                 <Text className={`text-5xl font-bold lg:text-3xl ${color}`}>
                   {t(`forOfflineVendor.why.stats.${key}.${valueKey}`)}
                 </Text>
