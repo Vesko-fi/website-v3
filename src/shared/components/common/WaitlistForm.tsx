@@ -45,8 +45,6 @@ export const WaitlistForm = ({
   const finalButtonText = buttonText ?? t("home.cta.waitlist.buttonText");
   const finalLoadingText = loadingText ?? t("home.cta.waitlist.loadingText");
 
-  console.log("API URL:", import.meta.env.VITE_GAS_URL_WAITLIST);
-
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
@@ -62,9 +60,6 @@ export const WaitlistForm = ({
 
     setIsSubmitting(true);
     setSubmitStatus("idle");
-
-    console.log("Submitting email:", trimmedEmail);
-    console.log("API URL:", import.meta.env.VITE_GAS_URL_WAITLIST);
 
     try {
       const response = await fetch(import.meta.env.VITE_GAS_URL_WAITLIST, {
