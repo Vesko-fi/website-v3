@@ -213,7 +213,7 @@ const FeaturesSection = () => {
                     viewport={{ once: true }}
                     transition={{ duration: 0.6, delay: 0.3 }}
                   >
-                    <Text className='text-xl leading-relaxed text-gray-600'>
+                    <Text className='text-base leading-relaxed text-gray-600'>
                       {t(feature.descriptionKey)}{" "}
                       {feature.hasViewMore && (
                         <NavLink

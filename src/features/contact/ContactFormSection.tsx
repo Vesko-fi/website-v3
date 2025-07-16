@@ -2,11 +2,11 @@ import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { toast } from "react-toastify";
 
 import { Container } from "@/shared/components/ui/container";
 import { Section } from "@/shared/components/ui/section";
 import { Text } from "@/shared/components/ui/text";
-import { toast } from "react-toastify";
 
 const ContactFormSection = () => {
   const { t } = useTranslation();
@@ -39,7 +39,7 @@ const ContactFormSection = () => {
         import.meta.env.VITE_EMAILJS_SERVICE_ID as string,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID as string,
         params,
-        import.meta.env.VITE_EMAILJS_USER_ID as string
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY as string
       )
       .then(
         () => {
@@ -316,9 +316,8 @@ const ContactFormSection = () => {
                   {/* Submit Button */}
                   <motion.button
                     type='submit'
-                    whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
-                    className='to-accent-600 hover:to-accent-700 from-accent-600 hover:from-accent-700 focus:ring-accent-500/30 w-full rounded-xl bg-gradient-to-r px-6 py-4 text-lg font-semibold text-white shadow-lg transition-all duration-300 focus:ring-4 focus:outline-none'
+                    className='to-accent-600 hover:to-accent-700 from-accent-600 hover:from-accent-700 focus:ring-accent-500/30 w-full cursor-pointer rounded-xl bg-gradient-to-r px-6 py-4 text-lg font-semibold text-white shadow-lg transition-all duration-300 focus:ring-4 focus:outline-none'
                   >
                     {t("contact.form.submit")}
                   </motion.button>

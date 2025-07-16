@@ -106,6 +106,7 @@
       "heading": "Astu tulevaisuuteen",
       "waitlist": {
         "title": "Liity käyttäjien odotuslistalle",
+        "waitlistPolicy": "Liittymällä jonotuslistalle hyväksyt meidän",
         "buttonText": "Liity odotuslistalle",
         "loadingText": "Liitytään...",
         "successMessage": "Kiitos, että liityit odotuslistallemme!",
@@ -964,11 +965,11 @@
       "businessId": "Y-tunnus: 3472131-6"
     },
     "rights": "Kaikki oikeudet pidätetään",
-    "privacyPolicy": "Tietosuojakäytäntö",
+    "privacyPolicy": "Tietosuojakäytännön",
     "topButton": "Takaisin ylös"
   },
   "privacyPolicy": {
-    "heading": "Tietosuojakäytäntö",
+    "heading": "Tietosuojakäytännön",
     "date": "Päivitys 07.07.2025",
     "introduction": {
       "heading": "Johdanto",

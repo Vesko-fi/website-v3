@@ -81,10 +81,13 @@ const RegisterFormSection = () => {
     }
 
     // Business ID validation (Finnish Y-tunnus format)
-    if (!formData.businessId.trim()) {
-      newErrors.businessId = t("register.form.validation.businessId.required");
-    } else if (!/^\d{7}-\d$/.test(formData.businessId)) {
-      newErrors.businessId = t("register.form.validation.businessId.format");
+    if (i18n.language === "fi") {
+      const id = formData.businessId || "";
+      if (!id.trim()) {
+        newErrors.businessId = t("register.form.validation.businessId.required");
+      } else if (!/^\d{7}-\d$/.test(id)) {
+        newErrors.businessId = t("register.form.validation.businessId.format");
+      }
     }
 
     // Contact Person validation
@@ -97,13 +100,6 @@ const RegisterFormSection = () => {
       newErrors.email = t("register.form.validation.email.required");
     } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
       newErrors.email = t("register.form.validation.email.format");
-    }
-
-    // Phone validation
-    if (!formData.phone.trim()) {
-      newErrors.phone = t("register.form.validation.phone.required");
-    } else if (!/^(\+358|0)\s?[0-9]{8,}$/.test(formData.phone.replace(/\s/g, ""))) {
-      newErrors.phone = t("register.form.validation.phone.format");
     }
 
     // Business Type validation
@@ -121,11 +117,6 @@ const RegisterFormSection = () => {
       newErrors.description = t("register.form.validation.description.required");
     } else if (formData.description.length < 20) {
       newErrors.description = t("register.form.validation.description.minLength");
-    }
-
-    // Expected Launch validation
-    if (!formData.expectedLaunch) {
-      newErrors.expectedLaunch = t("register.form.validation.expectedLaunch.required");
     }
 
     // Terms agreement validation
@@ -147,21 +138,16 @@ const RegisterFormSection = () => {
     setIsSubmitting(true);
 
     try {
-      // TODO: Replace with actual API call for MVP
-      await new Promise((resolve) => setTimeout(resolve, 2000)); // Simulate API call
+      const response = await fetch(import.meta.env.VITE_GAS_URL_REGISTRATION, {
+        method: "POST",
+        headers: { "Content-Type": "text/plain;charset=utf-8" },
+        body: JSON.stringify(formData),
+      });
 
-      console.log("Registration data:", formData);
-
-      // TODO: Send to your database
-      // const response = await fetch('/api/register', {
-      //   method: 'POST',
-      //   headers: { 'Content-Type': 'application/json' },
-      //   body: JSON.stringify(formData)
-      // });
-
+      if (!response.ok) {
+        throw new Error("Failed to submit form");
+      }
       setSubmitSuccess(true);
-
-      // Reset form after successful submission
       setTimeout(() => {
         setFormData({
           businessName: "",
@@ -181,8 +167,7 @@ const RegisterFormSection = () => {
         });
         setSubmitSuccess(false);
       }, 5000);
-    } catch (error) {
-      console.error("Registration error:", error);
+    } catch {
       setErrors({ submit: t("register.form.validation.submit.error") });
     } finally {
       setIsSubmitting(false);
@@ -641,9 +626,8 @@ const RegisterFormSection = () => {
                 <motion.button
                   type='submit'
                   disabled={isSubmitting}
-                  whileHover={{ scale: isSubmitting ? 1 : 1.02 }}
                   whileTap={{ scale: isSubmitting ? 1 : 0.98 }}
-                  className='to-accent-600 hover:to-accent-700 from-accent-600 hover:from-accent-700 focus:ring-accent-500/30 w-full rounded-xl bg-gradient-to-r px-6 py-4 text-lg font-semibold text-white shadow-lg transition-all duration-300 focus:ring-4 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50'
+                  className='to-accent-600 hover:to-accent-700 from-accent-600 hover:from-accent-700 focus:ring-accent-500/30 w-full cursor-pointer rounded-xl bg-gradient-to-r px-6 py-4 text-lg font-semibold text-white shadow-lg transition-all duration-300 focus:ring-4 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50'
                 >
                   {isSubmitting ? (
                     <div className='flex items-center justify-center gap-2'>

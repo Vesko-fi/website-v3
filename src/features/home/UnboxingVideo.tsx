@@ -6,11 +6,20 @@ import { Text } from "@/shared/components/ui/text";
 import { Assets } from "@/shared/constants/assets";
 
 const UnboxingVideo = () => {
-  const { t } = useTranslation();
-
+  const { t, i18n } = useTranslation();
   const videoRef = useRef<HTMLVideoElement | null>(null);
 
-  // Animation variants
+  const currentLang = i18n.language;
+
+  // Define URLs for each language
+  const demoUrls: Record<string, string> = {
+    en: "https://www.youtube.com/watch?v=CDeZSok7CfI",
+    fi: "https://youtu.be/tE-OMnNkrRI",
+  };
+
+  // Fallback to English if the language is not handled explicitly
+  const demoUrl = demoUrls[currentLang] || demoUrls.en;
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: { opacity: 1, transition: { duration: 0.8, staggerChildren: 0.2 } },
@@ -70,25 +79,30 @@ const UnboxingVideo = () => {
           </video>
         </div>
       </motion.div>
+
       <motion.div
         variants={buttonVariants}
         initial='hidden'
         whileInView='visible'
         viewport={{ once: true }}
         whileHover='hover'
-        className='flex items-center justify-center py-4 text-white'
+        className='flex items-center justify-center gap-3 py-8 text-white'
       >
         <Text variant='subtitle' className='text-xl text-white md:text-3xl'>
           {t("home.unboxing.demo")}
         </Text>
-        <a
-          href={`https://www.youtube.com/watch?v=${t("home.unboxing.videoId")}`}
-          target='_blank'
-          rel='noopener noreferrer'
-          className='ml-2 rounded-md border bg-white px-4 py-1.5 text-xl text-black'
-        >
-          {t("home.unboxing.button")}
-        </a>
+        <div className='group relative ml-2 inline-block overflow-hidden rounded-md border bg-white'>
+          {/* Anchor tag for demo button */}
+          <a
+            href={demoUrl}
+            target='_blank'
+            rel='noopener noreferrer'
+            className='relative z-10 block px-4 py-1.5 text-xl text-green-800 transition-colors duration-300 group-hover:text-white'
+          >
+            {t("home.unboxing.button")}
+          </a>
+          <span className='absolute top-0 left-0 z-0 h-full w-full -translate-x-full bg-green-800 transition-transform duration-300 ease-in-out group-hover:translate-x-0' />
+        </div>
       </motion.div>
     </div>
   );

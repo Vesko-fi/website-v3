@@ -128,12 +128,12 @@ const UNSDGsSection = () => {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className='mb-16 text-center'
+          className='mb-5 text-center lg:mb-16'
         >
           <Text
             as='h2'
             variant='heading'
-            className='mb-6 text-4xl font-bold text-gray-900 md:text-5xl lg:text-6xl'
+            className='text-4xl font-bold text-gray-900 md:text-5xl lg:mb-6 lg:text-6xl'
           >
             {t("about.unSDGs.title")}
           </Text>
@@ -153,7 +153,7 @@ const UNSDGsSection = () => {
           className='mb-16 text-center'
         >
           <div className='mx-auto max-w-4xl'>
-            <Text className='text-lg leading-relaxed text-gray-700 md:text-xl'>
+            <Text className='text-base leading-relaxed text-gray-700'>
               {t("about.unSDGs.introduction")}
             </Text>
           </div>
