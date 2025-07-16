@@ -1126,5 +1126,41 @@
       "heading": "Liity Veskoon",
       "description": "Koe, kuinka vaivatonta verkkokaupan pyörittäminen voi olla oikean maksu- ja logistiikka­ratkaisun avulla. Käytä vähemmän aikaa hallinnointiin, säästä kuluissa ja tarjoa asiakkaillesi parempi kokemus kaikki Veskon avulla."
     }
+  },
+
+  "serviceTerms": {
+    "terms_title": "Palveluehdot",
+    "introduction": {
+      "title": "Johdanto",
+      "terms_intro": "Nämä Palveluehdot (“Ehdot”) muodostavat sitovan sopimuksen sinun (“Käyttäjä”) ja Vesko Ltd:n (“Yhtiö”, “me”) välillä koskien tarjoamamme palvelun (“Palvelu”) käyttöä.",
+      "terms_acceptance": "Rekisteröitymällä tai käyttämällä Palvelua hyväksyt nämä Ehdot kokonaisuudessaan. Mikäli et hyväksy jotakin näiden Ehtojen kohtaa, et saa käyttää Palvelua.",
+      "terms_effective_date": "Näitä Ehtoja sovelletaan Palvelun virallisesta julkaisusta alkaen (julkaisun arvioidaan tapahtuvan syksyllä 2025). Palvelu on aluksi saatavilla käyttäjille Suomessa, ja julkaisun jälkeen palvelua tarjotaan myös maailmanlaajuisesti."
+    },
+    "serviceDescription": {
+      "title": "Palvelun kuvaus",
+      "service_description": "Vesko Ltd:n tarjoama Palvelu on yleiskäyttöinen sähköinen palvelualusta. Palvelun ominaisuudet ja toiminnallisuudet voivat kehittyä ajan myötä, kun päivitämme ja parannamme palvelua.",
+      "service_usage": "Palvelu on suunniteltu yleiseen käyttöön, ja sitä voivat käyttää sekä yksityishenkilöt että yritykset käyttötarkoituksen mukaan. Palvelun tarkemmat toiminnot (esimerkiksi mahdolliset viestintä-, kaupankäynti- tai tuottavuusominaisuudet) kuvataan verkkosivuillamme tai Palvelun käyttöliittymässä.",
+      "service_changes": "Pidätämme oikeuden muuttaa Palvelun ominaisuuksia tai sisältöä milloin tahansa osana jatkuvaa kehitystyötä."
+    },
+    "trialAndAccess": {
+      "title": "Ilmainen kokeilujakso ja ennakkokäyttö",
+      "free_trial_point_1": "Ilmainen kokeilujakso: Käyttäjät, jotka rekisteröityvät Palveluun ennen sen virallista julkaisua, ovat oikeutettuja kolmen (3) kuukauden pituiseen ilmaiseen kokeilujaksoon (“Kokeilujakso”). Tänä aikana Palvelun käytöstä ei veloiteta tilaushintoja.",
+      "free_trial_point_2": "Kolmen kuukauden ilmaisia kokeilujaksoja on saatavilla rajoitetusti. Jos rekisteröidyt sen jälkeen, kun paikat ovat täyttyneet, saat yhden (1) kuukauden ilmaisen kokeilun.",
+      "free_trial_point_3": "Ilmainen Kokeilujakso on kertaluontoinen etu, joka on tarjolla vain uusille käyttäjille, jotka rekisteröityvät ennen Palvelun julkaisua. Pidätämme oikeuden määrittää päivämäärän, johon mennessä rekisteröitymällä käyttäjä on oikeutettu kokeiluun (esimerkiksi rekisteröityminen ennen julkaisupäivää oikeuttaa kolmeen kuukauteen ilmaiseksi).",
+      "free_trial_point_4": "Ennakkokäyttö (Beta-testaus): Rekisteröitymällä ennen julkaisua saatat saada pääsyn Palveluun jo ennen sen julkista lanseerausta. Tämä tarkoittaa, että voit käyttää Palvelun esijulkaisua (beta-versiota) testitarkoituksessa. Ennakkokäyttövaiheen aikana Palvelu ei välttämättä ole lopullisessa muodossaan – ominaisuuksia voi puuttua tai ne voivat muuttua, ja järjestelmässä saattaa esiintyä virheitä, kun viimeistelemme alustaa. Saatamme pyytää ennakkokäyttäjiltä palautetta Palvelun parantamiseksi ennen täyttä julkaisua, mutta palautteen antaminen on vapaaehtoista.",
+      "free_trial_point_5": "Voit peruuttaa tilauksesi tai käyttäjätilisi milloin tahansa Kokeilujakson aikana, mikäli et halua jatkaa Palvelun käyttöä (katso tarkemmin Peruutus ja sopimuksen päättäminen alempana). Jos peruutat Kokeilujakson aikana, sinulta ei veloiteta mitään maksuja.",
+      "free_trial_point_6": "Jos et peruuta tilaustasi ennen Kokeilujakson päättymistä, kolmen kuukauden ilmaisen jakson jälkeen Palvelun käyttö jatkuu valitsemasi tilauspaketin mukaisena maksullisena palveluna (katso Tilaukset ja hinnoittelu alla). Ilmoitamme sinulle etukäteen (esim. sähköpostitse tai Palvelun kautta) ennen kuin Kokeilujakso päättyy, jotta voit päättää, jatkatko maksullisella tilauksella vai lopetatko palvelun käytön ennen maksujen veloittamista."
+    },
+    "plansAndSubscriptions": {
+      "title": "Tilaukset ja hinnoittelu",
+      "subscription_point_1": "Palvelu tarjotaan eritasoisina tilauspaketteina (esimerkiksi Perus-paketti, Premium-paketti jne.), joilla jokaisella on omat ominaisuutensa ja hintansa. Kulloinkin voimassa olevat tilausvaihtoehdot ja hinnat kerrotaan verkkosivuillamme ja/tai rekisteröitymisen yhteydessä.",
+      "subscription_point_2": "Kokeilujakson aikana sinua saatetaan pyytää valitsemaan tilauspaketti, jota sovelletaan Kokeilujakson jälkeen. Riippumatta siitä, minkä paketin valitset, sinulta ei veloiteta maksuja ennen kuin Kokeilujakso on päättynyt.",
+      "subscription_point_3": "Päivitys ja alentaminen: Voit joustavasti muuttaa tilaustasoasi. Voit milloin tahansa päivittää tilauksesi kattavampaan pakettiin tai alentaa sen suppeampaan pakettiin, yleensä käyttäjätilisi asetuksissa tai ottamalla yhteyttä asiakaspalveluun.",
+      "subscription_point_3_a": "Jos päivität tilauksesi korkeammalle tasolle (joka sisältää enemmän ominaisuuksia tai suuremmat käyttörajat), muutos voi astua voimaan heti tai seuraavan laskutusjakson alusta käytäntömme mukaan. Ilmoitamme sinulle, miten laskutus hoidetaan tällaisessa tapauksessa (kesken kauden tehdystä päivityksestä voidaan veloittaa suhteutettu lisämaksu loppukaudelle).",
+      "subscription_point_3_b": "Jos alennat tilauksesi alemmalle tasolle, muutos astuu yleensä voimaan seuraavan laskutusjakson alusta. Näin varmistetaan, että saat vielä hyödyn jo maksamistasi nykyisen kauden ominaisuuksista. Nykyisen laskutuskauden loppuun asti sinulla on siis voimassa oleva korkeampi paketti, ja vasta seuraavasta kaudesta alkaen voimassa ovat alempi paketti ja sen mukainen hinnoittelu.",
+      "subscription_point_4": "Jos et valitse mitään tilausvaihtoehtoa Kokeilujakson päättyessä, käyttäjätilisi voidaan keskeyttää tai sen toimintoja rajoittaa, kunnes päätät jatkosta. Saatamme antaa lyhyen lisäajan päätöksentekoon, mutta pääsääntöisesti Palvelun täysi käyttö edellyttää aktiivista maksullista tilausta Kokeilujakson jälkeen.",
+      "subscription_point_5": "Kaikki tilaukset ovat toistaiseksi voimassa olevia ja ne uusiutuvat automaattisesti valitun laskutusjakson mukaisesti (esim. kuukausittain tai vuosittain). Tilausmaksut (Kokeilujakson jälkeen) veloitetaan etukäteen kunkin laskutusjakson alussa. Esimerkiksi kuukausitilauksen maksu veloitetaan joka kuukausi jakson alussa.",
+      "subscription_point_6": "Pidätämme oikeuden ottaa käyttöön uusia tilauspaketteja sekä muuttaa tai poistaa olemassa olevia. Mikäli muutamme hinnoittelua tai jonkin pakettisi keskeisiä ominaisuuksia, ilmoitamme siitä ennakkoon. Mahdolliset hinnankorotukset tai olennaiset muutokset astuvat voimaan vasta soveltuvan ennakkoilmoitusajan jälkeen (jos laki niin edellyttää) ja alkavan uuden laskutusjakson alusta."
+    }
   }
 }

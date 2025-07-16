@@ -7,22 +7,22 @@ interface options {
   text: string;
 }
 
-const Introduction = () => {
+const ServiceDescription = () => {
   const { t } = useTranslation();
   const options: options[] = [
     {
-      text: t("serviceTerms.introduction.terms_intro"),
+      text: t("serviceTerms.serviceDescription.service_description"),
     },
     {
-      text: t("serviceTerms.introduction.terms_acceptance"),
+      text: t("serviceTerms.serviceDescription.service_usage"),
     },
     {
-      text: t("serviceTerms.introduction.terms_effective_date"),
+      text: t("serviceTerms.serviceDescription.service_changes"),
     },
   ];
   return (
     <Container>
-      <Text variant={"heading"}>{t("serviceTerms.introduction.title")}</Text>
+      <Text variant={"heading"}>{t("serviceTerms.serviceDescription.title")}</Text>
       <div className='my-4'>
         <ul className='list-disc text-start'>
           {options.map((option, index) => {
@@ -38,4 +38,4 @@ const Introduction = () => {
   );
 };
 
-export { Introduction };
+export { ServiceDescription };

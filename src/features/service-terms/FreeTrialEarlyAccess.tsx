@@ -6,23 +6,31 @@ import { Text } from "@/shared/components/ui/text";
 interface options {
   text: string;
 }
-
-const Introduction = () => {
+const FreeTrialEarlyAccess = () => {
   const { t } = useTranslation();
   const options: options[] = [
     {
-      text: t("serviceTerms.introduction.terms_intro"),
+      text: t("serviceTerms.trialAndAccess.free_trial_point_1"),
     },
     {
-      text: t("serviceTerms.introduction.terms_acceptance"),
+      text: t("serviceTerms.trialAndAccess.free_trial_point_2"),
     },
     {
-      text: t("serviceTerms.introduction.terms_effective_date"),
+      text: t("serviceTerms.trialAndAccess.free_trial_point_3"),
+    },
+    {
+      text: t("serviceTerms.trialAndAccess.free_trial_point_4"),
+    },
+    {
+      text: t("serviceTerms.trialAndAccess.free_trial_point_5"),
+    },
+    {
+      text: t("serviceTerms.trialAndAccess.free_trial_point_6"),
     },
   ];
   return (
     <Container>
-      <Text variant={"heading"}>{t("serviceTerms.introduction.title")}</Text>
+      <Text variant={"heading"}>{t("serviceTerms.trialAndAccess.title")}</Text>
       <div className='my-4'>
         <ul className='list-disc text-start'>
           {options.map((option, index) => {
@@ -38,4 +46,4 @@ const Introduction = () => {
   );
 };
 
-export { Introduction };
+export { FreeTrialEarlyAccess };
