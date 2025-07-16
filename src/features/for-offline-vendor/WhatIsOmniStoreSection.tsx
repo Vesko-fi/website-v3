@@ -77,12 +77,12 @@ const WhatIsOmniStoreSection = () => {
 
             {/* Subheader */}
             <div>
-              <Text as='h4' className='text-xl text-gray-600'>
+              <Text as='h4' className='text-base'>
                 {t("forOfflineVendor.whatIsOmniStore.subTitle")}
               </Text>
             </div>
             <div>
-              <Text as='h4' className='text-xl text-gray-600'>
+              <Text as='h4' className='text-base'>
                 {t("forOfflineVendor.whatIsOmniStore.description")}
               </Text>
             </div>
