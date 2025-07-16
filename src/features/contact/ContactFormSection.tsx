@@ -316,9 +316,8 @@ const ContactFormSection = () => {
                   {/* Submit Button */}
                   <motion.button
                     type='submit'
-                    whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
-                    className='to-accent-600 hover:to-accent-700 from-accent-600 hover:from-accent-700 focus:ring-accent-500/30 w-full rounded-xl bg-gradient-to-r px-6 py-4 text-lg font-semibold text-white shadow-lg transition-all duration-300 focus:ring-4 focus:outline-none'
+                    className='to-accent-600 hover:to-accent-700 from-accent-600 hover:from-accent-700 focus:ring-accent-500/30 w-full cursor-pointer rounded-xl bg-gradient-to-r px-6 py-4 text-lg font-semibold text-white shadow-lg transition-all duration-300 focus:ring-4 focus:outline-none'
                   >
                     {t("contact.form.submit")}
                   </motion.button>

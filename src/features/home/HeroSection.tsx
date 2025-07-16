@@ -103,7 +103,7 @@ const HeroSection = () => {
 
   return (
     <>
-      <Section className='from-accent-700 hidden min-h-screen items-center bg-gradient-to-b to-black px-4 py-32 xl:flex'>
+      <Section className='from-accent-700 hidden min-h-screen items-center bg-gradient-to-b to-black px-4 py-32 lg:flex'>
         <div className='pointer-events-none absolute inset-0 overflow-hidden'>
           <motion.div
             variants={floatingVariants}
@@ -150,7 +150,7 @@ const HeroSection = () => {
           </div>
 
           {/* Image container */}
-          <div className='relative flex flex-col items-center'>
+          <div className='relative flex flex-col items-center py-8'>
             <motion.img
               src={Assets.heroDesktop}
               alt='Desktop'
@@ -177,7 +177,7 @@ const HeroSection = () => {
         </Container>
       </Section>
 
-      <Section className='from-accent-700 flex h-[70dvh] justify-center overflow-hidden bg-gradient-to-b to-black pt-24 !pb-0 sm:pt-48 md:pt-32 lg:pt-[12.5rem] xl:hidden'>
+      <Section className='from-accent-700 flex items-center justify-center overflow-hidden bg-gradient-to-b to-black lg:hidden'>
         <div className='pointer-events-none absolute inset-0 overflow-hidden'>
           <motion.div
             variants={floatingVariants}
@@ -197,18 +197,25 @@ const HeroSection = () => {
             className='absolute bottom-20 left-1/4 h-3 w-3 rounded-full bg-purple-400/30'
           />
         </div>
+        <div className='flex flex-col'>
+          <Text
+            className='text-default-white mb-2 text-center'
+            as='h1'
+            variant='heading'
+            weight='normal'
+          >
+            {t("home.hero.mainHeading")}
+          </Text>
 
-        <motion.img
-          src={Assets.heroMobile}
-          alt='Mobile'
-          className='absolute -bottom-3/5 z-20 w-2/3 rounded-xl drop-shadow-2xl md:-bottom-4/5'
-          initial='initial'
-          animate={smallDeviceControls}
-          variants={smallDeviceVariants}
-        />
-        <Text className='text-default-white text-center' as='h1' variant='heading' weight='normal'>
-          {t("home.hero.mainHeading")}
-        </Text>
+          <motion.img
+            src={Assets.heroMobile}
+            alt='Mobile'
+            initial='initial'
+            animate={smallDeviceControls}
+            variants={smallDeviceVariants}
+            className='h-auto'
+          />
+        </div>
       </Section>
     </>
   );

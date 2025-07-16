@@ -86,7 +86,7 @@ const HowVeskosWorkSection = () => {
           className='mx-auto max-w-5xl'
         >
           {/* Section Header */}
-          <motion.div variants={stepVariants} className='mb-20 text-center'>
+          <motion.div variants={stepVariants} className='mb-5 text-center lg:mb-20'>
             <Text
               as='h2'
               variant='heading'
@@ -97,7 +97,7 @@ const HowVeskosWorkSection = () => {
           </motion.div>
 
           {/* Steps */}
-          <div className='space-y-16'>
+          <div className='space-y-8 md:space-y-16'>
             {steps.map((step, index) => (
               <motion.div
                 key={step.titleKey}

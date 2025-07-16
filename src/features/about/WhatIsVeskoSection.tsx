@@ -125,7 +125,7 @@ const WhatIsVeskoSection = () => {
 
           {/* Description text */}
           <motion.div variants={textVariants} className='space-y-6'>
-            <Text className='text-lg leading-relaxed text-gray-700 md:text-xl lg:text-2xl'>
+            <Text className='px-4 text-base leading-relaxed text-gray-700 lg:px-0'>
               {t("about.whatIsVesko.description")}
             </Text>
 

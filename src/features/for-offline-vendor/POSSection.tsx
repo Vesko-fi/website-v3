@@ -112,7 +112,7 @@ const POSSection = () => {
 
               {/* Subheader */}
               <div>
-                <Text className='text-xl leading-relaxed text-gray-600 md:text-2xl'>
+                <Text className='text-base leading-relaxed text-gray-600'>
                   {t("forOfflineVendor.posSection.description")}
                 </Text>
               </div>
