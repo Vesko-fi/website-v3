@@ -44,6 +44,7 @@ export const WaitlistForm = ({
   const finalPlaceholder = placeholder ?? t("home.cta.waitlist.placeholder");
   const finalButtonText = buttonText ?? t("home.cta.waitlist.buttonText");
   const finalLoadingText = loadingText ?? t("home.cta.waitlist.loadingText");
+  const waitlistPolicy = loadingText ?? t("home.cta.waitlist.waitlistPolicy");
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -123,7 +124,7 @@ export const WaitlistForm = ({
       </form>
       <div className='mt-4 flex flex-row items-center justify-center gap-2 text-xs'>
         <Text className='text-white/80' variant='label'>
-          By joining the waitlist, you agree to our
+          {waitlistPolicy}
         </Text>
         <NavLink to={privacyPolicyPath} className='whitespace-nowrap text-white/80 underline'>
           {t("footer.privacyPolicy")}
