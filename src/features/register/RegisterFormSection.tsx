@@ -138,7 +138,7 @@ const RegisterFormSection = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch(import.meta.env.VITE_GOOGLE_APPS_SCRIPT_URL, {
+      const response = await fetch(import.meta.env.VITE_GAS_URL_REGISTRATION, {
         method: "POST",
         headers: { "Content-Type": "text/plain;charset=utf-8" },
         body: JSON.stringify(formData),
@@ -147,10 +147,7 @@ const RegisterFormSection = () => {
       if (!response.ok) {
         throw new Error("Failed to submit form");
       }
-
-      console.log("Registration data sent successfully:", formData);
       setSubmitSuccess(true);
-
       setTimeout(() => {
         setFormData({
           businessName: "",
@@ -170,8 +167,7 @@ const RegisterFormSection = () => {
         });
         setSubmitSuccess(false);
       }, 5000);
-    } catch (error) {
-      console.error("Registration error:", error);
+    } catch {
       setErrors({ submit: t("register.form.validation.submit.error") });
     } finally {
       setIsSubmitting(false);
