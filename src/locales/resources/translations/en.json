@@ -106,6 +106,7 @@
       "heading": "Step into the future",
       "waitlist": {
         "title": "Join our users waitlist",
+        "waitlistPolicy": "By joining the waitlist, you agree to our",
         "buttonText": "Join Waitlist",
         "loadingText": "Joining...",
         "successMessage": "Thank you for joining our waitlist!",
