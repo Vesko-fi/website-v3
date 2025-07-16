@@ -101,9 +101,9 @@ const HeroSection = () => {
 
   return (
     <Section
-      className='relative min-h-screen items-center bg-cover px-4 py-32 xl:flex'
-      style={{ backgroundImage: `url(${Assets.forPeopleHero})` }}
-    >
+    className="relative min-h-screen items-center bg-cover bg-center bg-no-repeat px-4 py-32 xl:flex"
+    style={{ backgroundImage: `url(${Assets.forPeopleHero})` }}
+  >
       {/* Enhanced background overlay */}
       <motion.div
         initial={{ opacity: 0 }}
@@ -183,7 +183,7 @@ const HeroSection = () => {
                   as='h1'
                   variant='heading'
                   color='primaryLight'
-                  className='text-3xl font-bold md:text-4xl lg:text-5xl xl:text-6xl'
+                  className='text-center text-3xl font-bold sm:text-left md:text-4xl lg:text-5xl xl:text-6xl'
                 >
                   {t("forPeople.hero.title")}
                 </Text>
