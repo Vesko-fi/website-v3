@@ -106,6 +106,7 @@
       "heading": "Astu tulevaisuuteen",
       "waitlist": {
         "title": "Liity käyttäjien odotuslistalle",
+        "waitlistPolicy": "Liittymällä jonotuslistalle hyväksyt meidän",
         "buttonText": "Liity odotuslistalle",
         "loadingText": "Liitytään...",
         "successMessage": "Kiitos, että liityit odotuslistallemme!",
