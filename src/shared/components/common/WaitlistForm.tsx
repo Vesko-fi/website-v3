@@ -51,8 +51,6 @@ export const WaitlistForm = ({
     const trimmedEmail = email.trim().toLowerCase();
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-    console.log("Submitting email:", trimmedEmail);
-
     if (!trimmedEmail || !emailRegex.test(trimmedEmail)) {
       setSubmitStatus("invalid_email");
       return;
@@ -77,7 +75,7 @@ export const WaitlistForm = ({
       setTimeout(() => {
         setEmail("");
         setSubmitStatus("idle");
-      }, 5000);
+      }, 1000);
     } catch (error) {
       console.error("Waitlist submission failed:", error);
       setSubmitStatus("error");
