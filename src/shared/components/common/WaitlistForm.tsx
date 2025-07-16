@@ -32,7 +32,9 @@ export const WaitlistForm = ({
   const { t } = useTranslation();
   const [email, setEmail] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState<"idle" | "success" | "error">("idle");
+  const [submitStatus, setSubmitStatus] = useState<"idle" | "success" | "error" | "invalid_email">(
+    "idle"
+  );
 
   const privacyPolicyPath = getLocalizedPath("privacyPolicy", i18n.language as SupportedLanguages);
 
@@ -43,39 +45,56 @@ export const WaitlistForm = ({
   const finalButtonText = buttonText ?? t("home.cta.waitlist.buttonText");
   const finalLoadingText = loadingText ?? t("home.cta.waitlist.loadingText");
 
-  const handleSubmit = (e: React.FormEvent): void => {
+  console.log("API URL:", import.meta.env.VITE_GAS_URL_WAITLIST);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
+    const trimmedEmail = email.trim().toLowerCase();
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    console.log("Submitting email:", trimmedEmail);
+
+    if (!trimmedEmail || !emailRegex.test(trimmedEmail)) {
+      setSubmitStatus("invalid_email");
+      return;
+    }
+
     setIsSubmitting(true);
     setSubmitStatus("idle");
 
-    // Replace with your Tally endpoint
-    fetch("https://tally.so/forms/mN92qp/submissions", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ email }),
-    })
-      .then((response) => {
-        if (response.ok) {
-          setSubmitStatus("success");
-          setEmail("");
-        } else {
-          setSubmitStatus("error");
-        }
-      })
-      .catch(() => {
-        setSubmitStatus("error");
-      })
-      .finally(() => {
-        setIsSubmitting(false);
+    console.log("Submitting email:", trimmedEmail);
+    console.log("API URL:", import.meta.env.VITE_GAS_URL_WAITLIST);
+
+    try {
+      const response = await fetch(import.meta.env.VITE_GAS_URL_WAITLIST, {
+        method: "POST",
+        headers: { "Content-Type": "text/plain;charset=utf-8" },
+        body: JSON.stringify({ email: trimmedEmail }),
       });
+
+      if (!response.ok) {
+        throw new Error("Failed to submit form");
+      }
+
+      setSubmitStatus("success");
+
+      setTimeout(() => {
+        setEmail("");
+        setSubmitStatus("idle");
+      }, 5000);
+    } catch (error) {
+      console.error("Waitlist submission failed:", error);
+      setSubmitStatus("error");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
     <div>
       <form
-        onSubmit={handleSubmit}
+        onSubmit={(e) => void handleSubmit(e)}
         className={`flex flex-col gap-4 sm:flex-row sm:items-start ${className}`}
       >
         <div className='flex-1'>
@@ -101,6 +120,7 @@ export const WaitlistForm = ({
           )}
         </div>
         <Button
+          type='submit'
           disabled={isSubmitting}
           containerClassName={`bg-accent-500 hover:bg-accent-600 rounded-lg px-6 py-3 whitespace-nowrap sm:flex-shrink-0 ${buttonClassName}`}
           textClassName='text-white'
