@@ -28,18 +28,17 @@ const SocializeSection = () => {
   ];
 
   return (
-    <Section className='p-0'>
-      <Container className='p-0'>
-        <Text variant='heading' className='mb-10 text-center md:mb-16' as='h2'>
+    <Section className='lg:p-0'>
+      <Container className='lg:p-0'>
+        <Text variant='heading' className='mb-5 text-center md:mb-16' as='h2'>
           {t("home.socialize.heading")}
         </Text>
-
         <StackScrollCards
           items={blocks}
           gap={15}
           renderCard={(block) => (
             <div
-              className={`${block.color} flex h-[500px] flex-col items-center justify-center rounded-lg px-2 py-20 text-center lg:h-full lg:px-10`}
+              className={`${block.color} flex h-[500px] flex-col items-center justify-center rounded-lg px-2 py-2 text-center lg:h-full lg:px-10 lg:py-20`}
             >
               <div className='mb-10 sm:max-w-2xl'>
                 <Text variant='subheading' weight='normal' className='mb-2'>
