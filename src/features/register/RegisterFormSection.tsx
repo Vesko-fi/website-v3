@@ -630,9 +630,8 @@ const RegisterFormSection = () => {
                 <motion.button
                   type='submit'
                   disabled={isSubmitting}
-                  whileHover={{ scale: isSubmitting ? 1 : 1.02 }}
                   whileTap={{ scale: isSubmitting ? 1 : 0.98 }}
-                  className='to-accent-600 hover:to-accent-700 from-accent-600 hover:from-accent-700 focus:ring-accent-500/30 w-full rounded-xl bg-gradient-to-r px-6 py-4 text-lg font-semibold text-white shadow-lg transition-all duration-300 focus:ring-4 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50'
+                  className='to-accent-600 hover:to-accent-700 from-accent-600 hover:from-accent-700 focus:ring-accent-500/30 w-full cursor-pointer rounded-xl bg-gradient-to-r px-6 py-4 text-lg font-semibold text-white shadow-lg transition-all duration-300 focus:ring-4 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50'
                 >
                   {isSubmitting ? (
                     <div className='flex items-center justify-center gap-2'>
