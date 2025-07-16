@@ -23,7 +23,7 @@ const StartupsSection = () => {
     hidden: { opacity: 1, x: 50 },
     visible: {
       opacity: 1,
-      y: 0,
+      x: 0,
       transition: { duration: 0.7, ease: "easeOut" },
     },
   };
@@ -50,7 +50,7 @@ const StartupsSection = () => {
   ];
 
   return (
-    <Section className='relative bg-gradient-to-br from-blue-50 to-indigo-100 py-24'>
+    <Section className='relative bg-gradient-to-br from-blue-50 to-indigo-100 py-10 lg:py-24'>
       {/* Background elements */}
       <div className='pointer-events-none absolute inset-0 overflow-hidden'>
         <div className='absolute top-20 left-10 h-32 w-32 rounded-full bg-blue-50' />
@@ -61,14 +61,14 @@ const StartupsSection = () => {
         <motion.div
           variants={containerVariants}
           initial='hidden'
-          whileInView='visible'
+          animate='visible'
           viewport={{ once: true, amount: 0.3 }}
-          className='grid items-center gap-16'
         >
           {/* Text & Benefits */}
           <motion.div
             variants={textVariants}
-            className='flex flex-col items-center space-y-8 text-center'
+            animate='visible'
+            className='flex flex-col items-center justify-center space-y-8'
           >
             <Text
               as='h2'
@@ -78,7 +78,7 @@ const StartupsSection = () => {
               {t("forOnlineVendor.startups.title")}
             </Text>
 
-            <Text className='text-xl leading-relaxed text-gray-600 md:text-2xl'>
+            <Text className='px-5 text-base leading-relaxed text-gray-600'>
               {t("forOnlineVendor.startups.subtitle")}
             </Text>
           </motion.div>

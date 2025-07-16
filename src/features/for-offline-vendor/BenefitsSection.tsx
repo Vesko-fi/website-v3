@@ -81,7 +81,7 @@ const BenefitsSection = () => {
   };
 
   return (
-    <Section className='relative bg-white py-24'>
+    <Section className='relative bg-white md:py-24'>
       {/* Background decorative elements */}
       <div className='pointer-events-none absolute inset-0 overflow-hidden'>
         <div className='absolute top-20 left-10 h-32 w-32 rounded-full bg-blue-50' />
