@@ -59,7 +59,7 @@ const ValueProbSection = () => {
           viewport={{ once: true, amount: 0.3 }}
           className='flex flex-col items-center space-y-8 text-center'
         >
-          <div className='pointer-events-none absolute inset-0 overflow-hidden'>
+          <div className='pointer-events-none absolute inset-0 overflow-hidden opacity-30 lg:opacity-100'>
             <div className='absolute top-16 left-40 h-32 w-32 rounded-full bg-blue-50' />
             <div className='absolute right-10 bottom-20 h-24 w-24 rounded-full bg-purple-50' />
           </div>
@@ -68,7 +68,7 @@ const ValueProbSection = () => {
             <Text
               as='h2'
               variant='heading'
-              className='mb-4 text-4xl font-bold text-gray-900 md:text-5xl lg:text-6xl'
+              className='relaxed z-auto mb-4 text-4xl font-bold text-gray-900 md:text-5xl lg:text-6xl'
             >
               {t("forOnlineVendor.valueProb.title")}
             </Text>
