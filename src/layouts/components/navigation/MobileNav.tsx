@@ -73,17 +73,17 @@ const MobileNav: React.FC<MobileNavProps> = ({ isOpen, onClose }) => {
           {MAIN_NAVIGATION.map((item) =>
             item.items ? (
               <motion.div key={item.id} variants={floatUpItem}>
-                <NavDropdown item={item} isMobile />
+                <NavDropdown item={item} isMobile onClose={onClose} />
               </motion.div>
             ) : (
               <motion.div key={item.id} variants={floatUpItem}>
-                <NavItem key={item.id} {...item} />
+                <NavItem key={item.id} {...item} onClick={onClose} />
               </motion.div>
             )
           )}
 
           <motion.div variants={floatUpItem}>
-            <NavItem id='register' label='nav.register' routeKey='register' />
+            <NavItem id='register' label='nav.register' routeKey='register' onClick={onClose} />
           </motion.div>
           <LanguageSwitcher />
 
