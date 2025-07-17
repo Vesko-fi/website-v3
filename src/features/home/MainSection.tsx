@@ -44,7 +44,7 @@ const MainSection = () => {
   // };
 
   return (
-    <div className='bg-accent-700 relative mt-20 h-screen w-full overflow-hidden sm:mt-0'>
+    <div className='bg-accent-700 relative mt-20 h-[100svh] w-full overflow-hidden sm:mt-0'>
       <div
         className='absolute inset-0 z-10 bg-contain bg-top bg-no-repeat sm:hidden'
         style={{ backgroundImage: `url(${Assets.homepageMainimage2})` }}
@@ -91,7 +91,7 @@ const MainSection = () => {
       </div>  
      
      */}
-      <div className='relative z-40 flex min-h-screen flex-col items-start justify-end px-4 py-8 pb-16 sm:justify-start sm:px-6 sm:pb-0 lg:px-8'>
+      <div className='relative z-40 flex  h-[100svh] flex-col items-start justify-end px-4 py-8 pb-16 sm:justify-start sm:px-6 sm:pb-0 lg:px-8'>
         <Container className='relative z-10 w-full'>
           <div className='relative overflow-hidden py-8 md:w-[540px] xl:py-0'>
             <div className='xl:from-accent-400/10 absolute inset-0 rounded-2xl xl:bg-gradient-to-br xl:to-black/20' />
@@ -107,15 +107,15 @@ const MainSection = () => {
                 <Text
                   as='h1'
                   variant='heading'
-                  className='mb-6 text-4xl font-bold text-white md:text-5xl lg:text-7xl xl:text-5xl'
-                >
+                  className='mb-6 text-3xl font-bold text-white md:mb-12 md:text-5xl lg:text-7xl xl:text-5xl'
+                  >
                   {t("home.main.title")}
                 </Text>
               </motion.div>
               {/* Subtitle */}
               <motion.div
                 variants={subtitleVariants}
-                className='mb-6 flex text-lg text-white md:text-2xl'
+                className='mb-2: sm:mb-4 md:mb-6 flex text-lg text-white md:text-2xl'
               >
                 {t("home.main.subtitle")}
               </motion.div>
