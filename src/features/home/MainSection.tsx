@@ -78,7 +78,7 @@ const MainSection = () => {
 
   return (
     <div className='relative mt-20 w-full overflow-hidden sm:mt-0 '>
-      <div className='from-accent-700 to-accent-700 absolute inset-0 z-0 bg-gradient-to-b' />
+      <div className='from-[#0EA67D] to-accent-700 absolute inset-0 z-0 bg-gradient-to-b' />
 
       <div
         className='absolute inset-0 z-10 bg-contain bg-top bg-no-repeat sm:hidden'
