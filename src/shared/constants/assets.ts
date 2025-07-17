@@ -51,6 +51,7 @@ import MobileOnboard from "@/assets/images/onboarding_mob.png";
 import Scalable from "@/assets/images/scalable.jpg";
 
 import homepageMainimage from "@/assets/images/Vesko_Hero_Image_Wider.avif";
+import homepageMainimage2 from "@/assets/images/Vesko_Hero_Image_Wider_2.jpg";
 
 import BuyAndCollect from "@/assets/images/buy_collect.avif";
 import CheckAvailability from "@/assets/images/check_availability.png";
@@ -102,6 +103,7 @@ export const Assets = {
   tRmd6: TRMD6,
 
   homepageMainimage: homepageMainimage,
+  homepageMainimage2: homepageMainimage2,
 
   VeskoBg: VeskoBg,
 
