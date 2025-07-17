@@ -6,17 +6,17 @@ import BRMD4 from "@/assets/images/b_rmd_4.avif";
 import BRMD5 from "@/assets/images/b_rmd_5.avif";
 import BRMD6 from "@/assets/images/b_rmd_6.avif";
 import Connected from "@/assets/images/connected.avif";
-import FamiliarDesign from "@/assets/images/familiar_design.png";
+import FamiliarDesign from "@/assets/images/familiar_design.avif";
 import ForPeopleHero from "@/assets/images/for_people_hero.avif";
-import HeroDesktop from "@/assets/images/hero_desktop.png";
-import HeroMobile from "@/assets/images/hero_mobile.png";
+import HeroDesktop from "@/assets/images/hero_desktop.avif";
+import HeroMobile from "@/assets/images/hero_mobile.avif";
 import Neutral from "@/assets/images/neutral.avif";
-import Omnistore from "@/assets/images/omnistore.jpg";
+import Omnistore from "@/assets/images/omnistore.avif";
 import VeskoBg from "@/assets/images/online_vendor.webp";
 import Onlinestore from "@/assets/images/onlinestore.avif";
-import SafePlace from "@/assets/images/safe_place.jpg";
-import SearchAndFind from "@/assets/images/search_find.png";
-import SpaceDigital from "@/assets/images/space_digital.png";
+import SafePlace from "@/assets/images/safe_place.avif";
+import SearchAndFind from "@/assets/images/search_find.avif";
+import SpaceDigital from "@/assets/images/space_digital.avif";
 import TRMD1 from "@/assets/images/t_rmd_1.avif";
 import TRMD2 from "@/assets/images/t_rmd_2.avif";
 import TRMD3 from "@/assets/images/t_rmd_3.avif";
@@ -27,15 +27,15 @@ import VeskoBg1 from "@/assets/images/vesko_bg_split_1.webp";
 import VeskoBg2 from "@/assets/images/vesko_bg_split_2.webp";
 import VeskoBg3 from "@/assets/images/vesko_bg_split_3.webp";
 import SpaceDigitalSecond from "@/assets/images/Vesko_dashboard_mobile.avif";
-import YouFeelFree from "@/assets/images/you_feel_free.png";
+import YouFeelFree from "@/assets/images/you_feel_free.avif";
 import VeskoLogo from "@/assets/logos/vesko.PNG";
 import VeskoLogoLight from "@/assets/logos/vesko_light.PNG";
 import VeskoVideo from "@/assets/videos/vesko.mp4";
 import VeskoVideoMinos from "@/assets/videos/vesko_minos_video.webm";
 // ForOfflineVendorPage assets - using existing images
-import MobileAppMockup from "@/assets/images/hero_mobile.png";
+import MobileAppMockup from "@/assets/images/hero_mobile.avif";
 import { default as OfflineVendorHeroImage } from "@/assets/images/offiline_hero.avif";
-import OmniFeature from "@/assets/images/omni_feature.png";
+import OmniFeature from "@/assets/images/omni_feature.avif";
 import {
   default as DeliveryTruck,
   default as InventoryManagement,
@@ -44,26 +44,27 @@ import {
   default as ShippingLabel,
   default as StoreDashboard,
   default as VeskoStore,
-} from "@/assets/images/omnistore.jpg";
+} from "@/assets/images/omnistore.avif";
 
-import MobileOnboard from "@/assets/images/onboarding_mob.png";
+import MobileOnboard from "@/assets/images/onboarding_mob.avif";
 
-import Scalable from "@/assets/images/scalable.jpg";
+import Scalable from "@/assets/images/scalable.avif";
 
 import homepageMainimage from "@/assets/images/Vesko_Hero_Image_Wider.avif";
+import homepageMainimage2 from "@/assets/images/Vesko_Hero_Image_Wider_2.avif";
 
 import BuyAndCollect from "@/assets/images/buy_collect.avif";
-import CheckAvailability from "@/assets/images/check_availability.png";
-import Dashboard from "@/assets/images/dashboard.jpg";
+import CheckAvailability from "@/assets/images/check_availability.avif";
+import Dashboard from "@/assets/images/dashboard.avif";
 import DifferentSocialMedia from "@/assets/images/different_social_media.avif";
-import ExpandReach from "@/assets/images/expand_reach.jpg";
+import ExpandReach from "@/assets/images/expand_reach.avif";
 import Growth from "@/assets/images/growth.avif";
 import Logistics from "@/assets/images/logistics.avif";
-import MobileApp from "@/assets/images/mobile_app.png";
-import OnlineOrderFulfillment from "@/assets/images/online_order_fulfillment.jpg";
-import Payment from "@/assets/images/payment.jpg";
-import PointOfSaleSystem from "@/assets/images/point_of_sale_system.jpg";
-import UnifiedInventory from "@/assets/images/unified_inventory.jpg";
+import MobileApp from "@/assets/images/mobile_app.avif";
+import OnlineOrderFulfillment from "@/assets/images/online_order_fulfillment.avif";
+import Payment from "@/assets/images/payment.avif";
+import PointOfSaleSystem from "@/assets/images/point_of_sale_system.avif";
+import UnifiedInventory from "@/assets/images/unified_inventory.avif";
 
 export const Assets = {
   logo: VeskoLogo,
@@ -102,6 +103,7 @@ export const Assets = {
   tRmd6: TRMD6,
 
   homepageMainimage: homepageMainimage,
+  homepageMainimage2: homepageMainimage2,
 
   VeskoBg: VeskoBg,
 

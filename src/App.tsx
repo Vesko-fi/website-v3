@@ -21,7 +21,7 @@ const App: React.FC = () => {
         <ScrollToTop />
         <LanguageDetectorGuard>
           <Header />
-          <main className='min-h-screen'>
+          <main className='min-h-screen overflow-x-hidden'>
             <AppRouter />
           </main>
           <Footer />

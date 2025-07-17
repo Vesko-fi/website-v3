@@ -1126,5 +1126,200 @@
       "heading": "Liity Veskoon",
       "description": "Koe, kuinka vaivatonta verkkokaupan pyörittäminen voi olla oikean maksu- ja logistiikka­ratkaisun avulla. Käytä vähemmän aikaa hallinnointiin, säästä kuluissa ja tarjoa asiakkaillesi parempi kokemus kaikki Veskon avulla."
     }
+  },
+
+  "serviceTerms": {
+    "terms_title": "Palveluehdot",
+    "introduction": {
+      "title": "Johdanto",
+      "terms_intro": "Nämä Palveluehdot (“Ehdot”) muodostavat sitovan sopimuksen sinun (“Käyttäjä”) ja Vesko Ltd:n (“Yhtiö”, “me”) välillä koskien tarjoamamme palvelun (“Palvelu”) käyttöä.",
+      "terms_acceptance": "Rekisteröitymällä tai käyttämällä Palvelua hyväksyt nämä Ehdot kokonaisuudessaan. Mikäli et hyväksy jotakin näiden Ehtojen kohtaa, et saa käyttää Palvelua.",
+      "terms_effective_date": "Näitä Ehtoja sovelletaan Palvelun virallisesta julkaisusta alkaen (julkaisun arvioidaan tapahtuvan syksyllä 2025). Palvelu on aluksi saatavilla käyttäjille Suomessa, ja julkaisun jälkeen palvelua tarjotaan myös maailmanlaajuisesti."
+    },
+    "serviceDescription": {
+      "title": "Palvelun kuvaus",
+      "service_description": "Vesko Ltd:n tarjoama Palvelu on yleiskäyttöinen sähköinen palvelualusta. Palvelun ominaisuudet ja toiminnallisuudet voivat kehittyä ajan myötä, kun päivitämme ja parannamme palvelua.",
+      "service_usage": "Palvelu on suunniteltu yleiseen käyttöön, ja sitä voivat käyttää sekä yksityishenkilöt että yritykset käyttötarkoituksen mukaan. Palvelun tarkemmat toiminnot (esimerkiksi mahdolliset viestintä-, kaupankäynti- tai tuottavuusominaisuudet) kuvataan verkkosivuillamme tai Palvelun käyttöliittymässä.",
+      "service_changes": "Pidätämme oikeuden muuttaa Palvelun ominaisuuksia tai sisältöä milloin tahansa osana jatkuvaa kehitystyötä."
+    },
+    "trialAndAccess": {
+      "title": "Ilmainen kokeilujakso ja ennakkokäyttö",
+      "free_trial_point_1": "Ilmainen kokeilujakso: Käyttäjät, jotka rekisteröityvät Palveluun ennen sen virallista julkaisua, ovat oikeutettuja kolmen (3) kuukauden pituiseen ilmaiseen kokeilujaksoon (“Kokeilujakso”). Tänä aikana Palvelun käytöstä ei veloiteta tilaushintoja.",
+      "free_trial_point_2": "Kolmen kuukauden ilmaisia kokeilujaksoja on saatavilla rajoitetusti. Jos rekisteröidyt sen jälkeen, kun paikat ovat täyttyneet, saat yhden (1) kuukauden ilmaisen kokeilun.",
+      "free_trial_point_3": "Ilmainen Kokeilujakso on kertaluontoinen etu, joka on tarjolla vain uusille käyttäjille, jotka rekisteröityvät ennen Palvelun julkaisua. Pidätämme oikeuden määrittää päivämäärän, johon mennessä rekisteröitymällä käyttäjä on oikeutettu kokeiluun (esimerkiksi rekisteröityminen ennen julkaisupäivää oikeuttaa kolmeen kuukauteen ilmaiseksi).",
+      "free_trial_point_4": "Ennakkokäyttö (Beta-testaus): Rekisteröitymällä ennen julkaisua saatat saada pääsyn Palveluun jo ennen sen julkista lanseerausta. Tämä tarkoittaa, että voit käyttää Palvelun esijulkaisua (beta-versiota) testitarkoituksessa. Ennakkokäyttövaiheen aikana Palvelu ei välttämättä ole lopullisessa muodossaan – ominaisuuksia voi puuttua tai ne voivat muuttua, ja järjestelmässä saattaa esiintyä virheitä, kun viimeistelemme alustaa. Saatamme pyytää ennakkokäyttäjiltä palautetta Palvelun parantamiseksi ennen täyttä julkaisua, mutta palautteen antaminen on vapaaehtoista.",
+      "free_trial_point_5": "Voit peruuttaa tilauksesi tai käyttäjätilisi milloin tahansa Kokeilujakson aikana, mikäli et halua jatkaa Palvelun käyttöä (katso tarkemmin Peruutus ja sopimuksen päättäminen alempana). Jos peruutat Kokeilujakson aikana, sinulta ei veloiteta mitään maksuja.",
+      "free_trial_point_6": "Jos et peruuta tilaustasi ennen Kokeilujakson päättymistä, kolmen kuukauden ilmaisen jakson jälkeen Palvelun käyttö jatkuu valitsemasi tilauspaketin mukaisena maksullisena palveluna (katso Tilaukset ja hinnoittelu alla). Ilmoitamme sinulle etukäteen (esim. sähköpostitse tai Palvelun kautta) ennen kuin Kokeilujakso päättyy, jotta voit päättää, jatkatko maksullisella tilauksella vai lopetatko palvelun käytön ennen maksujen veloittamista."
+    },
+    "plansAndSubscriptions": {
+      "title": "Tilaukset ja hinnoittelu",
+      "subscription_point_1": "Palvelu tarjotaan eritasoisina tilauspaketteina (esimerkiksi Perus-paketti, Premium-paketti jne.), joilla jokaisella on omat ominaisuutensa ja hintansa. Kulloinkin voimassa olevat tilausvaihtoehdot ja hinnat kerrotaan verkkosivuillamme ja/tai rekisteröitymisen yhteydessä.",
+      "subscription_point_2": "Kokeilujakson aikana sinua saatetaan pyytää valitsemaan tilauspaketti, jota sovelletaan Kokeilujakson jälkeen. Riippumatta siitä, minkä paketin valitset, sinulta ei veloiteta maksuja ennen kuin Kokeilujakso on päättynyt.",
+      "subscription_point_3": "Päivitys ja alentaminen: Voit joustavasti muuttaa tilaustasoasi. Voit milloin tahansa päivittää tilauksesi kattavampaan pakettiin tai alentaa sen suppeampaan pakettiin, yleensä käyttäjätilisi asetuksissa tai ottamalla yhteyttä asiakaspalveluun.",
+      "subscription_point_3_a": "Jos päivität tilauksesi korkeammalle tasolle (joka sisältää enemmän ominaisuuksia tai suuremmat käyttörajat), muutos voi astua voimaan heti tai seuraavan laskutusjakson alusta käytäntömme mukaan. Ilmoitamme sinulle, miten laskutus hoidetaan tällaisessa tapauksessa (kesken kauden tehdystä päivityksestä voidaan veloittaa suhteutettu lisämaksu loppukaudelle).",
+      "subscription_point_3_b": "Jos alennat tilauksesi alemmalle tasolle, muutos astuu yleensä voimaan seuraavan laskutusjakson alusta. Näin varmistetaan, että saat vielä hyödyn jo maksamistasi nykyisen kauden ominaisuuksista. Nykyisen laskutuskauden loppuun asti sinulla on siis voimassa oleva korkeampi paketti, ja vasta seuraavasta kaudesta alkaen voimassa ovat alempi paketti ja sen mukainen hinnoittelu.",
+      "subscription_point_4": "Jos et valitse mitään tilausvaihtoehtoa Kokeilujakson päättyessä, käyttäjätilisi voidaan keskeyttää tai sen toimintoja rajoittaa, kunnes päätät jatkosta. Saatamme antaa lyhyen lisäajan päätöksentekoon, mutta pääsääntöisesti Palvelun täysi käyttö edellyttää aktiivista maksullista tilausta Kokeilujakson jälkeen.",
+      "subscription_point_5": "Kaikki tilaukset ovat toistaiseksi voimassa olevia ja ne uusiutuvat automaattisesti valitun laskutusjakson mukaisesti (esim. kuukausittain tai vuosittain). Tilausmaksut (Kokeilujakson jälkeen) veloitetaan etukäteen kunkin laskutusjakson alussa. Esimerkiksi kuukausitilauksen maksu veloitetaan joka kuukausi jakson alussa.",
+      "subscription_point_6": "Pidätämme oikeuden ottaa käyttöön uusia tilauspaketteja sekä muuttaa tai poistaa olemassa olevia. Mikäli muutamme hinnoittelua tai jonkin pakettisi keskeisiä ominaisuuksia, ilmoitamme siitä ennakkoon. Mahdolliset hinnankorotukset tai olennaiset muutokset astuvat voimaan vasta soveltuvan ennakkoilmoitusajan jälkeen (jos laki niin edellyttää) ja alkavan uuden laskutusjakson alusta."
+    },
+
+    "privacy": {
+      "title": "Käyttäjätiedot ja tietosuoja",
+      "point_1": "Olemme sitoutuneet käyttäjiemme yksityisyyden suojaamiseen. Kaikkia meille toimittamiasi henkilötietoja käsitellään ainoastaan Suomessa soveltuvaa tietosuojalainsäädäntöä, mukaan lukien EU:n yleistä tietosuoja-asetusta (GDPR), noudattaen.",
+      "point_2": "Käytännössä tämä tarkoittaa, että henkilötietojasi säilytetään Suomessa sijaitsevilla palvelimilla (mahdollisesti myös muissa EU-maissa varmuuskopiointi- tai varajärjestelmissä) Suomen lainkäyttövallan alaisuudessa, ja käytämme tiukkoja tietoturvatoimia niiden suojaamiseksi.",
+      "point_3": "Emme luovuta henkilötietojasi ulkopuolisille tahoille, paitsi siltä osin kuin se on välttämätöntä Palvelun toiminnallisuuksien tarjoamiseksi ja sen käytön mahdollistamiseksi. Erityisesti emme myy emmekä muutoin paljasta käyttäjien tietoja kolmansille osapuolille markkinointitarkoituksiin tms. Seuraavat poikkeukset koskevat Palvelun kannalta oleellisia palveluntarjoajia, joille tietoja saatetaan välittää:",
+      "point_3_nshift_title": "nShift",
+      "point_3_nshift_description": "Logistiikka- ja lähetyspalvelu, joka on integroitu Palveluumme. Mikäli Palveluun sisältyy tuotteiden tai lähetysten toimittamista, voimme jakaa nShiftille tarvittavat tiedot (esim. nimesi, toimitusosoitteesi ja tilauksen sisällön) lähetysten käsittelyä ja seurantaa varten. Jaamme vain ne tiedot, jotka ovat välttämättömiä kyseisen toimituspalvelun toteuttamiseksi.",
+      "point_3_stripe_title": "Stripe",
+      "point_3_stripe_description": "Maksujenvälityspalvelu, jota käytämme tilausten maksujen käsittelyyn. Mikäli syötät maksutietosi (esim. luottokortin numeron) Palveluun, tiedot välittyvät suoraan Stripelle turvallisen maksutapahtuman toteuttamiseksi. Stripe käsittelee maksutietosi korkeiden tietoturvastandardien mukaisesti ja oman tietosuojakäytäntönsä ehtojen mukaan. Emme tallenna omille palvelimillemme esimerkiksi koko maksukorttisi numeroa; maksutiedot käsittelee Stripe puolestamme.",
+      "point_4": "Edellä mainittuja tapauksia lukuun ottamatta emme jaa henkilötietojasi muille kolmansille osapuolille ilman suostumustasi. Sekä nShift että Stripe ovat luotettavia yhteistyökumppaneita, ja olemme varmistaneet sopimuksin, että ne käsittelevät tietojasi turvallisesti ja lainmukaisesti. Huolehdimme siitä, että kaikki kolmannen osapuolen suorittama tietojen käsittely on GDPR:n ja Suomen tietosuojavaatimusten mukaista.",
+      "point_5": "Korostamme, ettemme koskaan myy henkilötietojasi kolmansille osapuolille. Tietojasi käytetään ainoastaan Palvelun tuottamiseen, ylläpitoon ja kehittämiseen sekä tarpeelliseen viestintään kanssasi (esimerkiksi palvelutiedotteiden tai päivitysten lähettämiseen, mikäli olet antanut siihen suostumuksen). Lisätietoja tietojesi käsittelystä saat erillisestä Tietosuojakäytännöstämme (mikäli sellainen on saatavilla) tai näiden Ehtojen asiaankuuluvista kohdista. Palvelun käyttö merkitsee samalla suostumustasi siihen, että käsittelemme tietojasi tässä kuvatulla tavalla.",
+      "point_6": "Kaikki käyttäjätiedot säilytetään ja käsitellään Suomessa (ja mahdollisesti EU:n alueella). Emme siirrä henkilötietojasi Euroopan talousalueen ulkopuolelle, ellei se ole Palvelun tuottamisen kannalta välttämätöntä, ja silloinkin vain soveltuvien tietosuojasäännösten mukaisesti (esim. käyttäen Euroopan komission mallisopimuslausekkeita tai muuta lain edellyttämää suojamekanismia).",
+      "point_7": "Saatamme kerätä myös ei-henkilökohtaisia tietoja tai yhteen koottuja tilastotietoja Palvelun käytöstä analysoidaksemme palvelun käyttöä ja parantaaksemme sitä. Tällainen tieto on anonymisoitua eikä siitä voida tunnistaa yksittäistä käyttäjää. Voimme jakaa koottuja käyttötilastoja (esimerkiksi palvelun käyttömääristä) ulkopuolisten kanssa tai julkisesti, mutta näihin tietoihin ei sisälly mitään henkilötietoja."
+    },
+    "thirdPartyServices": {
+      "title": "Kolmannen osapuolen palvelut",
+      "paragraph_1": "Kuten edellä on todettu, Palvelu sisältää integraatioita tiettyihin kolmannen osapuolen tarjoamiin palveluihin, jotta tietyt toiminnot olisivat mahdollisia. Keskeiset esimerkit ovat nShift (lähetysten/logistiikan hallintaan) ja Stripe (maksujen käsittelyyn). Käyttämällä näitä Palvelun toimintoja hyväksyt, että jaamme kyseisten palveluntarjoajien kanssa ne tiedot, jotka ovat tarpeen pyydetyn toiminnon suorittamiseksi puolestasi (esim. toimitustietojesi välittäminen nShiftille paketin lähettämistä varten tai maksutietojesi välittäminen Stripelle maksun veloittamiseksi).",
+      "paragraph_2": "Vaikka valitsemme integraatiokumppanimme huolellisesti, emme vastaa kolmansien osapuolten tarjoamien palveluiden toiminnasta tai sisällöstä. Näitä palveluja käytetään yleensä kyseisten kolmansien omien käyttöehtojen ja tietosuojakäytäntöjen mukaisesti. Esimerkiksi, jos suoritat maksuja Palvelussamme, maksutapahtuman ehdot määräytyvät osittain Stripen palveluehtojen mukaan; samoin lähetysten osalta nShiftin ja kuljetusliikkeiden ehdot voivat soveltua taustalla. Suosittelemme tutustumaan tällaisten kolmansien osapuolten ehtoihin, vaikka yleensä niiden käyttö on sinulle näkyvää ainoastaan Palvelumme kautta.",
+      "paragraph_3": "Mikäli jokin Palveluun integroiduista kolmannen osapuolen palveluista ei toimi tai aiheuttaa ongelmia (esimerkiksi maksu ei mene läpi tai lähetys viivästyy), pyrimme kohtuullisin keinoin auttamaan sinua ongelman ratkaisemisessa. Viime kädessä kyseinen kolmas osapuoli vastaa kuitenkin oman palvelunsa toimivuudesta. (Emme esimerkiksi pysty myöntämään palautusta maksunkäsittelijän puolesta muuta kuin heidän ehtojensa mukaisesti, emmekä voi taata kuljetuspalvelun toimitusaikoja, jne.)",
+      "paragraph_4": "Muita kuin tässä mainittuja integraatioita tai kolmansia osapuolia emme käytä henkilötietojesi käsittelyyn ilman että päivitämme näitä Ehtoja tai tietosuojakäytäntöämme ja hankimme siihen tarvittaessa suostumuksesi. Jos tulevaisuudessa lisäämme uusia keskeisiä integraatioita (esim. analytiikkapalvelun tai pilvitallennuspalvelun), tiedotamme asiasta ja varmistamme, että ne noudattavat yhtä tiukkoja tietosuoja- ja turvallisuusvaatimuksia kuin me itsekin noudatamme."
+    },
+    "userAccountResponsibilities": {
+      "user_accounts.title": "Käyttäjätilit ja velvollisuudet",
+      "account_registration.title": "Tilin rekisteröinti",
+      "account_registration.description": "Palvelun käyttö edellyttää käyttäjätilin luomista. Sitoudut antamaan rekisteröityessäsi paikkansapitävät ja täydelliset tiedot (kuten nimen, voimassa olevan sähköpostiosoitteen ja muut mahdollisesti pyydetyt tiedot) sekä pitämään tiedot ajan tasalla. Mikäli Palvelu vaatii maksutietojen syöttämistä jo rekisteröityessä (esim. Kokeilujakson jälkeen saumattoman jatkumisen varmistamiseksi), sinun tulee antaa voimassa oleva maksutapa, mutta kuten todettu, sinua ei veloiteta ennen kuin Kokeilujakso päättyy.",
+      "account_security.title": "Tilin turvallisuus",
+      "account_security.description": "Olet vastuussa käyttäjätilisi tunnistetietojen (käyttäjänimi, salasana) salassapidosta. Älä luovuta salasanaasi muille. Sitoudut ilmoittamaan meille välittömästi osoitteeseen [asiakastuki email] mikäli epäilet, että joku ulkopuolinen on saanut tietää tunnuksesi tai havaitset luvattoman käytön. Emme vastaa vahingoista, jotka johtuvat siitä, että tilitietosi joutuvat ulkopuolisen haltuun sinun huolimattomuutesi tai laiminlyöntisi seurauksena.",
+      "lawful_use.title": "Laillinen käyttö",
+      "lawful_use.description": "Sitoudut käyttämään Palvelua vain laillisiin tarkoituksiin ja näiden Ehtojen mukaisesti. Et saa käyttää Palvelua:",
+      "lawful_use.point1": "Mihinkään lainvastaiseen, haitalliseen, vilpilliseen tai vahingontekoiseen toimintaan, etkä sellaiseen toimintaan kannustamiseen tai avustamiseen.",
+      "lawful_use.point2": "Loukataksesi tai rikkoaksesi kolmannen osapuolen immateriaalioikeuksia, yksityisyydensuojaa tai muita oikeuksia.",
+      "lawful_use.point3": "Virusten, haittaohjelmien tai vahingoittavan koodin levittämiseen, etkä mihinkään sellaiseen toimintaan, joka häiritsee tai vahingoittaa Palvelun toimintaa (kuten palvelunestohyökkäykset tai luvaton pääsyn tavoittelu Palvelun järjestelmiin).",
+      "lawful_use.point4": "Kerätäksesi tai korjataksesi toisten käyttäjien tietoja ilman asianmukaista lupaa.",
+      "user_content_responsibility.description": "Vastaat kaikesta sisällöstä, jonka lataat, välität tai tallennat Palveluun, sekä kaikista toimistasi Palvelua käyttäessäsi. Varmista, että omistat tai sinulla on tarvittavat oikeudet kaikkeen Palveluun toimittamaasi sisältöön (esimerkiksi kirjoittamaasi tekstiin, ladattuihin tiedostoihin, kuviin yms.), eikä sisältö riko lakia, hyviä tapoja tai näitä Ehtoja tai loukkaa kenenkään oikeuksia. Pidätämme oikeuden poistaa tai estää pääsyn sisältöön, joka rikkoo tätä määräystä.",
+      "user_conduct.title": "Käyttäytyminen palvelussa",
+      "user_conduct.description": "Sitoudut toimimaan asiallisesti ja kunnioittavasti muita käyttäjiä ja henkilöstöämme kohtaan. Kiusaamista, vihapuhetta tai muuta asiatonta käytöstä Palvelussa ei sallita, ja tällainen toiminta voi johtaa tilisi keskeyttämiseen tai päättämiseen (katso Sopimuksen päättäminen -osio).",
+      "terms_violation_consequences.description": "Mikäli rikot edellä mainittuja ehtoja tai muuta näiden Ehtojen kohtaa, voimme ryhtyä toimenpiteisiin tiliäsi kohtaan. Tällaisia toimenpiteitä voivat olla varoitus, Palvelun käyttöoikeuden tilapäinen keskeyttäminen tai vakavissa tai toistuvissa tapauksissa tilisi päättäminen, kuten on kuvattu alempana."
+    },
+    "earlyAccessDisclaimer": {
+      "title": "Ennakkokäyttö ja beta-vastuunrajoitus",
+      "point_1": "Mikäli olet saanut ennakkokäyttöoikeuden Palveluun (eli käytät Palvelua jo ennen virallista julkaisua beta-/testivaiheessa), hyväksyt ja ymmärrät, että Palvelu on tuolloin vielä kehitteillä. Ennakkokäyttövaiheessa Palvelu tarjotaan “sellaisena kuin se on” ilman minkäänlaisia takuita täydestä toimivuudesta tai virheettömyydestä. Ominaisuudet voivat olla keskeneräisiä tai muuttua, ja Palvelussa saattaa esiintyä häiriöitä tai bugeja.",
+      "point_2": "Arvostamme ennakkokäyttäjiltä saamaamme palautetta ja kehitysehdotuksia. Antamalla palautetta hyväksyt, että voimme vapaasti hyödyntää ja sisällyttää palautteesi tai ideasi Palvelun parantamiseen ilman velvoitetta maksaa sinulle korvausta. Palautteen antaminen on täysin vapaaehtoista, eikä meillä ole velvollisuutta toteuttaa mitään ehdotusta – mutta kuuntelemme käyttäjiämme parantaaksemme Palvelua.",
+      "point_3": "Testausvaiheen aikana saatamme ottaa yhteyttä ennakkokäyttäjiin esimerkiksi kyselyillä tai virheraportointipyyntöinä kerätäksemme tietoa havaitusta toiminnasta ja käyttäjäkokemuksesta. Osallistuminen tällaisten tietojen antamiseen on vapaaehtoista, vaikka se onkin meille erittäin hyödyllistä.",
+      "point_4": "Pidätämme oikeuden muuttaa, rajoittaa tai lopettaa ennakkokäyttöohjelman milloin tahansa. Saatamme esimerkiksi keskeyttää Palvelun tilapäisesti parannusten toteuttamista varten tai päättää beta-vaiheen, kun varsinainen julkaisu tapahtuu. Joissakin tapauksissa (joita pyrimme välttämään) testausvaiheen aikana kerätyt tiedot voidaan joutua nollaamaan tai poistamaan alustaa viimeisteltäessä. Ilmoitamme etukäteen, mikäli suunnitteilla on merkittäviä tietojen lähtökohtia (esim. beta-tietokannan tyhjennys).",
+      "point_5": "Kaikkia näissä Ehdoissa mainittuja sääntöjä ja ehtoja sovelletaan myös Palvelun ennakkokäyttöön. Huomaa kuitenkin, että tietyt ehdot (esim. laskutusta koskevat kohdat) tulevat käytännössä ajankohtaisiksi vasta Palvelun siirtyessä maksulliseen tuotantokäyttöön. Ennakkokäyttäjänä sitoudut noudattamaan Palvelun käyttöä koskevia ehtoja ja ymmärrät keskeneräisen palvelun rajoitukset."
+    },
+    "feesAndPayments": {
+      "title": "Maksut ja laskutus",
+      "trial": {
+        "title": "Ei maksuja kokeilun aikana",
+        "description": "Kolmen kuukauden/yhden kuukauden Kokeilujakson aikana Palvelun käyttö on maksutonta. Sinulta ei veloiteta mitään maksuja tänä aikana."
+      },
+      "subscriptionFees": {
+        "title": "Tilausmaksut",
+        "description": "Kokeilujakson jälkeen, jos päätät jatkaa Palvelun käyttöä, sinun tulee maksaa valitsemasi tilauspaketin mukaiset maksut. Tilausmaksut ja laskutusjaksot (kuukausittain, vuosittain tms.) ovat nähtävissä kunkin paketin yhteydessä. Kaikki hinnat ja tilausehdot ilmoitetaan selkeästi sinulle (esimerkiksi verkkosivuillamme ja tilauksen valintasivulla) ennen kuin sitoudut maksulliseen tilaukseen."
+      },
+      "paymentMethod": {
+        "title": "Maksutapa",
+        "description": "Sinua saatetaan pyytää antamaan maksutiedot (esim. luottokorttitiedot) rekisteröitymisen yhteydessä tai ennen Kokeilujakson päättymistä. Antamalla maksutietosi valtuutat meidät (ja maksujen käsittelijämme Stripen) veloittamaan kyseiseltä maksutavalta kulloinkin erääntyvät tilausmaksut. Jos Palvelussa on tarjolla useita maksutapoja (kuten korttimaksu, verkkopankki tai PayPal), voit valita haluamasi ja vastaava valtuutus pätee valitsemaasi tapaan."
+      },
+      "billingCycle": {
+        "title": "Laskutusjakso",
+        "description": "Tilausmaksu veloitetaan etukäteen jokaisen laskutusjakson alussa. Esimerkiksi kuukausitilauksessa maksu peritään kuukausittain jakson alkaessa, vuosittaisessa tilauksessa vuosimaksu veloitetaan vuoden alussa. Lähetämme sinulle maksukuittauksen sähköpostitse tai se on saatavilla käyttäjätililläsi jokaisen veloituksen yhteydessä."
+      },
+      "taxes": {
+        "title": "Verot",
+        "description": "Ellei toisin ilmoiteta, hinnat eivät sisällä mahdollisia soveltuvia veroja. Jos jokin vero (kuten arvonlisävero) tai julkisoikeudellinen maksu on sovellettavissa, se lisätään hintaan lain edellyttämällä tavalla. Laskullasi tai kuitissasi erittelemme tällaiset verot, mikäli niitä peritään."
+      },
+      "prorations": {
+        "title": "Suhteutetut maksut",
+        "description": "Jos päivität tilauspakettisi kesken laskutuskauden korkeampaan pakettiin, sinulta saatetaan veloittaa lisämaksu, joka on suhteutettu jäljellä olevaan laskutusjaksoon (tai muutos astuu voimaan heti asianmukaisin veloitusjärjestelyin). Jos alennat tilaustasi, muutos tulee yleensä voimaan vasta seuraavalla laskutuskaudella, kuten aiemmin mainittiin, eikä jo maksetusta korkeammasta paketista palauteta kesken kauden, vaan alempi hinta astuu voimaan uusinnan yhteydessä."
+      },
+      "failedPayments": {
+        "title": "Maksun epäonnistuminen",
+        "description": "Jos tilausmaksun veloitus epäonnistuu (esim. luottokortti vanhentunut tai katetta ei ole), yritämme ilmoittaa sinulle asiasta esimerkiksi sähköpostitse. Voimme myös yrittää veloitusta uudelleen lyhyen ajan kuluessa. Mikäli maksua ei edelleenkään saada suoritettua, pidätämme oikeuden rajoittaa tai keskeyttää Palvelun käyttöoikeuttasi, kunnes maksutapa on päivitetty ja maksu on saatu perille. Sinun vastuullasi on pitää maksutiedot ajan tasalla ja huolehtia, että tilausmaksun veloitus on mahdollista eräpäivinä."
+      },
+      "priceChanges": {
+        "title": "Hinnanmuutokset",
+        "description": "Saatamme tulevaisuudessa muuttaa Palvelun tilausmaksuja. Mikäli näin tehdään, ilmoitamme muutoksista sinulle etukäteen, hyvissä ajoin ennen uusien hintojen voimaantuloa (esim. vähintään 30 päivää aiemmin sähköpostilla tai Palvelun kautta). Hinnanmuutokset eivät vaikuta jo maksettuun tai käynnissä olevaan laskutuskauteen, vaan ne tulevat voimaan seuraavan uudistusjakson alkaessa. Jos et hyväksy hinnanmuutosta, sinulla on oikeus peruuttaa tilauksesi ennen uuden hinnan voimaantuloa. Jos jatkat Palvelun käyttöä hinnanmuutoksen tultua voimaan, katsomme sinun hyväksyneen uudet hinnat."
+      }
+    },
+    "cancellationAndTermination": {
+      "title": "Peruutus ja sopimuksen päättäminen",
+      "point_1": "Käyttäjän tekemä peruutus: Voit peruuttaa tilauksesi milloin tahansa. Peruutuksen voi tehdä käyttäjätilisi asetuksissa tai ottamalla yhteyttä asiakastukeemme.",
+      "point_2": "Jos peruutat tilauksesi Kokeilujakson aikana, tilisi pysyy aktiivisena Kokeilujakson loppuun saakka, mutta sitä ei muuteta maksulliseksi tilaukseksi. Sinulta ei veloiteta mitään maksuja. Kokeilujakson päätyttyä käyttöoikeutesi Palveluun päättyy, ellei tiliä uudelleen aktivoida valitsemalla jokin maksullinen tilaus.",
+      "point_3": "Jos peruutat maksullisen tilauksen, peruutus astuu voimaan kuluvan laskutusjakson lopussa. Tilaus ei uusiudu seuraavalle jaksolle, eikä sinulta veloiteta enää uusia maksuja peruutuksen jälkeen. Huomioithan, että emme yleensä hyvitä jo maksetun laskutuskauden käyttämättä jäänyttä osaa (ellei soveltuva laki velvoita toisin tai ellei toisin ole erikseen sovittu). Esimerkiksi jos sinulla on kuukausitilaus ja peruutat sen keskellä kuukautta, säilytät pääsyn Palveluun kyseisen kuukauden loppuun, mutta seuraavaa kuukautta ei veloiteta eikä tilaus jatku sen jälkeen.",
+      "point_4_title": "Vesko Ltd:n tekemä irtisanominen",
+      "point_4_description": "Pidätämme oikeuden keskeyttää tai päättää käyttäjätilisi ja Palvelun käyttöoikeutesi seuraavissa tilanteissa:",
+      "point_4_bullet_1": "Jos rikot näitä Ehtoja tai käytät Palvelua selvästi lainvastaisella tai näille Ehdoille vastaisella tavalla, voimme keskeyttää pääsysi Palveluun tai päättää käyttäjätilisi. Useimmissa ehtojen rikkomistapauksissa pyrimme ensin antamaan varoituksen tai ilmoituksen sekä kohtuullisen mahdollisuuden korjata rikkomus (mikäli se on korjattavissa) ennen tilin päättämistä.",
+      "point_4_bullet_2": "Vakavissa rikkomustapauksissa (esim. petos, järjestelmän väärinkäyttö, toisten käyttäjien häirintä, Palvelun tai toisten tietojen turvallisuuden vaarantaminen) voimme keskeyttää tai päättää tilisi välittömästi ilman ennakkovaroitusta.",
+      "point_4_bullet_3": "Lisäksi saatamme joutua keskeyttämään tai päättämään Palvelun tarjoamisen sinulle, jos laki niin vaatii tai jos Palvelun tarjoaminen käy mahdottomaksi tai kohtuuttomaksi ylivoimaisen esteen tai vastaavan syyn vuoksi.",
+      "point_5": "Mikäli päätämme käyttäjätilisi ja/tai tämän sopimuksen, ilmoitamme sinulle päättämisen syyn, jollei laki sitä nimenomaisesti kiellä. Jos Yhtiö päättää sopimuksen muusta syystä kuin sinun vakavasta sopimusrikkomuksestasi, saatamme oman harkintamme mukaan palauttaa etukäteen maksettuja maksuja siltä ajalta, joka jää käyttämättä tilin päättämisen vuoksi (esimerkiksi jos vuositilauksesi katkeaa kesken kauden meidän toimestamme ilman että olet rikkonut ehtoja, voimme palauttaa loppukautta vastaavan osuuden maksusta). Huomaathan, että jos sopimus päätetään sinun ehtorikkomuksesi vuoksi, et yleensä ole oikeutettu hyvityksiin.",
+      "point_6": "Vaikutukset päättämisen jälkeen: Kun peruutat tilauksesi tai käyttäjätilisi suljetaan, oikeutesi käyttää Palvelua päättyy sen jälkeen. Deaktivoimme käyttäjätilisi ja estämme pääsysi Palveluun. Tietojen säilytys:Tilin päättämisen jälkeen meillä ei ole velvollisuutta säilyttää tai toimittaa palvelimillamme olevaa dataa sinulle, ellei laki velvoita tiettyjen tietojen säilyttämiseen tietyn aikaa tai ellei tietosuojakäytäntömme muuta määrää. Pyrimme poistamaan henkilötietosi ja käyttäjätietosi aktiivisista järjestelmistämme kohtuullisen ajan kuluessa tilin päättämisestä. Sinun vastuullasi on huolehtia, että olet tallentanut itsellesi tärkeät tiedot talteen ennen tilin peruuttamista tai päättymistä.",
+      "point_7": "Näiden Ehtojen sellaiset kohdat, joiden on tarkoitus pysyä voimassa sopimussuhteen päättymisen jälkeen (kuten immateriaalioikeuksia, vastuunrajoituksia ja sovellettavaa lakia koskevat ehdot), jäävät voimaan myös tilisi päättämisen jälkeen."
+    },
+    "intellectualPropertyRights": {
+      "title": "Immateriaalioikeudet",
+      "point_1_title": "Omistusoikeus",
+      "point_1_description": "Kaikki oikeudet, omistusoikeus ja intressi Palveluun ja sen sisältöön (mukaan lukien mm. kaikki teksti, kuvat, grafiikka, logot, ohjelmisto, koodi, tiedot ja muut materiaalit, sekä Vesko Ltd:ntavaramerkit ja tunnukset) kuuluvat Vesko Ltd:lle tai sen lisenssinantajille. Palvelu ja sen sisältö ovat tekijänoikeus-, tavaramerkki- ja muiden immateriaalioikeuslakien suojaamia.",
+      "point_2": "Myönnämme sinulle rajoitetun, ei-yksinomaisen, ei-siirrettävän ja peruutettavissa olevan käyttöoikeuden käyttää Palvelua henkilökohtaiseen tai sisäiseen liiketoimintaasi liittyvään tarkoitukseen näiden Ehtojen mukaisesti. Tämä käyttöoikeus ei anna sinulle omistusoikeutta eikä muita oikeuksia Palvelun tai sen sisältöjen immateriaalioikeuksiin.",
+      "point_3": "Et saa kopioida, levittää, muokata, luoda johdannaisteoksia, julkisesti esittää tai näyttää tai millään muulla tavalla kaupallisesti hyödyntää mitään osaa Palvelusta tai sen sisällöstä, ellei lainsäädäntö nimenomaisesti salli tai Yhtiö ole erikseen antanut siihen kirjallista lupaa. Esimerkiksi et saa kääntää lähdekoodia selväkieliseen muotoon (reverse engineering) tai muuten purkaa Palvelun ohjelmistoa, etkä poistaa tekijänoikeus- tai tavaramerkki-ilmoituksia sisällöstä.",
+      "point_4": "Kaikki antamasi palaute, ideat tai ehdotukset liittyen Palveluun ovat vapaaehtoisia, ja hyväksyt, että Vesko Ltd voi käyttää ja toteuttaa niitä ilman rajoituksia tai velvollisuutta maksaa sinulle korvausta. Palautteesi auttaa meitä kehittämään Palvelua, mutta emme ole velvoitettuja hyödyntämään antamiasi ideoita.",
+      "point_5_title": "Käyttäjän sisältö",
+      "point_5_description": "Säilytät kaikki oikeudet kaikkeen sisältöön, jonka itse tuot, lataat tai toimitat Palvelun kautta (esimerkiksi lähettämiisi viesteihin, ladattuihin tiedostoihin, syöttämiisi tietoihin). Palvelun käyttö kuitenkin edellyttää, että myönnät meille maailmanlaajuisen, rojaltivapaan, alilisensoitavissa olevan oikeuden käyttää, tallentaa, jäljentää ja esittää sisältöäsi ainoastaan Palvelun tarjoamiseksi ja parantamiseksi. Käytämme ja käsittelemme sisältöäsi vain siltä osin kuin se on tarpeen Palvelun toiminnan kannalta (esimerkiksi varmuuskopiointi, sisällön näyttäminen sinulle ja valtuuttamillesi vastaanottajille jne.), sekä tietosuojakäytäntömme mukaisella tavalla.",
+      "point_6": "Emme vaadi omistusoikeutta käyttäjien sisältöön, eikä mikään näissä Ehdoissa siirrä meille oikeuksia sisältöösi muuten kuin siinä rajoitetussa määrin, mikä on tarpeen Palvelun operoimiseksi."
+    },
+    "disclaimersAndLiability": {
+      "title": "Vastuuvapauslausekkeet ja vastuunrajoitus",
+      "noWarranties": {
+        "title": "Ei takuuta",
+        "description": "Palvelu tarjotaan “sellaisena kuin se on” ja “saatavuuden mukaan”. Vaikka pyrimme mahdollisimman korkeaan laatuun, emme anna takuuta siitä, että Palvelu on keskeytyksetön, virheetön tai että se täysin vastaisi odotuksiasi. Kaikki takuut, sekä nimenomaiset että oletetut, kiistetään sovellettavan lain sallimissa rajoissa, mukaan lukien takuut myyntikelpoisuudesta, sopivuudesta tiettyyn tarkoitukseen ja oikeuksien loukkaamattomuudesta. Emme esimerkiksi takaa, että Palvelu toimii kaikilla laitteilla tai selaimilla, tai että Palvelu olisi aina vapaa viruksista tai muista haitallisista komponenteista. (Joissakin lainkäyttöalueissa ei sallita tiettyjen takuiden poissulkemista, joten tietyt tässä mainitut vastuuvapauslausekkeet eivät ehkä päde sinuun siinä laajuudessa kuin ne on laissa kielletty.)"
+      },
+      "betaPhase": {
+        "title": "Beta-vaihe",
+        "description": "Tiedostat erityisesti, että mikäli käytät Palvelua ennakkokäyttö- tai beta-vaiheessa, palvelussa saattaa olla vikoja ja sen käyttöön liittyy omat riskinsä. Kaikki beta-vaiheen ominaisuudet tarjotaan ilman minkäänlaista takuuta."
+      },
+      "limitationOfLiability": {
+        "title": "Vastuun rajoitus",
+        "description": "Soveltuvan lain sallimissa puitteissa Vesko Ltd (mukaan lukien sen toimihenkilöt, johtajat, työntekijät ja edustajat) ei ole vastuussa mistään epäsuorista, välillisistä, erityisistä tai rankaisevista vahingoista, eikä myöskään liikevoiton, liikevaihdon, liiketoimintamahdollisuuksien, tietojen, maineen tai muun aineettoman omaisuuden menetyksestä. Tämä vastuuvapaus koskee kaikkia vahinkoja riippumatta siitä, perustuuko vaatimus sopimukseen, vahingonkorvausvelvollisuuteen (mukaan lukien tuottamus) tai muuhun oikeudelliseen perusteeseen, vaikka olisimme saaneet tiedon sellaisten vahinkojen mahdollisuudesta."
+      },
+      "cumulativeLiability": {
+        "title": "Kokonaisvastuun enimmäismäärä",
+        "description": "Siinä laajuudessa kuin laki sallii, Vesko Ltd:n kokonaisvastuu kaikista Palveluun tai näihin Ehtoihin liittyvistä vaatimuksista tai kanteista, riippumatta vaateen perusteesta tai muodosta, on enintään se summa, jonka olet maksanut meille Palvelun käytöstä viimeisten kahdentoista (12) kuukauden aikana, tai sata (100) euroa, sen mukaan kumpi summa on suurempi. Tämä on osapuolten välinen sovittu enimmäisvastuu, joka kattaa kaikki mahdolliset vaateet yhteensä."
+      },
+      "exceptions": {
+        "title": "Vastuunrajoituksen poikkeukset",
+        "description": "Mikään näissä Ehdoissa ei rajoita vastuutamme, mikäli kyse on törkeästä huolimattomuudesta, tahallisesta rikkomuksesta tai jos kyseessä on kuolemantapaus tai henkilövahinko, joka johtuu meidän huolimattomuudestamme, taikka muu vastuu, jota lain mukaan ei voida rajoittaa tai sulkea pois. Lisäksi, koska tietyillä lainkäyttöalueilla ei sallita tiettyjen vahinkojen poissulkemista tai vastuun rajoittamista, edellä mainitut rajoitukset eivät välttämättä kaikilta osin koske sinua. Tällaisissa tapauksissa Vesko Ltd:n vastuu rajoittuu siihen maksimiin, minkä pakottava laki sallii."
+      },
+      "claimTimeLimit": {
+        "title": "Vaatimusten esittämisen aikaraja",
+        "description": "Suostut siihen, että kaikki Palvelun käyttöön liittyvät vaatimukset on esitettävä yhden (1) vuoden kuluessa siitä tapahtumasta, johon vaatimus perustuu. Muutoin vaatimus katsotaan lopullisesti rauenneeksi. (Huomioithan, että tämä aikaraja ei välttämättä päde tietyillä lainkäyttöalueilla, jotka eivät salli sopimusperusteista kanneaikojen lyhentämistä.)"
+      }
+    },
+
+    "governingLaw": {
+      "title": "Sovellettava laki ja toimivalta",
+      "law": "Nämä ehdot ja niihin liittyvät riidat tai vaatimukset, jotka johtuvat näistä ehdoista tai palvelusta, määräytyvät ja tulkitaan Suomen lakien mukaisesti ottaen huomioon lainvalintasäännökset.\n\nPalvelua käyttämällä hyväksyt, että Suomen lait ohjaavat kaikkia riitoja.",
+      "consumerRights": "Jos olet EU:ssa asuva kuluttaja, sinulla saattaa olla lisäoikeuksia tai suojaa pakollisten kuluttajansuojalakien nojalla; mikään näissä ehdoissa ei rajoita näitä oikeuksia.",
+      "jurisdiction": {
+        "title": "Toimivalta",
+        "text": "Kaikki näihin ehtoihin tai palveluun liittyvät riidat, joita ei pystytä ratkaisemaan sovinnollisesti, kuuluvat Suomen tuomioistuinten yksinomaisen toimivallan piiriin. Olemme valinneet riitojen ratkaisupaikaksi Helsingin tuomioistuimet (missä Vesko Ltd. sijaitsee). Pidätämme kuitenkin oikeuden hakea oikeudellisia toimenpiteitä tai täytäntöönpanoa missä tahansa pätevässä tuomioistuimessa maailmanlaajuisesti, jos tarpeen (esim. immateriaalioikeuksiemme suojaamiseksi)."
+      },
+      "disputeResolution": "Riitatilanteessa suosittelemme ensisijaisesti ottamaan yhteyttä meihin ongelman ratkaisemiseksi sovinnollisesti. Usein ongelmat voidaan ratkaista tukitiimimme avulla ilman oikeustoimia."
+    },
+    "changesToTerms": {
+      "title": "Ehtojen muutokset",
+      "notice": "Saatamme ajoittain päivittää tai muuttaa näitä Ehtoja. Jos teemme olennaisia muutoksia, ilmoitamme niistä sinulle sopivalla tavalla, esimerkiksi sähköpostitse tai julkaisemalla ilmoituksen Palvelussa, ennen muutosten voimaantuloa. Ilmoituksessa kerrotaan pääpiirteittäin, mitä muutoksia on tulossa, ja annetaan ajankohta, jolloin päivitetyt ehdot tulevat voimaan.",
+      "optOut": "Jos et hyväksy päivitettyjä ehtoja, sinulla on oikeus lopettaa Palvelun käyttö ja peruuttaa mahdollinen tilauksesi ennen muutosten voimaantuloa. Mikäli kuitenkin jatkat Palvelun käyttöä sen jälkeen, kun uudet ehdot ovat tulleet voimaan, katsomme sinun hyväksyneen päivitetyt ehdot.",
+      "lastUpdated": "“Viimeksi päivitetty” -päivämäärä näiden Ehtojen alussa tai yhteydessä osoittaa, milloin näitä ehtoja on viimeksi muokattu. Kehotamme sinua tarkistamaan ehdot aika ajoin pysyäksesi tietoisena mahdollisista muutoksista."
+    },
+
+    "contactInformation": {
+      "title": "Yhteystiedot",
+      "description": "Tämän Palvelun tarjoaa Vesko Ltd, Suomessa rekisteröity yritys. Jos sinulla on kysymyksiä, huolenaiheita tai palautetta näihin Ehtoihin tai Palveluun liittyen, voit ottaa meihin yhteyttä seuraavasti:",
+      "email": "Sähköposti: info@vesko.fi",
+      "address": "Postiosoite: Vesko Ltd, Joensuu Suomi.",
+      "response": "Pyrimme vastaamaan kaikkiin yhteydenottoihin viipymättä. Palautteesi ja kysymyksesi ovat meille tärkeitä – käytämme niitä parantaaksemme Palvelua ja ratkaistaksemme mahdolliset ongelmat parhaalla mahdollisella tavalla."
+    }
   }
 }
