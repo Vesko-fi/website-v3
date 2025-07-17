@@ -2,6 +2,7 @@ import { FreeTrialEarlyAccess } from "./FreeTrialEarlyAccess";
 import { Introduction } from "./Introduction";
 import { PlansAndSubscriptions } from "./PlansAndSubscriptions";
 import { ServiceDescription } from "./ServiceDescription";
+import { ThirdPartyServices } from "./ThirdPartyServicesIntegration";
 import { UserDataAndPrivacy } from "./UserDataPrivacy";
 
 import { Container } from "@/shared/components/ui/container";
@@ -16,6 +17,7 @@ const ServiceTerms = () => {
         <FreeTrialEarlyAccess />
         <PlansAndSubscriptions />
         <UserDataAndPrivacy />
+        <ThirdPartyServices />
       </Container>
     </Section>
   );
