@@ -68,7 +68,7 @@ const MainSection = () => {
 
       setDynamicMargins({
         mt: isMobile ? 10 + vh * 0.05 : 0,
-        mb: isMobile ? extra / 3 : 0,
+        mb: isMobile ? extra/2  : 0,
       });
     }
     updateMargins();
@@ -77,7 +77,7 @@ const MainSection = () => {
   }, []);
 
   return (
-    <div className='relative mt-20 w-full overflow-hidden sm:mt-0'>
+    <div className='relative mt-20 w-full overflow-hidden sm:mt-0 '>
       <div className='from-accent-700 to-accent-700 absolute inset-0 z-0 bg-gradient-to-b' />
 
       <div
@@ -168,8 +168,8 @@ const MainSection = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 1.2 }}
-        className='absolute bottom-8 left-1/2 z-20 -translate-x-1/2'
-      >
+        className='absolute bottom-12 left-1/2 z-20 -translate-x-1/2 sm:bottom-8'
+        >
         <motion.div
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
