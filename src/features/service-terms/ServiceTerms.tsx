@@ -1,8 +1,11 @@
 import { CancellationAndTermination } from "./CancellationAndTermination";
+import { ChangesToTerms } from "./ChangesToTerms";
+import { ContactInformation } from "./ContactInformation";
 import { DisclaimersAndLiability } from "./DisclaimersAndLiability";
 import { EarlyAccessBetaDesclaimer } from "./EarlyAccessBetaDesclaimer";
 import { FeesAndPayments } from "./FeesAndPayments";
 import { FreeTrialEarlyAccess } from "./FreeTrialEarlyAccess";
+import { GoverningLaw } from "./GoverningLaw";
 import { IntellectualPropertyRights } from "./IntellectualPropertyRights";
 import { Introduction } from "./Introduction";
 import { PlansAndSubscriptions } from "./PlansAndSubscriptions";
@@ -30,6 +33,9 @@ const ServiceTerms = () => {
         <CancellationAndTermination />
         <IntellectualPropertyRights />
         <DisclaimersAndLiability />
+        <GoverningLaw />
+        <ChangesToTerms />
+        <ContactInformation />
       </Container>
     </Section>
   );

@@ -1275,6 +1275,30 @@
         "title": "Time Limit for Claims",
         "description": "You agree that any claim arising from the Service must be brought within one (1) year from the event giving rise to the claim. Otherwise, such a claim is permanently barred. (This time limit may not apply in certain jurisdictions which do not allow shortening of statutory limitation periods.)"
       }
+    },
+
+    "governingLaw": {
+      "title": "Governing Law and Jurisdiction",
+      "law": "These Terms and any dispute or claim arising out of or in connection with them or the Service shall be governed by and construed in accordance with the laws of Finland, without regard to its conflict of law principles.\n\nBy using the Service, you agree that the laws of Finland will govern any disputes.",
+      "consumerRights": "If you are a consumer residing in the EU, you may have additional rights or protections under mandatory consumer protection laws; nothing in these Terms will reduce your rights under those laws.",
+      "jurisdiction": {
+        "title": "Jurisdiction",
+        "text": "Any disputes arising from or related to these Terms or the Service that cannot be resolved amicably will be subject to the exclusive jurisdiction of the courts of Finland. We currently designate the courts of Helsinki, Finland (where Vesko Ltd. is based) as the venue for resolving legal disputes. However, we reserve the right to seek injunctive relief or enforce judgments in any competent court worldwide if necessary (for example, to protect our intellectual property rights)."
+      },
+      "disputeResolution": "In the event of a dispute, we strongly encourage you to contact us first to attempt to resolve the issue informally. Often, issues can be resolved through our support team without resorting to legal action."
+    },
+    "changesToTerms": {
+      "title": "Changes to These Terms",
+      "notice": "We may update or revise these Terms from time to time. If we make material changes, we will give you notice by appropriate means, such as by email or by posting a prominent notice within the Service, prior to the change becoming effective. The notice will include a summary of the changes and the date they take effect.",
+      "optOut": "If you do not agree to the revised Terms, you have the right to stop using the Service and cancel any subscription before the changes apply. If you continue to use the Service after the effective date of the updated Terms, that use constitutes your acceptance of the new Terms.",
+      "lastUpdated": "The “Last Updated” date at the top of the Terms (or indicated in the document) will indicate when the latest changes were made. We encourage you to review the Terms periodically to stay informed about any updates."
+    },
+    "contactInformation": {
+      "title": "Contact Information",
+      "description": "The Service is provided by Vesko Ltd., a company organized under the laws of Finland. If you have any questions, concerns, or feedback about these Terms or the Service, please contact us:",
+      "email": "Email: info@vesko.fi",
+      "address": "Address: Vesko Ltd. Joensuu, Finland.",
+      "response": "We will do our best to respond to all inquiries in a timely manner. Your feedback and questions are important to us, and we will use them to improve our Service and address any issues."
     }
   }
 }

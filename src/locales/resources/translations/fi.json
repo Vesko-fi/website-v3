@@ -1295,6 +1295,31 @@
         "title": "Vaatimusten esittämisen aikaraja",
         "description": "Suostut siihen, että kaikki Palvelun käyttöön liittyvät vaatimukset on esitettävä yhden (1) vuoden kuluessa siitä tapahtumasta, johon vaatimus perustuu. Muutoin vaatimus katsotaan lopullisesti rauenneeksi. (Huomioithan, että tämä aikaraja ei välttämättä päde tietyillä lainkäyttöalueilla, jotka eivät salli sopimusperusteista kanneaikojen lyhentämistä.)"
       }
+    },
+
+    "governingLaw": {
+      "title": "Sovellettava laki ja toimivalta",
+      "law": "Nämä ehdot ja niihin liittyvät riidat tai vaatimukset, jotka johtuvat näistä ehdoista tai palvelusta, määräytyvät ja tulkitaan Suomen lakien mukaisesti ottaen huomioon lainvalintasäännökset.\n\nPalvelua käyttämällä hyväksyt, että Suomen lait ohjaavat kaikkia riitoja.",
+      "consumerRights": "Jos olet EU:ssa asuva kuluttaja, sinulla saattaa olla lisäoikeuksia tai suojaa pakollisten kuluttajansuojalakien nojalla; mikään näissä ehdoissa ei rajoita näitä oikeuksia.",
+      "jurisdiction": {
+        "title": "Toimivalta",
+        "text": "Kaikki näihin ehtoihin tai palveluun liittyvät riidat, joita ei pystytä ratkaisemaan sovinnollisesti, kuuluvat Suomen tuomioistuinten yksinomaisen toimivallan piiriin. Olemme valinneet riitojen ratkaisupaikaksi Helsingin tuomioistuimet (missä Vesko Ltd. sijaitsee). Pidätämme kuitenkin oikeuden hakea oikeudellisia toimenpiteitä tai täytäntöönpanoa missä tahansa pätevässä tuomioistuimessa maailmanlaajuisesti, jos tarpeen (esim. immateriaalioikeuksiemme suojaamiseksi)."
+      },
+      "disputeResolution": "Riitatilanteessa suosittelemme ensisijaisesti ottamaan yhteyttä meihin ongelman ratkaisemiseksi sovinnollisesti. Usein ongelmat voidaan ratkaista tukitiimimme avulla ilman oikeustoimia."
+    },
+    "changesToTerms": {
+      "title": "Ehtojen muutokset",
+      "notice": "Saatamme ajoittain päivittää tai muuttaa näitä Ehtoja. Jos teemme olennaisia muutoksia, ilmoitamme niistä sinulle sopivalla tavalla, esimerkiksi sähköpostitse tai julkaisemalla ilmoituksen Palvelussa, ennen muutosten voimaantuloa. Ilmoituksessa kerrotaan pääpiirteittäin, mitä muutoksia on tulossa, ja annetaan ajankohta, jolloin päivitetyt ehdot tulevat voimaan.",
+      "optOut": "Jos et hyväksy päivitettyjä ehtoja, sinulla on oikeus lopettaa Palvelun käyttö ja peruuttaa mahdollinen tilauksesi ennen muutosten voimaantuloa. Mikäli kuitenkin jatkat Palvelun käyttöä sen jälkeen, kun uudet ehdot ovat tulleet voimaan, katsomme sinun hyväksyneen päivitetyt ehdot.",
+      "lastUpdated": "“Viimeksi päivitetty” -päivämäärä näiden Ehtojen alussa tai yhteydessä osoittaa, milloin näitä ehtoja on viimeksi muokattu. Kehotamme sinua tarkistamaan ehdot aika ajoin pysyäksesi tietoisena mahdollisista muutoksista."
+    },
+
+    "contactInformation": {
+      "title": "Yhteystiedot",
+      "description": "Tämän Palvelun tarjoaa Vesko Ltd, Suomessa rekisteröity yritys. Jos sinulla on kysymyksiä, huolenaiheita tai palautetta näihin Ehtoihin tai Palveluun liittyen, voit ottaa meihin yhteyttä seuraavasti:",
+      "email": "Sähköposti: info@vesko.fi",
+      "address": "Postiosoite: Vesko Ltd, Joensuu Suomi.",
+      "response": "Pyrimme vastaamaan kaikkiin yhteydenottoihin viipymättä. Palautteesi ja kysymyksesi ovat meille tärkeitä – käytämme niitä parantaaksemme Palvelua ja ratkaistaksemme mahdolliset ongelmat parhaalla mahdollisella tavalla."
     }
   }
 }
