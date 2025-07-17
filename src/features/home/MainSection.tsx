@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import { Container } from "@/shared/components/ui/container";
 import { Text } from "@/shared/components/ui/text";
 import { Assets } from "@/shared/constants/assets";
+import { useEffect, useState } from "react";
 
 const MainSection = () => {
   const { t } = useTranslation();
@@ -57,6 +58,25 @@ const MainSection = () => {
   //   },
   // };
 
+  const [dynamicMargins, setDynamicMargins] = useState({ mt: 0, mb: 0 });
+
+  useEffect(() => {
+    function updateMargins() {
+      const isMobile = window.innerWidth < 640;
+      const vh = window.innerHeight;
+      const extra = Math.max(0, vh - 600);
+      
+      setDynamicMargins({
+        mt: isMobile ? 10 + vh * 0.05  : 0,
+        mb: isMobile ?  extra / 3 : 0
+      });
+    }
+    updateMargins();
+    window.addEventListener("resize", updateMargins);
+    return () => window.removeEventListener("resize", updateMargins);
+  }, []);
+  
+  console.log("Dynamic Margins:", dynamicMargins);
   return (
     <div className='relative w-full overflow-hidden mt-20 sm:mt-0'>
       <div className='absolute inset-0 z-0 bg-gradient-to-b from-accent-700 to-accent-700' />
@@ -106,7 +126,7 @@ const MainSection = () => {
       </div>
 */}
       {/* Content container aligned left */}
-      <div className='flex min-h-[calc(100vh-40px)] flex-col justify-end sm:justify-start items-start px-4 py-8 shadow sm:px-6 lg:px-8'>
+      <div className='flex min-h-[calc(100vh-40px)] flex-col justify-end sm:justify-start items-start px-4 py-10 shadow sm:px-6 lg:px-8'>
       <Container className='relative z-10'>
           <div className='relative overflow-hidden py-8 md:w-[540px] xl:py-0'>
             <div className='xl:from-accent-400/10 absolute inset-0 rounded-2xl xl:bg-gradient-to-br xl:to-black/20' />
@@ -122,7 +142,7 @@ const MainSection = () => {
                 <Text
                   as='h1'
                   variant='heading'
-                  className='mb-6 text-4xl font-bold text-white md:text-5xl lg:text-7xl xl:text-5xl'
+                  className=' text-4xl font-bold text-white md:text-5xl lg:text-7xl xl:text-5xl'
                 >
                   {t("home.main.title")}
                 </Text>
@@ -131,7 +151,11 @@ const MainSection = () => {
               {/* Subtitle as flex-col aligned right */}
               <motion.div
                 variants={subtitleVariants}
-                className='sm:mb-8 flex text-lg text-white md:text-2xl'
+                className='sm:mb-8  sm:mt-6 flex text-lg text-white md:text-2xl'
+                style={{
+                  marginTop: dynamicMargins.mt > 0 ? `${dynamicMargins.mt}px` : undefined,
+                  marginBottom: dynamicMargins.mb > 0 ? `${dynamicMargins.mb}px` : undefined,
+                }}
               >
                 {t("home.main.subtitle")}
               </motion.div>
