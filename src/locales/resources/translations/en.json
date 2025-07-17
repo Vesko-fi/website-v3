@@ -1180,6 +1180,101 @@
       "user_conduct.title": "User Conduct",
       "user_conduct.description": "You agree to behave respectfully towards other users and our staff. Harassment, hate speech, or other inappropriate conduct on the platform will not be tolerated and can result in suspension or termination of your account.",
       "terms_violation_consequences.description": "If you violate any of the above rules or any other provision of these Terms, we may take action against your account, including warnings, suspension, or termination of service, as described in the Termination section below."
+    },
+    "earlyAccessDisclaimer": {
+      "title": "Early Access and Beta Testing Disclaimer",
+      "point_1": "Users who are given early access to the Service (such as those registering before official launch in the beta testing phase) acknowledge that the Service is in a pre-release state. The Service provided during this beta/early access period is on an “as is” basis without any guarantees of full functionality or performance. Features may be incomplete or subject to change, and you may encounter bugs or errors.",
+      "point_2": "We appreciate any feedback or suggestions from early access users. By providing feedback, you agree that we may freely use, incorporate, or adapt your feedback into our Service without any compensation or obligation to you. Providing feedback is entirely voluntary, and while we value it, we make no guarantee that we will implement any given suggestion.",
+      "point_3": "During the testing phase, we may contact early access users with surveys or bug reports to gather information on issues and user experience. Participation in such feedback requests is optional but helps us improve the Service for everyone.",
+      "point_4": "We reserve the right to modify, limit, or terminate the early access program at any time. For example, we may shut down the Service temporarily to deploy improvements or we may end the beta phase when we launch the full Service. In some cases (though we will try to avoid it), data generated during the beta phase might be reset or wiped as we finalize the platform. We will communicate if any major resets are planned.",
+      "point_5": "All the terms and conditions in this agreement apply to your use of the Service during the early access period as well. However, certain features or sections of these Terms may not fully apply until the Service is fully launched (for instance, billing terms apply once the Service starts charging fees). Early access users must still abide by all usage rules and acknowledge the limitations of a beta service."
+    },
+    "feesAndPayments": {
+      "title": "Fees and Payments",
+      "trial": {
+        "title": "No Fees During Trial",
+        "description": "During the three-month/one-month Free Trial period, the Service is provided to you at no cost. You will not be charged any fees during this trial."
+      },
+      "subscriptionFees": {
+        "title": "Subscription Fees",
+        "description": "After the Free Trial, if you choose to continue using the Service, you must pay the applicable subscription fees for the plan you select. Subscription fees and billing periods (monthly, yearly, etc.) are as listed for each plan. All pricing will be clearly communicated to you (e.g., on our website or in the app) when you select a plan."
+      },
+      "paymentMethod": {
+        "title": "Payment Method",
+        "description": "You may be required to provide a payment method (such as a credit card) when signing up or before the Free Trial ends. By providing a payment method, you authorize us (and our payment processor, Stripe) to charge the applicable subscription fees to that method when they become due. If the Service offers multiple payment options (like credit card, PayPal, etc.), you can choose your preferred method, and the same authorization applies."
+      },
+      "billingCycle": {
+        "title": "Billing Cycle",
+        "description": "The subscription fee will be charged in advance on the first day of each billing cycle. For example, if you are on a monthly plan, you will be charged at the beginning of each month for that month. If on an annual plan, you pay at the start of each year for the upcoming year. We will email you a receipt or have it available in your account for each payment."
+      },
+      "taxes": {
+        "title": "Taxes",
+        "description": "Our fees do not include any applicable taxes unless otherwise stated. If any value-added tax (VAT), sales tax, or similar tax is applicable, it may be added to the charges if required by law. We will clearly list any such taxes on your billing statement where applicable."
+      },
+      "prorations": {
+        "title": "Prorations",
+        "description": "If you upgrade your plan in the middle of a billing cycle, you may be charged a prorated amount for the difference in plan cost for the remainder of that cycle, or the upgrade may take immediate effect with appropriate billing adjustments. If you downgrade, the change will typically take effect next cycle as noted, so no immediate refund is issued for downgrades; instead, the lower price applies on your next renewal."
+      },
+      "failedPayments": {
+        "title": "Failed Payments",
+        "description": "If a subscription payment fails (for example, due to an expired or declined credit card), we will attempt to notify you (e.g., via email). We may retry the charge within a short period. If the payment continues to fail, we may suspend your account access until you update your payment information and the charges are successfully processed. You are responsible for keeping your billing information current and ensuring sufficient funds for subscription charges."
+      },
+      "priceChanges": {
+        "title": "Price Changes",
+        "description": "We may change the subscription fees for the Service in the future. If we do, we will give you at least advance notice (for example, 30 days’ notice via email or displayed in the Service) of new rates that will apply. Fee changes will not affect the current billing period you’ve already paid for; they would take effect upon renewal. If you do not agree to a price change, you may cancel your subscription before the new rate takes effect. Continuing to use the Service after the price change goes into effect constitutes acceptance of the new pricing."
+      }
+    },
+    "cancellationAndTermination": {
+      "title": "Cancellation and Termination",
+      "point_1": "Your Right to Cancel: You have the right to cancel your subscription at any time. You can do this through your account settings or by contacting our customer support.",
+      "point_2": "If you cancel during the Free Trial, your account will remain active for the remainder of the trial period but will not convert to a paid subscription. You will not be charged any fees. After the trial ends, your access to the Service will be terminated unless you reactivate with a paid plan.",
+      "point_3": "If you cancel a paid subscription, the cancellation will take effect at the end of your current billing period. You will not be billed for subsequent periods, but we also do not provide refunds for any unused portion of the current paid period (unless required by law or explicitly stated otherwise). For example, if you are billed monthly and you cancel in the middle of a month, you will retain access until the end of that month which has been paid for, and then the service will terminate without further charges.",
+      "point_4_title": "Termination by Vesko Ltd.",
+      "point_4_description": "We reserve the right to suspend or terminate your account and access to the Service under certain circumstances:",
+      "point_4_bullet_1": "If you violate these Terms or use the Service in a way that is clearly unlawful or harmful, we may suspend your access or terminate your account. In most cases of a breach of these Terms, we will provide you with a warning or notice and an opportunity to correct the issue (if it’s something that can be corrected) before termination.",
+      "point_4_bullet_2": "However, for serious violations (for example, fraud, abuse, harassment of other users, or actions that threaten the security of the Service or others’ data), we may suspend or terminate your account immediately without notice.",
+      "point_4_bullet_3": "We may also suspend or terminate the Service if required by law or if continued provision of the Service to you becomes impractical or impossible (for instance, due to extreme technical issues or discontinuation of the service offering).",
+      "point_5": "If we terminate your account and/or this agreement, we will notify you of the reason for termination, unless legally prohibited from doing so. Upon termination by us (other than for serious cause), we may refund any prepaid amounts covering the period after termination on a pro-rata basis, if applicable. (No refunds are given for termination with cause due to your breach of Terms.)",
+      "point_6": "Effect of Termination: Upon cancellation or termination of your account, your right to use the Service will cease. We will disable your account and you will lose access to any data or content stored in your account. Data Retention: After termination, we have no obligation to maintain your data (and we will typically delete it from active systems within a reasonable time frame), except as otherwise required by law or permitted by our Privacy Policy. It is your responsibility to back up any data that you have stored on the Service that you may need in the future.",
+      "point_7": "Sections of these Terms which by their nature should survive termination (such as provisions on intellectual property, disclaimers, liability limitations, and governing law) will remain in effect even after your access to the Service is terminated."
+    },
+    "intellectualPropertyRights": {
+      "title": "Intellectual Property Rights",
+      "point_1_title": "Ownership",
+      "point_1_description": "All rights, title, and interest in and to the Service (including all content, software, code, data, graphics, logos, trademarks, and any materials provided through the Service) are and will remain the property of Vesko Ltd. or its licensors. The Service and its content are protected by copyright, trademark, and other intellectual property laws.",
+      "point_2": "You are granted a limited, non-exclusive, non-transferable, revocable license to access and use the Service for your personal or internal business use, strictly in accordance with these Terms. This license does not give you any ownership of any intellectual property rights in our Service or content.",
+      "point_3": "You agree not to copy, distribute, modify, create derivative works from, publicly perform, publicly display, or otherwise exploit any part of the Service or its content, except as explicitly allowed by us or by law. For example, you must not reverse engineer or decompile the Service’s software, nor remove any copyright or trademark notices.",
+      "point_4": "Any feedback, suggestions, or ideas you provide to us regarding the Service are entirely voluntary, and you agree that Vesko Ltd. may use such feedback and ideas without any restriction or compensation to you. This helps us improve the Service.",
+      "point_5_title": "Your Content",
+      "point_5_description": "You retain all rights to any content or data you upload or submit through the Service (for example, messages you send, files you upload, information you input). However, by using the Service and uploading content, you grant us a worldwide, royalty-free, sublicensable license to use, host, store, reproduce and display your content solely for the purpose of operating and improving the Service. We will only access and use your content as needed to provide the Service (for example, to back it up, display it to you and any recipients you designate, etc.), and as otherwise permitted by our Privacy Policy.",
+      "point_6": "We do not claim ownership of your content, and these Terms do not give us any rights to your content except for the limited rights that are necessary to run the Service."
+    },
+    "disclaimersAndLiability": {
+      "title": "Disclaimers and Limitation of Liability",
+      "noWarranties": {
+        "title": "No Warranties",
+        "description": "The Service is provided on an “as is” and “as available” basis. While we strive to provide a high-quality service, we do not guarantee that the Service will be uninterrupted, error-free, or suitable for your particular purposes. All warranties, whether express or implied, are disclaimed to the fullest extent permitted by law, including implied warranties of merchantability, fitness for a particular purpose, and non-infringement. For example, we do not make promises that the Service will meet all of your requirements, or that it will be compatible with all devices or free from viruses. (Some jurisdictions do not allow the disclaimer of certain warranties, so some of these disclaimers may not apply to you to the extent prohibited by law.)"
+      },
+      "betaPhase": {
+        "title": "Beta Phase",
+        "description": "You specifically acknowledge that if you are using the Service during an early access or beta trial period, the Service may have defects and using it involves inherent risks. Any beta features are provided without any warranty whatsoever."
+      },
+      "limitationOfLiability": {
+        "title": "Limitation of Liability",
+        "description": "To the extent permitted by applicable law, Vesko Ltd. (including its officers, directors, employees, and agents) will not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits, revenue, business opportunity, data, goodwill, or other intangible losses. This limitation applies whether the claim is based on warranty, contract, tort (including negligence), or any other legal theory, even if we have been advised of the possibility of such damages."
+      },
+      "cumulativeLiability": {
+        "title": "Cumulative Liability Cap",
+        "description": "To the extent permitted by law, the total cumulative liability of Vesko Ltd. for any claims arising out of or relating to the Service or these Terms, regardless of the form of the action, shall not exceed the amount you have paid to us for the Service in the last twelve (12) months, or one hundred Euros (€100), whichever is greater. This is the aggregate limit for all claims of any kind."
+      },
+      "exceptions": {
+        "title": "Exceptions",
+        "description": "Nothing in these Terms shall limit or exclude our liability for gross negligence, willful misconduct, or for death or personal injury caused by our negligence, or any other liability that cannot be excluded by law. Additionally, because some jurisdictions do not allow the exclusion or limitation of certain damages, in those jurisdictions our liability will be limited to the maximum extent permitted by law."
+      },
+      "claimTimeLimit": {
+        "title": "Time Limit for Claims",
+        "description": "You agree that any claim arising from the Service must be brought within one (1) year from the event giving rise to the claim. Otherwise, such a claim is permanently barred. (This time limit may not apply in certain jurisdictions which do not allow shortening of statutory limitation periods.)"
+      }
     }
   }
 }
