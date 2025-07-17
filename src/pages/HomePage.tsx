@@ -7,13 +7,11 @@ import { MiddleHeroSection } from "@/features/home/MiddleHeroSection";
 import { SocializeSection } from "@/features/home/SocializeSection";
 import { UnboxingVideo } from "@/features/home/UnboxingVideo";
 import { VeskoSection } from "@/features/home/VeskoSection";
-import ServiceTerms from "@/features/service-terms/ServiceTerms";
 import { CTASection } from "@/shared/components/common/CTASection";
 
 const HomePage = () => {
   return (
     <div className='relative -top-18'>
-      <ServiceTerms />
       <MainSection />
       <HeroSection />
       <FeaturesSection />
