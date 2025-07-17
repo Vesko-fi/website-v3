@@ -19,11 +19,11 @@ const UserDataAndPrivacy = () => {
           {t("serviceTerms.privacy.point_3")}
           <ul className='mt-2 list-disc space-y-2 pl-8'>
             <li>
-              <strong>{t("serviceTerms.privacy.point_3_nshift_title")}:</strong>{" "}
+              <strong>{t("serviceTerms.privacy.point_3_nshift_title")}:</strong>
               {t("serviceTerms.privacy.point_3_nshift_description")}
             </li>
             <li>
-              <strong>{t("serviceTerms.privacy.point_3_stripe_title")}:</strong>{" "}
+              <strong>{t("serviceTerms.privacy.point_3_stripe_title")}:</strong>
               {t("serviceTerms.privacy.point_3_stripe_description")}
             </li>
           </ul>

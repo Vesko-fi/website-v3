@@ -3,6 +3,7 @@ import { Introduction } from "./Introduction";
 import { PlansAndSubscriptions } from "./PlansAndSubscriptions";
 import { ServiceDescription } from "./ServiceDescription";
 import { ThirdPartyServices } from "./ThirdPartyServicesIntegration";
+import { UserAccountResponsibilities } from "./UserAccountResponsibility";
 import { UserDataAndPrivacy } from "./UserDataPrivacy";
 
 import { Container } from "@/shared/components/ui/container";
@@ -18,6 +19,7 @@ const ServiceTerms = () => {
         <PlansAndSubscriptions />
         <UserDataAndPrivacy />
         <ThirdPartyServices />
+        <UserAccountResponsibilities />
       </Container>
     </Section>
   );
