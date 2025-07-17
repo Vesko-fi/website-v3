@@ -36,12 +36,12 @@ const MainSection = () => {
     },
   };
 
-  const floatingElementVariants = {
-    animate: {
-      y: [0, -10, 0],
-      transition: { duration: 3, repeat: Infinity, ease: "easeInOut" },
-    },
-  };
+  // const floatingElementVariants = {
+  //   animate: {
+  //     y: [0, -10, 0],
+  //     transition: { duration: 3, repeat: Infinity, ease: "easeInOut" },
+  //   },
+  // };
 
   return (
     <div className='bg-accent-700 relative mt-20 h-screen w-full overflow-hidden sm:mt-0'>
