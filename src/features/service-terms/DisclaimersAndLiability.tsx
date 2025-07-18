@@ -35,14 +35,20 @@ const DisclaimersAndLiability = () => {
 
   return (
     <Container>
-      <Text variant='heading'>{t("serviceTerms.disclaimersAndLiability.title")}</Text>
-      <ul className='mt-4 list-disc space-y-4 pl-6 text-sm xl:text-base'>
-        {points.map(({ title, description }, index) => (
-          <li key={index}>
-            <strong>{title}:</strong> {description}
-          </li>
+      <Text variant={"heading"} className='text-xl lg:text-2xl xl:text-3xl'>
+        {t("serviceTerms.disclaimersAndLiability.title")}
+      </Text>
+      <div className='my-4 space-y-6'>
+        {points.map((point, index) => (
+          <div key={index} className='flex gap-4'>
+            <ul className='list-disc text-base'>
+              <li>
+                <strong>{point.title}</strong>: {point.description}
+              </li>
+            </ul>
+          </div>
         ))}
-      </ul>
+      </div>
     </Container>
   );
 };

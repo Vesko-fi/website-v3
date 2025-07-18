@@ -38,8 +38,10 @@ const UserDataAndPrivacy = () => {
 
   return (
     <Container>
-      <Text variant='heading'>{t("serviceTerms.privacy.title")}</Text>
-      <ul className='my-4 list-disc space-y-4 pl-6 text-start'>
+      <Text variant={"heading"} className='text-xl lg:text-2xl xl:text-3xl'>
+        {t("serviceTerms.privacy.title")}
+      </Text>
+      <ul className='my-4 list-disc space-y-4 text-start'>
         {sections.map((section, index) => (
           <li key={index}>{section.content}</li>
         ))}

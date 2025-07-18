@@ -8,9 +8,10 @@ const ChangesToTerms = () => {
 
   return (
     <Container>
-      <Text variant='heading'>{t("serviceTerms.changesToTerms.title")}</Text>
-
-      <ul className='my-4 list-disc space-y-4 pl-6 text-start text-sm xl:text-base'>
+      <Text variant={"heading"} className='text-xl lg:text-2xl xl:text-3xl'>
+        {t("serviceTerms.changesToTerms.title")}
+      </Text>
+      <ul className='my-4 list-disc space-y-6 text-base'>
         <li>{t("serviceTerms.changesToTerms.notice")}</li>
         <li>{t("serviceTerms.changesToTerms.optOut")}</li>
         <li>{t("serviceTerms.changesToTerms.lastUpdated")}</li>

@@ -19,16 +19,16 @@ const ThirdPartyServices = () => {
 
   return (
     <Container>
-      <Text variant='heading'>{t("serviceTerms.thirdPartyServices.title")}</Text>
-      <div className='my-4'>
-        <ul className='list-disc text-start'>
-          {sections.map((section, index) => (
-            <div key={index} className='my-2'>
-              <li className='text-sm xl:text-base'>{t(section.text)}</li>
-            </div>
-          ))}
-        </ul>
-      </div>
+      <Text variant={"heading"} className='text-xl lg:text-2xl xl:text-3xl'>
+        {t("serviceTerms.thirdPartyServices.title")}
+      </Text>
+      <ul className='my-4 list-disc space-y-4 text-start'>
+        {sections.map((section, index) => (
+          <div key={index} className='my-2'>
+            <li className='text-sm xl:text-base'>{t(section.text)}</li>
+          </div>
+        ))}
+      </ul>
     </Container>
   );
 };

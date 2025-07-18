@@ -26,7 +26,9 @@ const CancellationAndTermination = () => {
 
   return (
     <Container>
-      <Text variant='heading'>{t("serviceTerms.cancellationAndTermination.title")}</Text>
+      <Text variant={"heading"} className='text-xl lg:text-2xl xl:text-3xl'>
+        {t("serviceTerms.cancellationAndTermination.title")}
+      </Text>
 
       <div className='my-4'>
         <ul className='list-disc text-start'>
@@ -38,12 +40,15 @@ const CancellationAndTermination = () => {
         </ul>
       </div>
 
-      <Text variant='heading' className='mt-6'>
-        {t("serviceTerms.cancellationAndTermination.point_4_title")}
-      </Text>
-      <p className='my-2 text-sm xl:text-base'>
+      <span className='my-2 text-sm xl:text-base'>
+        {" "}
+        {t("serviceTerms.cancellationAndTermination.point_4_title")},
+      </span>
+      <span className='my-2 text-sm xl:text-base'>
+        {" "}
         {t("serviceTerms.cancellationAndTermination.point_4_description")}
-      </p>
+      </span>
+
       <ul className='list-disc pl-6 text-start'>
         {terminationBullets.map((bullet, idx) => (
           <li key={idx} className='my-1 text-sm xl:text-base'>

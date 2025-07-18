@@ -9,4 +9,5 @@ export const ROUTE_PATHS = {
   onlineVendors: { en: "online-vendors", fi: "online-kauppiaat" },
   privacyPolicy: { en: "privacy-policy", fi: "Tietosuojakäytäntö" },
   paymentLogistic: { en: "payment-logistics", fi: "maksu-logistiikka" },
+  serviceTerms: { en: "service-terms", fi: "palveluehdot" },
 } as const;

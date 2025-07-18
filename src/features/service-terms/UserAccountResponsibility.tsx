@@ -59,7 +59,7 @@ const UserAccountResponsibilities = () => {
 
   return (
     <Container>
-      <Text variant='heading'>
+      <Text variant={"heading"} className='text-xl lg:text-2xl xl:text-3xl'>
         {t("serviceTerms.userAccountResponsibilities.user_accounts.title")}
       </Text>
       <ul className='my-4 list-disc space-y-4 text-start'>
