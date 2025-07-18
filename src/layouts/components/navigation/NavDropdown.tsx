@@ -7,9 +7,10 @@ import { RemixIcons } from "@/shared/constants/icons";
 interface NavDropdownProps {
   item: NavigationItem;
   isMobile?: boolean;
+  onClose?: () => void;
 }
 
-const NavDropdown: React.FC<NavDropdownProps> = ({ item, isMobile = false }) => {
+const NavDropdown: React.FC<NavDropdownProps> = ({ item, isMobile = false, onClose }) => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleDropdown = () => setIsOpen((prev) => !prev);
 
@@ -37,6 +38,7 @@ const NavDropdown: React.FC<NavDropdownProps> = ({ item, isMobile = false }) => 
             {...subItem}
             variant='desktop'
             className='w-full justify-start rounded-none decoration-0 hover:bg-neutral-100'
+            onClick={onClose}
           />
         ))}
       </div>

@@ -1,6 +1,6 @@
 import { cva, type VariantProps } from "class-variance-authority";
 import { useTranslation } from "react-i18next";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 import type { NavigationItem } from "@/layouts/navigation.types";
 import type { SupportedLanguages } from "@/locales/i18n.config";
@@ -50,10 +50,11 @@ const NavItem: React.FC<NavItemProps> = ({
 }) => {
   const { t, i18n } = useTranslation();
   const localizedPath = getLocalizedPath(routeKey, i18n.language as SupportedLanguages);
+  const navigate = useNavigate();
 
   return (
     <NavLink
-      to={onClick ? "#" : localizedPath}
+      to='#'
       end
       className={({ isActive }) =>
         cn(
@@ -61,7 +62,13 @@ const NavItem: React.FC<NavItemProps> = ({
           className
         )
       }
-      onClick={onClick && onClick}
+      onClick={(e) => {
+        e.preventDefault();
+        onClick?.();
+        setTimeout(() => {
+          navigate(localizedPath);
+        }, 0);
+      }}
     >
       <span className='relative inline-flex flex-col overflow-hidden'>
         <span className='transition-smooth transform'>{t(label)}</span>

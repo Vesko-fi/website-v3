@@ -36,16 +36,22 @@ const IntellectualPropertyRights = () => {
 
   return (
     <Container>
-      <Text variant='heading'>{t("serviceTerms.intellectualPropertyRights.title")}</Text>
+      <Text variant={"heading"} className='text-xl lg:text-2xl xl:text-3xl'>
+        {t("serviceTerms.intellectualPropertyRights.title")}
+      </Text>
 
-      <ul className='mt-4 list-disc space-y-4 pl-6 text-start text-sm xl:text-base'>
+      <div className='my-4 space-y-6'>
         {points.map((point, index) => (
-          <li key={index}>
-            {point.title && <strong>{point.title}: </strong>}
-            {point.description ?? point.text}
-          </li>
+          <div key={index} className='flex gap-4'>
+            <ul className='list-disc text-base'>
+              <li>
+                {point.title && <strong>{point.title}: </strong>}
+                {point.description ?? point.text}
+              </li>
+            </ul>
+          </div>
         ))}
-      </ul>
+      </div>
     </Container>
   );
 };

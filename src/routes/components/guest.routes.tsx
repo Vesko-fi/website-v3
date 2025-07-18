@@ -4,6 +4,7 @@ import type { RouteObject } from "react-router-dom";
 import { RootRedirect } from "./RootRedirect";
 
 import { SUPPORTED_LANGUAGES } from "@/locales/i18n.config";
+import ServiceTermsPage from "@/pages/ServiceTermsPage";
 import { ROUTE_PATHS } from "@/routes/constants/route-paths";
 
 const HomePage = lazy(() => import("@/pages/HomePage"));
@@ -58,6 +59,10 @@ export const GuestRoutes = (): RouteObject[] => {
           {
             path: ROUTE_PATHS.paymentLogistic[lang],
             element: <PaymentAndLogisticsPage />,
+          },
+          {
+            path: ROUTE_PATHS.serviceTerms[lang],
+            element: <ServiceTermsPage />,
           },
           {
             path: "*",

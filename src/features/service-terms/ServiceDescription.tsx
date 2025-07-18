@@ -22,7 +22,9 @@ const ServiceDescription = () => {
   ];
   return (
     <Container>
-      <Text variant={"heading"}>{t("serviceTerms.serviceDescription.title")}</Text>
+      <Text variant={"heading"} className='text-xl lg:text-2xl xl:text-3xl'>
+        {t("serviceTerms.serviceDescription.title")}
+      </Text>
       <div className='my-4'>
         <ul className='list-disc text-start'>
           {options.map((option, index) => {

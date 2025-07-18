@@ -3,22 +3,41 @@ import { useTranslation } from "react-i18next";
 import { Container } from "@/shared/components/ui/container";
 import { Text } from "@/shared/components/ui/text";
 
+interface LawSection {
+  title?: string;
+  text: string;
+}
+
 const GoverningLaw = () => {
   const { t } = useTranslation();
 
+  const sections: LawSection[] = [
+    { text: t("serviceTerms.governingLaw.law") },
+    { text: t("serviceTerms.governingLaw.consumerRights") },
+    {
+      title: t("serviceTerms.governingLaw.jurisdiction.title"),
+      text: t("serviceTerms.governingLaw.jurisdiction.text"),
+    },
+    { text: t("serviceTerms.governingLaw.disputeResolution") },
+  ];
+
   return (
     <Container>
-      <Text variant='heading'>{t("serviceTerms.governingLaw.title")}</Text>
-
-      <ul className='my-4 list-disc space-y-4 pl-6 text-start text-sm xl:text-base'>
-        <li>{t("serviceTerms.governingLaw.law")}</li>
-        <li>{t("serviceTerms.governingLaw.consumerRights")}</li>
-        <li>
-          <strong>{t("serviceTerms.governingLaw.jurisdiction.title")}: </strong>
-          {t("serviceTerms.governingLaw.jurisdiction.text")}
-        </li>
-        <li>{t("serviceTerms.governingLaw.disputeResolution")}</li>
-      </ul>
+      <Text variant='heading' className='text-xl lg:text-2xl xl:text-3xl'>
+        {t("serviceTerms.governingLaw.title")}
+      </Text>
+      <div className='my-4 space-y-6'>
+        {sections.map((section, index) => (
+          <div key={index} className='flex gap-4'>
+            <ul className='list-disc text-base'>
+              <li key={index}>
+                {section.title && <strong>{section.title}: </strong>}
+                {section.text}
+              </li>
+            </ul>
+          </div>
+        ))}
+      </div>
     </Container>
   );
 };

@@ -48,7 +48,9 @@ const FeesAndPayments = () => {
 
   return (
     <Container>
-      <Text variant='heading'>{t("serviceTerms.feesAndPayments.title")}</Text>
+      <Text variant={"heading"} className='text-xl lg:text-2xl xl:text-3xl'>
+        {t("serviceTerms.feesAndPayments.title")}
+      </Text>
       <div className='my-4 space-y-6'>
         {sections.map((section, index) => (
           <div key={index} className='flex gap-4'>

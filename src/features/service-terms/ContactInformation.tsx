@@ -8,11 +8,13 @@ const ContactInformation = () => {
 
   return (
     <Container>
-      <Text variant='heading'>{t("serviceTerms.contactInformation.title")}</Text>
+      <Text variant={"heading"} className='text-xl lg:text-2xl xl:text-3xl'>
+        {t("serviceTerms.contactInformation.title")}
+      </Text>
 
-      <ul className='mt-4 list-disc space-y-4 pl-6 text-start text-sm xl:text-base'>
+      <ul className='my-4 list-disc text-base'>
         <li>{t("serviceTerms.contactInformation.description")}</li>
-        <ul className='list-disc space-y-4 pl-6'>
+        <ul className='my-4 list-disc space-y-1 pl-6'>
           <li>{t("serviceTerms.contactInformation.email")}</li>
           <li>{t("serviceTerms.contactInformation.address")}</li>
         </ul>
