@@ -49,7 +49,7 @@ const CancellationAndTermination = () => {
         {t("serviceTerms.cancellationAndTermination.point_4_description")}
       </span>
 
-      <ul className='list-disc pl-6 text-start'>
+      <ul className='list-disc text-start'>
         {terminationBullets.map((bullet, idx) => (
           <li key={idx} className='my-1 text-sm xl:text-base'>
             {bullet}
