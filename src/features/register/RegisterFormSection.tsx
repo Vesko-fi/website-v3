@@ -8,6 +8,7 @@ import { Container } from "@/shared/components/ui/container";
 import { Section } from "@/shared/components/ui/section";
 import { Text } from "@/shared/components/ui/text";
 import { RemixIcons } from "@/shared/constants/icons";
+import { toast } from "react-toastify";
 
 interface FormData {
   businessName: string;
@@ -86,31 +87,38 @@ const RegisterFormSection = () => {
         headers: { "Content-Type": "text/plain;charset=utf-8" },
         body: JSON.stringify(formData),
       });
+
       if (!response.ok) {
-        throw new Error("Failed to submit form");
+        const errorText = await response.text();
+        throw new Error(errorText || "Failed to submit form");
       }
+
       setSubmitSuccess(true);
+      toast.success("Form submitted successfully!");
+
+      setFormData({
+        businessName: "",
+        businessId: "",
+        contactPerson: "",
+        email: "",
+        phone: "",
+        businessType: "",
+        industry: "",
+        website: "",
+        noOfProducts: "",
+        ordersPerMonth: "",
+        description: "",
+        expectedLaunch: "",
+        agreeToTerms: false,
+        agreeToMarketing: false,
+      });
+
       setTimeout(() => {
-        setFormData({
-          businessName: "",
-          businessId: "",
-          contactPerson: "",
-          email: "",
-          phone: "",
-          businessType: "",
-          industry: "",
-          website: "",
-          noOfProducts: "",
-          ordersPerMonth: "",
-          description: "",
-          expectedLaunch: "",
-          agreeToTerms: false,
-          agreeToMarketing: false,
-        });
         setSubmitSuccess(false);
       }, 5000);
     } catch (error) {
-      console.error("Error submitting form:", error);
+      const errorMessage = error instanceof Error ? error.message : "Error submitting form";
+      toast.error(errorMessage);
     } finally {
       setIsSubmitting(false);
     }
