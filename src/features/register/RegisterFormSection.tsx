@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { NavLink } from "react-router-dom";
 
 import i18n, { type SupportedLanguages } from "@/locales/i18n.config";
 import { getLocalizedPath } from "@/routes/helpers/localization";
@@ -388,9 +387,23 @@ const RegisterFormSection = () => {
                     />
                     <label htmlFor='agreeToTerms' className='text-sm text-gray-300'>
                       {t("register.form.agreeToTerms")}{" "}
-                      <NavLink to={privacyPolicyPath} className='underline'>
+                      <a
+                        href={serviceTermsPath}
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        className='underline'
+                      >
+                        {t("serviceTerms.terms_title")} *
+                      </a>
+                      <span>, </span>
+                      <a
+                        href={privacyPolicyPath}
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        className='underline'
+                      >
                         {t("register.form.privacy")} *
-                      </NavLink>
+                      </a>
                     </label>
                   </div>
                   <div className='flex items-start gap-3'>
