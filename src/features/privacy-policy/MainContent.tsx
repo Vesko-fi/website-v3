@@ -14,7 +14,7 @@ const MainContents = () => {
     <Section className='scroll-margin-top-[64px] mt-8'>
       <Container className='sbg-teal-50 flex flex-col items-center gap-16 px-8 pb-6'>
         <div className='flex flex-col text-justify'>
-          <h2 className='mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl'>
+          <h2 className='pb-8 text-center text-3xl font-bold sm:text-balance lg:text-4xl'>
             {t("privacyPolicy.heading")}
           </h2>
         </div>
