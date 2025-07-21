@@ -12,6 +12,7 @@ import { SOCIALS } from "@/shared/constants/socials";
 const Footer: React.FC = () => {
   const { t } = useTranslation();
   const privacyPolicyPath = getLocalizedPath("privacyPolicy", i18n.language as SupportedLanguages);
+  const serviceTermsPath = getLocalizedPath("serviceTerms", i18n.language as SupportedLanguages);
 
   const date = new Date();
   const year = date.getFullYear();
@@ -57,6 +58,9 @@ const Footer: React.FC = () => {
               <p>{t("footer.company.businessId")}</p>
               <NavLink to={privacyPolicyPath} className='underline'>
                 {t("footer.privacyPolicy")}
+              </NavLink>
+              <NavLink to={serviceTermsPath} className='underline'>
+                {t("serviceTerms.terms_title")}
               </NavLink>
             </div>
             <p className='mt-2 text-sm'>
