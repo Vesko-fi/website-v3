@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { toast } from "react-toastify";
 
 import i18n, { type SupportedLanguages } from "@/locales/i18n.config";
 import { getLocalizedPath } from "@/routes/helpers/localization";
@@ -8,7 +9,6 @@ import { Container } from "@/shared/components/ui/container";
 import { Section } from "@/shared/components/ui/section";
 import { Text } from "@/shared/components/ui/text";
 import { RemixIcons } from "@/shared/constants/icons";
-import { toast } from "react-toastify";
 
 interface FormData {
   businessName: string;
@@ -115,7 +115,7 @@ const RegisterFormSection = () => {
 
       setTimeout(() => {
         setSubmitSuccess(false);
-      }, 5000);
+      }, 2000);
     } catch (error) {
       const errorMessage = error instanceof Error ? error.message : "Error submitting form";
       toast.error(errorMessage);
