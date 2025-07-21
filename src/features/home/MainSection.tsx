@@ -126,8 +126,8 @@ const MainSection = () => {
 */}
       {/* Content container aligned left */}
       <div className='flex min-h-[calc(100vh-80px)] flex-col items-start justify-end px-4 py-10 shadow sm:min-h-[calc(100vh-40px)] sm:justify-start sm:px-6 lg:px-8'>
-        <Container className='relative z-10'>
-          <div className='relative overflow-hidden py-8 md:w-[540px]'>
+        <Container className='relative z-10 mt-16'>
+          <div className='relative overflow-hidden py-4 md:w-[540px]'>
             <div className='xl:from-accent-400/10 absolute inset-0 rounded-2xl xl:bg-gradient-to-br xl:to-black/20' />
             <div className='bg-accent-600/20 absolute -top-2 -right-4 h-4 w-4 rounded-full blur-xl' />
             <motion.div
