@@ -1,4 +1,4 @@
-import type { NavigationItem, MenuGroup } from "./navigation.types";
+import type { MenuGroup, NavigationItem } from "./navigation.types";
 
 export const MAIN_NAVIGATION: NavigationItem[] = [
   {
@@ -10,7 +10,7 @@ export const MAIN_NAVIGATION: NavigationItem[] = [
   {
     id: "merchants",
     label: "nav.merchants",
-    routeKey: "merchants",
+    routeKey: "offlineVendors",
     items: [
       {
         id: "offline-vendors",

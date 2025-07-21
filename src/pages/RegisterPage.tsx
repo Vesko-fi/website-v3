@@ -3,7 +3,7 @@ import { RegisterFormSection } from "@/features/register/RegisterFormSection";
 
 const RegisterPage = () => {
   return (
-    <div className='relative -top-18'>
+    <div className='relative -top-18 overflow-x-hidden'>
       <HeroSection />
       <RegisterFormSection />
     </div>

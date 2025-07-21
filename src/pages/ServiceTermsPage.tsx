@@ -1,3 +1,5 @@
+import { useTranslation } from "react-i18next";
+
 import { ChangesToTerms } from "@/features/service-terms//ChangesToTerms";
 import { ContactInformation } from "@/features/service-terms//ContactInformation";
 import { DisclaimersAndLiability } from "@/features/service-terms//DisclaimersAndLiability";
@@ -17,8 +19,15 @@ import { Container } from "@/shared/components/ui/container";
 import { Section } from "@/shared/components/ui/section";
 
 const ServiceTermsPage = () => {
+  const { t } = useTranslation();
+
   return (
-    <Section className='scroll-margin-top-[64px] mt-16'>
+    <Section className='scroll-margin-top-[64px] mt-16 overflow-x-hidden'>
+      <div className='flex flex-col text-justify'>
+        <h2 className='pb-16 text-center text-3xl font-bold sm:text-balance lg:text-4xl'>
+          {t("serviceTerms.terms_title")}
+        </h2>
+      </div>
       <Container className='space-y-16 px-8'>
         <Introduction />
         <ServiceDescription />

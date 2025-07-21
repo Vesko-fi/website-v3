@@ -165,7 +165,7 @@ const HeroSection = () => {
                   label='nav.register'
                   routeKey='register'
                   isCTA
-                  className='from-accent-500 hover:from-accent-600 border-accent-600 to-accent-600 hover:to-accent-700 border bg-gradient-to-br px-8 py-4 text-lg font-semibold text-white shadow-lg'
+                  className='from-accent-500 hover:from-accent-600 border-accent-600 to-accent-600 hover:to-accent-700 border bg-gradient-to-br px-8 py-4 text-lg font-semibold !text-white shadow-lg'
                 />
               </motion.div>
               <motion.div variants={buttonVariants} whileHover='hover'>
