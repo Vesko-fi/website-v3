@@ -18,7 +18,7 @@ const navItemVariants = cva(
       },
       state: {
         active:
-          "font-medium md:text-accent-600 underline decoration-2 decoration-accent-600 underline-offset-4",
+          "font-medium md:text-accent-600 hover:underline decoration-2 decoration-accent-600 underline-offset-4",
         default: "font-medium md:font-normal",
       },
       isCTA: {

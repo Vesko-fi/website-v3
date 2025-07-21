@@ -61,7 +61,6 @@ const RegisterFormSection = () => {
           description.trim().length >= 20
       );
     };
-
     validateForm();
   }, [formData]);
 
@@ -78,7 +77,11 @@ const RegisterFormSection = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!isFormValid) return;
+
+    if (!isFormValid) {
+      toast.error("Please fill out all required fields correctly.");
+      return;
+    }
 
     setIsSubmitting(true);
     try {
@@ -432,10 +435,10 @@ const RegisterFormSection = () => {
                   type='submit'
                   disabled={!isFormValid || isSubmitting}
                   whileTap={{ scale: isFormValid && !isSubmitting ? 0.98 : 1 }}
-                  className={`w-full cursor-pointer rounded-xl px-6 py-4 text-lg font-semibold text-white shadow-lg transition-all duration-300 focus:outline-none ${
+                  className={`w-full cursor-pointer rounded-xl px-6 py-4 text-lg font-semibold !text-white shadow-lg transition-all duration-300 focus:outline-none ${
                     isFormValid && !isSubmitting
                       ? "to-accent-600 hover:to-accent-700 from-accent-600 hover:from-accent-700 focus:ring-accent-500/30 bg-gradient-to-r focus:ring-4"
-                      : "cursor-not-allowed bg-gray-500 opacity-50"
+                      : "cursor-not-allowed bg-green-400 opacity-50"
                   }`}
                 >
                   {isSubmitting ? (
