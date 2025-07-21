@@ -1,13 +1,13 @@
+import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
+
 import i18n, { type SupportedLanguages } from "@/locales/i18n.config";
 import { getLocalizedPath } from "@/routes/helpers/localization";
 import { Container } from "@/shared/components/ui/container";
 import { Section } from "@/shared/components/ui/section";
 import { Text } from "@/shared/components/ui/text";
 import { RemixIcons } from "@/shared/constants/icons";
-import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
-import { useTranslation } from "react-i18next";
-import { NavLink } from "react-router-dom";
 
 interface FormData {
   businessName: string;
@@ -54,6 +54,7 @@ const RegisterFormSection = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const privacyPolicyPath = getLocalizedPath("privacyPolicy", i18n.language as SupportedLanguages);
+  const serviceTermsPath = getLocalizedPath("serviceTerms", i18n.language as SupportedLanguages);
 
   const handleInputChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
@@ -571,9 +572,23 @@ const RegisterFormSection = () => {
                     />
                     <label htmlFor='agreeToTerms' className='text-sm text-gray-300'>
                       {t("register.form.agreeToTerms")}{" "}
-                      <NavLink to={privacyPolicyPath} className='underline'>
+                      <a
+                        href={serviceTermsPath}
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        className='underline'
+                      >
+                        {t("serviceTerms.terms_title")} *
+                      </a>
+                      <span>, </span>
+                      <a
+                        href={privacyPolicyPath}
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        className='underline'
+                      >
                         {t("register.form.privacy")} *
-                      </NavLink>
+                      </a>
                     </label>
                   </div>
                   {isSubmitted && errors.agreeToTerms && (
