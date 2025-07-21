@@ -857,7 +857,7 @@
       "email": "Email Address",
       "emailPlaceholder": "contact@yourbusiness.com",
       "phone": "Phone Number",
-      "phonePlaceholder": "+358 40 123 4567",
+      "phonePlaceholder": "0401234567",
       "businessType": "Business Type",
       "businessTypePlaceholder": "Select your business type",
       "businessTypes": {

@@ -1,5 +1,4 @@
 import { BenefitsSection } from "@/features/for-offline-vendor/BenefitsSection";
-
 import { HeroSection } from "@/features/for-offline-vendor/HeroSection";
 import { HowVeskosWorkSection } from "@/features/for-offline-vendor/HowVeskosWorkSection";
 import { OmniStoreBenefitSection } from "@/features/for-offline-vendor/OmniStoreBenefitSection";
