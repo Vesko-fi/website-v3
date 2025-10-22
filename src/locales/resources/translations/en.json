@@ -3,7 +3,7 @@
     "title": "Welcome to Our Website",
     "main": {
       "title": "Thinking Globally Buying Locally",
-      "subtitle": "Vesko is empowering local retailers to grow and connect with shoppers across the online-to-offline seamlessly"
+      "subtitle": "Vesko is empowering local retailers to grow and connect with shoppers across the online-to-offline journey seamlessly"
     },
     "hero": {
       "heading": "Here we can grow together",
@@ -11,7 +11,8 @@
     },
     "features": {
       "heading": "The OmniStore",
-      "description": "Unifying Sales Channels with an online storefront for small brick-and-mortar retailers connecting retailers, people, and products in real time. "
+      "description": "Unifying sales channels with an online storefront for small brick-and-mortar shops.",
+      "description1": "Connecting retailers, people, and products in real time."
     },
     "middleHero": {
       "line1": "Yes! Vesko is",
