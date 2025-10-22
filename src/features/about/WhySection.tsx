@@ -150,9 +150,6 @@ const WhySection = () => {
                   <Text className='leading-relaxed text-gray-700'>
                     {t("about.why.solution.description")}
                   </Text>
-                  <Text className='mt-4 leading-relaxed text-gray-700'>
-                    {t("about.why.solution.additional")}
-                  </Text>
                 </div>
 
                 {/* Decorative element */}

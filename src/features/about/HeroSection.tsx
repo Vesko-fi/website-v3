@@ -155,7 +155,9 @@ const HeroSection = () => {
           {/* Tagline */}
           <motion.div variants={taglineVariants}>
             <div className='mx-auto mb-12 max-w-3xl'>
-              <Text className='text-lg text-gray-300 md:text-xl'>{t("about.hero.tagline")}</Text>
+              <Text variant={"title"} className='text-lg text-gray-300 md:text-xl'>
+                {t("about.hero.subtitle2")}
+              </Text>
             </div>
           </motion.div>
 

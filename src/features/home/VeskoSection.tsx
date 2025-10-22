@@ -107,7 +107,7 @@ const VeskoSection = () => {
 
       <Container className='lg:pb-10'>
         <motion.div>
-          <Text as='h2' className='mb-8 text-center text-3xl font-bold md:text-5xl lg:text-7xl'>
+          <Text as='h2' className='mb-8 text-center text-3xl font-bold md:text-4xl lg:text-5xl'>
             {t("home.vesko.heading")}
           </Text>
         </motion.div>

@@ -130,31 +130,39 @@ const HeroSection = () => {
           />
         </div>
 
-        <Container className='relative flex items-center justify-center py-16'>
-          {/* Text content container */}
-          <div className='absolute top-0 right-0 left-0 z-30 flex flex-col items-center'>
-            <Text
-              className='text-default-white text-center'
-              as='h1'
-              variant='heading'
-              weight='normal'
-            >
-              {t("home.hero.mainHeading")}
-            </Text>
-            <motion.div
-              initial='initial'
-              animate={smallDeviceControls}
-              variants={heroTextVariants}
-              className='mt-4 min-w-[500px] text-center'
-            />
-          </div>
+        {/* Text content container */}
+        <div className='absolute top-8 right-0 left-0 z-30 flex flex-col items-center space-y-2'>
+          <Text
+            className='text-default-white text-center'
+            as='h1'
+            variant='heading'
+            weight='normal'
+          >
+            {t("home.hero.heading")}
+          </Text>
+          <Text
+            className='text-default-white text-center'
+            as='h2'
+            variant='subheading'
+            weight='normal'
+          >
+            {t("home.hero.mainHeading")}
+          </Text>
 
+          <motion.div
+            initial='initial'
+            animate={smallDeviceControls}
+            variants={heroTextVariants}
+            className='mt-4 min-w-[500px] bg-red-300 text-center'
+          />
+        </div>
+        <Container className='relative flex items-center justify-center'>
           {/* Image container */}
           <div className='relative flex flex-col items-center py-8'>
             <motion.img
               src={Assets.heroDesktop}
               alt='Desktop'
-              className='z-10 max-w-5xl rounded-xl drop-shadow-2xl'
+              className='z-10 max-w-3xl rounded-xl drop-shadow-2xl'
               initial='initial'
               animate={controls}
               variants={desktopVariants}
@@ -163,7 +171,7 @@ const HeroSection = () => {
             <motion.img
               src={Assets.heroMobile}
               alt='Mobile'
-              className='z-20 w-1/4 rounded-xl drop-shadow-2xl md:absolute md:right-0 md:bottom-0'
+              className='z-20 rounded-xl drop-shadow-2xl sm:w-1/12 md:absolute md:right-0 md:bottom-0 lg:w-1/6'
               initial='initial'
               animate={controls}
               variants={mobileVariants}

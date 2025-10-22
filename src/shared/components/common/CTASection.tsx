@@ -40,7 +40,7 @@ const CTASection = () => {
       aria-labelledby='cta-heading'
     >
       <Container>
-        <div className='mx-auto max-w-3xl text-center'>
+        <div className='mx-auto max-w-4xl text-center'>
           <Text as='h2' variant='heading' className='mb-16 text-white' id='cta-heading'>
             {t("home.cta.heading")}
           </Text>
