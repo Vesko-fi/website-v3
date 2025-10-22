@@ -116,12 +116,6 @@ const MiddleHeroSection = () => {
               </Text>
             </motion.div>
           </div>
-          <Text
-            className='text-accent-100 absolute left-1/4 w-1/2 items-center lg:bottom-1/6 2xl:bottom-1/4'
-            variant={"subheading"}
-          >
-            {t("home.middleHero.subheading")}
-          </Text>
         </motion.div>
       </div>
     </Section>
