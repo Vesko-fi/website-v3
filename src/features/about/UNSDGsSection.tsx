@@ -13,7 +13,7 @@ const UNSDGsSection = () => {
 
   const sdgGoals = [
     {
-      id: 8,
+      id: 7,
       titleKey: "about.unSDGs.goals.sdg8.title",
       descriptionKey: "about.unSDGs.goals.sdg8.description",
       icon: RemixIcons.sdg8,
@@ -23,7 +23,7 @@ const UNSDGsSection = () => {
       gradient: "from-blue-400 to-blue-500",
     },
     {
-      id: 9,
+      id: 8,
       titleKey: "about.unSDGs.goals.sdg9.title",
       descriptionKey: "about.unSDGs.goals.sdg9.description",
       icon: RemixIcons.sdg9,
@@ -33,7 +33,7 @@ const UNSDGsSection = () => {
       gradient: "from-orange-400 to-orange-500",
     },
     {
-      id: 10,
+      id: 9,
       titleKey: "about.unSDGs.goals.sdg10.title",
       descriptionKey: "about.unSDGs.goals.sdg10.description",
       icon: RemixIcons.sdg10,
@@ -43,7 +43,7 @@ const UNSDGsSection = () => {
       gradient: "from-red-400 to-red-500",
     },
     {
-      id: 11,
+      id: 10,
       titleKey: "about.unSDGs.goals.sdg11.title",
       descriptionKey: "about.unSDGs.goals.sdg11.description",
       icon: RemixIcons.sdg11,
@@ -53,7 +53,7 @@ const UNSDGsSection = () => {
       gradient: "from-yellow-400 to-yellow-500",
     },
     {
-      id: 12,
+      id: 11,
       titleKey: "about.unSDGs.goals.sdg12.title",
       descriptionKey: "about.unSDGs.goals.sdg12.description",
       icon: RemixIcons.sdg12,
@@ -63,7 +63,7 @@ const UNSDGsSection = () => {
       gradient: "from-green-400 to-green-500",
     },
     {
-      id: 13,
+      id: 12,
       titleKey: "about.unSDGs.goals.sdg13.title",
       descriptionKey: "about.unSDGs.goals.sdg13.description",
       icon: RemixIcons.sdg13,
@@ -73,7 +73,7 @@ const UNSDGsSection = () => {
       gradient: "from-teal-400 to-teal-500",
     },
     {
-      id: 17,
+      id: 13,
       titleKey: "about.unSDGs.goals.sdg17.title",
       descriptionKey: "about.unSDGs.goals.sdg17.description",
       icon: RemixIcons.sdg17,
@@ -195,7 +195,7 @@ const UNSDGsSection = () => {
                 </motion.div>
 
                 {/* Large faded SDG number */}
-                <div className='text-6xl font-bold text-gray-200 select-none'>{goal.id}</div>
+                {/*  <div className='text-6xl font-bold text-gray-200 select-none'>{goal.id}</div> */}
               </div>
 
               {/* Content */}

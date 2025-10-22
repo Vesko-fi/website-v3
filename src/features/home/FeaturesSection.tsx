@@ -101,7 +101,9 @@ const FeaturesSection = () => {
             >
               {t("home.features.heading")}
             </Text>
-            <Text>{t("home.features.description")}</Text>
+            <Text variant={"title"} className='font-normal'>
+              {t("home.features.description")}
+            </Text>
           </motion.div>
 
           {/* Animated decorative shapes */}

@@ -1,4 +1,4 @@
-import { useScroll, useTransform, motion } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import { useTranslation } from "react-i18next";
 
@@ -102,7 +102,7 @@ const MiddleHeroSection = () => {
             <motion.div variants={textVariants}>
               <Text
                 variant='heading'
-                className='text-default-white absolute bottom-0 left-0 !text-4xl drop-shadow-2xl lg:!text-8xl xl:!text-[8rem]'
+                className='text-default-white absolute bottom-0 left-0 !text-4xl drop-shadow-2xl lg:!text-4xl xl:!text-[4rem]'
               >
                 {t("home.middleHero.line1")}
               </Text>
@@ -110,12 +110,18 @@ const MiddleHeroSection = () => {
             <motion.div variants={textVariants}>
               <Text
                 variant='heading'
-                className='text-accent-400 absolute top-0 right-0 !text-4xl drop-shadow-2xl lg:!text-8xl xl:!text-[8rem]'
+                className='text-accent-400 absolute top-0 right-0 !text-4xl drop-shadow-2xl lg:!text-4xl xl:!text-[4rem]'
               >
                 {t("home.middleHero.line2")}
               </Text>
             </motion.div>
           </div>
+          <Text
+            className='text-accent-100 absolute left-1/4 w-1/2 items-center lg:bottom-1/6 2xl:bottom-1/4'
+            variant={"subheading"}
+          >
+            {t("home.middleHero.subheading")}
+          </Text>
         </motion.div>
       </div>
     </Section>

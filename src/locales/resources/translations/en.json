@@ -2,45 +2,48 @@
   "home": {
     "title": "Welcome to Our Website",
     "main": {
-      "title": "Reconnecting People",
-      "subtitle": "To each other. To places. To the real world"
+      "title": "Thinking Globally Buying Locally",
+      "subtitle": "Vesko is empowering local retailers to grow and connect with shoppers across the online-to-offline seamlessly"
     },
     "hero": {
-      "mainHeading": "Where the digital world meets the real world"
+      "heading": "Here we can grow together",
+      "mainHeading": "Where digital empowers people and companies are families"
     },
     "features": {
-      "heading": "Vesko is a social-media marketplace with an online store where you can buy or sell",
-      "description": "Vesko offers Omni Store, an enterprise-level online storefront for small physical retailers that lets people see in real time stock availability before they step into the store while reconnecting people."
+      "heading": "The OmniStore",
+      "description": "Unifying Sales Channels with an online storefront for small brick-and-mortar retailers connecting retailers, people, and products in real time. "
     },
     "middleHero": {
       "line1": "Yes! Vesko is",
-      "line2": "a social media"
+      "line2": "a social media, but with a purpose",
+      "subheading": "That purpose is to help the people it serves build a more people-centric, joyful, and fulfilling future today."
     },
     "vesko": {
-      "heading": "Vesko As A Social media",
+      "heading": "Vesko is where social becomes a movement",
       "safePlace": {
         "title": "Safe Place",
-        "description": "To share your life with friends and family without being attacked for who you are."
+        "description": "Safely share your life with friends and family where you are free to express yourself. Come as you are!"
       },
       "neutral": {
         "title": "Neutral",
-        "description": "Like Switzerland, we take no sides and with zero tolerance for hate, bullying, & discrimination."
+        "description": "We take no sides. Vesko strictly adheres to all anti-discrimination policies, with a zero tolerance for hate and or bullying of any kind."
       },
       "connected": {
         "title": "Connected",
-        "description": "Your feed doesn't just show people, It shows what your local stores sell, bringing your online life closer to your real world."
+        "description": "Your feed isn’t just about people; it displays what local stores have to offer. Bringing the online experience back into the community it serves, where it’s most needed."
       }
     },
     "socialize": {
-      "heading": "Socialised Shopping",
+      "heading": "Socialize Your Shopping",
+      "subheading": "Expand your shopping experience and explore the world around you. Where you are now reconnected to your local community, the one you live in.",
       "blocks": {
         "localLife": {
           "title": "A space where your local life goes digital",
-          "description": "Follow nearby brands and stores, discover new products, and support your local businesses, all in one social feed."
+          "description": "Follow nearby brands and stores, connecting people to the products they need by discovering and supporting local businesses all in one comprehensive platform."
         },
         "growBusiness": {
-          "title": "Grow your business, expand your reach",
-          "description": "Build a community around your brand, or start your entrepreneurial journey right here on Vesko."
+          "title": "Vesko is a small business accelerator and brand multiplier",
+          "description": "Start growing a grassroots movement around your business. Begin your entrepreneurial journey in your own community, right now, right here at Vesko."
         }
       }
     },
@@ -49,7 +52,7 @@
       "omnistore": {
         "title": "OmniStore ®",
         "subtitle": "For brick-and-mortar retailers",
-        "description": "Transform your physical store into a virtual showroom. Sell from the same inventory both online and offline, and connect with digitally-driven walk-in customers."
+        "description": "An enterprise-level online storefront for brick-and-mortar retailers. Transforming the physical store into a virtual showroom. Unify and sell from the same inventory both online and offline. Connecting with both digitally-driven and walk-in customers."
       },
       "onlineStore": {
         "title": "Online Store",
@@ -59,7 +62,7 @@
     },
     "featuresGrid": {
       "heading": "Plug & Play",
-      "subtitle": "Integrated payments and trusted logistics built right into every online store",
+      "subtitle": "An integrated point-of-sale solution for your business with trusted logistics that are built into our connected omnistore payment terminal.",
       "payment": {
         "title": "Payment",
         "description": "Safe and secure checkout, powered by end-to-end encryption and trusted payment partners.",
@@ -103,7 +106,7 @@
       ]
     },
     "cta": {
-      "heading": "Step into the future",
+      "heading": "Today is where we create our future, together with Vesko",
       "waitlist": {
         "title": "Join our users waitlist",
         "waitlistPolicy": "By joining the waitlist, you agree to our",
@@ -222,24 +225,27 @@
   "about": {
     "hero": {
       "title": "About Vesko",
-      "subtitle": "Read why we're building Vesko, and get to know something about us",
-      "tagline": "Discover our story, values, and mission to create a better digital world"
+      "subtitle": "Discover our story, values, and mission to create a more vibrant, inclusive, and empowering digital world.",
+      "subtitle2": "Come and learn why we are building Vesko. Then join us in building new, stronger, and more resilient communities together."
     },
     "whatIsVesko": {
       "title": "What is Vesko",
-      "description": "Vesko is more than just another social media platform with online stores, it connects people with their local brick-and-mortar shops by turning them into virtual showrooms. This means shoppers can interact with physical stores digitally: browse what's in stock, check availability, and plan their visit, all before stepping outside. Vesko brings the real world to you digitally, making offline shopping smarter and more convenient. It's the first social commerce platform that connects people with the real world, digitally."
+      "description1": "We are more than an online store; we are an online marketplace, connecting local retail shops directly to their customers wherever they may be.",
+      "description2": "Transforming the online-to-offline experience, bringing brick-and-mortar shops online. Giving people the opportunity to shop seamlessly through an omnichannel online and offline experience.",
+      "description3": "At Vesko, the customer can conveniently plan their journey before stepping outside the door. Creating an interactive physical ecosystem that empowers the local communities it serves.",
+      "description4": "Vesko is the first social ecommerce platform that connects people effortlessly with the real world they actually live in.",
+      "description5": "An all-new level playing field to directly compete with both online and offline stores alike."
     },
     "why": {
       "title": "Connecting & Empowering People",
-      "mission": "Our Mission is to create a safe social digital space that connects people while empowering small retail businesses.",
+      "mission": "Our mission is to create a safe social digital space that connects people while empowering small retail businesses to grow.",
       "problem": {
         "title": "The Problem",
-        "description": "We believed technology was supposed to create solutions, not more problems and to connect us, not divide us. But today, platforms feel noisy, divisive, and draining."
+        "description": "There is no singular platform that supports brick-and-mortar local retailers with an enterprise-level, all-inclusive e-commerce solution. Vesko believes technology is supposed to create solutions, not more problems. To connect us, not divide us. Today, platforms feel noisy, disconnected, and draining."
       },
       "solution": {
         "title": "Our Solution",
-        "description": "That's why we're building Vesko, to reconnect people, not just digitally, but locally and to bring communities closer.",
-        "additional": "A space where you can be yourself, without fear of judgment for who you are, what you believe, or whom you love."
+        "description": "We are building Vesko, a space with freedom of selection. Reconnecting people, not just digitally, but across the customer journey, online and offline, locally, bringing people and communities closer."
       }
     },
     "ourStory": {
@@ -295,19 +301,19 @@
       "title": "What We Value",
       "empathy": {
         "title": "Empathy",
-        "description": "We listen, we care, and we design with people in mind, creating a space where everyone feels seen and respected."
+        "description": "We are listening, with caring people at the heart of our design. Creating a space where everyone feels seen and respected."
       },
       "peace": {
         "title": "Peace",
-        "description": "We foster a calm, fair, and supportive environment, both digitally and in the real world."
+        "description": "We foster a calm, fair, and supportive digital environment, which will now be carried into the world around us. "
       },
       "friendliness": {
         "title": "Friendliness",
-        "description": "We believe social platforms should feel like neighborhoods, welcoming, kind, and open to real connection."
+        "description": "Social platforms should feel like neighborhoods, welcoming, kind, and open, encouraging genuine lasting connections."
       },
       "neutrality": {
         "title": "Neutrality",
-        "description": "We keep things simple, authentic, and grounded in everyday life. As a platform, we don't take sides, only a stand for peace, fairness, and mutual respect."
+        "description": "As a platform, Vesko does not take sides; we stand for peace, fairness, and mutual respect. These values guide everything we do, from product design to community building. This ensures Vesko will remain a people and community-first platform."
       },
       "conclusion": "These values guide everything we do, from product design to community building, ensuring Vesko remains a platform that truly serves people and communities."
     },
@@ -317,7 +323,7 @@
       "goals": {
         "sdg8": {
           "title": "Decent Work & Economic Growth",
-          "description": "By digitalising small retailers, Vesko fosters economic inclusion, boosts local commerce, and creates jobs."
+          "description": "By digitalizing small retailers, Vesko promotes economic inclusion, stimulates local commerce, and generates employment opportunities. Invigorating local economies."
         },
         "sdg9": {
           "title": "Industry, Innovation & Infrastructure",
@@ -325,7 +331,7 @@
         },
         "sdg10": {
           "title": "Reduced Inequalities",
-          "description": "By providing affordable tech to small businesses, Vesko helps bridge the gap and creates more equal opportunities."
+          "description": "By providing affordable tech to small businesses, Vesko helps bridge the gap, creating opportunities that are more equal and fair."
         },
         "sdg11": {
           "title": "Sustainable Cities & Communities",
@@ -337,7 +343,7 @@
         },
         "sdg13": {
           "title": "Climate Action",
-          "description": "By localising trade and reducing long-distance shipping, Vesko minimises carbon emissions from logistics."
+          "description": "By localizing trade and reducing long-distance shipping, Vesko minimizes carbon emissions."
         },
         "sdg17": {
           "title": "Partnerships for the Goals",

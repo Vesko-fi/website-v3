@@ -30,8 +30,11 @@ const SocializeSection = () => {
   return (
     <Section>
       <Container>
-        <Text variant='heading' className='mb-5 text-center md:mb-16' as='h2'>
+        <Text variant='heading' className='mb-5 text-center md:mb-8' as='h2'>
           {t("home.socialize.heading")}
+        </Text>
+        <Text variant='subheading' className='mb-5 text-center text-gray-700 md:mb-8' as='h2'>
+          {t("home.socialize.subheading")}
         </Text>
         <StackScrollCards
           items={blocks}
@@ -40,11 +43,11 @@ const SocializeSection = () => {
             <div
               className={`${block.color} flex h-[500px] flex-col items-center justify-center rounded-lg px-2 py-2 text-center lg:h-full lg:px-10 lg:py-20`}
             >
-              <div className='mb-10 sm:max-w-2xl'>
+              <div className='mb-10 sm:max-w-3xl'>
                 <Text variant='subheading' weight='normal' className='mb-2'>
                   {block.title}
                 </Text>
-                <Text className='sm:max-w-xl'>{block.description}</Text>
+                <Text className='sm:max-w-2xl'>{block.description}</Text>
               </div>
               <div>
                 <Image

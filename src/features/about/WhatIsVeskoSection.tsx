@@ -125,9 +125,23 @@ const WhatIsVeskoSection = () => {
 
           {/* Description text */}
           <motion.div variants={textVariants} className='space-y-6'>
-            <Text className='px-4 text-base leading-relaxed text-gray-700 lg:px-0'>
-              {t("about.whatIsVesko.description")}
-            </Text>
+            <div className='mx-auto flex flex-col space-y-4 lg:max-w-xl'>
+              <Text className='px-4 leading-relaxed text-balance text-gray-700 lg:px-0'>
+                {t("about.whatIsVesko.description1")}
+              </Text>
+              <Text className='px-4 leading-relaxed text-balance text-gray-700 lg:px-0'>
+                {t("about.whatIsVesko.description2")}
+              </Text>
+              <Text className='px-4 leading-relaxed text-balance text-gray-700 lg:px-0'>
+                {t("about.whatIsVesko.description3")}
+              </Text>
+              <Text className='px-4 leading-relaxed text-balance text-gray-700 lg:px-0'>
+                {t("about.whatIsVesko.description4")}
+              </Text>
+              <Text className='px-4 leading-relaxed text-balance text-gray-700 lg:px-8'>
+                {t("about.whatIsVesko.description5")}
+              </Text>
+            </div>
 
             {/* Decorative line */}
             <motion.div
