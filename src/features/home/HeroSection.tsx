@@ -78,7 +78,7 @@ const HeroSection = () => {
 
   return (
     <div className='from-accent-700 to-accent-700 bg-gradient-to-t'>
-      <Section className='from-accent-700 top-8 hidden min-h-screen items-center bg-gradient-to-b to-black px-4 py-32 lg:flex'>
+      <Section className='from-accent-700 hidden min-h-screen items-center bg-gradient-to-b to-black px-4 py-32 sm:top-8 lg:flex'>
         <ScrollIndicator text={t("forOfflineVendor.hero.scrollToExplore")} />
 
         <div className='pointer-events-none absolute inset-0 overflow-hidden'>
@@ -108,7 +108,7 @@ const HeroSection = () => {
         </div>
 
         {/* Text content */}
-        <div className='absolute top-8 right-0 left-0 z-30 flex flex-col items-center space-y-2'>
+        <div className='absolute top-4 right-0 left-0 z-30 flex flex-col items-center space-y-2'>
           <Text
             className='text-default-white text-center'
             as='h1'
@@ -198,7 +198,7 @@ const HeroSection = () => {
             initial='initial'
             animate={smallDeviceControls}
             variants={smallDeviceVariants}
-            className='h-auto'
+            className='h-auto py-8 sm:py-0'
           />
         </div>
       </Section>
