@@ -33,7 +33,12 @@ const SocializeSection = () => {
         <Text variant='heading' className='mb-5 text-center md:mb-8' as='h2'>
           {t("home.socialize.heading")}
         </Text>
-        <Text variant='subheading' className='mb-5 text-center text-gray-700 md:mb-8' as='h2'>
+        <Text
+          variant='subheading'
+          className='mb-5 text-center text-lg md:mb-8 md:text-2xl lg:text-3xl'
+          as='h2'
+          color={"secondary"}
+        >
           {t("home.socialize.subheading")}
         </Text>
         <StackScrollCards
