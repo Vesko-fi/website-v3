@@ -85,7 +85,7 @@ const MainSection = () => {
       />
 
       {/* Content container */}
-      <div className='relative z-20 flex min-h-[calc(100vh-80px)] flex-col items-start justify-center px-4 py-18 sm:min-h-[calc(100vh-40px)] sm:justify-start sm:px-6 sm:py-14 lg:px-8'>
+      <div className='relative z-20 flex min-h-[calc(100vh-80px)] flex-col items-start justify-end px-4 py-18 sm:min-h-[calc(100vh-40px)] sm:justify-start sm:px-6 sm:py-14 lg:px-8'>
         <Container className='mt-8 w-full'>
           <div className='relative py-4 md:w-[540px] lg:w-[680px]'>
             <div className='xl:from-accent-400/10 absolute inset-0 rounded-2xl xl:bg-gradient-to-br xl:to-black/20' />
@@ -94,14 +94,14 @@ const MainSection = () => {
               variants={containerVariants}
               initial='hidden'
               animate='visible'
-              className='flex flex-col items-center pt-20 sm:items-start sm:p-2 sm:pt-4'
+              className='flex flex-col sm:items-start sm:p-2 sm:pt-4'
             >
               {/* Title */}
               <motion.div variants={titleVariants} className='w-full'>
                 <Text
                   as='h1'
                   variant='heading'
-                  className='text-center text-5xl leading-tight font-medium text-white sm:text-left md:text-5xl xl:text-6xl'
+                  className='text-center text-4xl leading-tight font-medium text-white sm:text-left md:text-5xl xl:text-6xl'
                 >
                   {t("home.main.title")}
                 </Text>
@@ -110,7 +110,7 @@ const MainSection = () => {
               {/* Subtitle */}
               <motion.div
                 variants={subtitleVariants}
-                className='w-full text-center text-lg font-semibold text-balance text-white sm:w-96 sm:text-left md:text-xl lg:w-full lg:text-center'
+                className='w-full text-center text-lg font-semibold text-balance text-white sm:w-96 sm:pt-0 sm:text-left md:text-xl lg:w-full lg:text-center'
                 style={{
                   marginTop: dynamicMargins.mt > 0 ? `${dynamicMargins.mt}px` : "1rem",
                   marginBottom: dynamicMargins.mb > 0 ? `${dynamicMargins.mb}px` : "2rem",
