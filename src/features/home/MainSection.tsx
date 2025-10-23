@@ -97,20 +97,27 @@ const MainSection = () => {
               className='flex flex-col sm:items-start sm:p-2 sm:pt-4'
             >
               {/* Title */}
-              <motion.div variants={titleVariants} className='w-full'>
+              <motion.div variants={titleVariants} className='block w-full gap-2 sm:flex'>
                 <Text
                   as='h1'
                   variant='heading'
-                  className='text-center text-4xl leading-tight font-medium text-white sm:text-left md:text-5xl xl:text-6xl'
+                  className='text-center text-5xl leading-tight font-medium text-white sm:text-left xl:text-6xl'
                 >
                   {t("home.main.title")}
+                </Text>
+                <Text
+                  as='h1'
+                  variant='heading'
+                  className='text-center text-5xl leading-tight font-medium text-white sm:px-0 sm:text-left xl:text-6xl'
+                >
+                  {t("home.main.title2")}
                 </Text>
               </motion.div>
 
               {/* Subtitle */}
               <motion.div
                 variants={subtitleVariants}
-                className='w-full text-center text-lg font-semibold text-balance text-white sm:w-96 sm:pt-0 sm:text-left md:text-xl lg:w-full lg:text-center'
+                className='text-center text-lg font-semibold text-balance text-white sm:pt-0 sm:text-left md:text-xl lg:w-full lg:text-center'
                 style={{
                   marginTop: dynamicMargins.mt > 0 ? `${dynamicMargins.mt}px` : "1rem",
                   marginBottom: dynamicMargins.mb > 0 ? `${dynamicMargins.mb}px` : "2rem",
