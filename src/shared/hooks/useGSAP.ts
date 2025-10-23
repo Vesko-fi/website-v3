@@ -23,7 +23,7 @@ export const useGSAP = <T extends HTMLElement>(props?: GSAPAnimationProps) => {
       const elements = elementRef.current?.querySelectorAll("[data-gsap]");
       if (elements) {
         elements.forEach((el) => {
-          const animationProps = JSON.parse(el.getAttribute("data-gsap") || "{}");
+          const animationProps = JSON.parse(el.getAttribute("data-gsap") ?? "{}");
           gsap.from(el, {
             ...animationProps,
             scrollTrigger: {

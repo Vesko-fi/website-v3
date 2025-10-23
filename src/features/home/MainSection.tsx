@@ -85,10 +85,10 @@ const MainSection = () => {
       />
 
       {/* Content container */}
-      <div className='relative z-20 flex min-h-[calc(100vh-80px)] flex-col items-start justify-end px-4 py-18 sm:min-h-[calc(100vh-40px)] sm:justify-start sm:px-6 sm:py-14 lg:px-8'>
+      <div className='relative z-20 flex min-h-[calc(100vh-80px)] flex-col items-start justify-center px-4 pt-20 sm:min-h-[calc(100vh-40px)] sm:justify-start sm:px-6 sm:pt-14 lg:px-8'>
         <Container className='mt-8 w-full'>
-          <div className='relative py-4 md:w-[540px] lg:w-[680px]'>
-            <div className='xl:from-accent-400/10 absolute inset-0 rounded-2xl xl:bg-gradient-to-br xl:to-black/20' />
+          <div className='relative w-full py-4 sm:max-w-2xl md:max-w-xl lg:max-w-2xl'>
+            <div className='xl:from-accent-400/10 absolute inset-0 rounded-2xl xl:bg-gradient-to-br xl:to-black/10' />
 
             <motion.div
               variants={containerVariants}
@@ -101,23 +101,16 @@ const MainSection = () => {
                 <Text
                   as='h1'
                   variant='heading'
-                  className='text-center text-5xl leading-tight font-medium text-white sm:text-left xl:text-6xl'
+                  className='px-2 text-center text-5xl leading-tight font-medium text-white sm:text-left xl:text-6xl'
                 >
                   {t("home.main.title")}
-                </Text>
-                <Text
-                  as='h1'
-                  variant='heading'
-                  className='text-center text-5xl leading-tight font-medium text-white sm:px-0 sm:text-left xl:text-6xl'
-                >
-                  {t("home.main.title2")}
                 </Text>
               </motion.div>
 
               {/* Subtitle */}
               <motion.div
                 variants={subtitleVariants}
-                className='text-center text-lg font-semibold text-balance text-white sm:pt-0 sm:text-left md:text-xl lg:w-full lg:text-center'
+                className='text-center text-lg font-semibold text-balance text-white sm:pt-0 md:text-left md:text-xl lg:w-full lg:text-center'
                 style={{
                   marginTop: dynamicMargins.mt > 0 ? `${dynamicMargins.mt}px` : "1rem",
                   marginBottom: dynamicMargins.mb > 0 ? `${dynamicMargins.mb}px` : "2rem",
