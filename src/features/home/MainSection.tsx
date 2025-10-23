@@ -87,9 +87,8 @@ const MainSection = () => {
       {/* Content container */}
       <div className='relative z-20 flex min-h-[calc(100vh-80px)] flex-col items-start justify-center px-4 pt-20 sm:min-h-[calc(100vh-40px)] sm:justify-start sm:px-6 sm:pt-14 lg:px-8'>
         <Container className='mt-8 w-full'>
-          <div className='relative w-full py-4 sm:max-w-2xl md:max-w-xl lg:max-w-2xl'>
+          <div className='relative w-full py-4 sm:max-w-xl md:max-w-2xl lg:max-w-3xl'>
             <div className='xl:from-accent-400/10 absolute inset-0 rounded-2xl xl:bg-gradient-to-br xl:to-black/10' />
-
             <motion.div
               variants={containerVariants}
               initial='hidden'
@@ -110,7 +109,7 @@ const MainSection = () => {
               {/* Subtitle */}
               <motion.div
                 variants={subtitleVariants}
-                className='text-center text-lg font-semibold text-balance text-white sm:pt-0 md:text-left md:text-xl lg:w-full lg:text-center'
+                className='text-center text-lg font-semibold text-balance text-white sm:pt-0 md:px-8 md:text-left md:text-xl lg:w-full lg:text-center'
                 style={{
                   marginTop: dynamicMargins.mt > 0 ? `${dynamicMargins.mt}px` : "1rem",
                   marginBottom: dynamicMargins.mb > 0 ? `${dynamicMargins.mb}px` : "2rem",
