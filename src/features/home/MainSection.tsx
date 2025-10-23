@@ -167,7 +167,7 @@ const MainSection = () => {
       </div>
 
       {/* Scroll indicator - positioned at bottom of hero section */}
-      {/* <motion.div
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 1.2 }}
@@ -183,7 +183,7 @@ const MainSection = () => {
           </Text>
           <div className='h-6 w-0.5 bg-gradient-to-b from-gray-400 to-transparent' />
         </motion.div>
-      </motion.div> */}
+      </motion.div>
 
       {/* Background texture overlay */}
       <div className='absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.1)_1px,transparent_1px)] bg-[length:20px_20px] opacity-20' />
