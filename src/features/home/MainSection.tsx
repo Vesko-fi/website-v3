@@ -85,7 +85,7 @@ const MainSection = () => {
       />
 
       {/* Content container */}
-      <div className='relative z-20 flex min-h-[calc(100vh-80px)] flex-col items-start justify-end px-4 py-18 sm:min-h-[calc(100vh-40px)] sm:justify-start sm:px-6 sm:py-14 lg:px-8'>
+      <div className='relative z-20 flex min-h-[calc(100vh-80px)] flex-col items-start justify-end px-4 pb-24 sm:min-h-[calc(100vh-40px)] sm:justify-start sm:px-6 sm:pt-14 lg:px-8'>
         <Container className='mt-8 w-full'>
           <div className='relative py-4 md:w-[540px] lg:w-[680px]'>
             <div className='xl:from-accent-400/10 absolute inset-0 rounded-2xl xl:bg-gradient-to-br xl:to-black/20' />
