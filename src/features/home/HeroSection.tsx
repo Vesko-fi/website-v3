@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useMediaQuery } from "react-responsive";
 
+import { ScrollIndicator } from "@/shared/components/common/ScollIndicator";
 import { Container } from "@/shared/components/ui/container";
 import { Section } from "@/shared/components/ui/section";
 import { Text } from "@/shared/components/ui/text";
@@ -13,17 +14,14 @@ const HeroSection = () => {
   const controls = useAnimation();
   const smallDeviceControls = useAnimation();
   const [animationState, setAnimationState] = useState<"initial" | "animated">("initial");
-
   const isLargeScreen = useMediaQuery({ minWidth: 1025 });
 
   useEffect(() => {
     const threshold = 120;
-
     void smallDeviceControls.start("animate");
 
     const onScroll = () => {
       const currentScrollY = window.scrollY;
-
       if (currentScrollY > threshold && animationState === "initial") {
         void controls.start("animate");
         setAnimationState("animated");
@@ -34,9 +32,8 @@ const HeroSection = () => {
     };
 
     window.addEventListener("scroll", onScroll, { passive: true });
-
     return () => window.removeEventListener("scroll", onScroll);
-  }, [isLargeScreen, smallDeviceControls, animationState, controls]);
+  }, [animationState, controls, smallDeviceControls]);
 
   const desktopVariants = {
     initial: { opacity: isLargeScreen ? 1 : 0, y: 0, rotate: -8, scale: 1 },
@@ -50,13 +47,7 @@ const HeroSection = () => {
   };
 
   const mobileVariants = {
-    initial: {
-      opacity: 0,
-      scale: 0.5,
-      rotate: 30,
-      x: 120,
-      y: 80,
-    },
+    initial: { opacity: 0, scale: 0.5, rotate: 30, x: 120, y: 80 },
     animate: {
       opacity: 1,
       scale: 1,
@@ -68,42 +59,28 @@ const HeroSection = () => {
   };
 
   const smallDeviceVariants = {
-    initial: {
-      opacity: 0,
-      scale: 0.5,
-      transition: { duration: 1, ease: "easeInOut" },
-    },
-    animate: {
-      opacity: 1,
-      scale: 1,
-      transition: { duration: 0.6, ease: "easeInOut" },
-    },
+    initial: { opacity: 0, scale: 0.5, transition: { duration: 1, ease: "easeInOut" } },
+    animate: { opacity: 1, scale: 1, transition: { duration: 0.6, ease: "easeInOut" } },
   };
 
   const heroTextVariants = {
     initial: { opacity: 0, scale: 0.5 },
-    animate: {
-      opacity: 1,
-      scale: 1,
-      transition: { duration: 1, ease: "easeOut", delay: 0.2 },
-    },
+    animate: { opacity: 1, scale: 1, transition: { duration: 1, ease: "easeOut", delay: 0.2 } },
   };
 
   const floatingVariants = {
     animate: {
       y: [0, -15, 0],
       rotate: [0, 5, 0],
-      transition: {
-        duration: 4,
-        repeat: Infinity,
-        ease: "easeInOut",
-      },
+      transition: { duration: 4, repeat: Infinity, ease: "easeInOut" },
     },
   };
 
   return (
-    <>
-      <Section className='from-accent-700 hidden min-h-screen items-center bg-gradient-to-b to-black px-4 py-32 lg:flex'>
+    <div className='from-accent-700 to-accent-700 bg-gradient-to-t'>
+      <Section className='from-accent-700 top-8 hidden min-h-screen items-center bg-gradient-to-b to-black px-4 py-32 lg:flex'>
+        <ScrollIndicator text={t("forOfflineVendor.hero.scrollToExplore")} />
+
         <div className='pointer-events-none absolute inset-0 overflow-hidden'>
           <motion.div
             variants={floatingVariants}
@@ -130,7 +107,7 @@ const HeroSection = () => {
           />
         </div>
 
-        {/* Text content container */}
+        {/* Text content */}
         <div className='absolute top-8 right-0 left-0 z-30 flex flex-col items-center space-y-2'>
           <Text
             className='text-default-white text-center'
@@ -156,8 +133,9 @@ const HeroSection = () => {
             className='mt-4 min-w-[500px] bg-red-300 text-center'
           />
         </div>
+
+        {/* Images */}
         <Container className='relative flex items-center justify-center'>
-          {/* Image container */}
           <div className='relative flex flex-col items-center py-8'>
             <motion.img
               src={Assets.heroDesktop}
@@ -167,7 +145,6 @@ const HeroSection = () => {
               animate={controls}
               variants={desktopVariants}
             />
-
             <motion.img
               src={Assets.heroMobile}
               alt='Mobile'
@@ -185,6 +162,7 @@ const HeroSection = () => {
         </Container>
       </Section>
 
+      {/* Mobile Section remains as-is */}
       <Section className='from-accent-700 flex items-center justify-center overflow-hidden bg-gradient-to-b to-black lg:hidden'>
         <div className='pointer-events-none absolute inset-0 overflow-hidden'>
           <motion.div
@@ -214,7 +192,6 @@ const HeroSection = () => {
           >
             {t("home.hero.mainHeading")}
           </Text>
-
           <motion.img
             src={Assets.heroMobile}
             alt='Mobile'
@@ -225,7 +202,7 @@ const HeroSection = () => {
           />
         </div>
       </Section>
-    </>
+    </div>
   );
 };
 

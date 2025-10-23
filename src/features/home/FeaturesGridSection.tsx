@@ -7,7 +7,7 @@ import { Container } from "@/shared/components/ui/container";
 import { Section } from "@/shared/components/ui/section";
 import { Text } from "@/shared/components/ui/text";
 import { RemixIcons, type RemixIconName } from "@/shared/constants/icons";
-import { useGSAP, fadeInUp } from "@/shared/hooks/useGSAP";
+import { fadeInUp, useGSAP } from "@/shared/hooks/useGSAP";
 
 const FeaturesGridSection = () => {
   const { t } = useTranslation();
@@ -25,10 +25,17 @@ const FeaturesGridSection = () => {
           id='features-heading'
           data-gsap={JSON.stringify(fadeInUp)}
         >
-          <Text as='h2' variant='heading' className='mb-4'>
+          <Text variant='heading' className='mb-5 text-center md:mb-8' as='h2'>
             {t("home.featuresGrid.heading")}
           </Text>
-          <Text color='secondary'>{t("home.featuresGrid.subtitle")}</Text>
+          <Text
+            variant='subheading'
+            className='mb-5 text-center text-lg md:mb-8 md:text-2xl lg:text-3xl'
+            as='h2'
+            color={"secondary"}
+          >
+            {t("home.featuresGrid.subtitle")}
+          </Text>
         </div>
 
         <div className='grid gap-8 md:grid-cols-2'>
