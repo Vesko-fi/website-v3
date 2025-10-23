@@ -137,14 +137,14 @@ const MainSection = () => {
               variants={containerVariants}
               initial='hidden'
               animate='visible'
-              className='flex flex-col items-center p-4 pt-16'
+              className='flex flex-col items-center pt-16 sm:p-4'
             >
               {/* Title */}
               <motion.div variants={titleVariants}>
                 <Text
                   as='h1'
                   variant='heading'
-                  className='text-center text-3xl font-medium text-white sm:text-left xl:text-6xl'
+                  className='text-center text-5xl font-medium text-white sm:text-left md:text-4xl xl:text-6xl'
                 >
                   {t("home.main.title")}
                 </Text>
@@ -167,7 +167,7 @@ const MainSection = () => {
       </div>
 
       {/* Scroll indicator - positioned at bottom of hero section */}
-      {/* <motion.div
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 1.2 }}
@@ -183,7 +183,7 @@ const MainSection = () => {
           </Text>
           <div className='h-6 w-0.5 bg-gradient-to-b from-gray-400 to-transparent' />
         </motion.div>
-      </motion.div> */}
+      </motion.div>
 
       {/* Background texture overlay */}
       <div className='absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.1)_1px,transparent_1px)] bg-[length:20px_20px] opacity-20' />
