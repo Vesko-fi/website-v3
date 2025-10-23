@@ -137,14 +137,14 @@ const MainSection = () => {
               variants={containerVariants}
               initial='hidden'
               animate='visible'
-              className='flex flex-col items-center p-4 pt-16'
+              className='flex flex-col items-center pt-16 sm:p-4'
             >
               {/* Title */}
               <motion.div variants={titleVariants}>
                 <Text
                   as='h1'
                   variant='heading'
-                  className='text-center text-3xl font-medium text-white sm:text-left xl:text-6xl'
+                  className='text-center text-5xl font-medium text-white sm:text-left md:text-4xl xl:text-6xl'
                 >
                   {t("home.main.title")}
                 </Text>
