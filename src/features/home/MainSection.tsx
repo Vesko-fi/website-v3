@@ -55,8 +55,8 @@ const MainSection = () => {
       const vh = window.innerHeight;
       const extra = Math.max(0, vh - 600);
       setDynamicMargins({
-        mt: isMobile ? Math.min(20, vh * 0.03) : 0, // Reduced margin
-        mb: isMobile ? Math.min(30, extra / 4) : 0, // Reduced margin
+        mt: isMobile ? Math.min(20, vh * 0.03) : 0,
+        mb: isMobile ? Math.min(30, extra / 4) : 0,
       });
     }
     updateMargins();
@@ -85,23 +85,23 @@ const MainSection = () => {
       />
 
       {/* Content container */}
-      <div className='relative z-20 flex min-h-[calc(100vh-80px)] flex-col items-start justify-end px-4 py-8 sm:min-h-[calc(100vh-40px)] sm:justify-start sm:px-6 sm:py-14 lg:px-8'>
+      <div className='relative z-20 flex min-h-[calc(100vh-80px)] flex-col items-start justify-center px-4 py-18 sm:min-h-[calc(100vh-40px)] sm:justify-start sm:px-6 sm:py-14 lg:px-8'>
         <Container className='mt-8 w-full'>
-          <div className='relative overflow-visible py-4 md:w-[540px] lg:w-[680px]'>
+          <div className='relative py-4 md:w-[540px] lg:w-[680px]'>
             <div className='xl:from-accent-400/10 absolute inset-0 rounded-2xl xl:bg-gradient-to-br xl:to-black/20' />
 
             <motion.div
               variants={containerVariants}
               initial='hidden'
               animate='visible'
-              className='flex flex-col items-center pt-8 sm:items-start sm:p-2 sm:pt-4'
+              className='flex flex-col items-center pt-20 sm:items-start sm:p-2 sm:pt-4'
             >
               {/* Title */}
               <motion.div variants={titleVariants} className='w-full'>
                 <Text
                   as='h1'
                   variant='heading'
-                  className='text-center text-4xl leading-tight font-medium text-white sm:text-left md:text-5xl xl:text-6xl'
+                  className='text-center text-5xl leading-tight font-medium text-white sm:text-left md:text-5xl xl:text-6xl'
                 >
                   {t("home.main.title")}
                 </Text>
