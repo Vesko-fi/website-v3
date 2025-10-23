@@ -110,7 +110,7 @@ const MainSection = () => {
               {/* Subtitle */}
               <motion.div
                 variants={subtitleVariants}
-                className='w-full text-center text-lg font-semibold text-balance text-white sm:text-center md:text-xl'
+                className='w-full text-center text-lg font-semibold text-balance text-white sm:w-96 sm:text-left md:text-xl lg:w-full lg:text-center'
                 style={{
                   marginTop: dynamicMargins.mt > 0 ? `${dynamicMargins.mt}px` : "1rem",
                   marginBottom: dynamicMargins.mb > 0 ? `${dynamicMargins.mb}px` : "2rem",
