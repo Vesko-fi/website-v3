@@ -9,7 +9,7 @@ import { FeaturesSection } from "@/shared/components/vendor/FeaturesSection";
 
 const ForOnlineVendorPage = () => {
   return (
-    <div className='relative -top-18 overflow-x-hidden'>
+    <div className='relative -top-14.5 overflow-x-hidden'>
       <HeroSection />
       <ValueProbSection />
       <WhatIsSection />
