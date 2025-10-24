@@ -4,7 +4,6 @@ import { useTranslation } from "react-i18next";
 
 import { ScrollIndicator } from "@/shared/components/common/ScollIndicator";
 import { Container } from "@/shared/components/ui/container";
-import { Section } from "@/shared/components/ui/section";
 import { Text } from "@/shared/components/ui/text";
 import { Assets } from "@/shared/constants/assets";
 
@@ -36,7 +35,7 @@ const MainSection = () => {
       const isMobile = window.innerWidth < 640;
       const vh = window.innerHeight;
       setDynamicMargins({
-        mt: isMobile ? Math.min(20, vh * 0.01) : 0,
+        mt: isMobile ? Math.min(20, vh * 0.03) : 0,
       });
     }
     updateMargins();
@@ -45,23 +44,21 @@ const MainSection = () => {
   }, []);
 
   return (
-    <Section
-      className='relative h-[102vh] min-h-screen bg-cover'
-      style={{
-        backgroundImage: `url(${Assets.heroStockholm})`,
-      }}
-    >
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1.5 }}
-        className='absolute inset-0 h-[102vh] bg-gradient-to-t from-black/50 via-black/40 to-transparent'
-      />
+    <div className='relative w-full'>
+      {/* Background gradient */}
+      <div className='to-accent-700 absolute inset-0 z-0 bg-gradient-to-b from-[#0EA67D]' />
 
-      <div className='relative z-30 flex h-[90vh] flex-col items-start justify-center px-4 py-12 sm:justify-center sm:px-6 sm:py-16 lg:px-4 lg:py-20'>
+      <div
+        className='absolute inset-0 z-10 h-[102vh] bg-cover bg-center bg-no-repeat'
+        style={{ backgroundImage: `url(${Assets.heroStockholm})` }}
+      />
+      <div className='absolute inset-0 z-20 h-[102vh] rounded-2xl bg-gradient-to-br from-black/30 via-black/30 to-black/20' />
+      {/* Content container */}
+      <div className='relative z-20 flex min-h-screen flex-col items-start justify-center px-4 sm:justify-center sm:px-6 lg:px-4'>
         <Container className='flex w-full justify-center px-6'>
           <div className='relative w-full py-4'>
             <motion.div variants={containerVariants} initial='hidden' animate='visible'>
+              {/* Title */}
               <motion.div
                 variants={titleVariants}
                 className='block w-full items-center justify-start sm:flex'
@@ -74,16 +71,10 @@ const MainSection = () => {
                   {t("home.main.title")}
                 </Text>
               </motion.div>
-
-              <div className='flex w-full flex-col items-center gap-6 py-6 sm:flex-row sm:items-start sm:gap-4 md:py-0'>
-                <div className='flex-shrink-0'>
-                  <img
-                    src={Assets.logoLightIcon}
-                    alt=''
-                    className='mx-4 w-24 sm:mx-0 sm:w-32 md:w-40'
-                  />
+              <div className='flex w-full flex-col items-center gap-8 py-6 sm:flex sm:flex-row sm:items-start md:py-0'>
+                <div>
+                  <img src={Assets.logoLightIcon} alt='' className='mx-4 w-24 sm:w-40' />
                 </div>
-
                 <motion.div
                   variants={subtitleVariants}
                   className='text-center text-2xl font-normal text-white sm:pt-0 sm:text-start sm:text-balance md:text-4xl'
@@ -95,12 +86,15 @@ const MainSection = () => {
                   {t("home.main.subtitle")}
                 </motion.div>
               </div>
+
+              {/* Subtitle */}
             </motion.div>
           </div>
+          <ScrollIndicator text={t("forOfflineVendor.hero.scrollToExplore")} />
         </Container>
-        <ScrollIndicator text={t("forOfflineVendor.hero.scrollToExplore")} />
       </div>
-    </Section>
+      {/* Background texture overlay */}
+    </div>
   );
 };
 
