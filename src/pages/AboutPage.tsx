@@ -7,7 +7,7 @@ import { WhySection } from "@/features/about/WhySection";
 
 const AboutPage = () => {
   return (
-    <div className='relative -top-18 overflow-x-hidden'>
+    <div className='relative -top-14.5 overflow-x-hidden'>
       <HeroSection />
       <WhatIsVeskoSection />
       <WhySection />

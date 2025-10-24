@@ -101,9 +101,9 @@ const HeroSection = () => {
 
   return (
     <Section
-    className="relative min-h-screen items-center bg-cover bg-center bg-no-repeat px-4 py-32 xl:flex"
-    style={{ backgroundImage: `url(${Assets.forPeopleHero})` }}
-  >
+      className='relative min-h-screen items-center bg-cover bg-center bg-no-repeat px-4 py-32 xl:flex'
+      style={{ backgroundImage: `url(${Assets.forPeopleHero})` }}
+    >
       {/* Enhanced background overlay */}
       <motion.div
         initial={{ opacity: 0 }}
