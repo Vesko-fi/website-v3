@@ -5,7 +5,12 @@ import BRMD3 from "@/assets/images/b_rmd_3.avif";
 import BRMD4 from "@/assets/images/b_rmd_4.avif";
 import BRMD5 from "@/assets/images/b_rmd_5.avif";
 import BRMD6 from "@/assets/images/b_rmd_6.avif";
+import BuyAndCollect from "@/assets/images/buy_collect.avif";
+import CheckAvailability from "@/assets/images/check_availability.avif";
 import Connected from "@/assets/images/connected.avif";
+import Dashboard from "@/assets/images/dashboard.avif";
+import DifferentSocialMedia from "@/assets/images/different_social_media.avif";
+import ExpandReach from "@/assets/images/expand_reach.avif";
 import FamiliarDesign from "@/assets/images/familiar_design.avif";
 import ForPeopleHero from "@/assets/images/for_people_hero.avif";
 import HeroDesktop from "@/assets/images/hero_desktop.avif";
@@ -30,10 +35,15 @@ import SpaceDigitalSecond from "@/assets/images/Vesko_dashboard_mobile.avif";
 import YouFeelFree from "@/assets/images/you_feel_free.avif";
 import VeskoLogo from "@/assets/logos/vesko.PNG";
 import VeskoLogoLight from "@/assets/logos/vesko_light.PNG";
+import VeskoLightIcon from "@/assets/logos/vesko_light.webp";
 import VeskoVideo from "@/assets/videos/vesko.mp4";
 import VeskoVideoMinos from "@/assets/videos/vesko_minos_video.webm";
 // ForOfflineVendorPage assets - using existing images
+import Growth from "@/assets/images/growth.avif";
 import MobileAppMockup from "@/assets/images/hero_mobile.avif";
+import Stockholm from "@/assets/images/home/Stockholm.jpg";
+import Logistics from "@/assets/images/logistics.avif";
+import MobileApp from "@/assets/images/mobile_app.avif";
 import { default as OfflineVendorHeroImage } from "@/assets/images/offiline_hero.avif";
 import OmniFeature from "@/assets/images/omni_feature.avif";
 import {
@@ -45,30 +55,18 @@ import {
   default as StoreDashboard,
   default as VeskoStore,
 } from "@/assets/images/omnistore.avif";
-
 import MobileOnboard from "@/assets/images/onboarding_mob.avif";
-
-import Scalable from "@/assets/images/scalable.avif";
-
-import homepageMainimage from "@/assets/images/Vesko_Hero_Image_Wider.avif";
-import homepageMainimage2 from "@/assets/images/Vesko_Hero_Image_Wider_2.avif";
-
-import BuyAndCollect from "@/assets/images/buy_collect.avif";
-import CheckAvailability from "@/assets/images/check_availability.avif";
-import Dashboard from "@/assets/images/dashboard.avif";
-import DifferentSocialMedia from "@/assets/images/different_social_media.avif";
-import ExpandReach from "@/assets/images/expand_reach.avif";
-import Growth from "@/assets/images/growth.avif";
-import Logistics from "@/assets/images/logistics.avif";
-import MobileApp from "@/assets/images/mobile_app.avif";
 import OnlineOrderFulfillment from "@/assets/images/online_order_fulfillment.avif";
 import Payment from "@/assets/images/payment.avif";
 import PointOfSaleSystem from "@/assets/images/point_of_sale_system.avif";
+import Scalable from "@/assets/images/scalable.avif";
 import UnifiedInventory from "@/assets/images/unified_inventory.avif";
 
 export const Assets = {
   logo: VeskoLogo,
+  logoLightIcon: VeskoLightIcon,
   logoLight: VeskoLogoLight,
+  heroStockholm: Stockholm,
   heroMobile: HeroMobile,
   heroDesktop: HeroDesktop,
   spaceDigital: SpaceDigital,
@@ -101,9 +99,6 @@ export const Assets = {
   tRmd4: TRMD4,
   tRmd5: TRMD5,
   tRmd6: TRMD6,
-
-  homepageMainimage: homepageMainimage,
-  homepageMainimage2: homepageMainimage2,
 
   VeskoBg: VeskoBg,
 
