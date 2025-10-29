@@ -11,7 +11,7 @@ import { CTASection } from "@/shared/components/common/CTASection";
 
 const HomePage = () => {
   return (
-    <div className='relative -top-14.5 overflow-x-hidden'>
+    <div className='relative -top-14.5'>
       <MainSection />
       <HeroSection />
       <FeaturesSection />
