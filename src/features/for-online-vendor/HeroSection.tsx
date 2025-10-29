@@ -86,7 +86,7 @@ const HeroSection = () => {
 
   return (
     <Section
-      className='relative min-h-screen bg-cover bg-center'
+      className='relative min-h-screen overflow-x-hidden bg-cover bg-center'
       style={{ backgroundImage: `url(${Assets.veskoBg})` }}
     >
       {/* Enhanced background overlay with gradient animation */}

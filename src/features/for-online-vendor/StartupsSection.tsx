@@ -50,7 +50,7 @@ const StartupsSection = () => {
   ];
 
   return (
-    <Section className='relative bg-gradient-to-br from-blue-50 to-indigo-100 py-10 lg:py-24'>
+    <Section className='relative overflow-x-hidden bg-gradient-to-br from-blue-50 to-indigo-100 py-10 lg:py-24'>
       {/* Background elements */}
       <div className='pointer-events-none absolute inset-0 overflow-hidden'>
         <div className='absolute top-20 left-10 h-32 w-32 rounded-full bg-blue-50' />

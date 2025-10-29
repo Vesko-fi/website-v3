@@ -60,7 +60,7 @@ const WhatIsSection = () => {
   };
 
   return (
-    <Section className='bg-white'>
+    <Section className='overflow-x-hidden bg-white'>
       {/* Background decorative elements */}
       <div className='pointer-events-none absolute inset-0 overflow-hidden'>
         <div className='absolute top-20 left-10 h-32 w-32 rounded-full bg-blue-50' />
