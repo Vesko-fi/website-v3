@@ -3,7 +3,7 @@ import { HeroSection } from "@/features/contact/HeroSection";
 
 const ContactPage = () => {
   return (
-    <div className='relative -top-18 overflow-x-hidden'>
+    <div className='relative -top-18'>
       <HeroSection />
       <ContactFormSection />
     </div>

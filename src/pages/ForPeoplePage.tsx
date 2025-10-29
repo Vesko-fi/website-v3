@@ -8,7 +8,7 @@ import { CTASection } from "@/shared/components/common/CTASection";
 
 const ForPeoplePage = () => {
   return (
-    <div className='relative -top-14.5 overflow-x-hidden'>
+    <div className='relative -top-14.5'>
       <HeroSection />
       <WhatIsVeskoSection />
       <VeskoIsSection />
