@@ -44,7 +44,7 @@ const MainSection = () => {
   }, []);
 
   return (
-    <div className='relative max-w-full overflow-x-hidden'>
+    <div className='relative max-w-full'>
       {/* Background gradient */}
       <div className='to-accent-700 absolute inset-0 z-0 bg-gradient-to-b from-[#0EA67D]' />
 
@@ -66,7 +66,7 @@ const MainSection = () => {
                 <Text
                   as='h2'
                   variant='heading'
-                  className='px-2 text-center text-5xl leading-tight font-medium text-white sm:text-center xl:text-7xl'
+                  className='px-2 pt-4 text-center text-5xl leading-tight font-medium text-white sm:pt-0 sm:text-center xl:text-7xl'
                 >
                   {t("home.main.title")}
                 </Text>
@@ -77,7 +77,7 @@ const MainSection = () => {
                 </div>
                 <motion.div
                   variants={subtitleVariants}
-                  className='text-center text-2xl font-normal text-white sm:pt-0 sm:text-start sm:text-balance md:text-4xl'
+                  className='text-center text-xl font-normal text-white sm:text-start sm:text-2xl sm:text-balance md:text-4xl'
                   style={{
                     marginTop: dynamicMargins.mt > 0 ? `${dynamicMargins.mt}px` : "1rem",
                     marginBottom: 0,

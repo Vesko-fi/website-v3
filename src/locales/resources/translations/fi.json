@@ -2,45 +2,49 @@
   "home": {
     "title": "Tervetuloa verkkosivustollemme",
     "main": {
-      "title": "Yhdistetään ihmiset uudelleen",
-      "subtitle": "Toisiinsa. Paikkoihin. Todelliseen maailmaan."
+      "title": "Ajattele globaalisti, osta paikallisesti",
+      "subtitle": "Vesko auttaa paikallisia jälleenmyyjiä kasvamaan ja yhdistää asiakkaat ja jälleenmyyjät saumattomasti sekä verkossa että myymälässä."
     },
     "hero": {
-      "mainHeading": "Missä digitaalinen maailma kohtaa todellisen maailman"
+      "heading": "Me voimme kasvaa yhdessä",
+      "mainHeading": "Missä digitaalIsuus vahvistaa ihmisiä ja yritykset ovat kuin perheitä"
     },
     "features": {
-      "heading": "Vesko on sosiaalisen median markkinapaikka, jossa voit ostaa ja myydä verkossa",
-      "description": "Vesko tarjoaa Omni Storen, organisaatiotasoisen verkkokaupan pienille kivijalkakauppiaille, jonka avulla asiakkaat näkevät reaaliajassa myymälän saatavilla olevat tuotteet jo ennen kuin he astuvat sisään liikkeeseen."
+      "heading": "OmniStore",
+      "description": "Mahdollistaa eri myyntikanavat ja pienistä kivijalkaliikkeistä tulee verkkokauppiaita.",
+      "description1": "Yhdistää kauppiaat, ihmiset ja tuotteet reaaliajassa."
     },
     "middleHero": {
       "line1": "Kyllä! Vesko on",
-      "line2": "sosiaalinen media"
+      "line2": "sosiaalinen media – mutta tarkoituksella.",
+      "subheading": "Veskossa sosiaalisesta tulee liike."
     },
     "vesko": {
       "heading": "Vesko  Sosiaalisen Mediana",
       "safePlace": {
         "title": "Turvallinen paikka",
-        "description": "Jakaa elämääsi ystävien ja perheen kanssa ilman, että sinuun hyökätään sen vuoksi, kuka olet."
+        "description": "Jaa elämäsi turvallisesti ystävien ja perheen kanssa. Ole vapaa ilmaisemaan itseäsi – tule sellaisena kuin olet!"
       },
       "neutral": {
         "title": "Neutraali",
-        "description": "Kuten Sveitsi, emme ota puolta, ja meillä on nollatoleranssi vihaa, kiusaamista ja syrjintää kohtaan."
+        "description": "Emme ota puolia. Vesko noudattaa tiukasti syrjinnänvastaisia periaatteita ja nollatoleranssia vihalle sekä kiusaamiselle."
       },
       "connected": {
         "title": "Yhdistetty",
-        "description": "Syötteesi ei näytä vain ihmisiä, se näyttää mitä paikalliset kaupat myyvät, tuoden online-elämäsi lähemmäs todellista maailmaasi."
+        "description": "Syötteesi ei kerro vain ihmisistä; se näyttää myös, mitä paikallisilla liikkeillä on tarjota. Tuomme verkkokokemuksen takaisin yhteisölle, jossa se on tärkeintä."
       }
     },
     "socialize": {
-      "heading": "Sosiaalinen ostoskokemus",
+      "heading": "Tee ostamisesta sosiaalista",
+      "subheading": "Laajenna ostokokemustasi ja tutustu ympärilläsi olevaan maailmaan. Ole uudelleen osa paikallista yhteisöäsi. ",
       "blocks": {
         "localLife": {
-          "title": "Tila, jossa paikallinen elämäsi muuttuu digitaaliseksi",
-          "description": "Seuraa lähikaupan brändejä ja kauppoja, löydä uusia tuotteita ja tue paikallisia yrityksiäsi kaikki yhdessä sosiaalisessa syötteessä."
+          "title": "Paikka, jossa paikallinen elämäsi digitalisoituu",
+          "description": "Seuraa lähialueesi brändejä ja kauppoja, löydä tuotteet ja tue paikallisia yrityksiä yhdellä alustalla."
         },
         "growBusiness": {
-          "title": "Kasvata yritystäsi, laajenna saavutettavuuttasi",
-          "description": "Rakenna yhteisö brändisi ympärille tai aloita yrittäjämatkasi täällä Veskossa."
+          "title": "Vesko on pienyritysten kasvualusta ja brändin vahvistaja.",
+          "description": "Aloita yrityksesi ympärille kasvava yhteisö. Aloita yrittäjämatkasi omassa yhteisössäsi, juuri nyt, juuri täällä Veskossa."
         }
       }
     },
@@ -48,33 +52,33 @@
       "heading": "Verkkokaupparatkaisumme",
       "omnistore": {
         "title": "OmniStore ®",
-        "subtitle": "Perinteisille kauppiaille",
-        "description": "Muunna fyysinen kauppasi virtuaaliseksi näyttelytilaksi. Myy samasta varastosta sekä verkossa että offline-tilassa ja yhdisty digitaalisesti ajatteleviin kävijäasiakkaisiin."
+        "subtitle": "Kivijalkakauppiaille Verkkokauppa yrittäjille. ",
+        "description": "Muuta fyysisen kaupan virtuaaliseksi näyteikkunaksi. Liitä varasto ja myy sekä verkossa että myymälässä. Yhdistä sekä digitaaliset että paikalliset asiakkaat."
       },
       "onlineStore": {
         "title": "Verkkokauppa",
         "subtitle": "Verkkokauppiaille",
-        "description": "Digitaalisille ensisijaisille myyjille. Rakenna brändisi, kasvata uskollista asiakaskuntaa ja yhdisty suoraan yleisöösi — kaikki yhdessä tukevassa sosiaalisessa kaupankäyntialustassa."
+        "description": "Digitaalisille toimijoille. Rakenna brändisi, kasvata uskollista asiakaskuntaa ja kommunikoi suoraan asiakkaittesi kanssa sosiaalisen kaupankäynnin alustalla."
       }
     },
     "featuresGrid": {
       "heading": "Kytke ja käytä",
-      "subtitle": "Integroitu maksaminen ja luotettava logistiikka sisäänrakennettuna jokaiseen verkkokauppaan",
+      "subtitle": "Integroitu kassaratkaisu, jossa maksaminen ja logistiikka toimivat saumattomasti Veskon OmniStore-järjestelmässä.",
       "payment": {
-        "title": "Maksut",
-        "description": "Turvallinen ja varma kassaprosessi, jota tukee päästä päähän -salaus ja luotetut maksukumppanit.",
+        "title": "Maksaminen",
+        "description": "Turvallinen maksaminen. Salausta ja luotettavia maksukumppaneita käyttäen.",
         "buttonText": "Lue lisää"
       },
       "logistics": {
         "title": "Logistiikka",
-        "description": "Nopea ja luotettava toimitus valmiiksi integroitujen logistiikkaratkaisujen avulla, jolloin tilauksen täyttö sujuu saumattomasti sekä myyjille että asiakkaille.",
+        "description": "Nopea ja luotettava toimitus valmiilla logistiikkaintegraatioilla, jotka tekevät tilausprosessista sujuvan sekä myyjille että asiakkaille.",
         "buttonText": "Lue lisää"
       }
     },
     "unboxing": {
       "heading": "Katso itse!",
-      "videoNotSupported": "Selaimesi ei tue videotunnistetta.",
-      "demo": "Katso koko esittely",
+      "videoNotSupported": "Katso koko esittelyvideo",
+      "demo": "Katso koko esittelyvideo",
       "videoId": "JgDNFQ2RaLQ",
       "button": "▶ Tässä"
     },
@@ -103,10 +107,10 @@
       ]
     },
     "cta": {
-      "heading": "Astu tulevaisuuteen",
+      "heading": "Tänään luomme tulevaisuuden yhdessä Veskon kanssa",
       "waitlist": {
-        "title": "Liity käyttäjien odotuslistalle",
-        "waitlistPolicy": "Liittymällä jonotuslistalle hyväksyt meidän",
+        "title": "Liity jonotuslistallemme",
+        "waitlistPolicy": "Liittymällä hyväksyt tietosuojakäytäntömme.",
         "buttonText": "Liity odotuslistalle",
         "loadingText": "Liitytään...",
         "successMessage": "Kiitos, että liityit odotuslistallemme!",
@@ -115,7 +119,7 @@
         "errorMessage": "Syötä kelvollinen sähköpostiosoite"
       },
       "merchant": {
-        "title": "Kauppias? Rekisteröidy ja saa early bird -paketti",
+        "title": "Oletko kauppias? Rekisteröidy ja hyödynnä ennakkotarjous.",
         "buttonText": "Rekisteröidy kauppiaaksi"
       }
     }
@@ -964,7 +968,7 @@
     "company": {
       "businessId": "Y-tunnus: 3472131-6"
     },
-    "rights": "Kaikki oikeudet pidätetään",
+    "rights": "Kaikki oikeudet pidätetään.",
     "privacyPolicy": "Tietosuojakäytännön",
     "topButton": "Takaisin ylös"
   },
