@@ -46,7 +46,7 @@ const EcommerceSolution = () => {
   };
 
   return (
-    <Section>
+    <Section className='overflow-x-hidden'>
       <Container>
         <Text variant='heading' className='mb-10 text-center md:mb-16' as='h2'>
           {t("home.ecommerce.heading")}

@@ -68,7 +68,7 @@ const RealMeetDigitalSection = () => {
   };
 
   return (
-    <Section className='relative overflow-hidden bg-black'>
+    <Section className='relative overflow-x-hidden bg-black'>
       {/* Animated image rows */}
       <motion.div
         variants={containerVariants}

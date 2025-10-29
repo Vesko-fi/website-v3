@@ -59,7 +59,7 @@ const FeaturesSection = () => {
   };
 
   return (
-    <Section className='overflow-hidden bg-gradient-to-b from-white to-gray-50'>
+    <Section className='overflow-x-hidden bg-gradient-to-b from-white to-gray-50'>
       {/* Background decorative elements */}
       <div className='pointer-events-none absolute inset-0 overflow-hidden'>
         <motion.div

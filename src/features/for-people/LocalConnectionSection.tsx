@@ -87,7 +87,7 @@ const LocalConnectionSection = () => {
     },
   };
   return (
-    <Section>
+    <Section className='overflow-x-hidden'>
       <Container className='flex flex-col gap-4'>
         <motion.div
           variants={containerVariants}
