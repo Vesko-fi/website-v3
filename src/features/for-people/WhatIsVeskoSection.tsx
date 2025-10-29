@@ -34,7 +34,7 @@ const WhatIsVeskoSection: React.FC = () => {
   };
 
   return (
-    <Section className='from-accent-50 relative bg-gradient-to-br to-blue-50'>
+    <Section className='from-accent-50 relative overflow-x-hidden bg-gradient-to-br to-blue-50'>
       <Container>
         <div className='px-4 py-16'>
           <div className='flex flex-col md:flex-row md:gap-16'>

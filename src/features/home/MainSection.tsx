@@ -44,7 +44,7 @@ const MainSection = () => {
   }, []);
 
   return (
-    <div className='relative w-full'>
+    <div className='relative max-w-full overflow-x-hidden'>
       {/* Background gradient */}
       <div className='to-accent-700 absolute inset-0 z-0 bg-gradient-to-b from-[#0EA67D]' />
 

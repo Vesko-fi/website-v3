@@ -101,7 +101,7 @@ const HeroSection = () => {
 
   return (
     <Section
-      className='relative min-h-screen items-center bg-cover bg-center bg-no-repeat px-4 py-32 xl:flex'
+      className='relative min-h-screen items-center overflow-hidden bg-cover bg-center bg-no-repeat px-4 py-32 xl:flex'
       style={{ backgroundImage: `url(${Assets.forPeopleHero})` }}
     >
       {/* Enhanced background overlay */}

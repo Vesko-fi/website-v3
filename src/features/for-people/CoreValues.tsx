@@ -123,7 +123,7 @@ const CoreValues = () => {
   };
 
   return (
-    <Section>
+    <Section className='overflow-x-hidden'>
       <Container>
         <div className='mx-auto max-w-4xl'>
           <motion.div

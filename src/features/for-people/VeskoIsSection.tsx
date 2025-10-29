@@ -99,7 +99,7 @@ const VeskoIsSection: React.FC = () => {
 
   return (
     <>
-      <Section>
+      <Section className='overflow-x-hidden'>
         <Container className='overflow-hidden rounded-3xl bg-white'>
           <motion.div
             variants={containerVariants}

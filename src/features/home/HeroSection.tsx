@@ -77,7 +77,7 @@ const HeroSection = () => {
 
   return (
     <>
-      <Section className='from-accent-700 hidden min-h-screen items-center bg-gradient-to-b to-black px-4 py-32 lg:flex'>
+      <Section className='from-accent-700 hidden min-h-screen items-center overflow-x-hidden bg-gradient-to-b to-black px-4 py-32 lg:flex'>
         <div className='pointer-events-none absolute inset-0 overflow-hidden'>
           <motion.div
             variants={floatingVariants}
