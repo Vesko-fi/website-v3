@@ -71,7 +71,7 @@ const OrderSection = () => {
   };
 
   return (
-    <Section className='relative bg-gray-50'>
+    <Section className='relative overflow-x-hidden bg-gray-50'>
       {/* Background decorative elements */}
       <div className='pointer-events-none absolute inset-0 overflow-hidden'>
         <div className='absolute top-20 left-10 h-32 w-32 rounded-full bg-blue-50' />
