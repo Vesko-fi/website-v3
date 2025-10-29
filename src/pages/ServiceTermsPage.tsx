@@ -22,7 +22,7 @@ const ServiceTermsPage = () => {
   const { t } = useTranslation();
 
   return (
-    <Section className='scroll-margin-top-[64px] mt-16 overflow-x-hidden'>
+    <Section className='scroll-margin-top-[64px] mt-16'>
       <div className='flex flex-col text-justify'>
         <h2 className='pb-16 text-center text-3xl font-bold sm:text-balance lg:text-4xl'>
           {t("serviceTerms.terms_title")}
