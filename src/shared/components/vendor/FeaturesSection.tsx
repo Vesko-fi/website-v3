@@ -1,15 +1,15 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import { NavLink } from "react-router-dom";
 
+import i18n, { type SupportedLanguages } from "@/locales/i18n.config";
+import { getLocalizedPath } from "@/routes/helpers/localization";
 import { Container } from "@/shared/components/ui/container";
 import { Image } from "@/shared/components/ui/image";
 import { Section } from "@/shared/components/ui/section";
 import { Text } from "@/shared/components/ui/text";
 import { Assets } from "@/shared/constants/assets";
 import { RemixIcons } from "@/shared/constants/icons";
-import { NavLink } from "react-router-dom";
-import { getLocalizedPath } from "@/routes/helpers/localization";
-import i18n, { type SupportedLanguages } from "@/locales/i18n.config";
 
 const FeaturesSection = () => {
   const { t } = useTranslation();
