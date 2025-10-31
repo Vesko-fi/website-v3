@@ -75,7 +75,7 @@ const ValueProbSection = () => {
           </motion.div>
           {/* Subheader */}
           <motion.div variants={textVariants}>
-            <Text className='max-w-2xl text-lg text-gray-600 md:text-xl'>
+            <Text className='max-w-2xl text-lg text-gray-600 md:!text-2xl'>
               {t("forOnlineVendor.valueProb.subtitle")}
             </Text>
           </motion.div>

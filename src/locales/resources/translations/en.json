@@ -676,13 +676,13 @@
   },
   "forOnlineVendor": {
     "hero": {
-      "title": "Designed For You",
-      "subtitle": "The social commerce platform built to help you achieve your dreams",
+      "title": "Designed With You In Mind",
+      "subtitle": "Vesko is the social commerce platform built to make your dreams possible",
       "scrollToExplore": "Scroll to explore"
     },
     "valueProb": {
-      "title": "Socialise your selling",
-      "subtitle": " A social media marketplace where your followers become your customers and supporters in growing your business.",
+      "title": "Socialize your selling",
+      "subtitle": "A social media marketplace where followers become customers and supporters in your growing business",
       "benefits": {
         "buildCommunity": {
           "title": "Build Your Community",
@@ -699,12 +699,12 @@
       }
     },
     "whatIs": {
-      "title": "Vesko’s online store",
-      "subtitle": "Designed to help you grow. Your store lives inside your profile, so customers can follow you, engage with your content, and shop from you, all in one place. No need for a separate website or setup, you just need a label printer that’s it. Just create, connect, and sell.",
+      "title": "Our Online Store",
+      "subtitle": "Vesko is designed to help you grow. Your store is your profile, where customers can follow your content and engage with you, all in one place. No need for a separate website or setup, just a store and a label printer.",
       "features": {
         "integratedProfile": "No extra setups needed.",
-        "meaningfulConnections": "Scalable stores grow as your business grows.",
-        "socialPresence": "Payments and logistics, inventory, all in one dashboard."
+        "meaningfulConnections": "Scalable as your store grows",
+        "socialPresence": "Payments, logistics, and inventory all in one dashboard"
       }
     },
     "startups": {
@@ -821,15 +821,15 @@
       "steps": {
         "createStore": {
           "title": "Create Your Store",
-          "description": "Choose a suitable subscription plan (coming soon), register, and create your profile and store."
+          "description": "Choose your plan (options soon), register, create your profile, and store."
         },
         "addProducts": {
           "title": "Add Your Products",
-          "description": "Add your inventory to your store in Vesko, use or adjust the built-in product categorising."
+          "description": "Use the built-in product categorization to add your inventory."
         },
         "startSelling": {
           "title": "Start Selling",
-          "description": "Once you press the list, products will be available in your store for your customers, your followers will see your new product in their home feed."
+          "description": "Once you hit enter, your products are available to customers. New products will appear in your followers' home feeds."
         }
       },
       "bottomMessage": {

@@ -107,6 +107,7 @@ const BenefitsSection = () => {
               >
                 {/* Background Pattern */}
                 <div className={`absolute inset-0 ${benefit.bgColor} opacity-50`} />
+
                 {/* Content */}
                 <div className='relative z-10'>
                   {/* Icon */}
@@ -138,6 +139,7 @@ const BenefitsSection = () => {
                     <div className='absolute inset-0 bg-gradient-to-t from-black/20 to-transparent' />
                   </div>
                 </div>
+
                 {/* Floating elements */}
                 <motion.div
                   variants={floatingVariants}
