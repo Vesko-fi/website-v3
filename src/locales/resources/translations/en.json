@@ -399,12 +399,12 @@
   "forOfflineVendor": {
     "hero": {
       "title": "OmniStore",
-      "subtitle": "Organisation-level webshop With Unified Inventory, built to help grow your offline store.",
+      "subtitle": "Enterprise-level webshop featuring a unified Inventory, purpose-built to grow your offline business online.",
       "scrollToExplore": "Scroll to explore"
     },
     "omnistoreBenefit": {
-      "title": "Attract Digitally Driven Offline Customers Using OmniStore ® To Grow Your Business",
-      "subtitle": "Register now and get early bird access, enjoy a free 3-month trial!",
+      "title": "Register now to attract digitally driven offline customers by using OmniStore to grow your business",
+      "subtitle": "Start today and get early bird access, enjoy a 3-month free trial period!",
       "trustIndicators": {
         "freeTrial": "Free 3-month trial",
         "noSetupFees": "No setup fees",
@@ -413,13 +413,13 @@
     },
     "whatIsOmniStore": {
       "title": "What is OmniStore?",
-      "subTitle": "OmniStore ® turns your physical store into a virtual showroom, letting customers see what's available in real time, before they even step outside their homes",
-      "description": "It is built to help your business grow by offering your customers an Online-to-Offline shopping experience, through the world’s first scalable, ready-to-use omnichannel online store",
+      "subTitle": "With Plug & Play ease, OmniStore becomes your virtual showroom allowing customers to check product availability right from home",
+      "description": "Purpose-built to grow your business by offering your customers an online-to-offline experience. Vesko is the world’s first scalable omnichannel online store",
       "highlights": {
-        "scalableAndReady": "Scalable & ready to use.",
-        "realTimeInventory": "Realtime inventory visibility.",
-        "betterExperience": "Better customer shopping experience.",
-        "freeMarketplace": "Free marketplace it's your own store."
+        "scalableAndReady": "Easily scalable & ready-to-use.",
+        "realTimeInventory": "Real-time online inventory.",
+        "betterExperience": "Improved customer experience.",
+        "freeMarketplace": "A whole new marketplace that’s still your store."
       }
     },
     "why": {
@@ -453,19 +453,19 @@
       "title": "Why OmniStore?",
       "growth": {
         "title": "Growth",
-        "description": "Bring more foot traffic to your store by helping customers check product availability and details before they visit."
+        "description": "Increase foot traffic with online inventory availability and an opportunity to discover product details."
       },
       "unifiedInventory": {
         "title": "Unified Inventory",
-        "description": "List the same item online and offline, cut cost on managing a separate online-warehouse."
+        "description": "No costly warehouse to manage, offline items are your online inventory."
       },
       "scalable": {
         "title": "Scalable",
-        "description": "Every Vesko store comes with search, order management, and inventory tools, ready to grow as your business does."
+        "description": "Every Vesko store comes with search, order management and inventory tools ready to help grow your business."
       },
       "expandReach": {
         "title": "Expand Reach",
-        "description": "Beside offline customers, you can expand your reach and sell online nationwide."
+        "description": "Beyond offline shoppers, your reach is expanded to sell nationwide."
       },
       "cta": {
         "title": "Ready to transform your business?",
@@ -477,15 +477,15 @@
       "steps": {
         "createStore": {
           "title": "Create Your Store",
-          "description": "Choose a suitable subscription plan (coming soon), register, and create your profile and store."
+          "description": "Choose your plan (options soon), register, create your profile, and store."
         },
         "addProducts": {
           "title": "Add Your Products",
-          "description": "Add your inventory to your store in Vesko, use or adjust the built-in product categorising."
+          "description": "Easily add your inventory from the store in Vesko. There, you are able to adjust with the built-in product categorization."
         },
         "startSelling": {
           "title": "Start Selling",
-          "description": "Once you press the list, products will be available in your store for your customers, your followers will see your new product in their home feed."
+          "description": "Once you hit enter, your products are available to customers. New products will appear in your followers' home feeds."
         }
       },
       "bottomMessage": {
@@ -494,35 +494,35 @@
       }
     },
     "features": {
-      "title": "Designed to grow your business with minimal effort in managing your store.",
+      "title": "Designed to grow your business simply. Manage your store with minimal added effort.",
       "mobileApp": {
         "title": "Mobile & Web",
-        "description": "Vesko will be available via web and mobile app to help you manage your store, track orders, and engage with customers on the go.",
+        "description": "Vesko is a mobile app and web-based store manager. Helping your business track orders and engage with customers.",
         "highlights": [
-          "User friendly",
-          "iOS and Android compatible",
-          "Real-time order notifications",
-          "Chat with customers directly"
+          "It’s user-friendly",
+          "IOS and Android",
+          "Real-time order notification",
+          "Chat directly with customers"
         ]
       },
       "logisticsReady": {
         "title": "Integrated Logistics ",
-        "description": "With Vesko’s built-in Order Management System (OMS), all you need is a printer and a few clicks to ship your orders, thanks to our trusted partner, nShift, which connects Vesko to hundreds of carriers worldwide.",
+        "description": "Shipping made easy with Vesko’s built-in Order Management System (OMS). In just a few clicks, our trusted partner nShift connects to hundreds of carriers worldwide.",
         "highlights": [
           "Built-in OMS",
-          "Few clicks order fulfilment",
-          "Variety of delivering methods",
+          "Few clicks to deliver",
+          "Many delivery options",
           "Enhanced post purchase experience"
         ]
       },
       "paymentsBuiltIn": {
         "title": "Payment",
-        "description": "Easy & secured integrated payment solution thanks to our trusted partner Stripe.",
+        "description": "Integrated, easy & secure payment system with our trusted partner, Stripe.",
         "highlights": [
           "Secure & Trusted",
-          "Fast Settlements",
-          "Multiple Payment Options",
-          "No Technical Setup Required"
+          "Fast settlements",
+          "Multiple payment options",
+          "No technical setup required"
         ]
       },
       "allInOneDashboard": {
@@ -551,15 +551,15 @@
       "steps": {
         "receiveOrder": {
           "title": "Receive Order",
-          "description": "Get instant notifications when customers place orders through your store, with all details and customer information."
+          "description": "Get instant notification when customers place an order, including receiving all the needed customer information."
         },
         "preparePackage": {
-          "title": "Prepare Package",
-          "description": "Pack the order with care, print shipping labels automatically, and get ready for pickup or delivery."
+          "title": "Prepare the Package if shipping",
+          "description": "Pack order with care, print labels automatically, ready for delivery."
         },
         "sendForDelivery": {
-          "title": "Send Out For Delivery",
-          "description": "Hand over your package to our trusted delivery partners and track the entire journey in real-time."
+          "title": "Out For Delivery",
+          "description": "After being picked up by our trusted delivery partners, track items in real-time"
         }
       },
       "bottomMessage": {
