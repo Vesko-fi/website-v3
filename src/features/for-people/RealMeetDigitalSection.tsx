@@ -147,7 +147,6 @@ const RealMeetDigitalSection = () => {
         </motion.div>
       </motion.div>
 
-      {/* Enhanced overlay */}
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
