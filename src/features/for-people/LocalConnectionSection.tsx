@@ -102,7 +102,7 @@ const LocalConnectionSection = () => {
             </h2>
           </motion.div>
           <motion.div variants={subTextVariants}>
-            <p>{t("forPeople.localConnection.subheading")}</p>
+            <p className='text-xl'>{t("forPeople.localConnection.subheading")}</p>
           </motion.div>
         </motion.div>
         <motion.div
