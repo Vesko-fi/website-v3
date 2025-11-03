@@ -147,7 +147,6 @@ const RealMeetDigitalSection = () => {
         </motion.div>
       </motion.div>
 
-      {/* Enhanced overlay */}
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -168,7 +167,7 @@ const RealMeetDigitalSection = () => {
             <Text
               as='h2'
               className={cn(
-                "mb-8 text-4xl font-bold text-white md:text-5xl lg:text-7xl xl:text-8xl",
+                "mb-8 text-3xl font-bold text-white md:text-5xl lg:text-6xl xl:text-7xl",
                 "leading-tight"
               )}
             >

@@ -85,15 +85,6 @@ const VeskoIsSection: React.FC = () => {
     },
   };
 
-  const subTextVariants = {
-    hidden: { opacity: 0, y: 40 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: { duration: 0.8, ease: "easeOut", delay: 0.4 },
-    },
-  };
-
   // Split the main text for the second section
   const mainText = t("forPeople.veskoIs.secondSection.mainText");
 
@@ -197,7 +188,7 @@ const VeskoIsSection: React.FC = () => {
           </motion.div>
           {/* </div> */}
           {/* Sub text floats in from bottom */}
-          <motion.div
+          {/* <motion.div
             initial='hidden'
             whileInView='visible'
             viewport={{ once: true, margin: "-10%" }}
@@ -210,7 +201,7 @@ const VeskoIsSection: React.FC = () => {
             >
               {t("forPeople.veskoIs.secondSection.subText")}
             </Text>
-          </motion.div>
+          </motion.div> */}
         </Container>
       </Section>
     </>

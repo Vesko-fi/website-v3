@@ -128,8 +128,8 @@
 
   "forPeople": {
     "hero": {
-      "title": "People Reconnected",
-      "subtitle": "Where social media feels human again & reconnects you with your world.",
+      "title": "Vesko Reconnects People",
+      "subtitle": "Here, social media feels human and becomes a movement, reconnecting people and businesses to the communities where they live.",
       "formTitle": "Be among the first to experience Vesko",
       "socialProof": "Join 2,847+ people already waiting",
       "trustIndicators": {
@@ -149,59 +149,59 @@
         "line2": "is Vesko?"
       },
       "items": {
-        "item1": "It's a social media app with online stores where you can shop or even sell.",
-        "item2": "You can follow friends, people, stores, and brands.",
-        "item3": "A home feed where you'll see posts from people you follow and",
-        "item4": "Product posts from your favourite stores and brands that you can buy directly.",
-        "item5": "But Vesko is not just another social commerce app, it is"
+        "item1": "It’s a social media app with online stores.",
+        "item2": "Where you can follow people, stores, and brands.",
+        "item3": "On the home feed, you will see posts from all you follow.",
+        "item4": "See product posts from the stores you love.",
+        "item5": "Vesko is not just another social media app."
       }
     },
     "veskoIs": {
       "firstSection": {
         "top": {
-          "line1": "Different Kind of",
+          "line1": "It’s a Different Kind of",
           "line2": "Social Media"
         },
         "bottom": {
-          "line1": "Where you will",
+          "line1": "A Place to",
           "line2": "feel free"
         }
       },
       "secondSection": {
-        "mainText": "Looks familiar",
+        "mainText": "One That Looks Familiar",
         "subText": "*But it’s not the same toxic space you’re used to, Vesko will have its own unique home feed design"
       }
     },
     "localConnection": {
-      "heading": "Local Connection",
-      "subheading": "See what your local stores have before you even step outside",
+      "heading": "Connecting locally",
+      "subheading": "See what your local stores have before you even step out the door",
 
       "step1": {
         "label": "Step 1",
-        "title": "search & find a product",
-        "description": "Once Vesko is available, you’ll be able to search and filter products easily. You can also use our map to see all nearby stores that sell on Vesko, how far they are, and their opening hours. Note: to use the mobile app, you’ll need to register with just your email."
+        "title": "Search & find products",
+        "description": "Once Vesko is available, you can search and filter products easily. Use our map to see all nearby stores that sell on Vesko, their distance and opening hours. To use the mobile app, you’ll need to register with just your email."
       },
 
       "step2": {
         "label": "Step 2",
         "title": "Check product availability",
-        "description": "Once you find a product you want to buy, just go to its product details page. There, you can read all the info posted by the seller and check if the item (a specific size) is available on the store’s shelves. If you spot a product in your home feed, simply tap the “Buy Now” button or click anywhere on the product photo to open its details."
+        "description": "Once you find a product you want, just go to the product details page. There, you can read details and check if the item is available in the store. If you spot a product in your home feed, simply tap “Buy Now” or click anywhere on the product photo to open its details."
       },
 
       "step3": {
         "label": "Step 3",
         "title": "Buy in-store",
-        "description": "When you find a product you like and it’s available, you can visit the store to see and feel it before making your final decision. The store profile shows opening hours and location to help you get there easily.",
+        "description": "When you find a product you like and it’s available, you can examine it in the store before making your final decision. The store profile will show opening hours and location to help you get there easily.",
         "title2": "or, Click & collect",
-        "description2": "When you find a product you like and it’s available, you can visit the store to see and feel it before making your final decision. The store profile shows opening hours and location to help you get there easily."
+        "description2": "When you find a product you like and it’s available, you can pay online and then collect the purchase at the store. The store profile shows opening hours and location to help you get there easily."
       }
     },
     "values": {
       "title": "VESKO",
       "heading": "as a Social media,",
-      "heading2": "is being built on",
+      "heading2": "is driven by these",
       "heading3": "three core values",
-      "heading4": "the foundation of everything we do",
+      "heading4": "it is an intrinsic part of our very foundation.",
       "step1": {
         "heading": "🛡️ Safe Place to share your life without fear",
         "text1": "Built and designed by people, for people. We believe everyone has the right to share their life without fear, no matter who they are, what they believe in, who they love, their background, skin colour, or appearance.",
@@ -210,18 +210,18 @@
       },
       "step2": {
         "heading": "⚖️ Neutral Digital Space: we pick no sides!",
-        "text1": "Like Switzerland, Vesko stays neutral. In a world where billionaires build or buy social platforms to push their own narratives, and while others take political sides or promote ideologies, we choose another way.",
+        "text1": "Vesko stays neutral. In a world where billionaires build or buy social platforms to push their own narratives, and while others take political sides or promote ideologies, we choose another way.",
         "text2": "We believe neutrality is the key to healthier, more peaceful communities."
       },
       "step3": {
-        "heading": "Connecting People by turning online interactions into real-world engagement",
+        "heading": "Turn online interactions into real-world engagement",
         "text1": "By starting your shopping journey digitally and ending in your local store, Vesko will strengthens the community bonds.",
         "text2": "You don’t just scroll and socialise, you help real businesses in your area to survive.",
         "text3": "This brings life back to your city, helping turn quiet streets into vibrant neighbourhoods."
       }
     },
     "realMeetDigital": {
-      "title": "join us to reconnect You"
+      "title": "Join us in feeling reconnected to the world around you"
     }
   },
   "about": {
