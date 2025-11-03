@@ -197,7 +197,7 @@ const VeskoIsSection: React.FC = () => {
           </motion.div>
           {/* </div> */}
           {/* Sub text floats in from bottom */}
-          <motion.div
+          {/* <motion.div
             initial='hidden'
             whileInView='visible'
             viewport={{ once: true, margin: "-10%" }}
@@ -210,7 +210,7 @@ const VeskoIsSection: React.FC = () => {
             >
               {t("forPeople.veskoIs.secondSection.subText")}
             </Text>
-          </motion.div>
+          </motion.div> */}
         </Container>
       </Section>
     </>

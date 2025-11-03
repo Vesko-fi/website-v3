@@ -176,7 +176,7 @@ const HeroSection = () => {
         >
           {/* Content Container */}
           <div className='flex flex-col items-center gap-8 xl:flex-row xl:justify-between'>
-            <div className='flex max-w-md flex-1 flex-col gap-2'>
+            <div className='flex max-w-xl flex-1 flex-col gap-2'>
               {/* Main Title */}
               <motion.div variants={titleVariants}>
                 <Text
@@ -194,7 +194,7 @@ const HeroSection = () => {
                   as='p'
                   variant='caption'
                   color='primaryLight'
-                  className='mb-4 pr-4 leading-relaxed font-semibold lg:text-xl'
+                  className='mb-4 pr-4 leading-relaxed font-normal lg:text-xl'
                 >
                   {t("forPeople.hero.subtitle")}
                 </Text>

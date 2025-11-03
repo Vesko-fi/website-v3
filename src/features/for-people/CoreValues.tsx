@@ -154,6 +154,7 @@ const CoreValues = () => {
               <span className='text-accent-600 text-2xl font-bold md:text-3xl lg:text-5xl'>
                 {t("forPeople.values.heading3")}
               </span>
+              ,
             </motion.span>
             <br />
             <motion.span
