@@ -13,13 +13,35 @@ import DifferentSocialMedia from "@/assets/images/different_social_media.avif";
 import ExpandReach from "@/assets/images/expand_reach.avif";
 import FamiliarDesign from "@/assets/images/familiar_design.avif";
 import ForPeopleHero from "@/assets/images/for_people_hero.avif";
+import Growth from "@/assets/images/growth.avif";
 import HeroDesktop from "@/assets/images/hero_desktop.avif";
-import HeroMobile from "@/assets/images/hero_mobile.avif";
+import {
+  default as HeroMobile,
+  default as MobileAppMockup,
+} from "@/assets/images/hero_mobile.avif";
+import Stockholm from "@/assets/images/home/Stockholm.webp";
+import Logistics from "@/assets/images/logistics.avif";
+import MobileApp from "@/assets/images/mobile_app.avif";
 import Neutral from "@/assets/images/neutral.avif";
-import Omnistore from "@/assets/images/omnistore.avif";
+import OfflineVendorHeroImage from "@/assets/images/offiline_hero.avif";
+import OmniFeature from "@/assets/images/omni_feature.avif";
+import Omnistore, {
+  default as DeliveryTruck,
+  default as InventoryManagement,
+  default as POSSystem,
+  default as ProductOnTable,
+  default as ShippingLabel,
+  default as StoreDashboard,
+  default as VeskoStore,
+} from "@/assets/images/omnistore.avif";
+import MobileOnboard from "@/assets/images/onboarding_mob.avif";
+import OnlineOrderFulfillment from "@/assets/images/online_order_fulfillment.avif";
 import VeskoBg from "@/assets/images/online_vendor.webp";
 import Onlinestore from "@/assets/images/onlinestore.avif";
+import Payment from "@/assets/images/payment.avif";
+import PointOfSaleSystem from "@/assets/images/point_of_sale_system.avif";
 import SafePlace from "@/assets/images/safe_place.avif";
+import Scalable from "@/assets/images/scalable.avif";
 import SearchAndFind from "@/assets/images/search_find.avif";
 import SpaceDigital from "@/assets/images/space_digital.avif";
 import TRMD1 from "@/assets/images/t_rmd_1.avif";
@@ -28,6 +50,7 @@ import TRMD3 from "@/assets/images/t_rmd_3.avif";
 import TRMD4 from "@/assets/images/t_rmd_4.avif";
 import TRMD5 from "@/assets/images/t_rmd_5.avif";
 import TRMD6 from "@/assets/images/t_rmd_6.avif";
+import UnifiedInventory from "@/assets/images/unified_inventory.avif";
 import VeskoBg1 from "@/assets/images/vesko_bg_split_1.webp";
 import VeskoBg2 from "@/assets/images/vesko_bg_split_2.webp";
 import VeskoBg3 from "@/assets/images/vesko_bg_split_3.webp";
@@ -39,28 +62,6 @@ import VeskoLightIcon from "@/assets/logos/vesko_light.webp";
 import VeskoVideo from "@/assets/videos/vesko.mp4";
 import VeskoVideoMinos from "@/assets/videos/vesko_minos_video.webm";
 // ForOfflineVendorPage assets - using existing images
-import Growth from "@/assets/images/growth.avif";
-import MobileAppMockup from "@/assets/images/hero_mobile.avif";
-import Stockholm from "@/assets/images/home/Stockholm.jpg";
-import Logistics from "@/assets/images/logistics.avif";
-import MobileApp from "@/assets/images/mobile_app.avif";
-import { default as OfflineVendorHeroImage } from "@/assets/images/offiline_hero.avif";
-import OmniFeature from "@/assets/images/omni_feature.avif";
-import {
-  default as DeliveryTruck,
-  default as InventoryManagement,
-  default as POSSystem,
-  default as ProductOnTable,
-  default as ShippingLabel,
-  default as StoreDashboard,
-  default as VeskoStore,
-} from "@/assets/images/omnistore.avif";
-import MobileOnboard from "@/assets/images/onboarding_mob.avif";
-import OnlineOrderFulfillment from "@/assets/images/online_order_fulfillment.avif";
-import Payment from "@/assets/images/payment.avif";
-import PointOfSaleSystem from "@/assets/images/point_of_sale_system.avif";
-import Scalable from "@/assets/images/scalable.avif";
-import UnifiedInventory from "@/assets/images/unified_inventory.avif";
 
 export const Assets = {
   logo: VeskoLogo,

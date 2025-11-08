@@ -48,10 +48,14 @@ const MainSection = () => {
       {/* Background gradient */}
       <div className='to-accent-700 absolute inset-0 z-0 bg-gradient-to-b from-[#0EA67D]' />
 
-      <div
-        className='absolute inset-0 z-10 h-[102vh] bg-cover bg-center bg-no-repeat'
-        style={{ backgroundImage: `url(${Assets.heroStockholm})` }}
-      />
+      <div className='absolute inset-0 z-10 h-[102vh] overflow-hidden'>
+        <img
+          src={Assets.heroStockholm}
+          alt=''
+          className='h-full w-full object-cover'
+          fetchPriority='high'
+        />
+      </div>
       <div className='absolute inset-0 z-20 h-[102vh] rounded-2xl bg-gradient-to-br from-black/30 via-black/30 to-black/20' />
       {/* Content container */}
       <div className='relative z-20 flex min-h-screen flex-col items-start justify-center px-4 sm:justify-center sm:px-6 lg:px-4'>
